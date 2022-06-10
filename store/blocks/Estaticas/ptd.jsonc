@@ -1,0 +1,82 @@
+{
+  "store.custom#ptd": {
+    "children": [
+      "flex-layout.row#EstaticasLpt"
+    ]
+  },
+  "flex-layout.row#EstaticasLpt":{
+    "children":[
+      "flex-layout.col#EstaticasLpt"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasLpt":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosLpt",
+      "flex-layout.col#ContenidoLpt"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosLpt":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "ptd"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#ContenidoLpt":{
+    "children":[
+      "rich-text#tituloEstaLpt",
+      "rich-text#contenidoEstaLpt",
+      "rich-text#contenidoEsta2Lpt",
+      "image#middle1",
+      "rich-text#contenidoEsta3Lpt",
+      "list-context.image-list#demoC"
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEstaLpt": {
+    "props": {
+      "text": "POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEstaLpt": {
+    "props": {
+      "text": "COMERCIALIZADORA ARTURO CALLE S.A.S. y ARTURO CALLE ZONA FRANCA S.A.S. en adelante la Compañía, se encuentran comprometidas con el cumplimiento del derecho a la protección de datos personales y el derecho que tienen todas las personas para conocer, actualizar y rectificar la información que se haya recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refieren los artículos 15 y 20 de la Constitución Política.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2Lpt": {
+    "props": {
+      "text": "**1. DEFINICIONES** \nPara efectos del presente documento debe tenerse en cuenta las siguientes definiciones a fin de dar aplicación a la política de tratamiento de datos personales. \nAutorización: Consentimiento previo, expreso e informado del titular para llevar a cabo el tratamiento de datos personales. \nAviso de privacidad: Comunicación verbal o escrita generada por el Responsable, dirigida al Titular para el Tratamiento de sus datos personales, mediante la cual se le informa acerca de la existencia de las políticas de Tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las finalidades del Tratamiento que se pretende dar a los datos personales. \nBase de datos: Conjunto organizado de datos personales que sea objeto de tratamiento. \nDato personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables. \nDato público: Es el dato que no sea semiprivado, privado o sensible. Son considerados datos públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva. \nDatos sensibles: Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición, así como los datos relativos a la salud, a la vida sexual, y los datos biométricos. \nEncargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento. Responsable del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos. \nTitular: Persona natural cuyos datos personales sean objeto de tratamiento. \nTratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión. \nHabeas data: Derecho fundamental de toda persona para conocer, actualizar, rectificar y/o cancelar información y datos personales que de ella se hayan recolectado y/o se traten en bases de datos públicas o privadas, conforme a lo dispuesto en la ley y normatividad aplicable. \nTransferencia: La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país. \nTransmisión: Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable. \nAutorización tácita: se entenderá que el Titular ha otorgado autorización para el tratamiento de sus datos personales cuando mediante su conducta permita concluir de forma razonable que otorgó la autorización. \n\n **2. PRINCIPIOS ORIENTADORES PARA EL TRATAMIENTO DE DATOS PERSONALES** \n La Compañía aplicará de manera armónica e integral los siguientes principios al realizar el tratamiento de datos personales: \n2.1. Principio de legalidad en materia de tratamiento de datos: El tratamiento de datos personales debe sujetarse como mínimo a lo establecido a las leyes vigentes que regulen la materia y disposiciones que la desarrollen. \n2.2. Principio de finalidad: El tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la ley, la cual debe ser informada al titular. \n2.3. Principio de libertad: El tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento. \n2.4. Principio de veracidad o calidad: La información sujeta a tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. No debe efectuarse el tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error. \n2.5. Principio de transparencia: En el tratamiento debe garantizarse el derecho del titular a obtener del responsable del tratamiento o del encargado del tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de sus datos personales. \n2.6. Principio de acceso y circulación restringida: El tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la Constitución y la ley. En este sentido, el tratamiento sólo podrá hacerse por personas autorizadas por el titular y/o por las personas habilitadas por la ley o la autoridad judicial. \n2.7. Principio de seguridad: La información sujeta a tratamiento se deberá manejar con las medidas técnicas, humanas y administrativas necesarias para dar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. \n2.8. Principio de confidencialidad: Todas las personas que intervengan en el tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando así lo permita la ley y en los términos que ésta lo disponga.",
+      "blockClass": "content"
+    }
+  },
+  "image#middle1": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/bannermidd-ptd.png",
+      "maxHeight": 500
+    }
+  },
+  "rich-text#contenidoEsta3Lpt": {
+    "props": {
+      "text": "**1. DEFINICIONES** \nPara efectos del presente documento debe tenerse en cuenta las siguientes definiciones a fin de dar aplicación a la política de tratamiento de datos personales. \nAutorización: Consentimiento previo, expreso e informado del titular para llevar a cabo el tratamiento de datos personales. \nAviso de privacidad: Comunicación verbal o escrita generada por el Responsable, dirigida al Titular para el Tratamiento de sus datos personales, mediante la cual se le informa acerca de la existencia de las políticas de Tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las finalidades del Tratamiento que se pretende dar a los datos personales. \nBase de datos: Conjunto organizado de datos personales que sea objeto de tratamiento. \nDato personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables. \nDato público: Es el dato que no sea semiprivado, privado o sensible. Son considerados datos públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva. \nDatos sensibles: Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición, así como los datos relativos a la salud, a la vida sexual, y los datos biométricos. \nEncargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento. Responsable del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos. \nTitular: Persona natural cuyos datos personales sean objeto de tratamiento. \nTratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión. \nHabeas data: Derecho fundamental de toda persona para conocer, actualizar, rectificar y/o cancelar información y datos personales que de ella se hayan recolectado y/o se traten en bases de datos públicas o privadas, conforme a lo dispuesto en la ley y normatividad aplicable. \nTransferencia: La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país. \nTransmisión: Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable. \nAutorización tácita: se entenderá que el Titular ha otorgado autorización para el tratamiento de sus datos personales cuando mediante su conducta permita concluir de forma razonable que otorgó la autorización. \n\n **2. PRINCIPIOS ORIENTADORES PARA EL TRATAMIENTO DE DATOS PERSONALES** \n La Compañía aplicará de manera armónica e integral los siguientes principios al realizar el tratamiento de datos personales: \n2.1. Principio de legalidad en materia de tratamiento de datos: El tratamiento de datos personales debe sujetarse como mínimo a lo establecido a las leyes vigentes que regulen la materia y disposiciones que la desarrollen. \n2.2. Principio de finalidad: El tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la ley, la cual debe ser informada al titular. \n2.3. Principio de libertad: El tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento. \n2.4. Principio de veracidad o calidad: La información sujeta a tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. No debe efectuarse el tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error. \n2.5. Principio de transparencia: En el tratamiento debe garantizarse el derecho del titular a obtener del responsable del tratamiento o del encargado del tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de sus datos personales. \n2.6. Principio de acceso y circulación restringida: El tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la Constitución y la ley. En este sentido, el tratamiento sólo podrá hacerse por personas autorizadas por el titular y/o por las personas habilitadas por la ley o la autoridad judicial. \n2.7. Principio de seguridad: La información sujeta a tratamiento se deberá manejar con las medidas técnicas, humanas y administrativas necesarias para dar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. \n2.8. Principio de confidencialidad: Todas las personas que intervengan en el tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando así lo permita la ley y en los términos que ésta lo disponga.",
+      "blockClass": "content"
+    }
+  }
+
+}

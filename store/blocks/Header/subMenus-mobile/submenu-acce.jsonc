@@ -1,0 +1,59 @@
+{
+    //sub menu accesorios ---------------------------
+    // trigger para activar el menu accesorios
+    "disclosure-layout#accesorios-menu-submenu-m-lvl1": {
+        "children": ["disclosure-trigger#accesorios-all-menuM-lvl2","disclosure-content#accesorios-all-menuM-lvl2"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    // sub Menu trigger principal accesorios
+    "disclosure-trigger#accesorios-all-menuM-lvl2": {
+        "children": ["menu-item#marcas-accesoriosM"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-trigger#accesorios-all-menuM-lvl2-2": {
+        "children": ["menu-item#category-pricipal-accesoriosM-2"],
+        "props": {
+            "blockClass": "cierreTrigger"
+        }
+    },
+    "disclosure-content#accesorios-all-menuM-lvl2": {
+        "children": ["disclosure-trigger#accesorios-all-menuM-lvl2-2", "flex-layout.col#accesorios-container-lvl2"],
+        "props": {
+            "blockClass": ["subMenuLv2"]
+        }
+    },
+    "menu-item#marcas-accesoriosM": {
+        "props": {
+            "id": "menu-item#marcas-destacadas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1","accesorios"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": true,
+            "tagTitle": "accesorios",
+            "text": "accesorios"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesoriosM-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-accesorios",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1-cierre"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "accesorios",
+            "text": "accesorios"
+            }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+.summaryItemContainer--totalizer:last-child .summaryItemLabel--totalizer {font-weight: 700;color: #340572;}
+.summaryItemContainer--totalizer:last-child .summaryItemPrice--totalizer {font-weight: 700;color: #340572;}
+.summarySmallDisclaimer { display: none; }

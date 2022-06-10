@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) > div{
+        height: 100%;
+    }
+}

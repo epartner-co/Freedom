@@ -1,0 +1,386 @@
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--colores) .skuSelectorItem--vitrina {
+    margin: 0;
+    width: 27px;
+    height: 18px;
+    border-radius: 0;
+    border: 0;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--color) .skuSelectorItem--vitrina {
+    margin: 0;
+    width: 27px;
+    height: 18px !important;
+    border-radius: 0;
+    border: 0;
+}
+.skuSelectorItemImageValue {
+    display: none;
+}
+.SKUSelectorContainer.SKUSelectorContainer--vitrina{
+    position: relative;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--selected {
+    margin: 0;
+    background: #340572;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem {
+    transition: 400ms all;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem:hover {
+    background: #340572;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem:hover .skuSelectorItemTextValue--vitrina{
+    color: white;
+} 
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--selected .skuSelectorItemTextValue--vitrina{
+    color: white;
+} 
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina {
+    border: 0.5px solid #F0F0F0;
+    margin: 0;
+}
+.valueWrapper.valueWrapper--vitrina {
+    border-radius: 0!important;
+    font-size: 15px;
+    padding: 11px !important;
+    font-weight: bold;
+}
+.skuSelectorInternalBox--vitrina {
+    border-radius: 0;
+}
+.SKUSelectorContainer.SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+    margin-top: 4px;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) .skuSelectorItem--vitrina {
+    height: 30px;
+}
+.skuSelectorItem--selected{
+    border: 2px solid #2A2A2A !important;
+}
+.skuSelectorItem--vitrina:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.skuSelectorInternalBox--vitrina {
+    border-radius: 0;
+    border: 0;
+}
+.skuSelectorItem--vitrina:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.SKUSelectorContainer--vitrina{
+    padding: 0 10px;
+}
+.containerNormal {
+    transition: 400ms all;
+}
+.element {
+    padding: 0;
+}
+.containerNormal :global(.vtex-stack-layout-0-x-stackContainer){
+    background: white;
+}
+.element {
+    padding-top: 0;
+    position: relative;
+}
+.containerNormal:hover {
+    box-shadow: 1px 3px 9px 6px rgb(0 0 0 / 10%);
+}
+.containerNormal:hover :global(.vtex-product-price-1-x-currencyContainer){
+    color: white;
+}
+.containerNormal :global(.vtex-product-price-1-x-currencyContainer){
+    color: #340572;
+    font-size: 22px;
+}
+.containerNormal :global(.vtex-product-price-1-x-sellingPriceValue){
+    font-size: 0;
+}
+.containerNormal :global(.vtex-product-price-1-x-savings){
+    display: none;
+}
+.containerNormal :global(.vtex-product-price-1-x-listPrice) :global(.vtex-product-price-1-x-currencyContainer){
+    color: red;
+    font-size: 13px;
+    font-weight:100;
+}
+.containerNormal :global(.vtex-product-price-1-x-listPrice){
+    margin: 0;
+}
+:global(.vtex-product-price-1-x-currencyDecimal){
+    display: none;
+}
+:global(.vtex-product-price-1-x-currencyFraction){
+    display: none;
+}
+.containerNormal :global(.vtex-product-price-1-x-sellingPriceValue){
+    transition: 400ms all;
+}
+.containerNormal:hover :global(.vtex-product-price-1-x-sellingPriceValue){
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverMoradoMenulvl1.png) no-repeat;
+    background-size: 89%;
+    background-position: center;
+    width: 88px;
+    height: 40px;
+    display: flex;
+    transition: 400ms all;
+    justify-content: center;
+    align-items: center;
+}
+.containerNormal :global(.vtex-product-price-1-x-listPriceValue){
+    text-decoration-color: red;    
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--colores) .skuSelectorItem--selected {
+    border: 2px solid #2A2A2A;
+}
+.containerNormal :global(.vtex-store-components-3-x-discountInsideContainer){
+    font-size: 0%;
+    background: transparent;
+}
+.containerNormal :global(.vtex-store-components-3-x-discountInsideContainer){
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 49px;
+    display: block;
+}
+/* .containerNormal :global(.vtex-store-components-3-x-discountInsideContainer)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/offf-new.png) no-repeat;
+    background-size: 180%;
+    background-position-y: center;
+    width: 113%;
+    height: 18px;
+    margin-left: -33px;
+    display: block;
+} */
+/* lista de deseos */
+/* :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
+    position: absolute;
+} */
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
+    position: absolute;
+    right: 10px;
+}
+.containerNormal:hover :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
+    position: absolute;
+    right: 10px;
+    top: -71px;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label){
+    padding: 0;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-outline){
+    content: "";
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/listaDeseosVitrina.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-fill){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/activeWishlist.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label)::after{
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms all;
+    content: "Lista de deseos";
+    font-size: 13px;
+    position: absolute;
+    width: 86px;
+    margin-top: 47px;
+    background: rgba(0,0,0,0.5);
+    padding: 7px;
+    z-index: 999;
+    margin-right: 59px;
+    color: white;
+    border-radius: 5px;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label):hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-outline):hover{
+    content: "";
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/activeWishlist.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button){
+    background: transparent;
+}
+/* .containerNormal :global(.vtex-wish-list-1-x-outline){
+    display: none;
+} */
+:global(.vtex-store-components-3-x-skuSelectorOptionsList ) .skuSelectorItem.skuSelectorItem--vitrina::before{
+    display: none;
+}
+.containerNormal {
+    transition: 400ms all;
+    max-width: 100% !important;
+}
+.imageContainer {
+    width: 100%;
+}
+.imageStackContainer {
+    position: relative;
+    overflow: hidden;
+}
+.imageNormal {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100% !important;
+}
+/* .imageContainer::after {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/fuego.png) no-repeat;
+    background-size: 100%;
+    width: 46px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 60%;
+} */
+.imageStackContainer::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/corazon.png) no-repeat;
+    background-size: 100%;
+    width: 74px;
+    height: 66px;
+    display: block;
+    position: absolute;
+    top: 104px;
+    left: -33px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms all;
+}
+.imageStackContainer::after {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/misil.png) no-repeat;
+    background-size: 100%;
+    width: 74px;
+    height: 81px;
+    display: block;
+    position: absolute;
+    top: 29px;
+    right: -37px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms all;
+}
+.containerNormal:hover .imageStackContainer::after {
+    opacity: 1;
+    visibility: visible;
+    transition: 400ms all;
+}
+.containerNormal:hover .imageStackContainer::before {
+    opacity: 1;
+    visibility: visible;
+    transition: 400ms all;
+}
+.SKUSelectorContainer--vitrina{
+    background-color: white;
+}
+@media (max-width: 600px) {
+    :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+    .brandName {
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #2E2E2E;
+        padding: 0 2%;
+        min-height: 32px;
+        display: flex;
+        align-items: flex-start;
+        height: 17px;
+        line-height: 16px;
+    }
+    .containerNormal :global(.vtex-product-price-1-x-currencyContainer){
+        color: #340572;
+        font-size: 14px;
+    }
+    /* .containerNormal :global(.vtex-store-components-3-x-discountInsideContainer)::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/offf-new.png) no-repeat;
+        background-size: 179%;
+        background-position-y: center;
+        width: 126%;
+        height: 7px;
+        margin-left: -28px;
+        display: block;
+    } */
+    :global(.vtex-store-components-3-x-skuSelectorSubcontainer--colores) .skuSelectorItem--vitrina {
+        width: 26px;
+        height: 26px;
+    }
+    .valueWrapper--vitrina {
+        padding: 10px;
+    }
+    .skuSelectorItem--vitrina {
+        height: 28px;
+    }
+    :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) {
+        right: 2px !important;
+        bottom: 562%;
+        z-index: 99;
+    }
+    .SKUSelectorContainer--vitrina {
+        padding: 0 5px;
+    }
+    .containerNormal :global(.vtex-product-price-1-x-sellingPriceValue){
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverMoradoMenulvl1.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 56px;
+        height: 28px;
+        display: flex;
+        transition: 400ms all;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerNormal :global(.vtex-product-price-1-x-currencyContainer){
+        color: white;
+    }
+    .containerNormal :global(.vtex-product-price-1-x-listPrice){
+        margin: 0px -6px 0px 0px;
+    }
+    .containerNormal:hover :global(.vtex-product-price-1-x-sellingPriceValue){
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverMoradoMenulvl1.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 56px;
+        height: 28px;
+        display: flex;
+        transition: 400ms all;
+        justify-content: center;
+        align-items: center;
+    }
+    .valueWrapper.valueWrapper--vitrina {
+        font-size: 12px;
+    }
+    .SKUSelectorContainer--vitrina :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+        margin-top: 3px;
+    }
+    .containerNormal {
+        height: 98%;
+    }    
+}

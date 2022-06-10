@@ -1,0 +1,446 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop",
+      "menu-item#about-us"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#site": {
+    "children": [
+     // "menu-item#logo",
+      "flex-layout.row#logo",
+/*      "flex-layout.row#Buscar",
+      "flex-layout.row#Carrito",
+      "flex-layout.row#Favoritos",
+      "flex-layout.row#Categorias",
+*/    "drawer#buscar",
+      "minicart.v2",
+      "flex-layout.row#Favoritos",
+      "menu-item#vtex-website2C4"
+
+    ]
+  },
+
+  "menu-item#vtex-website2C": {
+    "props": {
+      "blockClass": ["vertical","buscar"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "Buscar"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#principal"
+    ]
+  },
+  "menu-item#vtex-website2C2": {
+    "props": {
+      "blockClass": ["vertical","carrito"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "Carrito"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#principal"
+    ]
+  },
+  "menu-item#vtex-website2C3": {
+    "props": {
+      "blockClass": ["vertical","favoritos"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "Favoritos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#principal"
+    ]
+  },
+  "menu-item#vtex-website2C4": {
+    "props": {
+      "blockClass": ["vertical","categoria"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "noFollow": false,
+        "tagTitle": "Menu",
+        "text": "Categoria"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#principal"
+    ]
+  },
+  //Inicio menu
+
+ /* "menu-item#logo": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menuLogo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"] // Defining a submenu
+  },
+
+  "vtex.menu@2.x:submenu#shop": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      "menu-item#logo"
+    ]
+  },*/
+  "flex-layout.row#logo":{
+    "children": [
+      "image#icon-logo"
+    ],
+    "props":{
+      "blockClass": "logo"
+    }
+  },
+  "flex-layout.row#Buscar":{
+    "children": [
+      "image#icon-buscar"
+    ],
+    "props":{
+      "blockClass": ["icono", "favoritosI", "buscador-hover"]
+    }
+  },
+  "flex-layout.row#Carrito":{
+    "children": [
+      "image#icon-buscar"
+    ],
+    "props":{
+      "blockClass": ["icono", "favoritosI"]
+    }
+  },
+  "flex-layout.row#Favoritos":{
+    "children": [
+      "image#icon-favoritos"
+    ],
+    "props":{
+      "blockClass": ["icono", "favoritosI"]
+    }
+  },
+  "flex-layout.row#Categorias":{
+    "children": [
+      "image#icon-categorias"
+    ],
+    "props":{
+      "blockClass": "icono"
+    }
+  },
+  //imagenes logo
+  "image#icon-logo": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/Frame.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": "logoI",
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#icon-buscar": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/buscadorfredom.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": ["iconoM", "favoritos"]
+    }
+  },
+  "image#icon-carrito": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/carrito.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": "iconoM"
+    }
+  },
+  "image#icon-favoritos": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/favoritosfredom.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": ["iconoM", "favoritos", "FAAA"],
+      "link":{
+        "url":"/account#/wishlist"
+      }
+    }
+  },
+  "image#icon-categorias": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/menu.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": "iconoM"
+    }
+  },
+
+
+
+
+
+
+
+
+  "menu-item#vtex-website": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "INICIO"
+      }
+    }
+  },
+  "image#icon-battery1": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/masterFiltroIcon.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website1": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "FILTRO M"
+      }
+    }
+  },
+  "image#icon-battery2": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/batery12345.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website2": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "BATERIAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#principal"
+    ]
+  },
+  "image#icon-battery3": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/batery12345.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website3": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "LLANTAS"
+      }
+    }
+  },
+  "image#icon-battery4": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/batery12345.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website4": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "LUBRICANTES"
+      }
+    }
+  },
+  "image#icon-battery5": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/batery12345.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website5": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "AUTOPARTES"
+      }
+    }
+  },
+  "image#icon-battery6": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/batery12345.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "blockClass": "storePrint"
+    }
+  },
+  "menu-item#vtex-website6": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "MOTOPARTES"
+      }
+    }
+  },
+  "menu-item#vtex-website8": {
+    "props": {
+      "blockClass": "vertical",
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://vtex.com",
+        "noFollow": false,
+        "tagTitle": "visit vtex.com",
+        "text": "MÁS"
+      }
+    }
+  },
+  //Buscador
+  "drawer#buscar": {
+    "children":[
+      "search-bar"
+    ],
+    "blocks": ["drawer-trigger#buscar"],
+    "props":{
+      "blockClass":"searchbarD",
+      "isFullWidth":true,
+      "maxWidth":"auto"
+    }
+  },
+
+  "drawer-trigger#buscar": {
+    "children": ["flex-layout.row#Buscar"],
+    "props": {
+      "blockClass":"propiedades",
+      "isFullWidth":true
+    }
+  },
+
+  "menu#drawer": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth":true
+    }
+  }
+}

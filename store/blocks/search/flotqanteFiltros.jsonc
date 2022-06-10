@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#fixedOrderBy": {
+        "props":{
+          "blockClass": "rowFixed-category"
+        },
+        "children": [
+            "flex-layout.col#filtrosContent", 
+            "flex-layout.col#orderBy"
+        ]
+    },
+    // titulo filtros
+    "flex-layout.col#filtrosContent": {
+        "props":{
+          "blockClass": "FiltrosFixed",
+          "width": "20%"
+        },
+        "children": ["rich-text#filtroTitulo-cta-fixed"]
+    },
+    "rich-text#filtroTitulo-cta-fixed": {
+        "props": {
+            "text": "Filtros",
+            "blockClass": ["filtros-boton"]
+        }
+    },
+    "flex-layout.col#orderBy" : {
+        "props":{
+          "blockClass": "orderBy",
+          "width": "20%"
+        },
+        "children": ["order-by.v2"]
+    }
+}

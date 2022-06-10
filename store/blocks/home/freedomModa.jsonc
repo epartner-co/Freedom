@@ -1,0 +1,58 @@
+{
+    "rich-text#shelf-title-#freedom-moda": {
+        "props": {
+          "text": "## #FREEDOM MÁS QUE MODA",
+          "blockClass": "shelfTitle"
+        }
+    },
+    "slider-layout#slider-FRREDOM-MODA": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots":"mobileOnly",
+          "blockClass": ["carousel","carousel-tabbersFreeedom"]
+        },
+        "children":[
+            "rich-text#shelf-title-#pantalonetas",
+            "rich-text#shelf-title-#pantalones",
+            "rich-text#shelf-title-#camisas",
+            "rich-text#shelf-title-#joggers",
+            "rich-text#shelf-title-#polos"
+        ]
+    },
+    "rich-text#shelf-title-#pantalonetas": {
+        "props": {
+          "text": "[Pantalonetas](/pantalonetas)",
+          "blockClass": "tabbersUltimos"
+        }
+    },
+    "rich-text#shelf-title-#pantalones": {
+        "props": {
+          "text": "[Pantalones](/pantalones)",
+          "blockClass": "tabbersUltimos"
+        }
+    },
+    "rich-text#shelf-title-#camisas": {
+        "props": {
+          "text": "[Camisas](/camisas)",
+          "blockClass": "tabbersUltimos"
+        }
+    },
+    "rich-text#shelf-title-#joggers": {
+        "props": {
+          "text": "[Joggers](/joggers)",
+          "blockClass": "tabbersUltimos"
+        }
+    },
+    "rich-text#shelf-title-#polos": {
+        "props": {
+          "text": "[Polo](/polo)",
+          "blockClass": "tabbersUltimos"
+        }
+    }
+}

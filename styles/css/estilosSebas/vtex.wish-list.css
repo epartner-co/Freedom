@@ -1,0 +1,15 @@
+.wishlistIconContainer--buttomWish {margin: 39px auto 0 auto;}
+
+.wishlistIconContainer--buttomWish :global(.vtex-button)::before {content: "";width: 20px;height: 20px;background: url(https://callearturop.vteximg.com.br/arquivos/freedomfavorito.png);background-size: 100%;display: flex;margin-right: 10px;}
+
+.wishlistIconContainer--buttomWish :global(.vtex-button)::after {content: "Agregar a la lista de deseos";display: flex;font-size: 10px;color: rgb(52, 5, 114);}
+
+.wishlistIconContainer--buttomWish :global(.vtex-button) {display: flex;align-items: center;margin: 0 auto;}
+
+.wishlistIconContainer--buttomWish :global(.vtex-button):hover {background: none;}
+
+.wishlistIconContainer--buttomWish :global(.vtex-button__label) {display: none;}
+
+.wishlistIcon--vitrinas {
+    display: none;
+}

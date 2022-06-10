@@ -1,0 +1,221 @@
+{
+    "vtex.menu@2.x:submenu#hombre": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "Submenu-lvl2"
+        },
+        "children": [
+            "flex-layout.row#hombre-container-lvl2"
+        ]
+    },
+    "flex-layout.row#hombre-container-lvl2":{
+        "props":{
+            "blockClass":["subMenu-container","submenu-lvl2"]
+        },
+        "children":[
+            "flex-layout.col#hombre-container-lvl2",
+            "flex-layout.col#hombre-container-lvl2-2"
+        ]
+    },
+    "flex-layout.col#hombre-container-lvl2":{
+        "props":{
+            "width":"60%",
+            "blockClass":["submenu-lvl2"]
+        },
+        "children":[
+            "menu-item#category-pricipal-hombre-buzos",
+            "menu-item#category-pricipal-hombre-camisetas",
+            "menu-item#category-pricipal-hombre-blusascamisas",
+            "menu-item#category-pricipal-hombre-chaquetas",
+            "menu-item#category-pricipal-hombre-jeans",
+            "menu-item#category-pricipal-hombre-pantalones",
+            "menu-item#category-pricipal-hombre-tejidos",
+            "menu-item#category-pricipal-hombre-pantalonetas",
+            "menu-item#category-pricipal-hombre-ropaInterior-medias",
+            "menu-item#category-pricipal-hombre-shorts"
+        ]
+    },
+    "menu-item#category-pricipal-hombre-buzos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/buzos",
+            "noFollow": false,
+            "tagTitle": "Buzos y hoodies",
+            "text": "Buzos y hoodies"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-camisetas": {
+        "props": {
+            "id": "menu-item-category--camisetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/camisetas",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-blusascamisas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/blusas",
+            "noFollow": false,
+            "tagTitle": "Blusas y camisas",
+            "text": "Blusas y camisas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-chaquetas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/chaquetas",
+            "noFollow": false,
+            "tagTitle": "Chaquetas, blazers y chalecos",
+            "text": "Chaquetas, blazers y chalecos"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-jeans": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/jeans",
+            "noFollow": false,
+            "tagTitle": "jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-pantalones": {
+        "props": {
+            "id": "menu-item-category--Optima",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/pantalones",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-tejidos": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tejidos",
+            "noFollow": false,
+            "tagTitle": "Tejidos",
+            "text": "Tejidos"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-pantalonetas": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/pantalonetas",
+            "noFollow": false,
+            "tagTitle": "Pantalonetas",
+            "text": "Pantalonetas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-ropaInterior-medias": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/ropa-interior",
+            "noFollow": false,
+            "tagTitle": "Ropa interior y medias",
+            "text": "Ropa interior y medias"
+            }
+        }
+    },
+    "menu-item#category-pricipal-hombre-shorts": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/shorts",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+            }
+        }
+    },
+    "flex-layout.col#hombre-container-lvl2-2":{
+        "props":{
+            "blockClass":["imagenes"]
+        },
+        "children":[
+            "image#logo-banner1-menu",
+            "image#logo-banner2-menu"
+        ]
+    },
+    //imagenes logo
+    "image#logo-banner1-menu": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno1-desk.png",
+        "blockClass": "menuBanner"
+        }
+    },
+    //imagenes logo
+    "image#logo-banner2-menu": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno2-desk.png",
+        "blockClass": "menuBanner"
+        }
+    }
+}

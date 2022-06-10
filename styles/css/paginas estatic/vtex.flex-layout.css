@@ -1,0 +1,52 @@
+
+.flexCol.flexCol--cajacentrada {padding: 0 0 0 67px;}
+.flexCol.flexCol--contenidoC {padding: 0 3%;}
+.flexCol--titulosGen { padding: 1% 2%;}
+
+/*Selected*/
+.flexColChild--legales :global(.vtex-rich-text-0-x-container--legales){ background: #340572;}
+.flexColChild--legales :global(.vtex-rich-text-0-x-link--legales){ color: white !important;}
+
+.flexColChild--aptd :global(.vtex-rich-text-0-x-container--aptd){ background: #340572;}
+.flexColChild--aptd :global(.vtex-rich-text-0-x-link--aptd){ color: white !important;}
+
+.flexColChild--le :global(.vtex-rich-text-0-x-container--le){ background: #340572;}
+.flexColChild--le :global(.vtex-rich-text-0-x-link--le){ color: white !important;}
+
+.flexColChild--pde :global(.vtex-rich-text-0-x-container--pde){ background: #340572;}
+.flexColChild--pde :global(.vtex-rich-text-0-x-link--pde){ color: white !important;}
+
+.flexColChild--pee :global(.vtex-rich-text-0-x-container--pee){ background: #340572;}
+.flexColChild--pee :global(.vtex-rich-text-0-x-link--pee){ color: white !important;}
+
+.flexColChild--ptd :global(.vtex-rich-text-0-x-container--ptd){ background: #340572;}
+.flexColChild--ptd :global(.vtex-rich-text-0-x-link--ptd){ color: white !important;}
+
+.flexColChild--tyc :global(.vtex-rich-text-0-x-container--tyc){ background: #340572;}
+.flexColChild--tyc :global(.vtex-rich-text-0-x-link--tyc){ color: white !important;}
+
+.flexColChild--Faq :global(.vtex-rich-text-0-x-container--Faq){ background: #340572;}
+.flexColChild--Faq :global(.vtex-rich-text-0-x-link--Faq){ color: white !important;}
+
+
+.flexRow--duppla :global(.vtex-store-components-3-x-imageElement){ width: 100%;}
+.flexRow--duppla :global(.vtex-rich-text-0-x-paragraph--content){margin-top: 0px;}
+.flexRow--duppla :global(.vtex-rich-text-0-x-wrapper--content){padding: 0px 0 0 3%;}
+
+.flexRowContent.flexRowContent--faq {background: #F6F6F6;}
+.flexCol.flexCol--centralprinc {width: 75%;text-align: center;margin: -153px 0 0 0;padding: 3% 5%;position: relative;background: url(https://callearturop.vteximg.com.br/arquivos/Rectangle%20522.png);background-size: cover;height: auto;}
+
+.flexColChild.flexColChild--duppla2:first-child {transform: matrix(1, 0.01, 0, 1, 0, 0);}
+.flexColChild.flexColChild--duppla2:last-child {transform: matrix(1, 0.01, 0, 1, 0, 0);}
+.flexCol.flexCol--duppla2 {padding: 45px 10%;margin: 50px 0 0 0;border-top: 1px solid #D3D3D3;border-bottom: 1px solid #D3D3D3;}
+.flexRow.flexRow--duppla2.flexRow--ultimadup {padding: 0 10%;}
+
+.flexCol--cajacentrada :global(.vtex-store-components-3-x-imageElement--imagecen) {    position: relative;text-align: center;justify-content: center;display: flex;width: 14%;margin: 66px auto -45px auto;}
+.flexColChild.flexColChild--cajacentrada {background: #F7F7F7;}
+.flexRow--cantidad-precio .flexCol {margin: 0;}
+.flexRowContent.flexRowContent--cheackoutButtons {padding: 0 5%;}
+
+@media screen and (max-width: 700px) {
+  .flexCol.flexCol--centralprinc{width: 100%;  }
+  .flexCol--cajacentrada :global(.vtex-store-components-3-x-imageElement--imagecen) {width: 37% !important;}
+}

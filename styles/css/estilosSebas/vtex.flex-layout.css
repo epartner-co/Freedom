@@ -1,0 +1,555 @@
+.flexRow--comprar{
+    display: none;
+}
+.flexRow--Ninferior{
+    padding: 0 10px;
+}
+.flexColChild--preciosc{
+    justify-content: flex-end;
+}
+.flexColChild--preciosc .flexRowContent {
+    margin: 0;
+}
+.flexRowContent--Ninferior{
+    position: relative;
+}
+/* home */
+.flexRow--bannerssecond :global(.vtex-store-components-3-x-container){
+    padding-left: 40px;
+    position: relative;
+}
+.flexRow--bannerssecond {
+    margin-left: 67px;
+    position: relative;
+}
+.flexRow--bannerssecond :global(.vtex-store-components-3-x-container)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/etiqueta-calle.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 117px;
+    display: block;
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.flexRow--bannerssecond::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/gifnewAsset.gif) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 190px;
+    height: 189px;
+    position: absolute;
+    bottom: -57px;
+    left: -51px;
+}
+.flexRow--Bannersec{
+    padding: 0 40px 0 25px;
+}
+.flexRow--Bannersec :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-homeS2) :global(.vtex-button__label){
+    color: #50BDA3;
+}
+.flexRow--Bannersec :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-homeS2) :global(.vtex-button__label):hover{
+    color: #F44753;
+}
+.flexRow--Bannersec :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-homeS1) :global(.vtex-button__label){
+    
+    color: #50BDA3;
+}
+.flexRow--Bannersec :global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-homeS1) :global(.vtex-button__label):hover{
+    color: #F44753;
+}
+.flexRow--row-vitrine-category{
+    padding-left: 40px;
+}
+.flexRow--row-vitrine-category{
+    position: relative;
+}
+.flexRow--row-vitrine-category::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/vitrinatres.png);
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 197px;
+    position: absolute;
+    left: 0;
+}
+.flexRow--row-vitrine-category .stretchChildrenWidth{
+    position: relative;
+}
+.flexRow--row-vitrine-category .flexColChild--imagenColumnCategory :global(.vtex-store-components-3-x-imageElement--imgvitrina){
+    position: absolute;
+}
+.flexRow--Bannerthrid{
+    padding: 0 40px;
+    margin: 40px 0 40px 67px;
+}
+.flexRow--Bannerthrid::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/vitrinados.png);
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 197px;
+    position: absolute;
+    left: 0;
+}
+.flexRowContent--Bannerthrid {
+    position: relative;
+}
+.flexRow--productosMes::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/gifnewAsset.gif) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 190px;
+    height: 189px;
+    position: absolute;
+    top: -57px;
+    right: 0;
+}
+.flexRow--productosMes{
+    position: relative;
+}
+.flexRowContent--rowTittle .stretchChildrenWidth:first-child {
+    justify-content: flex-start;
+    padding: 0;
+}
+.flexRowContent--rowTittle .stretchChildrenWidth:last-child {
+    justify-content: flex-end;
+    padding: 0;
+}
+.flexRowContent--tittle .stretchChildrenWidth{
+    align-items: center;
+}
+.flexRowContent--tittle .stretchChildrenWidth:nth-child(2n){
+    justify-content: flex-end;
+}
+.flexColChild--productCountCol {
+    display: flex;
+    align-items: center;
+}
+.flexRow.flexRow--orderByAndSwitcher{
+    padding: 0;
+}
+.flexCol--productCountCol  {
+    display: flex;
+    justify-content: flex-end;
+    width: auto !important;
+}
+.flexRow--rowTittle{
+    margin-bottom: 30px;
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+}
+.flexRowContent--bradcrumbLimpiar .stretchChildrenWidth{
+    align-items: center;
+}
+.flexRowContent--bradcrumbLimpiar .stretchChildrenWidth:first-child{
+    width: 15% !important;
+}
+.flexRowContent--bradcrumbLimpiar {
+    height: 100%;
+}
+/* category */
+.flexRow--bradcrumb{
+    padding: 0 40px;
+}
+.flexRow--contenidoSearch{
+    padding: 0 40px;
+}
+.flexRow--tittle{
+    padding: 0 40px;
+}
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filterMessage) {
+    display: none;
+}
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__container){
+    display: none;
+}
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
+    background: #F44753;
+    margin: 0 10% 0 0;
+    position: relative;
+    height: 38px;
+    padding: 0 8% 0 6%;
+    display: flex;
+    width: auto;
+    align-items: center;
+    transform: matrix(1,-0.01,0,1,0,0);
+}
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__label){
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__label)::after{
+    content: "x";
+    position: absolute;
+    top: -25%;
+    right: -20px;
+    font-size: 20px;
+}
+/* .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
+    width: 40%;
+} */
+.flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterTemplateOverflow){
+    display: flex;
+}
+.flexColChild--filtroContent:first-child {
+    height: auto !important;
+    margin-bottom: 30px;
+}
+/* footer estilos */
+.flexRowContent--pre-footer {
+    padding: 0;
+    margin-bottom: 10px;
+}
+.flexRow--menu-row :global(.vtex-menu-2-x-styledLinkContent){
+    color: white;
+}
+.flexRow--menu-row :global(.vtex-menu-2-x-styledLinkContainer){
+    margin: 0;
+}
+.flexRow--menu-row :global(.vtex-menu-2-x-menuContainer){
+    position: relative;
+}
+.flexRow--menu-row{
+    padding: 0 0px 0 40px;
+}
+.flexCol--newsletter-col  {
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+/* .flexRowContent--menu-row {
+    margin-bottom: 40px;
+} */
+.flexColChild--desarrollado-por {
+    display: flex;
+    justify-content: center;
+}
+.flexRow--desarrollado-por{
+    position: absolute;
+    bottom: 20%;
+    width: 39%;
+    z-index: 0;
+    margin: 0 31%;
+}
+.flexCol--newsletter-col{
+    background: rgba(0, 0, 0, 0.5);
+    padding-right: 52px;
+    padding-bottom: 30px;
+}
+.flexRow--marcas-header{
+    margin-left: 67px;
+    border: 1px solid #808080;
+}
+.flexRowContent--marcas-header {
+    width: 40%;
+    float: right;
+}
+@media (max-width: 1100px) {
+    .flexRowContent--marcas-header {
+        width: 65%;
+    }
+    .flexRowContent--social-Media-menu-M .stretchChildrenWidth {
+        width: 100% !important;
+    }
+    .flexRowContent--social-Media-menu-M {
+        flex-wrap: wrap;
+    }
+}
+.flexRowContent--marcas-header {
+    border-left: 1px solid #808080;
+}
+.flexRowContent--marcas-header .stretchChildrenWidth{
+    border-right: 1px solid #808080;
+}
+.flexRowContent--marcas-header .flexColChild{
+    height: auto !important;
+}
+.flexRowContent--marcas-header .flexCol  {
+    height: auto !important;
+}
+.flexRow--Ninferior{
+    background: white;
+}
+.flexRowContent--rowFixed-category {
+    justify-content: center;
+    /*margin: 0 40px;*/
+    width: 90%;
+    background: linear-gradient(90deg,rgba(255,255,255,0) -7.58%,#FFFFFF 32.57%,#FFFFFF 71.03%,rgba(255,255,255,0) 101.01%);
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.flexColChild--FiltrosFixed {
+    display: flex;
+    justify-content: flex-end;
+}
+.flexRow--rowFixed-category{
+    position: fixed;
+    width: 100%;
+    bottom: 56px;
+    z-index: 2;
+}
+.flexColChild--productCosInt:first-child {
+    padding: 0 20px;
+}
+.flexColChild--productCosInt:last-child{
+    margin-bottom: 60px;
+}
+.flexColChild--404-container {
+    margin-left: 67px;
+}
+.flexColChild--404-container :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+    margin-left: 0;
+}
+.flexColChild--404-container :global(.vtex-rich-text-0-x-container--shelfTitle){
+    padding: 0;
+}
+.flexColChild--404-container :global(.vtex-tab-layout-0-x-container--home){
+    padding: 0;
+}
+.flexRow--Ninferior{
+    padding-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width: 600px) {
+    .flexColChild--404-container {
+        margin-left: 58px;
+    }
+    .flexColChild--productCosInt:first-child {
+        padding: 0 10px;
+        margin-bottom: 11px;
+    }
+    .flexRow--marcas-header{
+        margin-left: 58px;
+    }
+    .flexCol--submenu-lvl2  {
+      height: auto !important;
+    }
+    .flexRow--social-Media-menu-M{
+        bottom: 10px !important;
+    }
+    .flexRowContent--Ninferior{
+        display: flex;
+    }
+    .flexRowContent--Ninferior .stretchChildrenWidth:first-child{
+        width: 60% !important;
+    }
+    .flexRowContent--Ninferior .stretchChildrenWidth:last-child{
+        width: 40% !important;
+    }
+    .flexRow--bannerssecond::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/tiraMobileMorada.png) no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 42px;
+        display: block;
+        left: 0;
+        top: -30px;
+    }
+    .flexRow--Ninferior {
+        padding: 0 5px;
+    }
+    .flexRow--bannerssecond :global(.vtex-store-components-3-x-container)::before{
+        display: none;
+    }
+    .flexRow--Bannersec {
+        padding: 0 10px 0 10px;
+    }
+    .flexRow--row-vitrine-category::before {
+        background: url(https://callearturop.vteximg.com.br/arquivos/vitrinatres.png) no-repeat;
+        background-size: 100%;
+    }
+    .flexRow--row-vitrine-category{
+        padding: 0 10px;
+    }
+    .flexRowContent--row-vitrine-category {
+        display: flex;
+    }
+    .flexRowContent--row-vitrine-category .stretchChildrenWidth{
+        width: 50% !important;
+    }
+    .flexCol--imagenColumnCategory .flexColChild--imagenColumnCategory:first-child  {
+        display: none;
+    }
+    .flexRow--Bannerthrid{
+        padding: 0 0px;
+        margin: 40px 0 0px 58px !important;
+    }
+    .flexCol--Bannertwo  {
+        padding: 0;
+    }
+    .flexColChild--infocardtexto1 {
+        justify-content: flex-end;
+    }
+    .flexRow--productosMes::before {
+        display: none;
+    }
+    .flexRow--bannerssecond {
+        margin-top: 27px;
+    }
+    .flexRow--bradcrumb{
+        padding: 0 10px;
+    }
+    .flexRow--contenidoSearch{
+        padding: 0 10px;
+    }
+    .flexRow--tittle{
+        padding: 0 10px;
+    }
+    .flexRow--bradcrumb :global(.vtex-breadcrumb-1-x-container){
+        justify-content: flex-end;
+        padding: 0;
+    }
+    .flexRowContent--tittle-M {
+        display: flex;
+    }
+    .flexRowContent--tittle-M .stretchChildrenWidth {
+        justify-content: flex-end;
+    }
+    .flexRowContent--tittle-M .stretchChildrenWidth:first-child {
+        width: 46% !important;
+    }
+    .flexRowContent--tittle-M .stretchChildrenWidth:last-child {
+        width: 54% !important;
+    }
+    .flexRowContent--rowTittle {
+        display: flex;
+    }
+    .flexRowContent--bradcrumbLimpiar {
+        display: block !important;
+    }
+    .flexRowContent.flexRowContent--bradcrumbLimpiar .stretchChildrenWidth{
+        width: 100% !important;
+    }
+    .flexCol.flexCol--filtroContent {
+        width: 80%;
+    }
+    .flexRow--rowTittle{
+        border-top: 0;
+    }
+    .flexRow--tittle-M{
+        border-top: 1px solid #D3D3D3;
+        padding: 10px 0;
+        margin: 10px 10px 0 10px;
+    }
+    .flexRow--rowTittle{
+        margin: 0 10px 20px 10px;
+    }
+    .flexRow--bradcrumb{
+        margin: 10px 0 0 0;
+    }
+    .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
+        width: 40%;
+    }
+    .flexCol--newsletter-col  {
+        padding-left: 0;
+        padding: 5px 10px;
+        border-top:1px solid white ;
+        border-bottom:1px solid white ;
+        margin: 15px 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .flexRowContent--sobreNosotros {
+        padding-left: 40px;
+        padding-right: 10px;
+
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContent) {
+        color: white;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContainer) {
+        margin: 0;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContent--titulos-mobile){
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-menuItem--titulos-mobile--isOpen) :global(.vtex-menu-2-x-styledLinkContent--titulos-mobile){
+        color: #00E8FF;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-accordionIcon--titulos-mobile){
+        font-size: 0%;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-accordionIcon--titulos-mobile--isOpen)::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechaAbiertoFooterfredoom.png) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: 23px;
+        height: 20px;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-accordionIcon--titulos-mobile--isClosed)::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechaCerradoFooterfreedom.png) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: 23px;
+        height: 20px;
+    }
+    .flexRow--copyright-m{
+        padding: 0 10px;
+    }
+    .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContainer--titulos-mobile) {
+        margin: 0;
+        padding: 15px 0px;
+        margin: 0 10px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .flexRowContent--payment-methods {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .flexRow--bannerssecond {
+        margin-left: 58px;
+    }
+    .flexRow--row-vitrine-category {
+        margin-left: 58px;
+    }
+    .flexRowContent--marcas-header {
+        display: flex;
+        float: inherit;
+        width: 100%;
+    }
+    .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__label){
+        font-size: 12px;
+    }
+    .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem) :global(.vtex-checkbox__label)::after{
+        top: -28%;
+        right: -20px;
+        font-size: 17px;
+    }
+    .flexRowContent--cantidad-precio .stretchChildrenWidth:first-child{
+        width: 100% !important;
+    }
+    .flexRow.flexRow--productCos{
+        margin: 0 0 0 58px;
+    }
+    .flexColChild--contenedorSkuSelec :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorOptionsList){
+        width: 60%;
+    }
+    .flexRowContent--rowFixed-category {
+        justify-content: center;
+        margin: 0 0px;
+        width: 100%;   
+        display: flex;   
+    }
+    .flexRow--rowFixed-category {
+        position: fixed;
+        width: 84%;
+        display: block;
+        bottom: 56px;
+        padding: 0 10px;
+        z-index: 99;
+    }
+}

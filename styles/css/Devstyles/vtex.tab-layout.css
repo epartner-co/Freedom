@@ -1,0 +1,30 @@
+.listItemActive :global(.vtex-button) {border-radius: 0;background: #340572}
+.listItem :global(.vtex-button__label) {font-size: 19px;font-weight: 700;color: black;letter-spacing: 1px;transform: rotate(-2deg);}
+.listItem :global(.vtex-button):hover {background: #340572; color: white;border-radius: 0px;}
+.listItemActive :global(.vtex-button__label) {color: white;text-decoration: underline;}
+.listItem :global(.vtex-button):hover :global(.vtex-button__label) {color: white;text-decoration: underline;}
+.container.container--product {margin: 20px 0 0 0;}
+.contentContainer :global(.vtex-button):hover {background: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationsTitle--especificacionesdeta) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationsTableHead--especificacionesdeta) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemProperty--especificacionesdeta) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationsTitle--especificacionesapli) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationsTableHead--especificacionesapli) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemProperty--especificacionesapli) {display: none;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemSpecifications--especificacionesapli) {padding: 16px 15%;}
+.contentContainer :global(.vtex-store-components-3-x-specificationsTableRow--especificacionesdeta) {padding: 0 15%;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemSpecifications--especificacionesdeta) {padding: 20px 15%;}
+.listContainer {border-bottom: 1px solid #eceae6;}
+.contentContainer :global(.vtex-store-components-3-x-productImage)::before{display: none;}
+
+
+/*Mobil*/
+@media (max-width: 600px) {
+.listContainer.flex.w-100.flex-wrap.justify-center {display: flex;}
+.listItem {width: 30%;}
+.listItem :global(.vtex-button__label) {font-size: 12px;padding: 0 5px;}
+.listItem {padding: 0;display: flex;justify-content: center;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemSpecifications--especificacionesdeta) {padding: 0;}
+.contentContainer :global(.vtex-store-components-3-x-specificationItemSpecifications--especificacionesapli) {padding: 0;}
+
+}

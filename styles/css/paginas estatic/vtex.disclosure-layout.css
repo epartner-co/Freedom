@@ -1,0 +1,15 @@
+.trigger.trigger--question::after {content: "";background: url(https://callearturop.vteximg.com.br/arquivos/flecharoja.png);background-size: 100%;width: 12px;height: 12px;position: absolute;right: 2%;}
+
+.trigger.trigger--question {position: relative;margin: 1% 1% 9px 1%;background: white;}
+
+.trigger :global(.vtex-store-icons-0-x-caretIcon) {display: none;}
+
+.trigger--question :global(.vtex-rich-text-0-x-paragraph) {text-transform: uppercase;padding: 0 4% 0 2%;width: 100%;}
+
+.trigger--question :global(.vtex-rich-text-0-x-container) {width: 100%;}
+
+.trigger--question :global(.vtex-rich-text-0-x-wrapper) {width: 100%;}
+
+.trigger--question .content--answer {position: relative; margin : 0% 1% 0% 1%; background : white;}
+
+.trigger--question--visible::after {transform: rotate(58deg);}

@@ -1,0 +1,30 @@
+.container.container--generalT {cursor:pointer;border: 1px solid #340572;margin: 3% 4%;transform: rotate(-1deg);}
+.link.link--generalT {font-weight: 700;text-decoration: none;font-size: 17px;color: #340572;}
+.container.container--generalT:hover .link--generalT {color: white;}
+.container.container--generalT:hover {background: #340572;}
+.paragraph.paragraph--generalTitul {color: #F44753;font-size: 30px;text-transform: uppercase;font-weight: 700;}
+.strong.strong--content { color: #340572; }
+.paragraph.paragraph--content {color: #808080;}
+
+@media screen and (max-width: 700px) {
+.link.link--generalT {font-size: 14px;line-height: 15px;display: block;}
+.paragraph.paragraph--generalT {margin: 1% 0.5%;min-height: 30px; align-items: center; display: flex;}
+.paragraph.paragraph--generalTitul {margin-bottom: 0;}
+.strong.strong--conten-princ.strong--titleQ{font-size: 20px !important;}
+}
+
+.strong.strong--conten-princ.strong--titleQ {font-size: 50px;letter-spacing: 2px;color: #340572;transform: rotate(-2deg);display: block;}
+.paragraph.paragraph--conten-princcor {font-size: 15px;width: 70%;color: #808080;margin: 0 auto;}
+.strong.strong--conten-princcor {color: #00E8FF;}
+.link.link--conten-princcor {color: white;background: #340572;padding: 1% 2%;display: block;width: 175px;margin: 17px auto 0 auto;transform: matrix(1, -0.02, -0.01, 1, 0, 0);font-size: 17px;text-decoration: none;}
+.strong.strong--contentC1 {color: #F44753;font-size: 23px;}
+.paragraph.paragraph--contentC1 {font-size: 15px;color: #808080;}
+
+.link.link--conten-princ.link--rotado {color: #F44753;text-decoration: none;border: 1px solid;transform: matrix(1, -0.03, -0.01, 1, 0, 0);padding: 4% 9px;display: block;}
+.wrapper.wrapper--contentC2 {margin: 0 10%;}
+.container.container--contentC2 {align-items: center;}
+.strong.strong--contentC2 {color: #00E8FF;font-size: 20px;}
+.paragraph.paragraph--contentC2 {font-size: 15px;color: #808080;}
+.link.link--contentC2 {color: #340572;font-size: 20px;font-weight: 700;margin: 13px 0 0 0;display: block;}
+.strong.strong--contentC2.strong--izquierdC {color: #F44753;}
+.wrapper.wrapper--contentC2.wrapper--izquierdC {text-align: end;}

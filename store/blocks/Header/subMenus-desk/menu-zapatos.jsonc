@@ -1,0 +1,102 @@
+{
+    "vtex.menu@2.x:submenu#zapatos": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "Submenu-lvl2"
+        },
+        "children": [
+            "flex-layout.row#zapatos-container-lvl2"
+        ]
+    },
+    "flex-layout.row#zapatos-container-lvl2":{
+        "props":{
+            "blockClass":["subMenu-container","submenu-lvl2"]
+        },
+        "children":[
+            "flex-layout.col#zapatos-container-lvl2",
+            "flex-layout.col#zapatos-container-lvl2-2"
+        ]
+    },
+    "flex-layout.col#zapatos-container-lvl2":{
+        "props":{
+            "width":"60%",
+            "blockClass":["submenu-lvl2"]
+        },
+        "children":[
+            "menu-item#category-pricipal-zapatos-botas",
+            "menu-item#category-pricipal-zapatos-sandalias",
+            "menu-item#category-pricipal-zapatos-tenis"
+        ]
+    },
+    "menu-item#category-pricipal-zapatos-botas": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/botas-y-botines",
+            "noFollow": false,
+            "tagTitle": "Botas y botines",
+            "text": "Botas y botinees"
+            }
+        }
+    },
+    "menu-item#category-pricipal-zapatos-sandalias": {
+        "props": {
+            "id": "menu-item-category--camisetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/sandalias",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-pricipal-zapatos-tenis": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tenis",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "flex-layout.col#zapatos-container-lvl2-2":{
+        "props":{
+            "blockClass":["imagenes"]
+        },
+        "children":[
+            "image#logo-banner1-menu-zapatos",
+            "image#logo-banner2-menu-zapatos"
+        ]
+    },
+    //imagenes logo
+    "image#logo-banner1-menu-zapatos": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno1-desk.png",
+        "blockClass": "menuBanner"
+        }
+    },
+    //imagenes logo
+    "image#logo-banner2-menu-zapatos": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno2-desk.png",
+        "blockClass": "menuBanner"
+        }
+    }
+}

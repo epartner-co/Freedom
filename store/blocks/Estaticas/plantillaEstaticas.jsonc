@@ -1,0 +1,231 @@
+{
+  "store.custom#estaticas": {
+    "children": [
+      "flex-layout.row#Estaticas"
+    ]
+  },
+  "flex-layout.row#Estaticas":{
+    "children":[
+      "flex-layout.col#Estaticas"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#Estaticas":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#Estaticastitulos",
+      "flex-layout.col#Contenido"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#Estaticastitulos":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen"]
+    }
+  },
+  "flex-layout.row#Titulos1":{
+    "children":[
+      "flex-layout.row#titulos1",
+      "flex-layout.row#titulos2"
+    ],
+    "props":{
+      "blockClass":"primeralinea"
+    }
+  },
+  "flex-layout.row#Titulos2":{
+    "children":[
+      "flex-layout.row#titulos3",
+      "flex-layout.row#titulos4"
+    ],
+    "props":{
+      "blockClass":"segundalinea"
+    }
+  },
+  //Estructura Rows
+  "flex-layout.row#titulos1":{
+    "children":[
+      "rich-text#faqs",
+      "rich-text#tyc"
+    ],
+    "props":{
+      "blockClass":"int1",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#titulos2":{
+    "children":[
+      "rich-text#legales",
+      "rich-text#ptd"
+    ],
+    "props":{
+      "blockClass":"int1",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#titulos3":{
+    "children":[
+      "rich-text#aptd",
+      "rich-text#pde"
+    ],
+    "props":{
+      "blockClass":"int1",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#titulos4":{
+    "children":[
+      "rich-text#pee",
+      "rich-text#le"
+    ],
+    "props":{
+      "blockClass":"int1",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  //inicio de richtext finalización estructura
+  "rich-text#faqs": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[FAQ](/faq)",
+      "blockClass": ["generalT", "Faq"]
+    }
+  },
+  "rich-text#tyc": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[TYC](/tyc)",
+      "blockClass": ["generalT", "tyc"]
+    }
+  },
+  "rich-text#legales": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Legales](/legales)",
+      "blockClass": ["generalT", "legales"]
+    }
+  },
+  "rich-text#ptd": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Política de tratamiento de datos](/ptd)",
+      "blockClass": ["generalT", "ptd"]
+    }
+  },
+  "rich-text#aptd": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Autorización para el tratamiento datos](/aptd)",
+      "blockClass": ["generalT", "aptd"]
+    }
+  },
+  "rich-text#pde": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Políticas de envío](/pde)",
+      "blockClass": ["generalT", "pde"]
+    }
+  },
+  "rich-text#pee": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Politicas de ética empresarial](/pee)",
+      "blockClass": ["generalT", "pee"]
+    }
+  },
+  "rich-text#le": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Linea ética](/linea-etica)",
+      "blockClass": ["generalT", "le"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#Contenido":{
+    "children":[
+      "rich-text#tituloEsta",
+      "rich-text#contenidoEsta",
+      "image#middle",
+      "rich-text#contenidoEsta2",
+      "list-context.image-list#demoC"
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEsta": {
+    "props": {
+      "text": "Páginas estaticas",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEsta": {
+    "props": {
+      "text": "Páginas estaticas",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2": {
+    "props": {
+      "text": "Páginas estaticas",
+      "blockClass": "content"
+    }
+  },
+  "image#middle": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/paginaEstatic.png",
+      "maxHeight": 500
+    }
+  },
+  //Sliders
+  "list-context.image-list#demoC": {
+    "children": ["slider-layout#demo-imagesA"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-interno3-desk.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-interno3-mobile.png"
+        },
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-interno3-desk.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-interno3-mobile.png"
+        }
+      ],
+      "blockClass": "bannerprincA"
+    }
+  },
+  "slider-layout#demo-imagesC": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "blockClass": "carouselA"
+    }
+  }
+
+}

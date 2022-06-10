@@ -1,0 +1,22 @@
+.drawerContent.drawerContent--searchbarD {
+  width: 60%;
+  margin-top: -360px;
+}
+
+.closeIconContainer.closeIconContainer--searchbarD {position: relative;right: 0;justify-content: end;margin: 0 0 -25px 0;}
+
+.closeIconButton--searchbarD::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png);
+    cursor: pointer;width: 33px;
+    height: 33px;
+    background-size: 100%;
+    position: absolute;
+    top: 21%;right: 2%;
+  }
+  .drawer.drawer--searchbarD.opened.opened--searchbarD {
+    background: #00000075;
+    margin: 0 0 0 64px;
+    justify-content: center;
+    align-items: center;
+  }

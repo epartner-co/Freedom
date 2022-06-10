@@ -1,0 +1,170 @@
+{
+    "vtex.menu@2.x:submenu#accesorios": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "Submenu-lvl2"
+        },
+        "children": [
+            "flex-layout.row#accesorios-container-lvl2"
+        ]
+    },
+    "flex-layout.row#accesorios-container-lvl2":{
+        "props":{
+            "blockClass":["subMenu-container","submenu-lvl2"]
+        },
+        "children":[
+            "flex-layout.col#accesorios-container-lvl2",
+            "flex-layout.col#accesorios-container-lvl2-2"
+        ]
+    },
+    "flex-layout.col#accesorios-container-lvl2":{
+        "props":{
+            "width":"60%",
+            "blockClass":["submenu-lvl2"]
+        },
+        "children":[
+            "menu-item#category-pricipal-accesorios-buzos",
+            "menu-item#category-pricipal-accesorios-camisetas",
+            "menu-item#category-pricipal-accesorios-blusascamisas",
+            "menu-item#category-pricipal-accesorios-chaquetas",
+            "menu-item#category-pricipal-accesorios-jeans",
+            "menu-item#category-pricipal-accesorios-pantalones",
+            "menu-item#category-pricipal-accesorios-tejidos"
+        ]
+    },
+    "menu-item#category-pricipal-accesorios-buzos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/billeteras",
+            "noFollow": false,
+            "tagTitle": "Billeteras",
+            "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-camisetas": {
+        "props": {
+            "id": "menu-item-category--camisetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/cinturones",
+            "noFollow": false,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-blusascamisas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/cordones",
+            "noFollow": false,
+            "tagTitle": "Cordones",
+            "text": "Cordones"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-chaquetas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/fragancias",
+            "noFollow": false,
+            "tagTitle": "Fragancias",
+            "text": "Fragancias"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-jeans": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/gafas",
+            "noFollow": false,
+            "tagTitle": "Gafas",
+            "text": "Gafas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-pantalones": {
+        "props": {
+            "id": "menu-item-category--Optima",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/llaveros",
+            "noFollow": false,
+            "tagTitle": "Llaveros",
+            "text": "Llaveros"
+            }
+        }
+    },
+    "menu-item#category-pricipal-accesorios-tejidos": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tapabocas",
+            "noFollow": false,
+            "tagTitle": "Tapabocas",
+            "text": "Tapabocas"
+            }
+        }
+    },
+    "flex-layout.col#accesorios-container-lvl2-2":{
+        "props":{
+            "blockClass":["imagenes"]
+        },
+        "children":[
+            "image#logo-banner1-menu-accesorios",
+            "image#logo-banner2-menu-accesorios"
+        ]
+    },
+    //imagenes logo
+    "image#logo-banner1-menu-accesorios": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno1-desk.png",
+        "blockClass": "menuBanner"
+        }
+    },
+    //imagenes logo
+    "image#logo-banner2-menu-accesorios": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno2-desk.png",
+        "blockClass": "menuBanner"
+        }
+    }
+}

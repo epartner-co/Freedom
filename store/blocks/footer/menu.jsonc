@@ -1,0 +1,652 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#footerCol2"
+    ]
+  },
+  "flex-layout.row#footerCol2":{
+    "children": [
+      "menu-item#Nosotros",
+      "flex-layout.col#footerCol2"
+    ],
+    "props":{
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  //primer
+  "flex-layout.col#footerCol2":{
+    "children": [
+      "menu-item#quienesSomos",
+      "menu-item#historia",
+      "menu-item#tiendas-fisicas",
+      "social-networks"
+    ],
+    "props":{
+      "width":"90%",
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  "menu-item#Nosotros": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"Menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "NOSOTROS",
+        "text": "NOSOTROS"
+      }
+    }
+  },
+  "menu-item#quienesSomos": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "¿Quienes somos?",
+        "text": "¿Quienes somos?"
+      }
+    }
+  },
+  "menu-item#historia": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Nuestra historia",
+        "text": "Nuestra historia"
+      }
+    }
+  },
+  "menu-item#tiendas-fisicas": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Nuestras tiendas fisicas",
+        "text": "Nuestras tiendas fisicas"
+      }
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#footerCol1"
+    ]
+  },
+  "flex-layout.row#footerCol1":{
+    "children": [
+      "menu-item#Herramientas",
+      "flex-layout.col#footerCol1"
+    ],
+    "props":{
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  //primer
+  "flex-layout.col#footerCol1":{
+    "children": [
+      "menu-item#sap",
+      "menu-item#wia",
+      "menu-item#wpb",
+      "menu-item#Isolucion",
+      "menu-item#Isolucion-tiendas",
+      "menu-item#proovedores",
+      "menu-item#campus",
+      "menu-item#acércate"
+    ],
+    "props":{
+      "width":"90%",
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  "menu-item#Herramientas": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"Menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/estaticas",
+        "noFollow": true,
+        "tagTitle": "HERRAMIENTAS",
+        "text": "HERRAMIENTAS"
+      }
+    }
+  },
+
+  "menu-item#sap": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://wia.arturocalle.com/AC_AccesoSAP/paginas/VinculosSAP.aspx",
+        "noFollow": true,
+        "tagTitle": "Sap",
+        "text": "Sap"
+      }
+    }
+  },
+
+  "menu-item#wia": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://wia.arturocalle.com/WIA/Login.aspx",
+        "noFollow": true,
+        "tagTitle": "WIA",
+        "text": "WIA"
+      }
+    }
+  },
+  "menu-item#wpb": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "http://wpb.arturocalle.com:8080/Manager-CAC/index.htm",
+        "noFollow": true,
+        "tagTitle": "WPB",
+        "text": "WPB"
+      }
+    }
+  },
+  "menu-item#Isolucion": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "http://acautomprd03/isolucion/",
+        "noFollow": true,
+        "tagTitle": "Isolución",
+        "text": "Isolución"
+      }
+    }
+  },
+  "menu-item#Isolucion-tiendas": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "http://isolucion.arturocalle.com/Isolucion",
+        "noFollow": true,
+        "tagTitle": "Isolución tiendas",
+        "text": "Isolución tiendas"
+      }
+    }
+  },
+  "menu-item#proovedores": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://wia.arturocalle.com/AC_AccesoSAP/paginas/CertificadosProveedor.aspx",
+        "noFollow": true,
+        "tagTitle": "Proveedores",
+        "text": "Proveedores"
+      }
+    }
+  },
+  "menu-item#campus": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://moodle.arturocalle.com/moodle/login/index.php",
+        "noFollow": true,
+        "tagTitle": "Campus virtual freedom",
+        "text": "Campus virtual freedom"
+      }
+    }
+  },
+  "menu-item#acércate": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://acercate.arturocalle.com/acercate/wp-login.php?redirect_to=https%3A%2F%2Facercate.arturocalle.com%2Facercate%2F",
+        "noFollow": true,
+        "tagTitle": "Acércate",
+        "text": "Acércate"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#footerCol3"
+    ]
+  },
+  "flex-layout.row#footerCol3":{
+    "children": [
+      "menu-item#Tiendas",
+      "flex-layout.col#footerCol3"
+    ],
+    "props":{
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  //primer
+  "flex-layout.col#footerCol3":{
+    "children": [
+      "menu-item#backpacks",
+      "rich-text#footer-tiendas"
+    ],
+    "props":{
+      "width":"90%",
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  "menu-item#Tiendas": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"Menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "TIENDAS",
+        "text": "TIENDAS"
+      }
+    }
+  },
+
+  "menu-item#backpacks": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Ver tiendas",
+        "text": "Ver tiendas"
+      }
+    }
+  },
+
+  "menu-item#necessaire": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "Necessaire",
+        "text": "Necessaire"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#footerCol4"
+    ]
+  },
+  "flex-layout.row#footerCol4":{
+    "children": [
+      "menu-item#preguntas-frecuentes",
+      "flex-layout.col#footerCol4"
+    ],
+    "props":{
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+  //primer
+  "flex-layout.col#footerCol4":{
+    "children": [
+      "menu-item#comocomprar",
+      "menu-item#envios",
+      "menu-item#cambios",
+      "menu-item#devoluciones",
+      "menu-item#garantia",
+      "menu-item#pago",
+      "menu-item#informacions"
+    ],
+    "props":{
+      "width":"95%",
+      "blockClass":"footerMenu-items-col"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile",
+      "menu-item#tiendas-mobile"
+    ]
+  },
+
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"titulos-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "SOBRE NOSOTROS",
+        "text": "SOBRE NOSOTROS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quienesSomos",
+      "menu-item#historia",
+      "menu-item#tiendas-fisicas"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "blockClass":"titulos-mobile",
+      "itemProps": {
+        "tagTitle": "PREGUNTAS FRECUENTES",
+        "text": "PREGUNTAS FRECUENTES"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sap",
+      "menu-item#wia",
+      "menu-item#wpb",
+      "menu-item#Isolucion",
+      "menu-item#Isolucion-tiendas",
+      "menu-item#proovedores",
+      "menu-item#campus",
+      "menu-item#acércate"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "blockClass":"titulos-mobile",
+      "itemProps": {
+        "tagTitle": "HERRAMIENTAS",
+        "text": "HERRAMIENTAS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#comocomprar",
+      "menu-item#envios",
+      "menu-item#cambios",
+      "menu-item#devoluciones",
+      "menu-item#garantia",
+      "menu-item#pago",
+      "menu-item#informacions"
+    ]
+  },
+  "menu-item#tiendas-mobile": {
+    "props": {
+      "blockClass":"titulos-mobile",
+      "itemProps": {
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#tiendas"]
+  },
+  "vtex.menu@2.x:submenu.accordion#tiendas": {
+    "children": ["vtex.menu@2.x:menu#footer-tiendas-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-tiendas-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      // "menu-item#smartphones",
+      // "menu-item#videogames",
+      // "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"Menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "PREGUNTAS FRECUENTES",
+        "text": "PREGUNTAS FRECUENTES"
+      }
+    }
+  },
+
+  "menu-item#comocomprar": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": false,
+        "tagTitle": "¿Como comprar?",
+        "text": "¿Como comprar?"
+      }
+    }
+  },
+
+  "menu-item#envios": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pde",
+        "noFollow": false,
+        "tagTitle": "Nuestra politica de envios",
+        "text": "Nuestra politica de envios"
+      }
+    }
+  },
+
+  "menu-item#cambios": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pde",
+        "noFollow": false,
+        "tagTitle": "Nuestra politica de cambios",
+        "text": "Nuestra politica de cambios"
+      }
+    }
+  },
+
+  "menu-item#devoluciones": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pde",
+        "noFollow": false,
+        "tagTitle": "Nuestra politica de devoluciones",
+        "text": "Nuestra politica de devoluciones"
+      }
+    }
+  },
+
+  "menu-item#garantia": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pde",
+        "noFollow": false,
+        "tagTitle": "Nuestra politica de garantia",
+        "text": "Nuestra politica de garantia"
+      }
+    }
+  },
+  "menu-item#pago": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tyc",
+        "noFollow": false,
+        "tagTitle": "Nuestros medios de pago",
+        "text": "Nuestros medios de pago"
+      }
+    }
+  },
+  "menu-item#informacions": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ptd",
+        "noFollow": false,
+        "tagTitle": "Seguridad de tu información",
+        "text": "Seguridad de tu información"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "store.custom#aptd": {
+    "children": [
+      "flex-layout.row#EstaticasA"
+    ]
+  },
+  "flex-layout.row#EstaticasA":{
+    "children":[
+      "flex-layout.col#EstaticasA"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasA":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosA",
+      "flex-layout.col#ContenidoA"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosA":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "aptd"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#ContenidoA":{
+    "children":[
+      "rich-text#tituloEstaLap",
+      "rich-text#contenidoEstaLap",
+      "flex-layout.row#contenidoEsta2Lap"
+
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEstaLap": {
+    "props": {
+      "text": "AUTORIZACIÓN PARA EL TRATAMIENTO DE DATOS PERSONALES",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEstaLap": {
+    "props": {
+      "text": "Autorizo el tratamiento de mis datos personales suministrados a Comercializadora FREEDOM (NIT 900.342.444), para las siguientes finalidades: \n\n a) cumplir las obligaciones legales y comerciales; \nb) participar en campañas publicitarias, recibir información promocional y de marketing; \nc) asesoramiento comercial y servicios postventa; \nd) suministrarlos a terceros para ejecución de actividades relacionadas con la entrega de pedidos, asistencia en mercadeo y procesamiento y ofrecimiento de mecanismos de pago; \ne) las demás señaladas en la Política de Tratamiento de Datos Personales que puede consultar en www.arturocalle.com/politica-de-datos    ",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2Lap": {
+    "props": {
+      "text": "Cualquier información sensible solicitada, podrá no ser respondida por usted. Los datos personales serán tratados de forma segura y podrán ser realizados de manera directa o a través de otros responsables y/o  encargados, quienes podrán estar domiciliados dentro o fuera del territorio Colombiano. \n\nEl titular de los datos personales tiene derecho a conocer, actualizar, acceder gratuitamente, rectificar y suprimir sus datos, solicitar prueba de esta autorización o revocarla; presentar quejas a la Superintendencia de Industria y Comercio por infracciones frente a la normatividad vigente. Para ejercer sus derechos o solicitar en general cualquier información referente al tratamiento de datos personales, la Compañía ha habilitado los siguientes medios: \n\nCorreo electrónico: contactenos@arturocalle.com, teléfono 7438800 en Bogotá D.C, línea nacional 01 8000 180120 o a través de carta dirigida a la Dirección de Servicio al Cliente a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá D.C.",
+      "blockClass": "content"
+    }
+  },
+  "flex-layout.row#contenidoEsta2Lap":{
+    "children":[
+      "flex-layout.col#ImgA",
+      "rich-text#contenidoEsta2Lap"
+    ],
+    "props":{
+      "blockClass": "duppla"
+    }
+  },
+  "flex-layout.col#ImgA":{
+    "children":[
+      "image#middle2"
+    ],
+    "props":{
+      "width": "30%"
+    }
+  },
+  "image#middle2": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/bannerduppla.png",
+      "maxHeight": 500
+    }
+  }
+}

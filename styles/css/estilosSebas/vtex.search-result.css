@@ -1,0 +1,798 @@
+.searchResultContainer {
+    margin-left: 67px;
+    padding: 0 0px;
+}
+.gallery {
+    padding: 0;
+}
+.galleryLayoutSwitcher {
+    align-items: center;
+}
+.totalProducts--layout {
+    padding: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: #D3D3D3;
+    letter-spacing: 0.5px;
+}
+.totalProductsMessage {
+    color: #D3D3D3;
+}
+.galleryLayoutSwitcher::before {
+    content: "Visualización";
+    font-size: 16px;
+    color: #2A2A2A;
+    font-weight: bold;
+    display: block;
+    margin-right: 22px;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton:first-child::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/x4-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 43px;
+    height: 31px;
+    display: block;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton:last-child::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/x5-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 46px;
+    height: 37px;
+    display: block;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton--selected:first-child::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/x4-selected.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 43px;
+    height: 31px;
+    display: block;
+}
+.galleryLayoutOptionButton.galleryLayoutOptionButton--selected:last-child::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/x5.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 43px;
+    height: 33px;
+    display: block;
+}
+.galleryLayoutOptionButton--selected{
+    background: transparent;
+}
+.galleryLayoutOptionButton{
+    background: transparent;
+}
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-gridIcon){
+    display: none;
+}
+.galleryLayoutOptionButton :global(.vtex-store-icons-0-x-inlineGridIcon){
+    display: none;
+}
+.galleryLayoutOptionButton :global(.vtex-rich-text-0-x-container--layout-option){
+    display: none;
+}
+.filterTitleSpan{
+    color: #340572;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.filter__container--category-4{
+    display: none;
+}
+.filter__container--color:nth-child(2n){
+    display: none;
+}
+/* filtros desplegables */
+/* estilos para los filtros en desktop */
+.content--filtroContent--visible {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+}
+.trigger--filtrotriggerAll--visible{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+:global(.vtex-flex-layout-0-x-flexCol--filtroContent){
+    width: 30%;
+    background: white;
+    padding: 40px 20px;
+    position: absolute;
+    z-index: 9999;
+    overflow-y: auto;
+}
+:global(.vtex-flex-layout-0-x-flexCol--filtroContent)::-webkit-scrollbar{
+    background: #D3D3D3;
+    width: 5px;
+    border-radius: 5px; 
+}
+:global(.vtex-flex-layout-0-x-flexCol--filtroContent)::-webkit-scrollbar-thumb{
+    background: #340572;
+    border-radius: 5px;
+}
+.filter__container .filterTemplateOverflow::-webkit-scrollbar{
+    background: #D3D3D3;
+    width: 5px;
+    border-radius: 5px; 
+}
+.filter__container .filterTemplateOverflow::-webkit-scrollbar-thumb{
+    background: #340572;
+    border-radius: 5px;
+}
+.trigger {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+.trigger--fitroTrigger2--visible{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger2--visible::after{
+    content: "+";
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    top: -4px;
+}
+.trigger--fitroTrigger {
+    padding: 0 20px;
+    width: 149px !important;
+    border: 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger :global(.vtex-rich-text-0-x-paragraph){
+    text-transform: uppercase;
+}
+.trigger--filtrotriggerAll--visible {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+/*Filtro agregados*/
+/*Segundo filtro de cierre*/
+.filtersWrapper--filtros2 .filter__container--selectedFilters {
+    display: block !important;
+    border: none;
+}
+
+.filter__container--filtros2 .filter__container--title .filter__container--filtros2--title {
+    display: none;
+}
+
+.filter__container--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2 :global(.vtex-checkbox__container){
+    display: none;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filterTitleSpan.filterTitleSpan--filtros2{
+    display: none;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected {
+    background: #F44753;
+    margin: 0 10% 0 0;
+    position: relative;
+    height: 38px;
+    padding: 0 8% 0 6%;
+    display: flex;
+    width: auto;
+    align-items: center;
+    transform: matrix(1,-0.01,0,1,0,0);
+}
+.filterItem--filtros2--selected :global(.vtex-checkbox__label) {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
+    content: "x";
+    position: absolute;
+    top: -25%;
+    right: -20px;
+    font-size: 20px;
+}
+.filter__container.filter__container--filtros2.filter__container--selectedFilters {
+    margin-left: 0%;
+    font-size: 13.5px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+    margin-left: -59px;
+    margin-right: 30px;
+}
+
+.filterItem--filtros2--selected {
+    margin-left: -46px;
+    margin-right: 64px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonShowMore--layout.w-100.flex.justify-center {
+    margin: 45px 0 0 0px;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+    width: 127%;
+    flex-wrap: wrap;
+}
+.filter__container--priceRange :global(.vtex-slider__selector){
+    background: #340572;
+}
+.filter__container--priceRange :global(.vtex-slider__base-internal){
+    background: #340572;
+}
+:global(.vtex-checkbox__line-container ){
+    position: relative;
+}
+.filter__container :global(.vtex-checkbox__container){
+    position: absolute;
+    left: 42%;
+    margin-top: 3px;
+}
+:global(.vtex-checkbox__inner-container){
+    border-radius: 50%;
+}
+.galleryTitle--layout {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.buttonShowMore :global(.vtex-button){
+    border: 1.53243px solid #F44753;
+    transform: matrix(1, -0.03, -0.01, 1, 0, 0);
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.buttonShowMore :global(.vtex-button__label){
+    color: #F44753!important;
+    font-size: 0;
+    transform: matrix(1,0.02,-0.01,1,0,0)
+}
+.buttonShowMore :global(.vtex-button__label)::before{
+    content: "Cargar más productos";
+    font-weight: bold;
+    font-size: 18px;
+}
+.galleryTitle--layout::before{
+    content: "SOY LA CATEGORÍA QUE ESTAS BUSCANDO ";
+    font-size: 3rem;
+}
+.filter__container--color :global(.vtex-checkbox__container){
+    display: none;
+}
+.filter__container--color :global(.vtex-checkbox__label){
+    font-size: 0;
+}
+.filter__container--color .filterItem :global(.vtex-checkbox__label){
+    border: 1px solid #D3D3D3;
+    width: 50px;
+    display: block;
+    height: 50px;
+    border-radius:50% ;
+    margin: 10px;
+}
+.filter__container--color .filterItem {
+    width: 76px;
+}
+.filter__container--color .filterContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter__container--color .filterItem--blanco :global(.vtex-checkbox__label){
+    background: #ffff;
+}
+.filter__container--color .filterItem--azul-marino :global(.vtex-checkbox__label){
+    background: #ffff;
+}
+.filter__container--color .filterItem--azul-marino :global(.vtex-checkbox__label){
+    background: #08356d;
+}
+.filter__container--color .filterItem--azul-royal :global(.vtex-checkbox__label){
+    background: #052446;
+}
+.filter__container--color .filterItem--naranja-claro :global(.vtex-checkbox__label){
+    background: #fea827;
+}
+.filter__container--color .filterItem--morado :global(.vtex-checkbox__label){
+    background: #8d2074;
+}
+.filter__container--color .filterItem--negro :global(.vtex-checkbox__label){
+    background: black;
+}
+.filter__container--color .filterItem--verde-manzana :global(.vtex-checkbox__label){
+    background: #b7df53;
+}
+.filter__container--color .filterItem--esmeralda :global(.vtex-checkbox__label){
+    background: #017d30;
+}
+.filter__container--color .filterItem--gris-grafito :global(.vtex-checkbox__label){
+    background: #666;
+}
+.filter__container--color .filterItem--gris-plata :global(.vtex-checkbox__label){
+    background: #666;
+}
+.filter__container--color .filterItem--gris-granito :global(.vtex-checkbox__label){
+    background: #666;
+}
+.filter__container--color .filterItem--mostaza :global(.vtex-checkbox__label){
+    background: #f1aa03;
+}
+.filter__container--color .filterItem--lavanda :global(.vtex-checkbox__label){
+    background: #f1aa03;
+}
+.filter__container--color .filterItem--verde-pino :global(.vtex-checkbox__label){
+    background: #5c523c;
+}
+.filter__container--color .filterItem--verde-oscuro :global(.vtex-checkbox__label){
+    background: #003517;
+}
+.filter__container--color .filterItem--escarlata :global(.vtex-checkbox__label){
+    background: #dc0000;
+}
+.filter__container--color .filterItem--sangria :global(.vtex-checkbox__label){
+    background: #741933;
+}
+.filter__container--color .filterItem--rosa-sachet :global(.vtex-checkbox__label){
+    background: #f98db3;
+}
+.filter__container--color .filterItem--palo-de-rosa :global(.vtex-checkbox__label){
+    background: #f98db3;
+}
+.filter__container--color .filterItem--rojo-persa :global(.vtex-checkbox__label){
+    background: #f98db3;
+}
+.filter__container--color .filterItem--amarillo :global(.vtex-checkbox__label){
+    background: #fff018;
+}
+.filter__container--color .filterItem--gris-claro :global(.vtex-checkbox__label){
+    background: #c5c5c5;
+}
+.filter__container--color .filterItem--navy :global(.vtex-checkbox__label){
+    background: #052446;
+}
+.filter__container--color .filterItem--magenta :global(.vtex-checkbox__label){
+    background: #f52e5c;
+}
+.filter__container--color .filterItem--cafe :global(.vtex-checkbox__label){
+    background: #82501e;
+}
+.filter__container--color .filterItem--cafe-oscuro :global(.vtex-checkbox__label){
+    background: #3F2817;
+}
+.filter__container--color .filterItem--taupe :global(.vtex-checkbox__label){
+    background: #C0B5AB;
+}
+.filter__container--color .filterItem--indigo :global(.vtex-checkbox__label){
+    background: #014ba2;
+}
+.filter__container--color .filterItem--azul-prusia :global(.vtex-checkbox__label){
+    background: #003153;
+}
+.filter__container--color .filterItem--aguamarina :global(.vtex-checkbox__label){
+    background: #98e9fc;
+}
+.filter__container--color .filterItem--turquesa :global(.vtex-checkbox__label){
+    background: #98e9fc;
+}
+.filter__container--color .filterItem--azul-malibu :global(.vtex-checkbox__label){
+    background: #d3eef5;
+}
+.filter__container--color .filterItem--abeto :global(.vtex-checkbox__label){
+    background: #6F8544;
+}
+.filter__container--color .filterItem--marron :global(.vtex-checkbox__label){
+    background: #804000;
+}
+.filter__container--color .filterItem--naranja :global(.vtex-checkbox__label){
+    background: #FF8000;
+}
+.filter__container--color .filterItem--azul :global(.vtex-checkbox__label){
+    background: #014ba2;
+}
+.filter__container--color .filterItem--verde :global(.vtex-checkbox__label){
+    background: #017d30;
+}
+.filter__container--color .filterItem--rosado :global(.vtex-checkbox__label){
+    background: #ff0080;
+}
+.filter__container--color .filterItem--vino :global(.vtex-checkbox__label){
+    background: #5e2129;
+}
+.filter__container--color .filterItem--vino :global(.vtex-checkbox__label){
+    background: #5e2129;
+}
+.filter__container--color .filterItem--gris :global(.vtex-checkbox__label){
+    background: #666;
+}
+.filter__container--color .filterItem--rojo :global(.vtex-checkbox__label){
+    background: red;
+}
+.filter__container--color .filterItem--caqui :global(.vtex-checkbox__label){
+    background: #e0d8b0;
+}
+.filter__container--color .filterItem--beige :global(.vtex-checkbox__label){
+    background: #f5f5dc;
+}
+.filter__container--color .filterItem--ocre :global(.vtex-checkbox__label){
+    background: #b9935a;
+}
+/* categorias  */
+.filterItem--bermudas {
+    display: none;
+}
+.filterItem--boxer {
+    display: none;
+}
+.filterItem--camisas-business {
+    display: none;
+}
+.filterItem--camisas-casuales {
+    display: none;
+}
+.filterItem--camisillas {
+    display: none;
+}
+.filterItem--camisas-formales {
+    display: none;
+}
+.filterItem--camisetas {
+    display: none;
+}
+.filterItem--chalecos-casuales {
+    display: none;
+}
+.filterItem--chalecos-casuales {
+    display: none;
+}
+.filterItem--sweaters {
+    display: none;
+}
+.filterItem--pijamas {
+    display: none;
+}
+.filterItem--pantalones-formales {
+    display: none;
+}
+.filterItem--pantalones-casuales {
+    display: none;
+}
+.filterItem--medias {
+    display: none;
+}
+.filterItem--pantalones-business {
+    display: none;
+}
+.filter__container--categoria :global(.vtex-checkbox__container){
+    display: none;
+}
+.filter__container--categoria .filterItem :global(.vtex-checkbox__label){
+    color: #2A2A2A;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    display: block;
+}
+.filter__container--categoria .filterItem :global(.vtex-checkbox__line-container ){
+    display: block;
+}
+.filter__container--categoria .filterItem :global(.vtex-checkbox__input){
+    opacity: 0;
+}
+.filter__container--categoria .filterItem--blazers :global(.vtex-checkbox__container){
+    content: "";
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/blazersFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--buzos :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/buzosFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--buzos :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/buzosFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--chaquetas :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/chaquetasFitlros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--jeans :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/chaquetasFitlros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--jeans :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/pantalonesFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--joggers :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/joggersFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--joggers :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/joggersFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+}
+.filter__container--categoria .filterItem--pantalonetas :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/pantalonetasFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+} 
+.filter__container--categoria .filterItem--polos :global(.vtex-checkbox__container){
+    display: block;
+    background: url(https://callearturop.vteximg.com.br/arquivos/polosFiltros.png) no-repeat;
+    background-size: 100%;
+    width: 126px;
+    height: 126px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+} 
+.filter__container--categoria .filterItem{
+    width: 30%;
+    margin: 5px;
+} 
+.filter__container--categoria .filterContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter__container--categoria .filterContent :global(.vtex-checkbox__inner-container){
+    opacity: 0;
+}
+.filter__container--categoria .filterItem.filterItem--selected::before {
+    content: ""; 
+    background: url(https://callearturop.vteximg.com.br/arquivos/categoria-selected-filtro.png)no-repeat;
+    background-size: 82%;
+    width: 100%;
+    height: 100%;
+    top: 8%;
+    display: block;
+    position: absolute;
+    opacity: 0.6;
+    z-index: 9;
+    background-position: top;
+}
+.filterItem--selected {position: relative;}
+.orderByText {
+    display: none;
+}
+.orderByButton {
+    margin-left: 0px;
+    width: 130px;
+    justify-content: center;
+    border: 0.811404px solid #F44753;
+    transform: matrix(1,-0.02,0,1,0,0);
+    padding: 13px;
+    border-radius: 0;
+    margin-top: 6px;
+}
+.filterPopupTitle {
+    color: #F44753;
+    font-weight: bold;
+}
+.filterPopupArrowIcon {
+    padding: 0 5px;
+    color: #F44753;
+}
+@media screen and (max-width: 700px) {
+    .filter__container--categoria .filterContent{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .searchResultContainer {
+        padding: 0 10px;
+    }
+    .searchResultContainer {
+        margin-left: 58px;
+    }
+    .filterPopupButton   {
+        display: none;
+    }
+    .galleryTitle--layout {
+        text-align: right;
+        margin: 6px 0;
+        font-size: 30px;
+    }
+    .galleryTitle--layout::before{
+        font-size: 30px;
+    }
+    .galleryLayoutOptionButton {
+        padding: 0;
+    }
+    .filters--layout {
+        margin: 0;
+    }
+    .galleryLayoutOptionButton.galleryLayoutOptionButton:first-child::before{
+        background: url(https://callearturop.vteximg.com.br/arquivos/x2-2-m.png) no-repeat;
+        background-size: cover;
+        width: 27px;
+        height: 21px;
+    }
+    .galleryLayoutOptionButton.galleryLayoutOptionButton:last-child::before{
+        background: url(https://callearturop.vteximg.com.br/arquivos/x1-2-m.png) no-repeat;
+        background-size: cover;
+        width: 27px;
+        height: 25px;
+    }
+    .galleryLayoutOptionButton.galleryLayoutOptionButton--selected:first-child::before{
+        background: url(https://callearturop.vteximg.com.br/arquivos/x2-m.png) no-repeat;
+        background-size: cover;
+        width: 27px;
+        height: 21px;
+    }
+    .galleryLayoutOptionButton.galleryLayoutOptionButton--selected:last-child::before{
+        background: url(https://callearturop.vteximg.com.br/arquivos/x1-m.png) no-repeat;
+        background-size: cover;
+        width: 27px;
+        height: 25px;
+    }
+    .galleryLayoutSwitcher {
+        justify-content: flex-end;
+    }
+    .galleryLayoutSwitcher::before {
+        margin-right: 5px;
+    }
+    .filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
+        top: -28%;
+    }
+    .filterItem--filtros2--selected {
+        width: 64%;
+    }
+    .galleryItem--normal {
+        padding: 5px;
+    }
+    .filterItem--filtros2--selected :global(.vtex-checkbox__label) {
+        font-size: 14px;
+    }
+    .filter__container--categoria .filterItem{
+        width: 43%;
+    }
+    .filter__container--categoria .filterItem--blazers :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--buzos :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--buzos :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--chaquetas :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--jeans :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--jeans :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--joggers :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--joggers :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container--categoria .filterItem--pantalonetas :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    } 
+    .filter__container--categoria .filterItem--polos :global(.vtex-checkbox__container){
+        width: 110px;
+        height: 110px;
+    }
+    .filter__container.filter__container--categoria .filterTemplateOverflow::-webkit-scrollbar{
+        background: #D3D3D3;
+        width: 5px;
+        height: 5px;
+        border-radius: 5px; 
+    }
+    .filter__container.filter__container--categoria .filterTemplateOverflow::-webkit-scrollbar-thumb{
+        background: #340572;
+        border-radius: 5px;
+    }
+}

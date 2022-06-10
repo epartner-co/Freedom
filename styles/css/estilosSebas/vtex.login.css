@@ -1,0 +1,166 @@
+.content--emailAndPassword {
+    margin: 50px auto;
+}
+.content {
+    background: transparent;
+}
+.sendButton :global(.vtex-button){
+    background: #340572;
+    transform: matrix(1, -0.02, -0.01, 1, 0, 0);
+    border-radius: 0;
+}
+.formFooter .sendButton :global(.vtex-button__label) span{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    font-size: 20px;
+    font-family: 'Trade';
+}
+.content--emailAndPassword .formFooter .sendButton :global(.vtex-button__label) span{
+    font-size: 0;
+}
+.content--emailAndPassword .formFooter .sendButton :global(.vtex-button__label)::before{
+    content: "INICIAR SESIÓN";
+    font-size: 20px;
+    font-family: 'Trade';
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contentFormVisible :global(.vtex-styleguide-9-x-input)::placeholder{
+    color: #D3D3D3;
+}
+.contentFormVisible :global(.vtex-input-prefix__group){
+    border: 0;
+    transform: matrix(1, -0.03, -0.01, 1, 0, 0);
+    border-bottom: 1px solid #2A2A2A;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.formFooter {
+    border: 0;
+}
+
+.optionsListItem :global(.vtex-button){
+    border-radius: 0;
+    transform: matrix(1, -0.02, -0.01, 1, 0, 0);
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+}
+.optionsListItem :global(.vtex-button):hover{
+    background: initial;
+}
+.optionsListItem :global(.vtex-button__label){
+    color: #808080;
+    font-weight: bold;
+    padding: 15px 0 !important;
+    text-transform: initial;
+    text-transform: uppercase;
+}
+:global(.vtex-login-2-x-oauthLabel) {
+    font-weight: bold;
+    font-size: 15px;
+}
+.oauthProvider {
+    font-weight: bold;
+}
+.optionsListItem :global(.vtex-button ){
+    transition: 400ms all;
+}
+.optionsListItem :global(.vtex-button ):hover{
+    background: #340572;
+}
+.optionsListItem :global(.vtex-button ):hover :global(.vtex-button__label){
+    color: white;
+}
+.optionsListItem :global(.vtex-button ):hover .oauthProvider{
+    color: white;
+}
+.oauthProvider {
+    color: #340572;
+}
+.accessCodeOptionBtn :global(.vtex-button){
+    border-radius: 0;
+    border: 0;
+    background: #808080;
+    transform: matrix(1, -0.02, -0.01, 1, 0, 0);
+}
+.accessCodeOptionBtn :global(.vtex-button):hover{
+    background: #808080;
+}
+.accessCodeOptionBtn :global(.vtex-button__label){
+    color: white;
+    font-weight: bold;
+    text-transform: initial;
+}
+.emailPasswordOptionBtn :global(.vtex-button){
+    background: transparent;
+}
+.formTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 0;
+}
+.optionsSticky{
+    margin-right: 90px;
+}
+.dontHaveAccount {
+    color: #808080;
+    font-family: 'Trade';
+}
+.forgotPasswordLink {
+    color: #808080;
+    font-family: 'Trade';  
+}
+.formLinkContainer {
+    justify-content: center;
+}
+.facebookOptionBtn :global(.vtex-button) svg{
+    display: none;
+}
+.facebookOptionBtn :global(.vtex-button){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebookOptionBtn :global(.vtex-button)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/facebook.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.inputContainer :global(.vtex-styleguide-9-x-input){
+    background: transparent;
+}
+:global(.vtex-account){
+    margin: 0 0 0 67px;
+}
+.inputContainerPassword :global(.vtex-input__suffix){
+    background: transparent;
+}
+@media (max-width: 600px) {
+    :global(.vtex-account){
+        margin: 40px 0 50px 58px;
+    }
+    .options {
+        margin: 0;
+    }
+    .content {
+        margin-left: 67px;
+    }
+    .loginOptionsContainer {
+        width: 100%;
+    }
+    .loginOptionsContainer .options {
+        min-width: 100%;
+    }
+    .formTitle {
+        text-align:right;
+    }
+}

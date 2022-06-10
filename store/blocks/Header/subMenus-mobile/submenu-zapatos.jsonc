@@ -1,0 +1,59 @@
+{
+    //sub menu zapatos ---------------------------
+    // trigger para activar el menu zapatos
+    "disclosure-layout#zapatos-menu-submenu-m-lvl1": {
+        "children": ["disclosure-trigger#zapatos-all-menuM-lvl2","disclosure-content#zapatos-all-menuM-lvl2"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    // sub Menu trigger principal zapatos
+    "disclosure-trigger#zapatos-all-menuM-lvl2": {
+        "children": ["menu-item#marcas-zapatosM"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-trigger#zapatos-all-menuM-lvl2-2": {
+        "children": ["menu-item#category-pricipal-zapatosM-2"],
+        "props": {
+            "blockClass": "cierreTrigger"
+        }
+    },
+    "disclosure-content#zapatos-all-menuM-lvl2": {
+        "children": ["disclosure-trigger#zapatos-all-menuM-lvl2-2", "flex-layout.col#zapatos-container-lvl2"],
+        "props": {
+            "blockClass": ["subMenuLv2"]
+        }
+    },
+    "menu-item#marcas-zapatosM": {
+        "props": {
+            "id": "menu-item#marcas-destacadas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1","zapatos"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": true,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-pricipal-zapatosM-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-zapatos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1-cierre"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "zapatos",
+            "text": "zapatos"
+            }
+        }
+    }
+}

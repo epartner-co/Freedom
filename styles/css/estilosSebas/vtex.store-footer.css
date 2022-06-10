@@ -1,0 +1,45 @@
+.footerLayout{
+    background: url(https://callearturop.vteximg.com.br/arquivos/fondo-desk.jpg);
+    background-size: 100%;
+    position: relative;
+}
+.socialNetworkImage {
+    display: none;
+}
+.socialNetworkLink--facebook::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/fb-freedom.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.socialNetworkLink--instagram::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/ig-freedom.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.socialNetworkLink--twitter::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/tiktok-freedom.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.socialNetworkLink--youtube::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/yt-freedom.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+@media (max-width: 600px) {
+    .footerLayout {
+        margin: 0 0 0px 58px;
+    }
+}

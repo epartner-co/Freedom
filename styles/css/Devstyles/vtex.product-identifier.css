@@ -1,0 +1,5 @@
+.product-identifier__label::before {content: "REF";font-size: 12px;}
+
+.product-identifier__label {font-size: 0;}
+
+.product-identifier.product-identifier--productReference {color: #F44753;font-size: 12px}

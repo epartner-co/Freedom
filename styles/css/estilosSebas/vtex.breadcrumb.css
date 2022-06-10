@@ -1,0 +1,71 @@
+.caretIcon {
+    display: none;
+}
+.arrow::before {
+    content: "";
+    background: #2A2A2A;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.link{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+}
+.term {
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: #2A2A2A;
+}
+.arrow {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 0 1px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .link{
+    display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .arrow {
+    display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .arrow.arrow--1 {
+    display: block;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .arrow.arrow--1::before {
+    display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .link--1 {
+    display: block !important;
+    font-size: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--bradcrumbLimpiar) .arrow.arrow--1 .link--1::after {
+    content: "Limpiar filtros";
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: bold;
+    color: #808080;
+    display: block;
+}
+@media (max-width: 600px) {
+    .container {
+        padding-bottom: 0;
+    }
+    .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLinkContainer--vertical){
+        padding: 0.5rem 0 ;
+    }
+    .flexRowContent--menu-link {
+        width: 16.6%;
+        padding: 0;
+    }
+}

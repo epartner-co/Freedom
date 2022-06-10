@@ -1,0 +1,70 @@
+.container--home{
+    padding: 0 0 0 67px;
+}
+.container--home :global(.vtex-slider-layout-0-x-sliderLayoutContainer){
+    margin: 0;
+    padding: 0 35px !important;
+}
+.container--home .listContainer--tabbersCategory .listItem {
+    width: 20%;
+    margin: 10px 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.container--home .listContainer--tabbersCategory .listItem :global(.vtex-button){
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #D3D3D3;
+    padding: 7px;
+    transform: matrix(1, -0.02, -0.02, 1, 0, 0);
+    transition: 400ms all;
+}
+.container--home .listContainer--tabbersCategory .listItem :global(.vtex-button):hover{
+    background:#340572 ;
+}
+.container--home .listContainer--tabbersCategory .listItemActive :global(.vtex-button){
+    background: #340572;
+}
+.container--home .listContainer--tabbersCategory .listItem :global(.vtex-button__label){
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #808080;
+    font-size: 20px;
+}
+.container--home .listContainer--tabbersCategory .listItem:hover :global(.vtex-button__label){
+    color: white;
+}
+.container--home .listContainer--tabbersCategory .listItemActive :global(.vtex-button__label){
+    color: white;
+}
+.listContainer--tabbersCategory {
+    margin: 30px 0;
+    padding: 0 30px;
+}
+.listContainer.listContainer--tabbersCategory {
+    border: 0;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .container--home .listContainer--tabbersCategory .listItem {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .listContainer--tabbersCategory {
+        margin: 30px 0;
+        padding: 0 10px;
+    }
+    .container--home .listContainer--tabbersCategory .listItem {
+        width: 100%;
+    }
+    .container--home {
+        padding: 0 0 0 58px;
+    }
+}

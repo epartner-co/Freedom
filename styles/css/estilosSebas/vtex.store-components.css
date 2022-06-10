@@ -1,0 +1,307 @@
+/* backgorund pagina */
+:global(.vtex-store__template){
+    background-color: #f6f6f6;
+    background-image: url(https://callearturop.vteximg.com.br/arquivos/freedom-back.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+.infoCardContainer {
+    background: #f6f6f6;
+}
+.container{
+    max-width: 100%;
+}
+
+.productImagesThumbCaret {
+    background: transparent;
+}
+.infoCardContainer--info-card-homeS {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+.infoCardContainer--info-card-homeM {
+    width: 100%;
+    height: 100%;   
+    background: transparent;
+}
+.infoCardContainer--info-card-homeB {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+.infoCardCallActionContainer--info-card-home3 :global(.vtex-button){
+    transform: matrix(1, -0.03, -0.01, 1, 0, 0);
+}
+.discountContainer {
+    width: 100%;
+}
+.imageElement--preFooter {
+    width: 100%;
+}
+.imageElement--desarrollado-por {
+    width: 250px;
+}
+.infoCardContainer--info-card-homeS3 {
+    width: 100%;
+}
+.infoCardImage--info-card-homeS3{
+    width: 100%;
+}
+.imageElement--imgcuadra{
+    width: 94%;
+}
+.infoCardImage--info-card-home3{
+    width: 95%;
+}
+.infoCardTextContainer.infoCardTextContainer--info-card-home3 {
+    width: 33%;
+    position: relative;
+}
+.infoCardHeadline.infoCardHeadline--info-card-home3 {
+    width: 70%;
+    font-size: 50px;
+}
+.infoCardCallActionContainer--info-card-home3 :global(.vtex-button__label){
+    font-weight: bold;
+    font-size: 20px;
+}
+.infoCardTextContainer--info-card-home3::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/fantasmita-desk.png) no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 58px;
+    display: block;
+    position: absolute;
+    left: 84px;
+    opacity: 0.5;
+}
+.infoCardTextContainer--info-card-home3::after{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/frame-circulito.png) no-repeat;
+    background-size: 100%;
+    width: 193px;
+    height: 193px;
+    display: block;
+    position: absolute;
+    left: -53px;
+    bottom: -115px;
+}
+.resultsList--clear-button {
+    position: absolute;
+    border: 0;
+    border-top: 1px solid #d3d3d3;
+    margin-top: -4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5.6%;
+}
+.imageElement--footerFreedomLetter {
+    position: absolute;
+    bottom: 49px;
+    opacity: 0.1;
+    width: 88%;
+    margin: 0 40px;
+}
+.infoCardCallActionContainer.infoCardCallActionContainer--info-card-homeS1 :global(.vtex-buttonlabel) {font-weight: 700;}
+.infoCardCallActionContainer.infoCardCallActionContainer--info-card-homeS2 :global(.vtex-buttonlabel) {font-weight: 700;}
+.infoCardCallActionContainer.infoCardCallActionContainer--info-card-homeS3 :global(.vtex-button__label) {font-weight: 700;}
+.carouselContainer--imageDescrip .carouselGaleryCursor{
+    background: transparent;
+}
+.swiperBullet{
+    background: url(https://callearturop.vteximg.com.br/arquivos/diamante-dots.png) no-repeat;
+    background-size: 100%;
+    height: 20px!important;
+    width: 20px!important;
+}
+.swiperBullet--active{
+    background: url(https://callearturop.vteximg.com.br/arquivos/cerrar-boton-dots.png) no-repeat;
+    background-size: 100%;
+    height: 20px!important;
+    width: 20px!important;
+}
+.productImagesContainer.productImagesContainer--images-modal-zoom {
+    margin: 0 0% 0 0;
+    padding: 0 0 0 0%!important;
+}
+.specificationsTable {
+    background: transparent;
+}
+.productDescriptionContainer::after{
+    width: 152px;
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/gifnewAsset.gif) no-repeat;
+    background-size: 100%;
+    display: block;
+    height: 153px;
+    position: absolute;
+    left: -16px;
+    margin-top: -22px
+}
+.gradientBaseBottom{
+    background: transparent;
+}
+.searchBarContainer {
+    max-width: 100%;
+}
+.imageElement--imgCarrito {
+    width: 90%;
+    margin: 10px 18px;
+}
+.resultsList {
+    max-height: 66vh;
+}
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input){
+    font-size: 17px;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: 0;
+    height: 49px;
+}
+@media (max-width: 600px) {
+    .productDescriptionContainer::after{
+        display: none;
+    }
+    .infoCardTextContainer--info-card-home3::after{
+        display: none;
+    }
+    .infoCardImage--info-card-home3{
+        width: 100%;
+    }
+    :global(.vtex-store__template){
+        overflow-x: hidden;
+    }
+    .skuSelectorNameContainer {
+        margin: 0;
+    }
+    .container {
+        padding: 0 !important;
+    }
+    :global(.vtex-slider-layout-0-x-slide--carousel-categorias) .infoCardTextContainer{
+        position: absolute;
+        bottom: 29px;
+        width: 100%;
+    }
+    :global(.vtex-slider-layout-0-x-slide--carousel-categorias) .infoCardHeadline {
+        font-size: 23px;
+        color: white;
+    }
+    :global(.vtex-slider-layout-0-x-slide--carousel-categorias) .infoCardCallActionContainer :global(.vtex-button__label) {
+        color: #00E8FF;
+        margin-top: 0px;
+        text-decoration-color: #00E8FF;
+        font-size: 14px;
+    }
+    :global(.vtex-slider-layout-0-x-slide--carousel-categorias) .infoCardCallActionContainer :global(.vtex-button) {
+        color: #00E8FF;
+        margin-top: 0px;
+        text-decoration-color: #00E8FF;
+    }
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-duales) .infoCardContainer {
+        position: relative;
+        margin-bottom: 137px;
+        margin-top: 50px;
+    }
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-duales) .infoCardTextContainer {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+    }
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-duales) .infoCardHeadline  {
+        font-size: 25px;
+    }
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-duales) .infoCardCallActionContainer  {
+        margin: 5px 0;
+    }
+    .infoCardTextContainer.infoCardTextContainer--info-card-home3 {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .infoCardImageContainer--info-card-home3 {
+        width: 100%;
+    }
+    .infoCardImageContainer--info-card-homeS3 {
+        position: absolute;
+        width: 48%!important;
+        top: 54%;
+    }
+    .infoCardHeadline--info-card-homeS3 {
+        text-align: right;
+        font-size: 20px;
+        display: flex;
+        width: 100%;
+        padding-left: 131px;
+        justify-content: flex-end;
+    }
+    .infoCardCallActionContainer--info-card-homeS3 {
+        text-align: right;
+        font-size: 25px;
+        display: flex;
+        width: 100%;
+        padding-left: 114px;
+        justify-content: flex-end;
+    }    
+    .infoCardContainer--info-card-homeS3 {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .infoCardHeadline--info-card-homeS1 {
+        margin: 0;
+    }
+    .infoCardHeadline.infoCardHeadline--info-card-home3{
+        font-size: 28px;
+        width: 62%;
+    }
+    .infoCardContainer--info-card-home3::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/freedomInfinotp.png) no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 12px;
+        display: block;
+    }
+    .infoCardTextContainer--info-card-home3::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/fantasmitaFreedom.png) no-repeat;
+        background-size: 100%;
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        left: 47%;
+        filter: opacity(0.5);
+    }
+    .imageElement--imgcuadra {
+        display: block;
+    }
+    .imageElement--pagos-desk {
+        display: none;
+    }
+    .imageElement--desarrollado-m {
+        width: 74%;
+        margin-bottom: 20px;
+    }
+    .imageElement--imgcuadra{
+        width: 100%;
+    }
+    .infoCardContainer--info-card-home3 {
+        margin: 70px 0 0px 58px;
+    }
+    .imageElementLink--favoritos{
+        text-align: center;
+        text-decoration: none;
+    }
+    .imageElementLink--favoritos::after{
+        content: "Favoritos";
+        font-size: 13px;
+        color: #340572;
+        text-decoration: none;
+        top: -0.6rem;
+        position: relative;
+    }
+    .productBrand--quickview {
+        font-size: 22px;
+    }
+}

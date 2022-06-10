@@ -1,0 +1,120 @@
+.submenu--Submenu-lvl2 {
+    justify-content: flex-start;
+    padding-top: 10%;
+}
+.styledLinkContent--Menu-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.styledLinkContainer--Menu-title {
+    transform: rotate(-90deg);
+}
+.styledLink--Menu-title {
+    position: absolute;
+    bottom: 0;
+    right: 18px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--footerMenu-items-col) .styledLinkContent:hover {
+    background: url(https://callearturop.vteximg.com.br/arquivos/fondo-oscuro.png);
+    color: black;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+@media (max-width: 1100px) {
+    .styledLinkContent--menu-lv1-cierre {
+        color:black ;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .styledLinkContainer--menu-lv1-cierre {
+        display: flex;
+        margin: 0;
+        align-items: center;
+    }
+    .styledLinkContainer--menu-lv1-cierre::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechaCierre.png) no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 9px;
+        height: 16px;
+        display: block;
+        margin-right: 10px;
+    }
+    .accordionIcon--menu-item-levl2--isClosed {
+        font-size: 0;
+    }
+    .accordionIcon--menu-item-levl2--isOpen {
+        font-size: 0;
+    }
+    .accordionIcon--menu-item-levl2--isClosed::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechaAperturoMenu.png) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: 15px;
+        height: 15px;
+    }
+    .accordionIcon--menu-item-levl2--isOpen::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechaCierraMenu.png) no-repeat;
+        background-size: 100%;
+        display: block;
+        width: 15px;
+        height: 15px;
+    }
+    /* lvl 2 */
+    .styledLinkContent--menu-item-levl2 {
+        text-transform: uppercase;
+    }
+    .styledLink--menu-item-levl2:hover .styledLinkContent--menu-item-levl2{
+        font-size: 20px !important;
+        font-weight: bold !important;
+        margin: 10px 0;
+    }
+    .styledLink--menu-item-levl2:hover::before{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menuItem--menu-item-levl2--isOpen .styledLink--menu-item-levl2::before{
+        opacity: 1;
+        visibility: visible;
+    }
+    .menuItem--menu-item-levl2--isOpen .styledLink--menu-item-levl2::before{
+        width: 145px;
+        height: 46px;
+        transition: 400ms all;
+    }
+    /* .menuItem--menu-item-levl2--isOpen .styledLink--menu-item-levl2 .styledLinkContent--menu-item-levl2 {
+        font-size: 23px;
+        padding-left: 10px;
+    } */
+    .menuItem--menu-item-levl2--isClosed .styledLink--lvl3::before {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .styledLinkContainer--vertical {
+        padding: 0.75rem 0 ;
+    }
+    .styledLinkContainer.styledLinkContainer--vertical {
+        margin-left: 1rem;
+        margin-right: 1.0rem;
+        justify-content: center;
+        display: flex;
+        padding: 0;
+    }
+    .styledLinkContent--categoria {
+        display: block;
+    }
+    .styledLinkContent--categoria::after {
+        content: "Menu";
+        font-size: 13px;
+        color: #340572;
+        margin-top: 7px;
+        display: block;
+    }
+    .styledLinkContent--vertical.styledLinkContent--categoria::before {
+        display: block;
+    }
+}

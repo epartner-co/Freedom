@@ -1,0 +1,21 @@
+.overlay.overlay--searchbarD.overlay--visible.overlay--searchbarD--visible{
+    margin: 0 0 0 65px;
+}
+@media (max-width: 600px) {
+    .overlay.overlay--searchbarD.overlay--visible.overlay--searchbarD--visible{
+        margin: 0 0 0 58px;
+    }
+    .drawerTriggerContainer--propiedades :global(.vtex-flex-layout-0-x-stretchChildrenWidth)::after{
+        content: "Buscar";
+        font-size: 13px;
+        color: #340572;
+        margin-top: -7px;
+    }
+    .drawerTriggerContainer--propiedades :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        flex-wrap: wrap;
+    }
+    .openIconContainer--searchbarD{
+        padding-top:0.4rem;
+        padding-bottom: 0.4rem;
+    }
+}

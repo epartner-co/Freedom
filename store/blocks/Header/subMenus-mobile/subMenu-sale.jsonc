@@ -1,0 +1,327 @@
+{
+    //sub menu sale ---------------------------
+    // trigger para activar el menu sale
+    "disclosure-layout#sale-menu-submenu-m-lvl1": {
+        "children": ["disclosure-trigger#sale-all-menuM-lvl2","disclosure-content#sale-all-menuM-lvl2"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    // sub Menu trigger principal sale
+    "disclosure-trigger#sale-all-menuM-lvl2": {
+        "children": ["menu-item#marcas-saleM"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-trigger#sale-all-menuM-lvl2-2": {
+        "children": ["menu-item#category-pricipal-saleM-2"],
+        "props": {
+            "blockClass": "cierreTrigger"
+        }
+    },
+    "disclosure-content#sale-all-menuM-lvl2": {
+        "children": ["disclosure-trigger#sale-all-menuM-lvl2-2", "flex-layout.col#sale-container-lvl2-m"],
+        "props": {
+            "blockClass": ["subMenuLv2"]
+        }
+    },
+    "menu-item#marcas-saleM": {
+        "props": {
+            "id": "menu-item#marcas-destacadas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1","sale"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": true,
+            "tagTitle": "sale",
+            "text": "sale"
+            }
+        }
+    },
+    "menu-item#category-pricipal-saleM-2": {
+        "props": {
+            "id": "menu-item-category--pricipal-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-lv1-cierre"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "sale",
+            "text": "sale"
+            }
+        }
+    },
+    // contenido sale
+    "flex-layout.col#sale-container-lvl2-m":{
+        "props":{
+            "width":"60%",
+            "blockClass":["submenu-lvl2"]
+        },
+        "children":[
+            "menu-item#category-sale-zapaatos",
+            "menu-item#category-sale-ropa",
+            "menu-item#category-accesorios"
+        ]
+    },
+    // sub Menu LVL3
+    "menu-item#category-sale-zapaatos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "zAPATOS",
+            "text": "Zapatos"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#zapatos"]
+    },
+    "vtex.menu@2.x:submenu.accordion#zapatos": {
+        "children": ["vtex.menu@2.x:menu#zapatos"]
+    },
+    
+    "vtex.menu@2.x:menu#zapatos": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-sale-botines",
+            "menu-item#category-sale-tenis",
+            "menu-item#category-sale-sandalias"
+        ]
+    },
+    // items
+    "menu-item#category-sale-botines": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Botas y botines",
+            "text": "Botas y botines"
+            }
+        }
+    },
+    "menu-item#category-sale-tenis": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-sale-sandalias": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+
+    // menu ropas 
+    "menu-item#category-sale-ropa": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#ropas"]
+    },
+    "vtex.menu@2.x:submenu.accordion#ropas": {
+        "children": ["vtex.menu@2.x:menu#ropas"]
+    },
+    
+    "vtex.menu@2.x:menu#ropas": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-buzos",
+            "menu-item#category-camisetas",
+            "menu-item#category-sale-blusas",
+            "menu-item#category-polos",
+            "menu-item#category-sale-jeans"
+        ]
+    },
+    "menu-item#category-buzos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-camisetas": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-sale-blusas": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Blusas y camisas",
+            "text": "Blusas y camisas"
+            }
+        }
+    },
+    "menu-item#category-polos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-sale-jeans": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    // menu ropas 
+    "menu-item#category-accesorios": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#acce"]
+    },
+    "vtex.menu@2.x:submenu.accordion#acce": {
+        "children": ["vtex.menu@2.x:menu#acce"]
+    },
+    
+    "vtex.menu@2.x:menu#acce": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-sale-hombre",
+            "menu-item#category-sale-mujer"
+        ]
+    },
+    "menu-item#category-sale-hombre": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Para hombre",
+            "text": "Para hombre"
+            }
+        }
+    },
+    "menu-item#category-sale-mujer": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2","lvl3"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/apparel---accessories/eyeglasses/",
+            "noFollow": false,
+            "tagTitle": "Para mujer",
+            "text": "Para mujer"
+            }
+        }
+    }
+}

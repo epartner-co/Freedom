@@ -1,0 +1,29 @@
+.imageElement.imageElement--iconoM.imageElement--favoritos {
+  display: block;
+  width: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  margin: 0 auto;
+}
+.imageElement--logoI {
+  width: 55%;
+  margin: 18% 18% 0% 23%;
+}
+
+@media (max-width: 600px) {
+  .imageElement--logoI {
+    width: 46%;
+    margin: 18% 23% 0% 29%;
+  }
+  .imageElement.imageElement--iconoM.imageElement--favoritos {
+    display: block;
+    width: 25px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin: 0 auto;
+  }
+}

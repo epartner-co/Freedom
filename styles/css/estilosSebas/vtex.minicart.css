@@ -1,0 +1,50 @@
+.openIconContainer {padding-top: 0;padding-bottom: 0;}
+.drawerContent{
+    height: 100%;
+}
+.overlay.overlay--visible{
+    margin: 0 0 0 65px;
+}
+.minicartWrapperContainer {
+    position: relative;
+    display: block;
+}
+.minicartWrapperContainer:hover::after {
+      content: "Carrito";
+  display: block;
+  position: absolute;
+  width: 85px;
+  height: 22px;
+  font-size: 14px;
+  background: #000000a3;
+  z-index: 99999;
+  top: 17%;
+  left: 90%;
+  text-align: center;
+  margin: auto;
+  padding: 5px 0 0;
+  color: white;
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+    .minicartContainer :global(.vtex-button__label){
+        padding: 5px;
+    }
+    .openIconContainer::after{
+        content: "Carrito";
+        font-size: 13px;
+        text-align: center;
+        margin-top: -3px;
+        color: #491e81;
+        display: block;
+    }
+    .openIconContainer {
+        text-align: center;
+    }
+    .overlay.overlay--visible{
+        margin: 0 0 0 58px;
+    }
+    .drawer.opened{
+        margin: 0 0 0 57px !important;
+    }
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Trade';
+    src: url(assets/Trade-Gothic-LT-Condensed.ttf);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'Trade';
+    src: url(assets/Trade_Gothic_LT_Bold_Condensed.ttf);
+    font-weight: 600;
+  }

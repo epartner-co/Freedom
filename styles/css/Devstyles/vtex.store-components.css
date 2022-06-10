@@ -1,0 +1,85 @@
+
+.productImageTag.productImageTag--main {background: #eceae6;}
+
+.productImagesThumb.productImagesThumbActive {
+  margin: 0;
+}
+.carouselGaleryCursor {margin: 0 !important;padding: 0;}
+
+.productBrand.productBrand--quickview {text-transform: uppercase;letter-spacing: 1px;margin: 0 0 20px 0;;display: block;}
+/*Page product*/
+/* .skuSelectorItem.skuSelectorItem--selected.skuSelectorItemImage {height: 100%;background: none;} */
+.skuSelectorSubcontainer--color .skuSelectorInternalBox {border: 0;}
+.skuSelectorName {display: block;}
+.skuSelectorSubcontainer--color .skuSelectorName::before {font-weight: 700;content: "Colores Disponibles";font-size: 16px;color: #2A2A2A;text-transform: uppercase;letter-spacing: 1px;}
+.skuSelectorName {font-size: 0;}
+.skuSelectorName::before {font-weight: 700;content: "ELIGE TU TALLA:";font-size: 16px;color: #2A2A2A;letter-spacing: 1px;}
+.skuSelectorInternalBox {width: 100%;}
+.valueWrapper.skuSelectorItemTextValue {font-weight: 700;padding: 5px 12px;color: #808080;font-size: 21px;}
+.skuSelectorItem.skuSelectorItem--selected .valueWrapper.skuSelectorItemTextValue {font-weight: 700;color: white;}
+.skuSelectorItem.skuSelectorItem--negro.skuSelectorItem--selected.skuSelectorItemImage .skuSelectorItemImageValue {border: 2px solid #340572;width: 89%;}
+.valueWrapper {width: 100%;}
+.skuSelectorItem {margin: 0;padding: 0;border-radius: 0;}
+.skuSelectorInternalBox {border-radius: 0;}
+.skuSelectorItem {margin: 0;padding: 0;border-radius: 0;}
+.skuSelectorInternalBox {border-radius: 0;}
+.productImagesThumb {margin: 0;}
+
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.productImagesGallerySlide {
+  width: 100% !important;
+}
+.productImageTag.productImageTag--images-modal-zoom.productImageTag--main.productImageTag--images-modal-zoom--main:hover {
+  transform: scale(1);
+}
+.productImage.productImage--images-modal-zoom:last-child {
+  left: 0;
+}
+@media screen and (max-width: 700px) {
+.productImageTag.productImageTag--main {
+  max-height: none !important;
+  margin: 10px 0;
+}
+}
+
+/*Flechas producto*/
+.productImagesThumbCaret.gradientBaseBottom::before {content: "";width: 30px;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/flecha3-h.png);background-size: 100%;transform: rotate(270deg);}
+.productImagesThumbCaret .caretIcon {display: none;}
+.swiperCaretNext .caretIcon {display: none;}
+.swiperCaret.swiperCaretNext::before {content: ""; width: 37px; height: 37px; background: url(https://callearturop.vteximg.com.br/arquivos/flecha3-h.png);background-size: 100%;display: block;transform: rotate(180deg);margin-right: 15px;}
+.swiperCaret.swiperCaretPrev::before {content: "";width: 37px;height: 37px;background: url(https://callearturop.vteximg.com.br/arquivos/flecha3-h.png); background-size: 100%; display: block;margin-left: 15px;    }
+.swiperCaretPrev .caretIcon {display: none;}
+.carouselCursorDefault {display: none;}
+
+.skuSelectorSubcontainer--talla.skuSelectorSubcontainer {margin: 10px 0 0 0;}
+:global(.vtex-flex-layout-0-x-flexCol--nombreC) .skuSelectorSubcontainer--talla.skuSelectorSubcontainer {
+  width: 60%;
+}
+.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -23px; left: 112px; font-size: 12px;}
+.skuSelectorItem--blanco.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -23px;  right: -180%; font-size: 12px;}
+.gradientBaseTop::before {content: "";
+  width: 30px;
+  height: 30px;
+  background: url(https://callearturop.vteximg.com.br/arquivos/flecha3-h.png);
+  background-size: 100%;
+  display: block;
+  transform: rotate(90deg);}
+.specificationsTable.specificationsTable--especificacionesdeta{
+  background: transparent;
+}
+
+
+@media screen and (max-width: 600px) {
+  .productDescriptionTitle {line-height: 35px;margin-top: 25px;}
+  .specificationsTableContainer.specificationsTableContainer--especificacionesdeta {margin: 16px 5px;}
+  .specificationsTableContainer.specificationsTableContainer--especificacionesapli {margin: 10px 5px;}
+  .productImagesContainer--carousel {margin: 0;}
+  .carouselGaleryThumbs {display: block;margin: -10px 0 0 0;}
+
+  .swiperCaret.swiperCaretNext::before {margin-right: 5px;}
+  .swiperCaret.swiperCaretPrev::before {margin-left: 5px; }
+}

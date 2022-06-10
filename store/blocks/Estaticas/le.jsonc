@@ -1,0 +1,87 @@
+{
+  "store.custom#le": {
+    "children": [
+      "flex-layout.row#EstaticasLie"
+    ]
+  },
+  "flex-layout.row#EstaticasLie":{
+    "children":[
+      "flex-layout.col#EstaticasLie"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasLie":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosLie",
+      "flex-layout.col#ContenidoLie"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosLie":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "le"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#ContenidoLie":{
+    "children":[
+      "rich-text#tituloEstaLie",
+      "rich-text#contenidoEstaLie",
+      "list-context.image-list#demoC6",
+      "rich-text#contenidoEsta2Lie"
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEstaLie": {
+    "props": {
+      "text": "LINEA ÉTICA",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEstaLie": {
+    "props": {
+      "text": "**NUESTRO COMPROMISO** \n\nComercializadora FREEDOM se encuentra comprometida en promover una cultura de transparencia, honestidad e integridad, con el propósito de fomentar dentro de la Compañía una conducta de cero tolerancias frente al Soborno Transnacional, Corrupción, Lavado de Activos y Financiación del Terrorismo, reforzando de tal manera, los valores y principios para actuar siempre correctamente en todas nuestras actividade. \n\n Es un canal de comunicación, que permite a los colaboradores, proveedores, clientes y terceros en general, reportar de manera confidencial y anónima actividades o conductas consideradas como contrarias a la ley o a los intereses de Comercializadora Arturo Calle S.A.S, o realizar consultas relacionadas con temas Éticos, las cuales podrán gestionarse a través del correo lineaetica@freedom.com \n\n Las situaciones que se pueden reportar por la Línea de Ética son: \nParticipación en actividades, negocios u operaciones contrarias a la ley. \nNotificación de actividades sospechosas de Lavado de Activos, Financiación del Terrorismo, o cualquier acto ilícito. \nUso indebido de la información confidencial. \nSituaciones de conflictos de interés en la Compañía. \n Apropiación o uso indebido de los bienes de la Compañía. (Fraude, Hurto y Robo). \n Falsificación de contratos, reportes o registros. \nPrácticas comerciales en contra de los intereses de la Compañía. \n Abuso de las condiciones de administrador, funcionario o colaborador de la Compañía para beneficio propio.\n Situaciones en donde se acepten Agasajos, Regalos, Dádivas y Otros Pagos Inusuales en general, que puedan influir en las decisiones de negocios y operaciones que se efectúen en la Compañía. \nActos de Corrupción, Soborno y Comisiones Ilegales. \n Amenazas (intimidación por parte de un tercero). \n Incumplimiento de políticas y procedimientos.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2Lie": {
+    "props": {
+      "text": "En Comercializadora FREEDOM, velamos por la transparencia y más altas conductas éticas para el desarrollo de nuestras operaciones. \n\n Ten en cuenta que la línea de ética es un canal de comunicación diferente a la línea de servicio al cliente.",
+      "blockClass": "content"
+    }
+  },
+
+        //Sliders
+        "list-context.image-list#demoC6": {
+          "children": ["slider-layout#demo-imagesA"],
+          "props": {
+            "height": 720,
+            "images": [
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerfinal.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerfinalM.png"
+              },
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerfinal.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerfinalM.png"
+              }
+            ],
+            "blockClass": "bannerprincA"
+          }
+        }
+
+}

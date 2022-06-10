@@ -1,0 +1,146 @@
+{
+  "store.custom#pee": {
+    "children": [
+      "flex-layout.row#EstaticasLpe"
+    ]
+  },
+  "flex-layout.row#EstaticasLpe":{
+    "children":[
+      "flex-layout.col#EstaticasLpe"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasLpe":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosLpe",
+      "flex-layout.col#ContenidoLpe"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosLpe":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "pee"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#ContenidoLpe":{
+    "children":[
+      "rich-text#tituloEstaLpe",
+      "rich-text#contenidoEstaLpe",
+      "rich-text#contenidoEsta2Lpe",
+      "rich-text#contenidoEsta3Lpe",
+      "list-context.image-list#demoC2",
+      "rich-text#contenidoEsta4Lpe",
+      "rich-text#contenidoEsta5Lpe",
+      "list-context.image-list#demoC21",
+      "rich-text#contenidoEsta6Lpe",
+      "rich-text#contenidoEsta7Lpe",
+      "rich-text#contenidoEsta8Lpe"
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEstaLpe": {
+    "props": {
+      "text": "POLÍTICAS DE ÉTICA EMPRESARIAL",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEstaLpe": {
+    "props": {
+      "text": "Información Tomada del Manual de Ética y Cumplimiento \n\n **1. OBJETIVO Y ALCANCE** \n\n Promover entre los accionistas, empleados, clientes, proveedores y/o contratistas de Comercializadora Arturo Calle S.A.S., las más altas conductas éticas, transparentes y honestas en el desarrollo de todas nuestras actividades, negocios, contrataciones, operaciones y transacciones internacionales y nacionales, así como el cumplimiento de la normatividad vigente.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2Lpe": {
+    "props": {
+      "text": "**2. COMPROMISO DE LA COMPAÑIA**\n\n Comercializadora Arturo Calle S.A.S., y sus Altos Directivos, se comprometen a promover una cultura de transparencia, honestidad e integridad, con el propósito de fomentar dentro de la Compañía una conducta de cero tolerancia frente al Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva, reforzando de tal manera, los valores y principios para actuar siempre correctamente en todas nuestras actividades.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta3Lpe": {
+    "props": {
+      "text": "**3. PRINCIPIOS CORPORATIVOS** \n **a. Integridad** \nLa Compañía considera la rectitud, veracidad y transparencia de las acciones personales, oponiéndose a la falsedad y engaño, por consiguiente, actúan con apego a los principios éticos y se comprometen al desarrollo intachable de las actividades. \n**b. Buena fe**\nLas actuaciones y ejecución de los procesos en la Compañía se realizan con diligencia, cuidado, legitimidad e imparcialidad, velando por el respeto y cumplimiento de la ley.\n**c. Honestidad**\nEn Comercializadora Arturo Calle S.A.S., entendemos la honestidad como la conducta recta que lleva a observar normas y políticas, así como a actuar con la verdad denotando sinceridad en cada una de las actividades relacionadas con la Compañía. \n**d. Lealtad**\nConstituye el profundo compromiso de los accionistas, empleados y terceros con la Compañía, manifestando aquellas situaciones y conductas relacionadas con Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva y Fraude.\n**e. Legalidad**\nTodas las personas vinculadas a Comercializadora Arturo Calle S.A.S., deben velar por el cumplimiento de la Constitución, las leyes colombianas, normas, políticas, reglamentos, y controles que tanto las autoridades competentes como la Compañía adopten para el desarrollo de las actividades.\n**f. Veracidad**\nLa Compañía expresa con autenticidad las relaciones laborales y sus actividades, diciendo y aceptando la verdad por encima de cualquier cosa.\n**g. Justicia y Equidad**\nLa Compañía se caracteriza por la imparcialidad de reconocer los derechos y deberes de cada uno de sus accionistas, empleados y terceros, utilizando la equivalencia.\n**h. Seguridad**\nComercializadora Arturo Calle S.A.S., tiene herramientas, medidas técnicas, humanas y administrativas que garantizan la seguridad de la información evitando la así la adulteración, perdida, consulta, fuga, uso o accesos no autorizado o fraudulento de la información suministrada por empleados, accionistas, proveedores o contratistas, relacionados con el Sistema de Gestión del Riesgo de Soborno Transnacional y de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva.\n**i. Confidencialidad**\nComercializadora Arturo Calle SAS., protege toda la información (oficial o privada en cualquier forma que se encuentre dicha información) de la sociedad, sus empleados, accionistas y terceros. Los Empleados de la Compañía darán tratamiento adecuado, prudente y reservado a la información de carácter confidencial o privilegiado, absteniéndose de usar esta información de forma diferente a la autorizada, o de facilitarla a terceros sin las autorizaciones pertinentes para fines indebidos.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta4Lpe": {
+    "props": {
+      "text": "**4. POLÍTICAS DE CUMPLIMIENTO**Las Políticas de Cumplimiento establecidas por Comercializadora Arturo Calle S.A.S., las cuales se relacionan a continuación, son una guía de actuación para todos los accionistas, empleados, clientes proveedores y/o contratistas con el fin de desarrollar una conducta profesional diligente.\na. Conflicto de Interés Actuar permanentemente de buena fe, siempre velando por los intereses de la Compañía, evitando participar en actividades, o administrar negocios contrarios a los intereses de la Compañía. \nb. Prevención y Control de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva Utilizar los procedimientos, mecanismos e instrumentos establecidos por la Compañía, para la prevención y control del lavado de activos, la financiación del terrorismo y la financiación de la proliferación de armas de destrucción Masiva. \nc. Agasajos, Regalos, Dádivas y Otros Pagos Inusuales En el curso de una contratación, los terceros No deberán ofrecer ni recibir ninguna clase de remuneración por parte de los empleados de la Compañía, o viceversa. \nd. Remuneraciones y pago de comisiones a Empleados y Contratistas en Procesos de Negociación No realizar remuneraciones ni pago de comisiones a empleados o contratistas sin aprobación previa de la Gerencia o Dirección que lidere el área correspondiente. \ne. Gastos de Entretenimiento, Alimentación, Hospedaje y Viajes en los Procesos de Negociación Sólo cubre gastos de pasaje y hospedaje por los viajes ligados estrictamente al negocio. \nf. Contribuciones Políticas Comercializadora Arturo Calle S.A.S, tiene prohibido apoyar o realizar contribuciones políticas a su nombre, a candidatos, partidos y organizaciones políticos. \ng. Tratos con Instituciones Estatales  Comercializadora Arturo Calle S.A.S, prohíbe ofrecer, prometer y otorgar cualquier beneficio de valor agregado, a funcionarios de instituciones estatales, cumpliendo las disposiciones legales del país respectivo.  \nh. Donaciones \nComercializadora Arturo Calle S.A.S, efectúa donaciones a la Fundación Arturo Calle, contribuyendo al desarrollo social y mejoramiento de las comunidades menos favorecidas del país. En caso de realizar una donación a una entidad externa, previamente debe ser avalada por la Gerencia General de la Compañía. \ni. Contribuciones y Patrocinios \nLas contribuciones y patrocinios deberán ser transparentes, rastreables, verificables, y adecuadamente justificadas y requerirán aprobación por el Gerente General de Comercializadora Arturo Calle S.A.S. \nj. Consumo de Alcohol y Drogas Ilícitas \nSe prohíbe portar, vender, distribuir, ingerir o presentarse a laborar bajo los efectos, en periodo de post-ingestión y/o síndrome de abstinencia, de bebidas alcohólicas, sustancias psicoactivas, bebidas fermentadas. Así mismo se prohíbe fumar en áreas de trabajo, vehículos de transporte propios o asignados por la Compañía, en sus instalaciones. \nk. Prevención de Actos Incorrectos y de Fraude \nComercializadora Arturo Calle S.A.S, no acepta prácticas que atenten contra la transparencia y legalidad, tanto al interior de la Compañía como en las relaciones comerciales con los diferentes grupos de interés, por lo cual tiene una posición de cero tolerancias frente al fraude y actos incorrectos.  \ni. Manejo de Dinero en Efectivo \nEl manejo de efectivo en la Compañía se encuentra regulado por nuestro SAGRILAFT. \nm. Código de Ética    \nLa Compañía resume los estándares mínimos que orientan el comportamiento ético que deben seguir todos los empleados en el Código de Ética. Comercializadora Arturo Calle S.A.S., no tolerará ninguna actuación de ninguna persona, natural o jurídica, que atente contra principios éticos o morales.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta5Lpe": {
+    "props": {
+      "text": "**5. CONFIDENCIALIDAD Y SEGURIDAD DE LA INFORMACIÓN** \n\n Todos accionistas, empleados, clientes, proveedores y/o contratistas deberán mantener la debida reserva sobre los documentos de trabajo y la información confidencial que se encuentre bajo su cuidado. Por lo tanto, Comercializadora Arturo Calle S.A.S, rechaza el uso indebido de dicha información, exigiendo no revelar ni divulgar en forma alguna la información sobre la cual tenga conocimiento o acceso durante la ejecución y terminación de cualquier contrato u operación comercial, incluyendo cualquier información confidencial, reservada, privilegiada, privada o bajo cualquier otro término similar que sea propiedad de la Compañía.\n Por tal motivo, la Compañía cuenta con procedimientos de Seguridad de la Información, que permiten la ejecución adecuada de esta política.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta6Lpe": {
+    "props": {
+      "text": "**6.CONTROL Y SUPERVISIÓN DE LAS POLÍTICAS DE CUMPLIMIENTO** \n\nPara Comercializadora Arturo Calle S.A.S, es importante supervisar y evaluar de manera periódica, la eficiencia y efectividad del Manual de Ética y Cumplimiento y sus respectivas políticas, con el fin de tomar a tiempo los correctivos necesarios para impedir la materialización de riesgos de Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva.\nPor lo anterior, la Compañía por medio del Oficial de Cumplimiento , verificará que se contemplen los cambios legislativos y regulatorios, la debida diligencia realizada, la cultura de transparencia por parte de los accionistas, empleados, clientes, proveedores y/o contratistas y coordinará la realización de encuestas a ellos, con el fin de verificar la efectividad del Manual de Ética y Cumplimiento.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta7Lpe": {
+    "props": {
+      "text": "**7. CANALES DE COMUNICACIÓN**\n\n Para Comercializadora Arturo Calle S.A.S, es importante supervisar y evaluar de manera periódica, la eficiencia y efectividad del Manual de Ética y Cumplimiento y sus respectivas políticas, con el fin de tomar a tiempo los correctivos necesarios para impedir la materialización de riesgos de Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva.\nPor lo anterior, la Compañía por medio del Oficial de Cumplimiento , verificará que se contemplen los cambios legislativos y regulatorios, la debida diligencia realizada, la cultura de transparencia por parte de los accionistas, empleados, clientes, proveedores y/o contratistas y coordinará la realización de encuestas a ellos, con el fin de verificar la efectividad del Manual de Ética y Cumplimiento.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta8Lpe": {
+    "props": {
+      "text": "**8. SANCIONES**\n\n El incumplimiento de las disposiciones previstas en el Manual de Ética y Cumplimiento de Comercializadora Arturo Calle S.A.S., por parte de los accionistas, empleados, proveedores y/o contratistas y demás partes de interés, dará lugar a la imposición de sanciones administrativas o disciplinarias dependiendo del caso (reglamento de trabajo, contratos, entre otros) entendiéndose como una falta grave. Por lo anterior, se entenderá como conductas contrarias al cumplimiento de este Manual: \n  Realizar alguna de las conductas mencionadas como fuentes de riesgo sin cumplir con los requisitos o procedimientos impuestos por la Compañía. \n No informar, tolerar, consentir o ignorar alguna conducta contraria al presente Programa de Ética Empresarial.\n Discutir, difundir o entregar información sobre cualquier posible incumplimiento del presente programa sin la autorización previa y expresa del Oficial de Cumplimiento.",
+      "blockClass": "content"
+    }
+  },
+
+        //Sliders
+        "list-context.image-list#demoC2": {
+          "children": ["slider-layout#demo-imagesA"],
+          "props": {
+            "height": 720,
+            "images": [
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterpeeM.png"
+              },
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterpeeM.png"
+              }
+            ],
+            "blockClass": "bannerprincA"
+          }
+        },
+        "list-context.image-list#demoC21": {
+          "children": ["slider-layout#demo-imagesA"],
+          "props": {
+            "height": 720,
+            "images": [
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee2.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee2M.png"
+              },
+              {
+                "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee2.png",
+                "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterpee2M.png"              }
+            ],
+            "blockClass": "bannerprincA"
+          }
+        }
+
+}

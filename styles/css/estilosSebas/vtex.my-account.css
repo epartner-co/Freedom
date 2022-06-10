@@ -1,0 +1,76 @@
+.boxContainerFooter :global(.vtex-button__label){
+    color: #F44753 !important; 
+    font-weight: bold;
+}
+.boxContainerFooter :global(.vtex-button__label):hover{
+    color: #00E8FF !important; 
+    font-weight: bold;
+}
+.boxContainerFooter :global(.vtex-button):hover{
+    background: transparent;
+}
+.dataEntryLabel{
+    font-weight: bold;
+    color: #2A2A2A;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.boxContainerBody :global(.vtex-button__label){
+    color: white !important;
+    font-family: 'Trade';
+}
+.boxContainerBody :global(.vtex-button){
+    transform: matrix(1, -0.02, -0.01, 1, 0, 0);
+}
+.boxContainer :global(.vtex-input__label){
+    color: #2A2A2A;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Trade';
+}
+:global(.vtex-account_menu-link){
+    padding: 16px 8px;
+    border-top: 1px solid #d3d3d3;
+    margin: 0;
+    text-transform: uppercase;
+}
+:global(.vtex-pageHeader__children) :global(.vtex-button__label){
+    color: white !important;
+}
+:global(.vtex-pageHeader__children) :global(.vtex-button){
+    transform: matrix(1, -0.02, -0.01, 1, 0, 0);
+}
+@media (max-width: 600px) {
+    .menu {
+        padding: 0px;
+        margin: 10px ;
+    }
+    .menuLinks{
+        border: 1px solid #D3D3D3;
+    }
+    :global(.vtex-account_menu-link){
+        border: 0 !important;
+    }
+    .menuLink{
+        padding: 16px 8px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .boxContainerBody{
+        padding: 10px;
+    }
+    :global(.vtex-pageHeader__title) {
+        color: white;
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverMoradoMenulvl1.png) no-repeat;
+        background-size: 77%;
+        height: 60px;
+        padding: 10px;
+    }
+    :global(.vtex-account__page) :global(.vtex-slider-layout-0-x-sliderLayoutContainer):global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf){
+        padding: 0 !important;
+    }
+    :global(.vtex-account__page-body) :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf){
+        left: 0;
+    }
+}

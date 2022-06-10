@@ -1,0 +1,110 @@
+{
+    "vtex.menu@2.x:menu#siteM": {
+        "children": [
+         // "menu-item#logo",
+          "flex-layout.row#logo",
+    /*      "flex-layout.row#Buscar",
+          "flex-layout.row#Carrito",
+          "flex-layout.row#Favoritos",
+          "flex-layout.row#Categorias",
+    */      "drawer#buscar",
+            "minicart.v2",
+            "flex-layout.row#Favoritos",
+            "disclosure-layout#all-menu-submenu-m-lvl1",
+            "flex-layout.row#hombre-socialMedia-footer-m"
+    
+        ]
+    },
+
+    // trigger para activar el menu
+    "disclosure-layout#all-menu-submenu-m-lvl1": {
+        "children": ["disclosure-trigger#menu-all-menuM-lvl1","disclosure-content#menu-all-menuM-lvl1"],
+        "props": {
+            "blockClass": "subMneusM"
+        }
+    },
+    // sub Menu trigger principal
+    "disclosure-trigger#menu-all-menuM-lvl1": {
+        "children": ["menu-item#vtex-website2C4Mobile"],
+        "props": {
+            "blockClass": "subMneusMTrigger"
+        }
+    },
+    "disclosure-content#menu-all-menuM-lvl1": {
+        "children": ["flex-layout.row#principalM"],
+        "props": {
+            "blockClass": ["subMenuLv1"]
+        }
+    },
+    // contenedor padre del menu
+    "flex-layout.row#principalM": {
+        "props": {
+          "blockClass": "Submenu"
+        },
+        "children": [
+          "flex-layout.col#principalM"
+        ]
+    },
+    "flex-layout.col#principalM": {
+        "props": {
+          "blockClass": "Submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#principalM"
+        ]
+    },
+    // menu contenedor hijo
+    "vtex.menu@2.x:menu#principalM": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "Submenu"
+        },
+        "children": [
+            "flex-layout.col#menuprincipalFila1-m"
+        ]
+    },
+    // items del menu
+    "flex-layout.col#menuprincipalFila1-m": {
+        "props": {
+            "blockClass": ["Submenu","lvl1"]
+        },
+        "children": [
+            "disclosure-layout#ropa-menu-submenu-m-lvl1",
+            "disclosure-layout#zapatos-menu-submenu-m-lvl1",
+            "disclosure-layout#accesorios-menu-submenu-m-lvl1",
+            "menu-item#marcas-customStudio",
+            "disclosure-layout#sale-menu-submenu-m-lvl1",
+            "flex-layout.col#hombre-container-footer"
+        ]
+    },
+
+    "menu-item#vtex-website2C4Mobile": {
+        "props": {
+          "blockClass": ["vertical","categoria"],
+          "id": "menu-item-vtex-website",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "noFollow": false,
+            "tagTitle": "category",
+            "text": "Categoria"
+          }
+        }
+    },
+
+    // footer mobile
+    "flex-layout.row#hombre-socialMedia-footer-m":{
+        "props":{
+            "width":"100%",
+            "blockClass":["social-Media-menu-M"]
+        },
+        "children":[
+            "rich-text#facebook",
+            "rich-text#instagrams",
+            "rich-text#tik-tok",
+            "rich-text#youtube"
+        ]
+    }
+}

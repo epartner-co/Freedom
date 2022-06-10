@@ -1,0 +1,306 @@
+.sliderTrackContainer {
+    max-width: 100% !important;
+}
+.slide--shelf.slide--wish {
+    max-width: 35%;
+}
+.sliderLeftArrow--carousel::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/flechaCarruselComun.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    transform: rotate(180deg);
+    width: 39px;
+    height: 39px;
+    transition: all 40ms;
+}
+.sliderLeftArrow--carousel  {
+    left: 67px;
+}
+.sliderRightArrow--carousel::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/flechaCarruselComun.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+.sliderLeftArrow--carousel:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    transform: rotate(180deg);
+    height: 39px;
+}
+.sliderRightArrow--carousel:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    transform: rotate(0deg);
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+/* vitrinas */
+.sliderLeftArrow--shelf::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    height: 39px;
+    transition: all 40ms;
+}
+.sliderLeftArrow--carousel  {
+    left: 67px;
+}
+.sliderRightArrow--shelf::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    transform: rotate(180deg);
+    width: 39px;
+    height: 39px;
+}
+.sliderLeftArrow--shelf:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    transform: rotate(180deg);
+    height: 39px;
+}
+.sliderRightArrow--shelf:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    transform: rotate(0deg);
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+/* flechas del slider category */
+.sliderLeftArrow--carousel-categorias::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    height: 39px;
+    transition: all 40ms;
+    display: none;
+}
+.sliderRightArrow--carousel-categorias::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/flechita-azulCategorias.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+.sliderLeftArrow--carousel-categorias:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    transform: rotate(180deg);
+    height: 39px;
+}
+.sliderRightArrow--carousel-categorias:hover::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    transform: rotate(0deg);
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+.caretIcon {
+    display: none;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelf{
+    margin-top: 20px;
+    padding: 0 35px !important;
+}
+.sliderTrackContainer.sliderTrackContainer--carousel-categorias {
+    margin: 0;
+}
+.sliderLayoutContainer--carousel-categorias{
+    background: transparent;
+}
+.paginationDot {
+    background: url(https://callearturop.vteximg.com.br/arquivos/diamante-dots.png) no-repeat;
+    background-size: 100%;
+    height: 20px !important;
+    width: 20px !important;
+}
+.paginationDot--isActive {
+    background: url(https://callearturop.vteximg.com.br/arquivos/cerrar-boton-dots.png) no-repeat;
+    background-size: 100%;
+    height: 20px !important;
+    width: 20px !important;
+}
+.sliderLayoutContainer--carousel-tabbersFreeedom{
+    background: transparent;
+}
+.sliderTrackContainer--carousel-tabbersFreeedom {
+    margin: 20px 0 50px 67px;
+    padding: 0 30px;
+}
+/* .slideChildrenContainer--carousel-tabbersFreeedom {
+    border: 1px solid #D3D3D3;
+    transform: matrix(1,-0.02,-0.02,1,0,0);
+    margin: 10px;
+} */
+.sliderTrackContainer--carousel-categorias :global(.vtex-store-components-3-x-infoCardTextContainer) :global(.vtex-button__label):hover{
+    color: #50BDA3;
+}
+.sliderTrackContainer--carousel-categorias :global(.vtex-store-components-3-x-infoCardTextContainer) :global(.vtex-button):hover{
+    color: #50BDA3;
+}
+.slide.slide--shelf2 {
+    margin: 0 0 13px 0;
+}
+.imageElementLink--carouselC {
+    width: 100%;
+    max-width: 100%;
+}
+@media (max-width: 600px) {
+    .listContainer--tabbersCategory {
+        margin: 0 0 30px 0;
+        padding: 0 10px;
+    }
+    .container--home .listContainer--tabbersCategory .listItem {
+        width: 100%;
+    }
+    :global(.vtex-tab-layout-0-x-container):global(.vtex-tab-layout-0-x-container--home) .sliderLayoutContainer {
+        margin: 0;
+        padding: 0 !important;
+    }
+    /* flechas del slider category */
+    .sliderLeftArrow--carousel-categorias::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechitaDeVateogriaM.png) no-repeat;
+        background-size: 100%!important;
+        display: block;
+        width: 39px;
+        transform: rotate(180deg);
+        height: 39px;
+        transition: all 40ms;
+    }
+    .sliderRightArrow--carousel-categorias::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/flechitaDeVateogriaM.png) no-repeat;
+        background-size: 100%!important;
+        display: block;
+        width: 39px;
+        height: 39px;
+    }
+    .slide--carousel-categorias {
+        padding: 5px;
+    }
+    .paginationDotsContainer--carousel-categorias {
+        bottom: -31px;
+    }
+    .sliderLayoutContainer--carousel{
+        background: transparent;
+    }
+    .paginationDotsContainer--carousel-duales {
+        margin-left: 67px;
+    }
+    .sliderLayoutContainer--shelf2{
+        padding: 0% !important;
+    }
+    .sliderTrack--carousel-duales {
+        padding: 10px;
+    }
+    .sliderLayoutContainer.sliderLayoutContainer--shelf {
+        margin-top: 20px;
+        padding: 0 0 0 58px!important;
+    }
+    .sliderLeftArrow--shelf {
+        left: 67px;
+    }
+    .paginationDotsContainer--shelf {
+        margin-left: 67px;
+    }
+    :global(.vtex-tab-layout-0-x-container) .paginationDotsContainer--shelf {
+        margin-left: 0px;
+        bottom: -8px;
+    }
+    .slide--shelf2--visible {
+        padding: 0 0px 0 10px;
+    }
+    .sliderLeftArrow--carousel {
+        left: 0;
+    }
+    .paginationDotsContainer--carousel-tabbersFreeedom {
+        margin-left: 67px;
+    }
+    .sliderTrackContainer--categoriasCarousel {
+        margin-left: 0;
+    }
+    :global(.vtex-tab-layout-0-x-container--home) .sliderLeftArrow--shelf {
+        left: 0px;
+    }
+    .sliderTrackContainer.sliderTrackContainer--tabbers-slider {
+        margin: 0;
+    }
+    .sliderLeftArrow--tabbers-slider::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+        background-size: 100%!important;
+        display: block;
+        transform: rotate(180deg);
+        width: 25px;
+        height: 25px;
+        transition: all 40ms;
+    }
+    .sliderRightArrow--tabbers-slider::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+        background-size: 100%!important;
+        display: block;
+        transform: rotate(0deg);
+        width: 25px;
+        height: 25px;
+    }
+    .sliderTrackContainer--carousel-tabbersFreeedom {
+        margin: 20px 0 50px 58px;
+    }
+    .sliderTrackContainer--carousel {
+        margin: 0 0 0 58px;
+    }
+    .sliderTrackContainer.sliderTrackContainer--carousel-duales {
+        margin: 0;
+    }
+    .sliderLeftArrow--shelf2:hover::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+        background-size: 100%!important;
+        display: block;
+        width: 39px;
+        transform: rotate(180deg);
+        height: 39px;
+    }
+    .sliderRightArrow--shelf2:hover::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/hoverVitrinas.png) no-repeat;
+        background-size: 100%!important;
+        transform: rotate(0deg);
+        display: block;
+        width: 39px;
+        height: 39px;
+    }
+    .paginationDotsContainer--shelf2 {
+        bottom: -25px;
+    }
+    .imageElement--carouselC {
+        width: 100%;
+    }
+}

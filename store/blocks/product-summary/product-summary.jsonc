@@ -1,0 +1,150 @@
+  {
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-sku-selector#vitrina",
+      "flex-layout.row#vitrina",
+      "flex-layout.row#buttonComprar"
+    ]
+  },
+  "flex-layout.row#buttonComprar":{
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass": "comprar"
+    }
+  },
+  "add-to-list-btn#wishlist":{
+    "props":{
+      "blockClass":"vitrinas"
+    }
+  },
+  //vitrina
+  "product-summary-sku-selector#vitrina":{
+    "props":{
+      "initialSelection":"empty",
+      "blockClass": "vitrina",
+      "hideImpossibleCombinations": false
+    }
+  },
+  "flex-layout.row#vitrina":{
+    "children": [
+      "flex-layout.col#nombre",
+      "flex-layout.col#cantidad"
+    ],
+    "props":{
+      "blockClass": "Ninferior"
+    }
+  },
+  "flex-layout.col#cantidad":{
+    "props":{
+      "width": "20%",
+      "verticalAlign": "middle",
+      "blockClass": "preciosc",
+      "paddingLeft": "0px",
+      "paddingRight": "5px"
+    },
+    "children":[
+      "add-to-list-btn#wishlist",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price"
+    ]
+  },
+  "flex-layout.col#nombre":{
+   "children": [
+    "product-summary-name#vitrina"
+   ],
+   "props":{
+     "width": "100%",
+     "verticalAlign": "middle",
+     "blockClass": "name",
+     "paddingLeft": "5px",
+     "paddingRight": "0px"
+   }
+ },
+ "product-summary-name#vitrina":{
+  "props":{
+    "blockClass":"nombre"
+  }
+},
+
+
+
+
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      // "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "3:4",
+      "maxHeight": 550
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "flex-layout.row#bannerContenedorSecundario":{
+    "children":[
+      "slider-layout#slider-categorias"
+    ],
+    "props":{
+      "blockClass":"bannerssecond"
+    }
+  },
+  "slider-layout#slider-categorias": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots":"mobileOnly",
+      "blockClass": ["carousel","carousel-categorias"]
+    },
+    "children":[
+      "info-card#primer",
+      "info-card#segun",
+      "info-card#tercer",
+      "info-card#cuarto",
+      "info-card#quinta",
+      "info-card#tercer",
+      "info-card#primer",
+      "info-card#quinta",
+      "info-card#tercer"
+    ]
+  },
+  //Inicio banners secundarios 
+  "flex-layout.row#bannerssecundarios":{
+    "children":[
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2",
+      "flex-layout.col#banner3"
+    ],
+    "props":{
+      "blockClass":"bannerssecond"
+    }
+  },
+  "flex-layout.col#banner1":{
+    "props":{
+      "blockClass": "bannersup"
+    },
+    "children":[
+      "info-card#primer"
+    ]
+
+  },
+  "flex-layout.col#banner2":{
+    "props":{
+      "blockClass": "bannermid"
+    },
+    "children":[
+      "info-card#segun"
+    ]
+
+  },
+  "flex-layout.col#banner3":{
+    "props":{
+      "blockClass": "bannerbottom"
+    },
+    "children":[
+      "info-card#tercer"
+    ]
+  },
+  "flex-layout.col#banner4":{
+    "props":{
+      "blockClass": "bannersup"
+    },
+    "children":[
+      "info-card#cuarto"
+    ]
+
+  },
+  "flex-layout.col#banner5":{
+    "props":{
+      "blockClass": "bannermid"
+    },
+    "children":[
+      "info-card#quinta"
+    ]
+
+  },
+  "flex-layout.col#banner6":{
+    "props":{
+      "blockClass": "bannerbottom"
+    },
+    "children":[
+      "info-card#tercer"
+    ]
+  },
+
+  "info-card#primer": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria3.png",
+      "headline": "Jeans",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/jean?map=ft",
+      "blockClass": "info-card-homeS",
+      "textAlignment": "left"
+    }
+  },  
+  "info-card#segun": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria2.png",
+      "headline": "Camisetas",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/camiseta?map=ft",
+      "blockClass": "info-card-homeM",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#tercer": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria1.png",
+      "headline": "Buzos",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/buzo?map=ft",
+      "blockClass": "info-card-homeB",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#cuarto": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/blusas-desk.png",
+      "headline": "Blusas",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/blusa?map=ft",
+      "blockClass": "info-card-homeS",
+      "textAlignment": "left"
+    }
+  },  
+  "info-card#quinta": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/pantalones-desk-leggins.png",
+      "headline": "Pantalones y leggins",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/pantalon?map=ft",
+      "blockClass": "info-card-homeM",
+      "textAlignment": "left"
+    }
+  }
+}

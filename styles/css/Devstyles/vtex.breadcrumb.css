@@ -1,0 +1,14 @@
+.term {color: #340572;font-size: 12px;}
+
+.arrow {color: #808080;}
+
+.link {color: #808080;font-size: 12px;}
+
+.homeIcon {display: none;}
+
+.link.homeLink {width: 20px;height: 20px;background: url(https://callearturop.vteximg.com.br/arquivos/breadcumbs.png);background-size: 100%;}
+
+@media screen and (max-width: 600px) {
+.container {font-weight: 700;}
+.term {display: none;}
+}

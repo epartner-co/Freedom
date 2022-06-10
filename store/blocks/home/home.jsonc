@@ -1,0 +1,290 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+//      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#bannerContenedorSecundario",
+      //"rich-text#shelf-title",
+      "rich-text#shelf-title-tabbers",
+      "tab-layout#tabsCatego",
+      "responsive-layout.desktop#bannerdual",
+      "responsive-layout.phone#bannerdual",
+      "flex-layout.row#vitrineCategory",
+      "list-context.image-list#demo2",
+      "info-card#home3",
+      "rich-text#shelf-title-#freedom",
+      "flex-layout.row#shelf",
+      "flex-layout.row#banners3",
+      "rich-text#shelf-title-#freedom-del-mes",
+      "flex-layout.row#shelf-2",
+      "rich-text#shelf-title-#freedom-moda",
+      "slider-layout#slider-FRREDOM-MODA"
+      /*"info-card#home",
+      "rich-text#question",
+      "rich-text#link",
+      "newsletter"*/
+    ]
+  },
+
+  //Sliders
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png"
+        }
+
+      ],
+      "blockClass": "bannerprinc"
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots":"desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  //Vitrina con banner
+  "flex-layout.row#vitrineCategory":{
+    "children": [
+        "flex-layout.col#col-vitrine-category",
+        "flex-layout.col#col-vitrine-category-1"
+    ],
+    "props":{
+        "blockClass": "row-vitrine-category"
+    }
+},
+"flex-layout.col#col-vitrine-category":{
+    "children": [
+      "responsive-layout.desktop#bannerVitrinna",
+      "responsive-layout.phone#bannerVitrinna"
+    ],
+    "props":{
+        "width":"37%",
+        "blockClass": "imagenColumnCategory"
+    }
+},
+  //BAnners duales
+  "responsive-layout.desktop#bannerVitrinna": {
+      "children": [
+        "image#imagenCategory"
+      ]
+  },
+  "responsive-layout.phone#bannerVitrinna": {
+      "children": [
+        "image#imagenCategory-m"
+      ]
+  },
+// imagen mobile
+"image#imagenCategory-m": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/omagenMobile.png",
+    "blockClass": "imgvitrina"
+  }
+},
+// imagendekr
+"image#imagenCategory": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/banner-vitrina.png",
+      "blockClass": "imgvitrina"
+    }
+},
+"flex-layout.col#col-vitrine-category-1":{
+    "children": [
+        "list-context.product-list#category-2"
+    ],
+    "props":{
+        "width":"63%",
+        "blockClass": "sliderVitrine"
+    }
+},
+"list-context.product-list#category-2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-category-2"]
+},
+"slider-layout#demo-category-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf2",
+      "showPaginationDots":"mobileOnly",
+      "showPaginationArrows":"mobileOnly"
+    }
+},
+
+
+//Sliders secundario
+"list-context.image-list#demo2": {
+  "children": ["slider-layout#demo-images2"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
+        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/mobile-vitrina.png"
+      },
+      {
+        "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
+        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/mobile-vitrina.png"
+      }
+    ],
+    "blockClass": "bannerprinc"
+  }
+},
+"slider-layout#demo-images2": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots":"false",
+    "blockClass": "carousel"
+  }
+},
+//Tarjeta inferior
+"info-card#home3": {
+  "props": {
+    "id": "info-card-home",
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner4.png",
+    "headline": "SE PARTE DEL\n TEAM #FREEDOM",
+    "callToActionText": "EXPLORAR AHORA",
+    "callToActionUrl": "/pee",
+    "blockClass": "info-card-home3",
+    "textAlignment": "right"
+  }
+},
+
+
+  "rich-text#shelf-title-#freedom": {
+    "props": {
+      "text": "## SE PARTE DEL TEAM #FREEDOM",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-#freedom-del-mes": {
+    "props": {
+      "text": "## LO MÁS VENDIDO DEL MES",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "blockClass": "team"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "team"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots":"mobileOnly",
+      "showNavigationArrows":"always",
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelf-2": {
+    "children": ["list-context.product-list#demo1-mes"],
+    "props":{
+      "blockClass":"productosMes"
+    }
+  },
+  "list-context.product-list#demo1-mes": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products-mes"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products-mes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots":"mpbileOnly",
+      "showNavigationArrows":"always",
+      "blockClass": ["shelf","productoMes"]
+    }
+  },
+
+  //Banners last
+  "flex-layout.row#banners3": {
+    "props":{
+      "blockClass": "Bannerthrid",
+      "marginTop": 4
+    },
+    "children": ["flex-layout.col#banner3.1", "flex-layout.col#banner4.1"]
+  },
+  "flex-layout.col#banner3.1" : {
+    "props":{
+      "blockClass": "Bannertwo",
+      "width": "50%"
+    },
+    "children": ["image#banner3.1.1"]
+  },
+  "image#banner3.1.1":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/banner5-1.png",
+      "blockClass": "imgcuadra"
+    }
+  },
+  "flex-layout.col#banner4.1": {
+    "props":{
+      "blockClass": "infocardtexto1",
+      "width": "50%"
+    },
+    "children": ["info-card#banner4.1"]
+  },
+  "info-card#banner4.1": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner5-2.png",
+      "mobileImageUrl":"https://callearturop.vteximg.com.br/arquivos/imagenMobile.png",
+      "headline": "CONOCE MÁS SOBRE FREEDOM",
+      "callToActionText": "EXPLORAR MÁS",
+      "callToActionUrl": "/about-us",
+      "blockClass": "info-card-homeS3",
+      "textAlignment": "left"
+    }
+  }
+
+
+}

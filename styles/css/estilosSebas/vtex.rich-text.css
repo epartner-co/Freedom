@@ -1,0 +1,333 @@
+.container--shelfTitle {
+    padding-left: 40px;
+    justify-content: flex-start;
+    margin: 80px 0 0px 67px;
+}
+.headingLevel2--shelfTitle {
+    color: #2A2A2A;
+    font-size: 33px;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+}
+.paragraph--shelfTitle{
+    color: #2A2A2A;
+    font-size: 33px;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+}
+.link--shelfTitle{
+    text-decoration: none;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+.link--tabbersUltimos{
+    text-decoration: none;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+}
+.wrapper--tabbersUltimos .paragraph--shelfTitle{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.container--TABBERS-HOME {
+    padding: 0 40px;
+    justify-content: flex-end;
+}
+.link--TABBERS-HOME{
+    color: red;
+    font-weight: bold;
+    transform: rotate(-2deg);
+    display: block;
+}
+.paragraph--TABBERS-HOME{
+    margin: 0;
+}
+/* footer */
+.paragraph--footerPost{
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+.link--footerPost{
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
+.container--footerPost {
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.paragraph--titulos-footer{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container--desarrollado-por {
+    justify-content: center;
+}
+.wrapper--desarrollado-por{
+    margin-left: -100px;
+}
+/* filtros */
+:global(.vtex-disclosure-layout-1-x-trigger--fitroTrigger) .container--tituloFiltro {
+    justify-content: center;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--fitroTrigger) .paragraph--tituloFiltro{
+    padding: 13px 25px;
+    background: #340572;
+    transform: matrix(1, -0.03, 0, 1, 0, 0);
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+    line-height: 19px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--fitroTrigger) .paragraph--tituloFiltro::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/filtrosIcon.png) no-repeat;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 5px;
+}
+.paragraph--tituloFiltro2{
+    font-size: 30.04px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #340572;
+    font-weight: bold;
+}
+.container--tabbersUltimos {
+    width: 100%;
+    justify-content: center;
+}
+.wrapper--tabbersUltimos{
+    width: 100%;
+}
+.paragraph--tabbersUltimos{
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+.link--tabbersUltimos{
+    padding: 18px;
+    text-align: center;
+    width: 91%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #D3D3D3;
+    transform: matrix(1,-0.02,-0.02,1,0,0);
+    transition: 400ms all;
+}
+.link--tabbersUltimos:hover{
+    background: #340572;
+    color: white;
+    border: 1px solid #340572;
+}
+.container--marcas-Item {
+    justify-content: center;
+}
+.paragraph--marcas-Item {
+    margin: 10px 0;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+.paragraph--freedom{
+    border: 1px solid white;
+    padding: 0 10px;
+}
+.link--marcas-Item{
+    text-decoration: none;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+}
+.link--freedom{
+    font-size: 0;
+}
+.link--colore{
+    font-size: 0;
+}
+.link--maravela{
+    font-size: 0;
+}
+.link--colore::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/colore-new-logo.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 60px;
+    height: 15px;
+}
+.link--freedom::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/logo-2.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 60px;
+    height: 15px;
+}
+.link--maravela::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/maravvela-new-logo.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 76px;
+    height: 24px;
+}
+.wrapper--arturo-calle .link{
+    font-size: 0;
+}
+.wrapper--arturo-calle .link::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/arturo-calle-new-logo.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 89px;
+    height: 34px;
+}
+.container--freedom {
+    background: #340572;
+}
+.paragraph--tittle-tabbers{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #2A2A2A;
+}
+.paragraph--filtros-boton{
+    padding: 13px 25px;
+    background: #340572;
+    transform: matrix(1,-0.03,0,1,0,0);
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+    line-height: 19px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.paragraph--filtros-boton::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/filtrosIcon.png) no-repeat;
+    background-size: 100%;
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 5px;
+}
+@media (max-width: 600px) {
+    .paragraph--filtros-boton{
+        margin-right: 10px;
+    }
+    .container--TABBERS-HOME {
+        padding: 0 10px;
+        justify-content: flex-end;
+    }
+    .headingLevel2--shelfTitle {
+        text-align: right;
+        padding-right: 10px;
+        font-size: 28px;
+    }
+    .paragraph--shelfTitle {
+        text-align: right;
+        padding-right: 10px;
+        font-size: 28px;
+    }
+    .wrapper--shelfTitle {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .container--shelfTitle {
+        margin: 30px 0 0px 67px;
+    }
+    .link--tabbersUltimos {
+        font-size: 16px;
+    }
+    .container.container--tituloFiltro {
+        justify-content: flex-end;
+    }
+    .container.container--tituloFiltro2 {
+        justify-content: flex-start;
+    }
+    .paragraph--title-sobreNosotros{
+        margin: 15px 0 0 0;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: url(https://callearturop.vteximg.com.br/arquivos/fondoAzul-mobile.png) no-repeat;
+        background-size: 100%;
+        padding: 3px 10px;
+    }
+    .paragraph--contenido-sobreNosotros{
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .container--titulos-footer {
+        display: none;
+    }
+    .paragraph--post-footer{
+        color: white;
+        font-size: 9px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .link--post-footer{
+        color: white;
+    }
+    .paragraph--title-copy{
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .paragraph--post-footer{
+        padding: 0 10px;
+    }
+    .container--shelfTitle {
+        margin: 30px 0 0px 58px;
+    }
+    .link--colore::before{
+        width: 40px;
+        height: 15px;
+    }
+    .link--freedom::before{
+        width: 40px;
+        height: 15px;
+    }
+    .link--maravela::before{
+        width: 46px;
+        height: 14px;
+    }
+    .wrapper--arturo-calle .link::before{
+        width: 59px;
+        height: 24px;
+    }
+    .paragraph--marcas-Item {
+        margin: 5px 0;
+    }
+}

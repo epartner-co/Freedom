@@ -1,0 +1,261 @@
+{
+  "store.custom#faq": {
+    "children": [
+      "flex-layout.row#EstaticasF"
+    ]
+  },
+
+  "flex-layout.row#EstaticasF":{
+    "children":[
+      "flex-layout.col#EstaticasF"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasF":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosF",
+      "flex-layout.col#ContenidoF"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosF":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "Faq"]
+    }
+  },
+  "flex-layout.col#ContenidoF":{
+    "children":[
+      "rich-text#tituloEstaF",
+      "rich-text#contenidoEstaF",
+      "list-context.image-list#demoC7",
+      "flex-layout.row#faq",
+      "rich-text#contenidoEsta1F",
+      "list-context.image-list#demoC2",
+      "flex-layout.row#faq",
+      "list-context.image-list#demoC"
+
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  //contenido
+  "rich-text#contenidoEstaF": {
+    "props": {
+      "text": "**PROCESO DE COMPRA.**",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta1F": {
+    "props": {
+      "text": "**SERVICIO AL CLIENTE.**",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#tituloEstaF": {
+    "props": {
+      "text": "PREGUNTAS FRECUENTES",
+      "blockClass": ["generalTitul"]
+    }
+  },
+            //Sliders
+            "list-context.image-list#demoC7": {
+              "children": ["slider-layout#demo-imagesA"],
+              "props": {
+                "height": 720,
+                "images": [
+                  {
+                    "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterfaq.png",
+                    "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterfaqM.png"
+                  },
+                  {
+                    "image": "https://callearturop.vteximg.com.br/arquivos/bannerinterfaq.png",
+                    "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterfaqM.png"
+                  }
+                ],
+                "blockClass": "bannerprincA"
+              }
+            },
+  //Inicio disclusere
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#faq"
+    ]
+  },
+
+  "flex-layout.col#faq": {
+    "children": [
+      "disclosure-layout-group#group"
+    ],
+    "props":{
+      "blockClass":"disclousureF"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth"
+    ],
+    "props":{
+      "blockClass":"disclousureF"
+    }
+  },
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234."
+    }
+  },
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question2"]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "How can I track my order?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "After logging into your account, you can find this info at the link Orders."
+    }
+  },
+
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question3"]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234."
+    }
+  },
+
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "How can I track my order?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "After logging into your account, you can find this info at the link Orders."
+    }
+  },
+
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

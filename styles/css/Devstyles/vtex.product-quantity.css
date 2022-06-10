@@ -1,0 +1,42 @@
+
+.quantitySelectorContainer.quantitySelectorContainer--flotanteB {position: absolute;bottom: 0%;right: 0;margin: 0;}
+.quantitySelectorTitle.quantitySelectorTitle--flotanteB {font-weight: 700;text-transform: uppercase;color: #2A2A2A;letter-spacing: 1px;margin: 0 0 9px 0;font-size: 17px;}
+
+.quantitySelectorStepper.quantitySelectorStepper--flotanteB {font-weight: 700;border: 2px solid #340572;transform: rotate(-2deg);}
+.quantitySelectorStepper--flotanteB :global(.vtex-numeric-stepper__minus-button){border: 0;max-width: 40px;color: #340572;background: white;}
+.quantitySelectorStepper--flotanteB :global(.vtex-numeric-stepper__plus-button){border: 0;color: #340572;max-width: 40px;}
+.quantitySelectorStepper--flotanteB :global(.vtex-numeric-stepper__input){border: 0;max-width: 30px;}
+
+.quantitySelectorStepper.quantitySelectorStepper--flotanteB :global(.vtex-numeric-stepper__input){
+    font-weight: bold;
+    background: transparent;
+}
+.quantitySelectorStepper.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+    background: transparent;
+}
+.quantitySelectorStepper.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+    background: transparent;
+}
+
+@media (max-width: 1000px)  {
+.quantitySelectorContainer.quantitySelectorContainer--flotanteB {
+    width: 47%;
+}
+}
+
+@media (max-width: 700px) {
+    .quantitySelectorContainer.quantitySelectorContainer--flotanteB {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        top: 100px;
+    }
+    .quantitySelectorStepper.quantitySelectorStepper--flotanteB {
+        transform: matrix(1, -0.03, 0, 1, 0, 0);
+        height: 40px;
+    }
+    .quantitySelectorStepper.quantitySelectorStepper--flotanteB :global(.vtex-numeric-stepper__input){
+        height: 35px;
+    }
+}

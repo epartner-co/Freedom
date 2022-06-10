@@ -1,0 +1,206 @@
+
+/*Cierre filtros*/
+/* filtros desplegables */
+/* estilos para los filtros en desktop */
+.content--filtroContent--visible {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+}
+.trigger--filtrotriggerAll--visible{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+:global(.vtex-flex-layout-0-x-flexCol--filtroContent){
+    width: 30%;
+    background: white;
+    padding: 40px 20px;
+    position: absolute;
+    z-index: 9999;
+}
+.trigger {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+.trigger--fitroTrigger2--visible{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger2--visible::after{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png) no-repeat;
+    background-size: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 1%;
+    top: 5px;
+}
+.trigger--fitroTrigger {
+    padding: 0 20px;
+    width: 149px !important;
+    position: relative;
+    cursor: pointer;
+}
+.trigger--fitroTrigger :global(.vtex-rich-text-0-x-paragraph){
+    text-transform: uppercase;
+}
+.trigger--filtrotriggerAll--visible {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+/*Filtro agregados*/
+/*Segundo filtro de cierre*/
+.filtersWrapper--filtros2 .filter__container--selectedFilters {
+    display: block !important;
+    border: none;
+}
+
+.filter__container--filtros2 .filter__container--title .filter__container--filtros2--title {
+    display: none;
+}
+
+.filter__container--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2 :global(.vtex-checkbox__container){
+    display: none;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filterTitleSpan.filterTitleSpan--filtros2{
+    display: none;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected {
+    background: #edecec;
+    margin: 0 10% 0 0;
+    position: relative;
+    height: 38px;
+    padding: 0 8% 0 6%;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
+    content: "x";
+    position: absolute;
+    top: -50%;
+    right: -20px;
+    font-size: 20px;
+}
+.filter__container.filter__container--filtros2.filter__container--selectedFilters {
+    font-size: 13.5px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+    margin-left: -59px;
+    margin-right: 53px;
+}
+
+.filterItem--filtros2--selected {
+    margin-left: -46px;
+    margin-right: 64px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+    margin-left: -46px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonShowMore--layout.w-100.flex.justify-center {
+    margin: 45px 0 0 0px;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+    width: 127%;
+    flex-wrap: wrap;
+}
+@media (max-width: 1100px) and (min-width: 768px) {
+    .content--subMenuLv1--visible{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content--subMenuLv1--visible{
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        left: 58px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .content--subMenuLv1--visible::before {
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/gifMenufreedom.gif) no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        z-index: 9999;
+    }
+    .content--subMenuLv2--visible{
+        background: url(https://callearturop.vteximg.com.br/arquivos/fondo-desk-menu.png);
+        background-size: 100%;
+        position: fixed;
+        top: 0%;
+        width: 75%;
+        height: 100%;
+        z-index: 99;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 90px 24px 0 24px;
+    }
+    .trigger--cierreTrigger--visible{
+        background: transparent;
+        border: 0;
+    }
+    .styledLinkContent--menu-lv1-cierre {
+        color: black;
+    }
+    .trigger--hidden {
+        padding: 0;
+    }
+    .trigger--subMneusMTrigger--visible :global(.vtex-menu-2-x-styledLinkContent):global(.vtex-menu-2-x-styledLinkContent--categoria)::before{
+        content: "";
+        background: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png) no-repeat;
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+    }
+}

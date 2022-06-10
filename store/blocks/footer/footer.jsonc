@@ -1,0 +1,320 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-0-desktop",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#desarrollado-por",
+      "image#freedomImageLetter",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "image#freedomImageLetter":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/freedom-footer.png",
+      "blockClass": "footerFreedomLetter"
+    }
+  },
+  "flex-layout.row#desarrollado-por": {
+    "children": [
+      "flex-layout.col#desarrollado-por"
+    ],
+    "props": {
+      "blockClass": "desarrollado-por"
+    }
+  },
+  "flex-layout.col#desarrollado-por": {
+    "children": [
+      "rich-text#shelf-title-#desarrollado-title",
+      "image#desarrollado-por"
+    ],
+    "props": {
+      "blockClass": "desarrollado-por"
+    }
+  },
+  // desrrallado por
+  "rich-text#shelf-title-#desarrollado-title": {
+    "props": {
+      "text": "Desarrollado por",
+      "blockClass": ["titulos-footer","desarrollado-por"]
+    }
+  },
+  "image#desarrollado-por":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/desarrolladoPor.png",
+      "blockClass": "desarrollado-por"
+    }
+  },
+  "flex-layout.row#footer-0-desktop": {
+    "children": [
+      "image#bannerpreFooter"
+    ],
+    "props": {
+      "blockClass": "pre-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "image#bannerpreFooter":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/imagenPreHeader.png",
+      "blockClass": "preFooter"
+    }
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "flex-layout.col#footer-newsletter"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-newsletter": {
+    "children": [
+      "image#gif-newsletter",
+      "newsletter-form#popUP"
+    ],
+    "props": {
+      "width":"28%",
+      "blockClass": "newsletter-col"
+    }
+  },
+  "newsletter-form#popUP":{
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation",
+      "rich-text#shelf-title-#medios-pago-title",
+      "image#medios-pagos"
+    ],
+    "props":{
+      "blockClass":"NewsletterPopUp"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel":"Suscribirse"
+    }
+  },
+  "newsletter-input-name":{
+    "props":{
+      "placeholderText":"Nombre completo"
+    }
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText":"Correo electronico"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aqui Terminos y Condiciones"
+    }
+  },
+  "image#gif-newsletter":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/gif-newsletter-FREEDOM.gif",
+      "blockClass": "medios-pago"
+    }
+  },
+  // footer message
+  "rich-text#shelf-title-#medios-pago-title": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "titulos-footer"
+    }
+  },
+  "image#medios-pagos":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/medios-pago-freedom.png",
+      "blockClass": "pagos-desk"
+    }
+  },
+  // secondd row
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["rich-text#shelf-title-#freedom-white"],
+    "props": {
+      "blockClass": "copyRight"
+    }
+  },
+  "rich-text#shelf-title-#freedom-white": {
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA CONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO ",
+      "blockClass": "footerPost"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "image#bannerpreFooterM",
+      "flex-layout.row#sobre-nosotros-footer-mobile",
+      "flex-layout.row#0-footer-mobile",
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#copyright",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "image#bannerpreFooterM":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/Pre-footerM.png",
+      "blockClass": "preFooter"
+    }
+  },
+  // copyright
+  "flex-layout.row#copyright": {
+    "children": ["flex-layout.col#copyright"],
+    "props": {
+      "blockClass": "copyright-m"
+    }
+  },
+  "flex-layout.col#copyright": {
+    "children": [
+      "rich-text#shelf-title-#title-medios-m",
+      "image#medios-pagos-m",
+      "rich-text#shelf-title-#title-desarrollado-m",
+      "image#medios-desarrollado-m"
+    ],
+    "props": {
+      "blockClass": "copyright-m"
+    }
+  },
+  "rich-text#shelf-title-#title-medios-m": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "title-copy"
+    }
+  },
+  "image#medios-pagos-m":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/medios-pago-freedom.png",
+      "blockClass": "imgcuadra-m"
+    }
+  },
+  "rich-text#shelf-title-#title-desarrollado-m": {
+    "props": {
+      "text": "Desarrollado por",
+      "blockClass": "title-copy"
+    }
+  },
+  "image#medios-desarrollado-m":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/desarrolladoPor.png",
+      "blockClass": "desarrollado-m"
+    }
+  },
+  // sobre nosotros
+  "flex-layout.row#sobre-nosotros-footer-mobile": {
+    "children": ["flex-layout.col#sobre-nosotros"],
+    "props": {
+      "blockClass": "sobreNosotros"
+    }
+  },
+  "flex-layout.col#sobre-nosotros": {
+    "children": [
+      "rich-text#shelf-title-#title-sobre-us",
+      "rich-text#shelf-title-#contenido-sobre-us",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "sobre-nosotros"
+    }
+  },
+  "rich-text#shelf-title-#title-sobre-us": {
+    "props": {
+      "text": "Sobre nosotros",
+      "blockClass": "title-sobreNosotros"
+    }
+  },
+  "rich-text#shelf-title-#contenido-sobre-us": {
+    "props": {
+      "text": "SOMOS UN ESTILO QUE NO SIGUE ESTILOS, SOMOS INFLUENCIA DE LOS QUE NO SE DEJAN INFLUENCIAR. SOMOS PARA TODOS, PERO A LA VEZ, SOMOS SOLO PARA ALGUNOS. LA VERDAD, LA RESPUESTA ES SIMPLE: SOMOS UNA OPCIÓN. UNA OPCIÓN QUE ELIGIÓ REINVENTAR LA FORMA DE VESTIR PARA QUE TODOS LE MUESTREN AL MUNDO QUIENES SON REALMENTE.",
+      "blockClass": "contenido-sobreNosotros"
+    }
+  },
+  "flex-layout.row#0-footer-mobile": {
+    "children": ["flex-layout.col#footer-newsletter"],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass":"menu-footer-m"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA CONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO",
+      "blockClass": "post-footer"
+    }
+  },
+
+  "rich-text#footer-tiendas": {
+    "props": {
+      "text": "Ver",
+      "blockClass": "post-footer"
+    }
+  },
+
+    // LOCALIZADOR DE TIENDAS
+
+    "iframe#footer-localizacion-tiendas": {
+      "props": {
+        "src": "https://www.arturocalle.com/localizador",
+        "width": "100%",
+        "height": "500px",
+        "blockClass": "iframe-localizador"
+      }
+    },
+    "modal-trigger#localizacion-tiendas": {
+      "children": [
+        "modal-trigger#localizacion-tiendas"
+      ]
+    },
+    "modal-layout#localizacion-tiendas": {
+      "props": {
+        "blockClass": "localizacion-tiendas"
+      },
+      "children": [
+        "modal-header#cerrar-tiendas",
+        "iframe#footer-localizacion-tiendas"
+      ]
+    },
+    "modal-header#cerrar-tiendas": {
+      "props": {
+       "showCloseButton":"true",
+       "blockClass": "localizacion-tiendas"
+      }
+     }
+}

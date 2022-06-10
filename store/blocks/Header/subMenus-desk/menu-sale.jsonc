@@ -1,0 +1,221 @@
+{
+    "vtex.menu@2.x:submenu#sale": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "Submenu-lvl2"
+        },
+        "children": [
+            "flex-layout.row#sale-container-lvl2"
+        ]
+    },
+    "flex-layout.row#sale-container-lvl2":{
+        "props":{
+            "blockClass":["subMenu-container","submenu-lvl2"]
+        },
+        "children":[
+            "flex-layout.col#sale-container-lvl2",
+            "flex-layout.col#sale-container-lvl2-2"
+        ]
+    },
+    "flex-layout.col#sale-container-lvl2":{
+        "props":{
+            "width":"60%",
+            "blockClass":["submenu-lvl2"]
+        },
+        "children":[
+            "menu-item#category-pricipal-sale-buzos",
+            "menu-item#category-pricipal-sale-camisetas",
+            "menu-item#category-pricipal-sale-blusascamisas",
+            "menu-item#category-pricipal-sale-chaquetas",
+            "menu-item#category-pricipal-sale-jeans",
+            "menu-item#category-pricipal-sale-pantalones",
+            "menu-item#category-pricipal-sale-tejidos",
+            "menu-item#category-pricipal-sale-jeans-",
+            "menu-item#category-pricipal-sale-hombre",
+            "menu-item#category-pricipal-sale-mujer"
+        ]
+    },
+    "menu-item#category-pricipal-sale-buzos": {
+        "props": {
+            "id": "menu-item-category--cgampion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/botas",
+            "noFollow": false,
+            "tagTitle": "Botas botines",
+            "text": "Botas botines"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-camisetas": {
+        "props": {
+            "id": "menu-item-category--camisetas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/tenis",
+            "noFollow": false,
+            "tagTitle": "tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-blusascamisas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/sandalias",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-chaquetas": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/ropa",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-jeans": {
+        "props": {
+            "id": "menu-item-category--mac",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/camisetas",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-pantalones": {
+        "props": {
+            "id": "menu-item-category--Optima",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/camisas",
+            "noFollow": false,
+            "tagTitle": "camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-tejidos": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/polos",
+            "noFollow": false,
+            "tagTitle": "polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-jeans-": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/jeans",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-hombre": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/hombre/Accesorios",
+            "noFollow": false,
+            "tagTitle": "Para hombre",
+            "text": "Para hombre"
+            }
+        }
+    },
+    "menu-item#category-pricipal-sale-mujer": {
+        "props": {
+            "id": "menu-item-category--power-taxi",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass":["menu-item-levl2"],
+            "itemProps": {
+            "type": "internal",
+            "href": "/arturo-calle/mujer/accesorios",
+            "noFollow": false,
+            "tagTitle": "Para mujer",
+            "text": "Para mujer"
+            }
+        }
+    },
+    "flex-layout.col#sale-container-lvl2-2":{
+        "props":{
+            "blockClass":["imagenes"]
+        },
+        "children":[
+            "image#logo-banner1-menu-sale",
+            "image#logo-banner2-menu-sale"
+        ]
+    },
+    //imagenes logo
+    "image#logo-banner1-menu-sale": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno1-desk.png",
+        "blockClass": "menuBanner"
+        }
+    },
+    //imagenes logo
+    "image#logo-banner2-menu-sale": {
+        "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/banner-interno2-desk.png",
+        "blockClass": "menuBanner"
+        }
+    }
+}

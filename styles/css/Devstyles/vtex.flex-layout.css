@@ -1,0 +1,77 @@
+.flexRow.flexRow--productCos {margin: 0 0 0 69px;}
+
+.flexColChild--productCosInt .flexRowContent{
+  margin: 0;
+  padding: 0;
+}
+.flexColChild--productCosInt .stretchChildrenWidth {padding: 0;}
+.flexCol.flexCol--nombreC {margin: 0 10% 0 0;}
+.flexCol.flexCol--contenedorSkuSelec {position: relative;}
+/*Buy Butoms*/
+.flexCol--buybuttoms1 :global(.vtex-button__label) {padding: 0 !important;margin: 0;}
+.flexCol--buybuttoms2 :global(.vtex-button__label) {padding: 0 !important;margin: 0;}
+.flexCol--buybuttoms1 :global(.vtex-button) {    font-weight: 700;width: 95%;border-radius: 0px; background: white;transform: rotate(-2deg);color: #340572;min-height: 165%;margin: 0 0px 0 0px;}
+.flexCol--buybuttoms2 :global(.vtex-button) {    font-weight: 700;width: 95%;border-radius: 0px; background: #340572;transform: rotate(-2deg);color: white;min-height: 165%;margin: 0 0px 0 6%;}
+.flexCol--buybuttoms1 :global(.vtex-button):hover {width: 95%;border-radius: 0px; background: #340572;transform: rotate(-2deg);color: white;min-height: 165%;}
+.flexCol--buybuttoms2 :global(.vtex-button):hover {width: 95%;border-radius: 0px; background: white;transform: rotate(-2deg);color: #340572;min-height: 165%;}
+.flexColChild--contenedorImg :global(.vtex-store-components-3-x-imageElement) {width: 40%;display: flex;align-items: center;margin: 0 auto;}
+.flexColChild .flexColChild--contenedorImg {height: auto !important;}
+
+.flexColChild--contenedorImg :global(.vtex-rich-text-0-x-strong--textoproduct) {color: black;}
+.flexRow.flexRow--contenedorImg {border-top: 1px solid #D3D3D3;margin: 17px 0 0 0;padding-top: 17px;}
+
+
+.flexCol--InformacionDosC :global(.vtex-store-components-3-x-productImagesGallerySlide) {
+  /* padding: 3% 20%; */
+  margin: 0;    
+  cursor: default;
+}
+.flexCol--InformacionDosC :global(.vtex-store-components-3-x-productDescriptionTitle) {font-weight: 700;text-transform: uppercase;font-size: 30px;text-align: center;}
+.flexColChild.flexColChild--InformacionDosC {display: flex;align-items: center;}
+.flexCol--InformacionDosC :global(.vtex-store-components-3-x-productDescriptionContainer) {padding: 0 12%;text-align: center;line-height: 23px;}
+.flexColChild--productCosInt :global(.vtex-reviews-and-ratings-2-x-container){display: none;}
+.flexRowContent--buybuttoms :global(.vtex-add-to-cart-button-0-x-buttonText--buytAdd){font-size: 23px;}
+.flexRowContent--buybuttoms :global(.vtex-add-to-cart-button-0-x-buttonText--buytex){font-size: 23px;}
+.flexCol--contenedorSkuSelec :global(.vtex-store-components-3-x-skuSelectorTextContainer) {display: block;}
+.flexCol--contenedorSkuSelec :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {position: relative;opacity: 1;visibility: visible;top: 0;}
+.flexColChild--imagen :global(.vtex-store-components-3-x-productImage)::before {content: "";background: url(https://callearturop.vteximg.com.br/arquivos/bordesuperior.png);width: 100%;display: block;height: 25px;background-size: contain; background-repeat-x: repeat;position: absolute;z-index: 9;}
+
+@media (max-width: 600px) {
+.flexCol--buybuttoms2 :global(.vtex-button) {margin: 0;width: 100%;}
+.flexCol--buybuttoms1 :global(.vtex-button) {width: 100%;margin: 0 0 13px 0;}
+.flexCol.flexCol--nombreC { margin: 0 4%; }
+.flexCol--InformacionDosC :global(.vtex-store-components-3-x-productImagesGallerySlide) { padding: 0;}
+}
+
+
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.flexRowContent.flexRowContent--producto-image-and-zoom {
+  position: relative;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 1%;
+  top: 5%;z-index: 9;
+  width: 82px !important;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
+  width: 100% !important;
+}
+/* selector sku*/
+.flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorItem--selected) {background: #340572;}
+.flexColChild--productCosInt :global(.vtex-rich-text-0-x-container--shelfTitle) {margin: 45px 0 0 0;}
+.flexColChild--productCosInt :global(.vtex-rich-text-0-x-heading--shelfTitle) {text-transform: uppercase;}
+
+.flexColChild--nombreC :global(.vtex-store-components-3-x-skuSelectorItem--selected) {height: auto;}
+@media screen and (max-width: 700px) {
+  .flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+    position: absolute;
+    right: -2%;
+    top: 6%;
+    z-index: 9;
+    width: 42px !important;
+  }
+  .flexCol--buybuttoms2 :global(.vtex-button__label) {padding: 0 !important;margin: 0;}
+  .flexCol--buybuttoms1 :global(.vtex-button) { padding: 10px; }
+  .flexCol--buybuttoms2 :global(.vtex-button) {   padding: 10px;}
+}

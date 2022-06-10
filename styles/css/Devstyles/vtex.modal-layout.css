@@ -1,0 +1,13 @@
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.paper.paper--Content-Zoom-list {
+  width: 70%;
+}
+.modal.modal--Content-Zoom-list {
+  z-index: 99999 !important;
+}
+@media screen and (max-width: 700px) {
+.paper.paper--Content-Zoom-list {
+  width: 90%;
+}
+}
+.headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;right: 0;border: none;}

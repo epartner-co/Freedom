@@ -1,0 +1,104 @@
+{
+    //BAnners duales
+    "responsive-layout.desktop#bannerdual": {
+        "children": ["flex-layout.row#banners"]
+    },
+    "responsive-layout.phone#bannerdual": {
+        "children": [
+            "slider-layout#slider-duales"
+        ]
+    },
+    //banners secundarios 
+
+    "flex-layout.row#banners": {
+        "props":{
+          "blockClass": "Bannersec",
+          "marginTop": 4
+        },
+        "children": ["flex-layout.col#bannerone", "flex-layout.col#bannertwo"]
+    },
+    "flex-layout.col#bannerone": {
+        "props":{
+            "blockClass": "Bannerone",
+            "width": "100%"
+        },
+        "children": ["info-card#banner1"]
+    },
+    "flex-layout.col#bannertwo": {
+        "props":{
+            "blockClass": "Bannertwo",
+            "width": "100%"
+        },
+        "children": ["info-card#banner2"]
+    },
+    "info-card#banner1": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner2-2.png",
+            "headline": "Explora todos nuestros productos",
+            "callToActionText": "Explora más",
+            "callToActionUrl": "/196?map=productClusterIds&order=",
+            "blockClass": "info-card-homeS1",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#banner2": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner2-1.png",
+            "headline": "Conoce más sobre freedom",
+            "callToActionText": "Explora más",
+            "callToActionUrl": "/about-us",
+            "blockClass": "info-card-homeS2",
+            "textAlignment": "left"
+        }
+    },
+    // slider layout
+    "slider-layout#slider-duales": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"mobileOnly",
+          "blockClass": ["carousel","carousel-duales"]
+        },
+        "children":[
+            "info-card#banner1-m",
+            "info-card#banner2-m"
+        ]
+    },
+    "info-card#banner1-m": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner2-2.png",
+            "headline": "Explora todos nuestros productos",
+            "callToActionText": "Explora más",
+            "callToActionUrl": "/196?map=productClusterIds&order=",
+            "blockClass": "info-card-homeS1",
+            "textAlignment": "right"
+        }
+    },
+    "info-card#banner2-m": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner2-1.png",
+            "headline": "Conoce más sobre freedom",
+            "callToActionText": "Explora más",
+            "callToActionUrl": "/about-us",
+            "blockClass": "info-card-homeS2",
+            "textAlignment": "right"
+        }
+    }
+}

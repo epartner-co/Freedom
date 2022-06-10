@@ -1,0 +1,111 @@
+{
+  "store.custom#pde": {
+    "children": [
+      "flex-layout.row#EstaticasLp"
+    ]
+  },
+  "flex-layout.row#EstaticasLp":{
+    "children":[
+      "flex-layout.col#EstaticasLp"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  "flex-layout.col#EstaticasLp":{
+    "children":[
+      //Cargado en account
+      "list-context.image-list#demoA",
+      //Ejecutado como plantilla
+      "flex-layout.col#EstaticastitulosLp",
+      "flex-layout.col#ContenidoLp"
+    ],
+    "props":{
+      "blockClass":"cajacentrada"
+    }
+  },
+  //Inicio de titulos
+  "flex-layout.col#EstaticastitulosLp":{
+    "children":[
+      "flex-layout.row#Titulos1",
+      "flex-layout.row#Titulos2"
+    ],
+    "props":{
+      "blockClass":["titulosGen", "pde"]
+    }
+  },
+  //Inicio contenido
+  "flex-layout.col#ContenidoLp":{
+    "children":[
+      "rich-text#tituloEstaLp",
+      "rich-text#contenidoEstaLp",
+      "list-context.image-list#demoC4",
+      "rich-text#contenidoEsta2Lp",
+      "list-context.image-list#demoC41",
+      "rich-text#contenidoEsta2Lp"
+    ],
+    "props":{
+      "blockClass":"contenidoC"
+    }
+  },
+  "rich-text#tituloEstaLp": {
+    "props": {
+      "text": "POLÍTICA DE ENVÍOS, CAMBIOS Y GARANTÍAS",
+      "blockClass": ["generalTitul"]
+    }
+  },
+  "rich-text#contenidoEstaLp": {
+    "props": {
+      "text": "Estimado cliente, le recomendamos leer con especial cuidado el presente documento en el cual se establece la política aplicable al envío, cambios y garantías de productos adquiridos en el canal ON-LINE FREEDOM, en adelante FREEDOM. \n\n **I. POLÍTICA DE ENVÍO** \n\n **COBERTURA** \nFREEDOM realiza despachos de productos a municipios del territorio colombiano* a través de una empresa transportadora independiente, que garantiza la seguridad y cobertura, para que su compra llegue a la dirección que desea. \n -Se encuentran exceptuados de nuestra cobertura los municipios ubicados en los departamentos de Amazonas, Guainía, Guaviare, Vaupés, Vichada y el archipiélado de San Andrés y Providencia.\n\n **TIEMPOS DE ENTREGA**\n El tiempo de entrega de los productos es aproximadamente de tres (3) días hábiles para las ciudades de Bogotá D.C. y Medellín; cinco (5) días hábiles para ciudades principales y hasta diez (10) días hábiles para otros destinos en condiciones de operación normal. \n Los tiempos de entrega empiezan a contar a partir de la aprobación del pago, el cual se dará una vez la entidad financiera u otra entidad responsable del medio de pago utilizado, confirme la disposición de los recursos. \n En el momento de la aprobación del pago, recibirá un correo electrónico con la confirmación del mismo. Para revisar el estado de su compra puede ingresar al home en el menú superior en nuestra página web, Mi cuenta - Mis Pedidos. Para efectos del cálculo en los tiempos de entrega se debe tener en cuenta la fecha y hora de aprobación del pago de la siguiente manera: \n  Si la compra es confirmada antes de las 3 p.m. de lunes a viernes, el primer día hábil corresponde al día en que realizó la compra y desde ese día empezará a contar el tiempo de entrega. \n Si la compra es confirmada después de las 3 p.m., el tiempo de entrega empezará a contar a partir del día hábil siguiente al de confirmación del pago. \n Si realiza una compra un sábado, domingo o festivo, el tiempo de entrega empezará a contar a partir del siguiente día hábil de confirmación del pago. \n La empresa transportadora a través de la cual ARTURO CALLE despacha sus productos, no se compromete a efectuar las entregas en un horario exacto. En caso de tener alguna inquietud con el despacho del producto puede comunicarse con la línea nacional de servicio al cliente 01 8000 180120 (horario de lunes a viernes de 8am-5pm), a través de nuestro correo contactenos@arturocalle.com o en el formulario Contáctenos de nuestra página web para verificar el estado del transporte.\n El producto podrá ser recibido o inspeccionado por cualquier persona mayor de edad que habite o esté presente en el lugar de entrega, para lo cual bastará la firma de la guía del transportador. \n En caso que el producto tenga señas de daños o rupturas en su empaque en el momento de la entrega, debe registrarlo en la guía del transportador como una observación, efectuando la devolución inmediata del producto y comunicarse con la línea nacional de servicio al cliente 01 8000 180120 (horario de lunes a viernes de 8am-5pm), a través de nuestro correo contactenos@arturocalle.com o en el formulario Contáctenos de nuestra página web.\n\n **COSTO DEL ENVÍO** El envío de los pedidos es gratuito a todo el país por compras iguales o superiores a CIENTO CUARENTA Y NUEVE MIL NOVECIENTOS M/CTE (COP$149.900), para compras inferiores a éste valor, el costo del envío será determinado en cada caso particular dependiendo del destino, peso y volumen del paquete. Este valor se calculará en el proceso de la compra y será informado en el momento de la liquidación de la orden, antes de que realice el pago. \n Sin perjuicio de lo anterior, ARTURO CALLE se reserva el derecho de omitir o modificar los topes para el cobro de los envíos y en todo caso, éste valor se anunciará previo a la aceptación del pedido y pago por parte del cliente. \n\n**EMPRESA TRNASPORTADORA**\nEn el correo electrónico por el cual se notifica al cliente el envío, se indicará la empresa transportadora encargada de efectuar la entrega. \n\n **SERVICIO DE ENTREGA EXPRESS** \n\n Al momento de seleccionar el método de envío dentro de la plataforma, al cliente se le mostrarán dos (2) opciones de envío: la opción de envío regular arriba descrito y la opción de Entrega Express. \n Este servicio de Entrega Express es prestado por una empresa transportadora independiente y estará habilitado exclusivamente para entregas dentro de la ciudad de Bogotá D.C. \nSi el cliente decide seleccionar el método de Entrega Express, se tendrán los siguientes tiempos estimados para la entrega de su pedido: \n Si el pedido es realizado y confirmado entre las 00:00 a.m. y 11:30 a.m.: tendrá un tiempo estimado de entrega para el mismo día hábil. \n Si el pedido es realizado y confirmado entre las 11:31 a.m. y las 11:59 p.m.: tendrá un tiempo estimado de entrega para el día hábil siguiente. \n La opción de acceder al servicio de Entrega Express, estará activa en nuestra plataforma de compras virtuales, desde el primer día hábil de la semana a las 00:00 a.m. hasta las 11:30 a.m. del sábado o último día hábil de la semana, según aplique. \n Conforme a lo anterior, no estará habilitada la opción de Entrega Express dentro de nuestra plataforma virtual para los días sábados desde las 11:31 am, domingos, así como tampoco los días festivos. \n El servicio de Entrega Express no aplica para el medio de pago Baloto. \n El servicio de Entrega Express tiene un costo que es informado al momento que el mismo cliente está seleccionando la opción de envío de su preferencia dentro de nuestra plataforma virtual.\n\n **SERVICIO DE PAGO CONTRA ENTREGA** \n\nAl momento de seleccionar el método de envío dentro de la plataforma, al cliente se le mostrarán tres (3) opciones de envío: la opción de envío regular, la opción de entrega Express y la opción de Pago Contra Entrega. Este servicio de Pago Contra Entrega es prestado por una empresa transportadora independiente y estará habilitado en todo el territorio nacional, a excepción de los municipios ubicados en los departamentos de Amazonas, Guainía, Guaviare, Vaupés, Vichada y el archipiélago de San Andrés y Providencia. Durante el proceso de compra (checkout) para las poblaciones que cuentan con cobertura aparecerá la opción tipo de envío Pago Contra Entrega, en caso contrario significa que la población no tiene cobertura para esta opción. Si el cliente decide seleccionar el método de Pago Contra Entrega, se tendrán los siguientes tiempos estimados y condiciones para la entrega de su pedido: El tiempo de entrega de los productos es aproximadamente de tres (3) días hábiles para las ciudades de Bogotá D.C. y Medellín; cinco (5) días hábiles para ciudades principales y hasta diez (10) días hábiles para otros destinos en condiciones de operación normal. Los tiempos de entrega para la opción de Pago Contra Entrega empiezan a contar a partir de la confirmación del pedido. Para efectos del cálculo en los tiempos de entrega se debe tener en cuenta la fecha y hora de confirmación del pedido de la siguiente manera: Si la compra es confirmada antes de las 3 p.m. de lunes a viernes, el primer día hábil corresponde al día en que se realizó la compra y desde ese día empezará a contar el tiempo de entrega. Si la compra es confirmada después de las 3 p.m., el tiempo de entrega empezará a contar a partir del día hábil siguiente al de confirmación del pedido. Si se realiza una compra un sábado, domingo o festivo, el tiempo de entrega empezará a contar a partir del siguiente día hábil de confirmación del pedido. La entrega de los productos comprados, será efectuada a cualquier mayor de edad que se encuentre en el lugar indicado en la confirmación de la compra, y el pago lo deberá realizar el pago por medio de tarjeta (datáfono) o efectivo según la selección que haya hecho en la compra. (Se sugiere que para pagos en efectivo, el cliente cuente con el valor exacto ya que el transportador no dispone de cambio). El valor del envío de productos se informará previo a la aceptación del pedido y su pago por parte del cliente. La opción de pago contra entrega NO aplica para entregas el mismo día o envío EXPRESS.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta2Lp": {
+    "props": {
+      "text": "**II. POLÍTICAS DE CAMBIOS Y DEVOLUCIONES** \n\n **CAMBIOS** \n Para solicitar el cambio de productos debe cumplir con las siguientes condiciones: (i) El plazo máximo para solicitar un cambio será de sesenta (60) días calendario contados desde la fecha la entrega de los productos (ii) El producto no debe presentar uso, no debe haber sido modificado y debe estar en perfectas condiciones. (iii) El producto debe contener las etiquetas, accesorios y empaques originales. No se aceptan cambios de ropa interior (boxers y camisillas), accesorios, artículos comprados en otro país o en tiendas outlet, productos comprados en descuento o promoción. El cambio debe ser por un valor igual o superior al valor del producto, caso en el cual el cliente pagará el valor excedente. El cambio podrá hacerse efectivo en cualquier tienda ARTURO CALLE ubicada en Colombia o a través de la página web de la siguiente manera: \n Cambio en puntos de venta ARTURO CALLE ubicados en Colombia: se deberá entregar el producto en cualquier punto de venta ARTURO CALLE, presentar el documento equivalente a factura y diligenciar los formatos que se tengan dispuestos en la misma para tal fin. \n Cambios a través de la página web: el cambio se podrá solicitar a través de cualquiera de los medios de contacto que se indican a continuación: línea nacional de servicio al cliente 01 8000 180120 y en Bogotá al PBX 743 88 00, chat online o enviar un mensaje a contactenos@arturocalle.com, informando el nombre completo, número de cédula de comprador, número de la orden del pedido, número de documento equivalente a factura y demás información que considere relevante para su solicitud. ARTURO CALLE dará respuesta a su solicitud en un plazo no mayor a quince (15) días hábiles, por medio de un correo electrónico u otro sistema que a juicio de ARTURO CALLE resulte conveniente. En el evento en que proceda el cambio, ARTURO CALLE solicitará la devolución del producto por medio del servicio de transporte que éste señale. Para efectos de solicitar un cambio le recomendamos tener en cuenta: \n -Es importante que se pruebe las prendas antes de retirar la etiqueta. \n -Debe presentar documento equivalente a factura de compra y/o la orden de pedido según corresponda. \nLas compras realizadas en las tiendas ARTURO CALLE no pueden ser cambiadas en la tienda online www.arturocalle.com De conformidad con lo establecido en la normatividad vigente aplicable, para los cambios que se realicen ARTURO CALLE, podrá realizar el cobro del servicio de transporte requerido para la devolución y entrega de los productos objeto de cambio, lo cual será anunciado al momento de dar respuesta a su solicitud. \n\n**Condiciones de cambios a través de la página web www.freedom.com:** \nUna vez radicada la solicitud de cambio con los datos necesarios para la misma, se procederá a analizar el cumplimiento de los requisitos y procedencia del cambio. De resultar procedente el cambio, se programa una fecha para recolección por la empresa transportadora, según el día que sea coordinado con el cliente para efectuar la devolución del producto. Cuando el cliente entregue el producto a la transportadora este ya debe estar debidamente empacado. Puede utilizar el mismo empaque en que recibió el pedido, sin embargo, este debe ser el adecuado según la naturaleza del producto para que el producto no se pueda ver afectado durante el proceso de transporte. Una vez recibamos su producto de vuelta en nuestra bodega, verificaremos las condiciones en que se encuentra el producto, ARTURO CALLE tendrá 15 días hábiles para informarle si su producto cumple con los criterios establecidos. Por regla general ARTURO CALLE no hace devolución de dinero y en caso de considerarse viable, lo hará mediante la emisión de cupones redención o su equivalente, para compra de productos ARTURO CALLE por el mismo valor del producto o productos objeto del cambio aceptado. Excepcionalmente ARTURO CALLE podrá autorizar la remisión de la misma referencia de producto cambiando su talla o color a solicitud del cliente. En caso que su producto no cumpla con los criterios de nuestra política de cambios y devoluciones, le informaremos con un correo electrónico la razón por la cual no procede el cambio y el producto será devuelto a la dirección de envío inicial. ARTURO CALLE se reserva la facultad de cobrar al cliente dicho envío. \n\n **Los tiempos para formalizar el cambio de productos:** \nCambio del producto que haya sido aprobado por talla o color: se despachará dos días hábiles después de haber recibido el producto inicial en nuestra bodega y a partir de este momento aplican los mismos tiempos que para una entrega normal. En todo caso los tiempos de entrega del producto que se remita por cambio, estarán sujetos a la disponibilidad de dicho producto dentro del inventario. Cuando en virtud del cambio aprobado, se acuerde con el cliente la emisión de un cupón redención u otro equivalente, para realizar una nueva compra en www.arturocalle.com, el código de dicho cupón será enviado al correo del cliente dentro de los dos (2) días hábiles después de recibido el producto en nuestra bodega.",
+      "blockClass": "content"
+    }
+  },
+  "rich-text#contenidoEsta3Lp": {
+    "props": {
+      "text": "**III. POLÑITICAS DE GARANTÍA, REPARACIONES Y CUIDADO DEL PRODUCTO** \n\n La garantía cubre defectos de fabricación, el término de la garantía es de: dos (2) meses para calzado, seis (6) meses para gafas, un (1) día para productos comprados en actividades promocionales y treinta (30) días calendario para los demás productos. El término de la garantía se cuenta a partir del día de entrega del producto al cliente. La garantía no cubre el deterioro normal del producto, el uso indebido, ni los daños ocasionados por no atender las instrucciones de cuidado o mantenimiento de los productos. \n\n Para hacer efectiva la garantía de cualquiera de los productos comprados a través de nuestra página web, el cliente podrá realizar su solicitud a través de la página web o en cualquiera de nuestros puntos de venta de la siguiente manera: \n\nSolicitudes a través de los puntos de venta ARTURO CALLE: se deberá entregar el producto en cualquier punto de venta ARTURO CALLE y diligenciar los formatos que se tengan dispuestos en la misma para tal fin. \nSolicitudes a través de la página web: el cliente deberá notificar a través de cualquiera de los medios de contacto (Línea de atención, chat online o vía e-mail a contactenos@arturocalle.com), informando el nombre completo y número de cédula de comprador, número de la orden del pedido, número de documento equivalente a factura y la demás información que considere pertinente para la atención de la garantía. \n\nEl área de servicio al cliente de ARTURO CALLE revisará la solicitud y de ser procedente solicitará la devolución del producto para su revisión física, coordinando con el cliente la forma en la cual se deberá efectuar la devolución del producto \n\nEn el evento en que proceda la garantía, ARTURO CALLE indicará el procedimiento para hacerla efectiva y en caso contrario se generará una respuesta formal explicando los motivos por los cuales no procede la misma y devolverá el producto(s) a la dirección de envío inicial. \n\n**GARANTÍA SOBRE LOS SERVICIOS** \n La garantía cubre el servicio de sastrería por el término de treinta (30) días calendario, contados a partir de la entrega del producto. \n\n **REPUESTOS Y REPARACIONES**\nLa disponibilidad de repuestos, partes, insumos y mano de obra capacitada, será de quince (15) días calendario, contados a partir de la fecha de vencimiento de la garantía del producto. El costo de este servicio será asumido por el cliente según lo dispuesto en el Estatuto del Consumidor. \n\n **DERECHO DE RETRACTO**\n De acuerdo con el derecho de retracto consagrado en el artículo 47 de la Ley 1480 de 2011 (Estatuto del Consumidor), el consumidor debe ejercer este derecho dentro de los 5 primeros días hábiles siguientes a la fecha en que se entregó el producto. Para el ejercicio del derecho de retracto usted deberá devolver el producto por los mismos medios y en las mismas condiciones en que lo recibió, en el momento de coordinar la devolución con ARTURO CALLE y la empresa transportadora, le será informado quién asume el costo de dicho envío (El cliente o ARTURO CALLE). Se coordinará con el cliente una fecha para recolección por la empresa transportadora. \n\nPara gestionar la devolución de su producto se debe comunicar con la línea nacional de servicio al cliente 01 8000 180120 (horario de lunes a viernes de 8am-5pm), a través de nuestro correo contactenos@arturocalle.com o en el formulario Contáctenos de nuestra página web.\n\n En caso de que se cumplan todas las condiciones mencionadas, ARTURO CALLE devolverá la suma total pagada, en un término que no excederá de 30 días calendario. En todo caso el retracto estará ajustado a lo señalado los Términos y Condiciones de ARTURO CALLE ON-LINE. **REVERSIÓN DEL PAGO** \n\n Como se indica en nuestro documento de Términos y Condiciones, la ley dispone que en las ventas efectuadas mediante mecanismos de comercio electrónico, tales como Internet y donde se haya utilizado para realizar el pago una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, los participantes del proceso de pago deberán reversar los pagos que solicite el consumidor cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso. \n\n Para que proceda la reversión del pago, dentro los cinco (5) días hábiles siguientes a la fecha en que el consumidor tuvo noticia de la operación fraudulenta o no solicitada o que debió haber recibido el producto o lo recibió defectuoso o sin que correspondiera a lo solicitado, el consumidor deberá presentar su solicitud ante ARTURO CALLE y devolver el producto, cuando sea procedente. \n\nPara tramitar la devolución de los productos (para los casos en que se haya efectuado su entrega), el área de Servicio al Cliente de ARTURO CALLE coordinará con el cliente, la fecha y hora en la que la empresa transportadora efectuará la recolección." ,
+      "blockClass": "content"
+    }
+  },
+          //Sliders
+          "list-context.image-list#demoC4": {
+            "children": ["slider-layout#demo-imagesA"],
+            "props": {
+              "height": 720,
+              "images": [
+                {
+                  "image": "https://callearturop.vteximg.com.br/arquivos/bannerinter.png",
+                  "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterM.png"
+                },
+                {
+                  "image": "https://callearturop.vteximg.com.br/arquivos/bannerinter.png",
+                  "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterM.png"
+                }
+              ],
+              "blockClass": "bannerprincA"
+            }
+          },
+          "list-context.image-list#demoC41": {
+            "children": ["slider-layout#demo-imagesA"],
+            "props": {
+              "height": 720,
+              "images": [
+                {
+                  "image": "https://callearturop.vteximg.com.br/arquivos/baner inter2.png",
+                  "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinter2M.png"
+                },
+                {
+                  "image": "https://callearturop.vteximg.com.br/arquivos/baner inter2.png",
+                  "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinter2M.png"
+                }
+                ],
+              "blockClass": "bannerprincA"
+            }
+          }
+
+}

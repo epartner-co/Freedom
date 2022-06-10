@@ -1,0 +1,43 @@
+/* estilos para los submenus */
+/*vtex.disclosure-layout*/
+
+.trigger--subMneusMTrigger {
+    width: 100%;
+    background: transparent;
+    border: 0;
+}
+.content--subMneusMContent--visible{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #E7E7E7;
+}
+@media (max-width: 600px) {
+    .content--subMenuLv1--visible{
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 67px;
+        background: rgba(0,0,0,0.5);
+    }
+    .content--subMenuLv2--visible{
+        background: url(/arquivos/fondo-desk-menu.png);
+        background-size: 100%;
+        position: fixed;
+        top: 0%;
+        width: 75%;
+        height: 100%;
+        z-index: 99;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 90px 24px 0 24px;
+    }
+    .trigger--cierreTrigger--visible{
+        background: transparent;
+        border: 0;
+    }
+    .styledLinkContent--menu-lv1-cierre {
+        color: black;
+    }
+}

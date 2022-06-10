@@ -1,0 +1,222 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //"flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      //"sticky-layout#4-desktop",
+      "flex-layout.row#3-desktop",
+      "flex-layout.row#marcas-freedom"
+    ]
+  },
+  // header marcas
+  "flex-layout.row#marcas-freedom": {
+    "children": [
+      "flex-layout.col#marca-1",
+      "flex-layout.col#marca-2",
+      "flex-layout.col#marca-3",
+      "flex-layout.col#marca-4"
+    ],
+    "props": {
+      "blockClass":"marcas-header",
+      "fullWidth": true
+    }
+  },
+  // columna 1
+  "flex-layout.col#marca-1": {
+    "children": ["rich-text#shelf-title-#marca-1"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 1
+  "rich-text#shelf-title-#marca-1": {
+    "props": {
+      "text": "[Arturo calle](/arturocalle.com)",
+      "blockClass": ["marcas-Item","arturo-calle"]
+    }
+  },
+  // columna 2
+  "flex-layout.col#marca-2": {
+    "children": ["rich-text#shelf-title-#marca-2"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 2
+  "rich-text#shelf-title-#marca-2": {
+    "props": {
+      "text": "[Freedom](/)",
+      "blockClass": ["marcas-Item","freedom"]
+    }
+  },
+  // columna 3
+  "flex-layout.col#marca-3": {
+    "children": ["rich-text#shelf-title-#marca-3"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 3
+  "rich-text#shelf-title-#marca-3": {
+    "props": {
+      "text": "[Colore](/)",
+      "blockClass": ["marcas-Item","colore"]
+    }
+  },
+  // columna 4
+  "flex-layout.col#marca-4": {
+    "children": ["rich-text#shelf-title-#marca-4"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 4
+  "rich-text#shelf-title-#marca-4": {
+    "props": {
+      "text": "[Maravela](/)",
+      "blockClass": ["marcas-Item","maravela"]
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      //"vtex.menu@2.x:menu#websites",
+     // "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#site"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "clear-button",
+      "placeholder": "Buscar producto"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#cotizaciones",
+      "flex-layout.col#logIn",
+      "flex-layout.col#MMiniCart"
+    ]
+  },
+  // Header items Carrito coti y minicart
+  "flex-layout.col#logIn": {
+    "props": {
+      "blockClass":["login","headerItem"]
+    },
+    "children": ["login"]
+  },
+  "login": {
+    "props": {
+      "blockClass":"headerItem",
+      "iconLabel":"Iniciar Sesión"
+    }
+  },
+  "flex-layout.col#cotizaciones": {
+    "props": {
+      "blockClass":["cotizaciones","headerItem"]
+    },
+    "children": ["rich-text#cotizacion"]
+  },
+  "rich-text#cotizacion": {
+    "props": {
+      "text": "[Cotizaciones](/)",
+      "blockClass": "cotizaciones"
+    }
+  },
+  "flex-layout.col#MMiniCart": {
+    "props": {
+      "blockClass":["minicart","headerItem"]
+    },
+    "children": ["minicart.v2"]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      //"flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      //"sticky-layout#4-desktop",
+      "flex-layout.row#3-mobile",
+      "flex-layout.row#marcas-freedom"
+    ]
+  },
+  "flex-layout.row#3-mobile": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      //"vtex.menu@2.x:menu#websites",
+     // "flex-layout.col#spacer",
+     "vtex.menu@2.x:menu#siteM"
+    ]
+  }
+}
