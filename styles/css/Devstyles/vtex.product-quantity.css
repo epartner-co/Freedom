@@ -1,5 +1,5 @@
 
-.quantitySelectorContainer.quantitySelectorContainer--flotanteB {position: absolute;bottom: 0%;right: 0;margin: 0;}
+.quantitySelectorContainer.quantitySelectorContainer--flotanteB {position: absolute;bottom: 0%;right: 0;margin: 0;top: 58%;}
 .quantitySelectorTitle.quantitySelectorTitle--flotanteB {font-weight: 700;text-transform: uppercase;color: #2A2A2A;letter-spacing: 1px;margin: 0 0 9px 0;font-size: 17px;}
 
 .quantitySelectorStepper.quantitySelectorStepper--flotanteB {font-weight: 700;border: 2px solid #340572;transform: rotate(-2deg);}
@@ -21,6 +21,8 @@
 @media (max-width: 1000px)  {
 .quantitySelectorContainer.quantitySelectorContainer--flotanteB {
     width: 47%;
+    top: 34%;
+    right: -9px !important;
 }
 }
 

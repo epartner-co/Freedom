@@ -305,8 +305,8 @@
   //primer
   "flex-layout.col#footerCol3":{
     "children": [
-      "menu-item#backpacks",
-      "rich-text#footer-tiendas"
+      "menu-item#backpacks"
+      
     ],
     "props":{
       "width":"90%",

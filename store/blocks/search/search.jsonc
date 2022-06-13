@@ -299,7 +299,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["flex-layout.row#searchbread", "flex-layout.col#404Container"]
   },
 
   "flex-layout.row#notfound": {

@@ -20,3 +20,18 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.orderByOptionsContainer {
+  top: -670%;
+  left: 0;
+}
+.filterItem--algodon-y-mezclas-algodon :global(.vtex-checkbox__label)::after {
+  top: 15%;
+  right: -18px !important;
+}
+.filter__container--brand {
+  display: none;
+}
+.filter__container--category-5 {
+  display: none;
+}

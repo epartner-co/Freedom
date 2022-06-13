@@ -28,7 +28,7 @@
           "height": 720,
           "itemsPerPage": {
             "desktop": 1,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
@@ -196,12 +196,12 @@
         "props": {
           "itemsPerPage": {
             "desktop": 5,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
-          "blockClass": "shelf",
+          "blockClass": ["shelf","tabber"],
           "showPaginationDots":"mobileOnly",
           "showNavigationArrows": "always"
         }
@@ -215,12 +215,12 @@
         "props": {
           "itemsPerPage": {
             "desktop": 5,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
-          "blockClass": "shelf",
+          "blockClass": ["shelf","tabber"],
           "showPaginationDots":"mobileOnly",
           "showNavigationArrows": "always"
         }
@@ -233,12 +233,12 @@
         "props": {
           "itemsPerPage": {
             "desktop": 5,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
-          "blockClass": "shelf",
+          "blockClass": ["shelf","tabber"],
           "showPaginationDots":"mobileOnly",
           "showNavigationArrows": "always"
         }
@@ -251,12 +251,12 @@
         "props": {
           "itemsPerPage": {
             "desktop": 5,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
-          "blockClass": "shelf",
+          "blockClass": ["shelf","tabber"],
           "showPaginationDots":"mobileOnly",
           "showNavigationArrows": "always"
         }
@@ -269,12 +269,12 @@
         "props": {
           "itemsPerPage": {
             "desktop": 5,
-            "tablet": 3,
+            "tablet": 4,
             "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
-          "blockClass": "shelf",
+          "blockClass": ["shelf","tabber"],
           "showPaginationDots":"mobileOnly",
           "showNavigationArrows": "always"
         }

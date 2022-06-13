@@ -173,7 +173,7 @@
 }
 .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
     background: #F44753;
-    margin: 0 10% 0 0;
+    margin: 0 2% 2% 0;
     position: relative;
     height: 38px;
     padding: 0 8% 0 6%;
@@ -199,6 +199,7 @@
 } */
 .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterTemplateOverflow){
     display: flex;
+    flex-wrap: wrap;
 }
 .flexColChild--filtroContent:first-child {
     height: auto !important;
@@ -281,7 +282,7 @@
 .flexRowContent--rowFixed-category {
     justify-content: center;
     /*margin: 0 40px;*/
-    width: 90%;
+    width: 100%;
     background: linear-gradient(90deg,rgba(255,255,255,0) -7.58%,#FFFFFF 32.57%,#FFFFFF 71.03%,rgba(255,255,255,0) 101.01%);
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
     backdrop-filter: blur(5px);
@@ -319,6 +320,13 @@
     padding-bottom: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.flexCol--nombreC {
+    position: sticky !important;
+    width: 100% !important;
+    top: 7%;
+    height: fit-content !important;
 }
 @media (max-width: 600px) {
     .flexColChild--404-container {

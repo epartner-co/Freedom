@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "responsive-layout.desktop#banner-home-principal",
+      "responsive-layout.tablet#banner-home-principal",
+      "responsive-layout.phone#banner-home-principal",
 //      "__fold__.experimentalLazyAssets",
       "flex-layout.row#bannerContenedorSecundario",
       //"rich-text#shelf-title",
@@ -27,6 +29,17 @@
   },
 
   //Sliders
+  "responsive-layout.desktop#banner-home-principal": {
+    "children": ["list-context.image-list#demo"]
+  },
+  "responsive-layout.tablet#banner-home-principal": {
+    "children": ["list-context.image-list#demotablet"]
+  },
+  "responsive-layout.phone#banner-home-principal": {
+    "children": ["list-context.image-list#demo"]
+  },
+
+
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
@@ -34,6 +47,34 @@
       "images": [
         {
           "image": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png"
+        }
+
+      ],
+      "blockClass": "bannerprinc"
+    }
+  },
+  "list-context.image-list#demotablet": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/banner-principal-tablet.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-principal-tablet.png"
+        }
+
+      ],
+      "blockClass": "bannerprinc"
+    }
+  },
+  "list-context.image-list#demomobile": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png",
           "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png"
         }
 
@@ -116,7 +157,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 3,
-        "tablet": 1,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": true,
@@ -205,7 +246,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 3,
+        "tablet": 4,
         "phone": 2
       },
       "infinite": true,
@@ -232,7 +273,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 3,
+        "tablet": 4,
         "phone": 2
       },
       "infinite": true,

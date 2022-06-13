@@ -48,3 +48,25 @@
 /*Vitrina*/
 .sellingPrice--summary.sellingPrice--hasListPrice.sellingPrice--summary--hasListPrice {padding: 0 4%;}
 
+.skuSelectorItem--vitrina--blanco.skuSelectorItem--vitrina--blanco {
+  border: 1px solid #00000021 !important;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer--colores) .skuSelectorItem--selected::after {
+  content: "\2713";
+  visibility: visible;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+
+@media (max-width: 1000px) {
+.containerNormal :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+  display: flex;
+  top: 0;
+  position: relative !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+}

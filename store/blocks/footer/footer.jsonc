@@ -278,43 +278,6 @@
       "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA CONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO",
       "blockClass": "post-footer"
     }
-  },
+  }
 
-  "rich-text#footer-tiendas": {
-    "props": {
-      "text": "Ver",
-      "blockClass": "post-footer"
-    }
-  },
-
-    // LOCALIZADOR DE TIENDAS
-
-    "iframe#footer-localizacion-tiendas": {
-      "props": {
-        "src": "https://www.arturocalle.com/localizador",
-        "width": "100%",
-        "height": "500px",
-        "blockClass": "iframe-localizador"
-      }
-    },
-    "modal-trigger#localizacion-tiendas": {
-      "children": [
-        "modal-trigger#localizacion-tiendas"
-      ]
-    },
-    "modal-layout#localizacion-tiendas": {
-      "props": {
-        "blockClass": "localizacion-tiendas"
-      },
-      "children": [
-        "modal-header#cerrar-tiendas",
-        "iframe#footer-localizacion-tiendas"
-      ]
-    },
-    "modal-header#cerrar-tiendas": {
-      "props": {
-       "showCloseButton":"true",
-       "blockClass": "localizacion-tiendas"
-      }
-     }
 }

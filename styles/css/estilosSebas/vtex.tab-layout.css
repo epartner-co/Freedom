@@ -54,6 +54,9 @@
     .container--home .listContainer--tabbersCategory .listItem {
         width: 100%;
     }
+    .listContainer.listContainer--tabbersCategory {
+        padding: 0 0;
+    }
 }
 
 @media (max-width: 600px) {

@@ -177,6 +177,11 @@
   top: 2%;
   left: 2%;
 }
+@media (max-width: 1200px)  {
+.flexRow--Submenu::before{
+  display:none !important;
+}
+}
 .flexRowContent--Submenu::before {
   content: "";
   background: url(https://callearturop.vteximg.com.br/arquivos/menu--freedom.png) no-repeat;
@@ -192,6 +197,7 @@
 /* levl2  */
 .flexCol--submenu-lvl2  {
   justify-content: center;
+  height: auto;
 }
 .flexCol--imagenes  {
   position: absolute;
@@ -244,7 +250,39 @@
   color: white;
   border-radius: 5px;
 }
-
+@media (max-width: 1100px){
+.flexRowContent--social-Media-menu-M .stretchChildrenWidth {
+    width: 100%!important;
+    height: 3rem; /* agregar esta declaracion*/
+}
+.flexRowContent--buscador-hover:hover::after {
+  display:none;
+}
+.flexColChild--imagenColumnCategory:first-child {
+  background-image: url(https://callearturop.vtexassets.com/arquivos/banner-slider-home-tablet.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flexColChild--imagenColumnCategory:last-child {
+  display: none;
+}
+.flexColChild--imagenColumnCategory:first-child {
+  background-image: url(https://callearturop.vtexassets.com/arquivos/banner-slider-home-tablet.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flexColChild--imagenColumnCategory:last-child {
+  display: none;
+}
+.flexRowContent--row-vitrine-category .stretchChildrenWidth:first-child {
+  width: 50% !important;
+}
+.flexRowContent--row-vitrine-category .stretchChildrenWidth:last-child {
+  width: 50% !important;
+}
+}
 
 
 @media (max-width: 1000px)  {
@@ -329,6 +367,23 @@
 .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContent) {
   color: white;
 }
+.flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+  width: 55% !important;
+}
+.flexRowContent--buybuttoms :global(.vtex-add-to-cart-button-0-x-buttonText--buytex) {
+  font-size: 15px !important;
+}
+.flexRowContent--buybuttoms :global(.vtex-add-to-cart-button-0-x-buttonText--buytAdd) {
+  font-size: 15px !important;
+}
+.flexRowContent--buybuttoms {
+  flex-wrap: wrap;
+}
+
+.flexRowContent--buybuttoms .stretchChildrenWidth {
+  width: 100% !important;
+  margin: 0px auto 30px;
+}
 }
 
 
@@ -355,4 +410,8 @@
     width: 100%;
     bottom: 0;
   }
+  .flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
+    width: 60% !important;
+  }
+  
 }

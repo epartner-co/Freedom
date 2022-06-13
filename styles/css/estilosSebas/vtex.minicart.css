@@ -26,6 +26,12 @@
   color: white;
   border-radius: 5px;
 }
+@media (max-width: 1000px) {
+.minicartWrapperContainer:hover::after {
+    display: none;
+}
+}
+
 @media (max-width: 600px) {
     .minicartContainer :global(.vtex-button__label){
         padding: 5px;

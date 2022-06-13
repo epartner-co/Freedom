@@ -36,6 +36,34 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--team) .sliderLayoutContainer.sliderLayoutContainer--shelf {
   width: 94%;
 }
+.sliderLayoutContainer--shelf.sliderLayoutContainer--tabber {
+  width: 100% !important;
+}
+
+
+@media (max-width: 1000px) {
+.paginationDotsContainer--carousel-categorias {
+  top: 110%;
+}
+.paginationDotsContainer--shelf {
+  top: 100%;
+}
+.sliderTrackContainer--carousel {
+  margin: 0 0 0 0 !important;
+}
+.sliderLeftArrow--carousel {
+  left: 0 !important;
+}
+.sliderLayoutContainer--shelf.sliderLayoutContainer--tabber {
+  width: 100% !important;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelf2 {
+  padding: 0 0 0 0 !important;
+}
+}
+
+
+
 
 @media (max-width: 600px) {
   .sliderLayoutContainer.sliderLayoutContainer--shelf{
