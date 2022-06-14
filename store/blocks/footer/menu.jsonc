@@ -20,8 +20,6 @@
   "flex-layout.col#footerCol2":{
     "children": [
       "menu-item#quienesSomos",
-      "menu-item#historia",
-      "menu-item#tiendas-fisicas",
       "social-networks"
     ],
     "props":{
@@ -92,6 +90,7 @@
   },
   "social-networks": {
     "props": {
+      "blockClass":"iconos-redes-desk",
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -305,8 +304,7 @@
   //primer
   "flex-layout.col#footerCol3":{
     "children": [
-      "menu-item#backpacks"
-      
+      "modal-trigger#localizacion-tiendas"      
     ],
     "props":{
       "width":"90%",
@@ -434,9 +432,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#quienesSomos",
-      "menu-item#historia",
-      "menu-item#tiendas-fisicas"
+      "menu-item#quienesSomos"
     ]
   },
 
@@ -517,9 +513,7 @@
       "orientation": "vertical"
     },
     "children": [
-      // "menu-item#smartphones",
-      // "menu-item#videogames",
-      // "menu-item#tvs"
+      "modal-trigger#localizacion-tiendas"
     ]
   },
 

@@ -30,6 +30,57 @@
   }
 }
 
+
+.paper--localizacion-tiendas {
+  width: 85%;
+}
+.closeButton--localizacion-tiendas {
+  padding-right: 0;
+  margin: 0;
+  background: transparent;
+  color: #33333d;
+  height: 16px;
+}
+
+.headerContainer.headerContainer--localizacion-tiendas:hover {
+  background: #181e2a;
+}
+
+.headerContainer--localizacion-tiendas {
+  position: fixed;
+  background: #dcdad7;
+  right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.closeIcon--localizacion-tiendas {
+  color: #33333d;
+  width: 62%;
+  display: block;
+  margin: auto;
+  height: auto;
+  padding: 0;
+}
+.headerContainer.headerContainer--localizacion-tiendas:hover .closeIcon--localizacion-tiendas {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+.paper--localizacion-tiendas {
+  width: 75%;
+  z-index: 99999;
+  position: fixed;
+  right: 0;
+  margin: 15px;
+}
+}
+
+
+
+
 .paper--quickview {
   min-width: 320px;
   max-width: 96rem;

@@ -18,6 +18,15 @@
 .contentContainer :global(.vtex-store-components-3-x-productImage)::before{display: none;}
 
 
+
+
+@media (max-width: 1000px)  {
+    .container--product .listItem :global(.vtex-button__label) {
+        font-size: 17px;
+        padding:10px;
+    }
+}
+
 /*Mobil*/
 @media (max-width: 600px) {
 .listContainer.flex.w-100.flex-wrap.justify-center {display: flex;}

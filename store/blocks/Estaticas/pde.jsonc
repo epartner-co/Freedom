@@ -81,10 +81,12 @@
                 {
                   "image": "https://callearturop.vteximg.com.br/arquivos/bannerinter.png",
                   "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterM.png"
+                 
                 },
                 {
                   "image": "https://callearturop.vteximg.com.br/arquivos/bannerinter.png",
                   "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerinterM.png"
+                  
                 }
               ],
               "blockClass": "bannerprincA"

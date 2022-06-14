@@ -17,5 +17,9 @@
 @media (max-width: 1000px){
 .footerLayout {
     margin: 0 0 0px 58px;
+    padding: 0 4%;
+}
+.socialNetworksContainer.socialNetworksContainer--iconos-redes-desk {
+  margin-top: 0px !important;
 }
 }

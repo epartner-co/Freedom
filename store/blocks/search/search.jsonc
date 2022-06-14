@@ -76,7 +76,7 @@
       "pagination": "show-more",
       "preventRouteChange": true,
       "defaultGalleryLayout": "grid",
-      "maxItemsPerPage": 15
+      "maxItemsPerPage": 20
     }
   },
   "image#banner-category": {
@@ -233,7 +233,7 @@
         "mode1": "small",
         "mode2": "normal"
       },
-      "defaultGalleryLayout": "grid",
+      "defaultGalleryLayout": "x 5",
       "maxItemsPerPage": 16
     }
   },
@@ -299,7 +299,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.col#404Container"]
+    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
   },
 
   "flex-layout.row#notfound": {

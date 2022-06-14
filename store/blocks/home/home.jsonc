@@ -36,7 +36,7 @@
     "children": ["list-context.image-list#demotablet"]
   },
   "responsive-layout.phone#banner-home-principal": {
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demomobile"]
   },
 
 
@@ -47,10 +47,14 @@
       "images": [
         {
           "image": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png",
-          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png"
+          "mobileImage": "https://callearturop.vtximg.com.br/arquivos/banner-desk.png"
         }
-
       ],
+      "link": [
+        {
+         "url": "/hombre?order=OrderByReleaseDateDESC"
+       }
+     ],
       "blockClass": "bannerprinc"
     }
   },
@@ -61,10 +65,15 @@
       "images": [
         {
           "image": "https://callearturop.vteximg.com.br/arquivos/banner-principal-tablet.png",
-          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-principal-tablet.png"
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-principal-tablet.png",
+          "link": "/hombre?order=OrderByReleaseDateDESC"
         }
-
       ],
+      "link": [
+        {
+         "url": "/hombre?order=OrderByReleaseDateDESC"
+       }
+     ],
       "blockClass": "bannerprinc"
     }
   },
@@ -77,10 +86,15 @@
           "image": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png",
           "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png"
         }
-
+      ],
+      "link": [
+         {
+          "url": "/hombre?order=OrderByReleaseDateDESC"
+        }
       ],
       "blockClass": "bannerprinc"
     }
+    
   },
   "slider-layout#demo-images": {
     "props": {
@@ -184,6 +198,11 @@
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/mobile-vitrina.png"
       }
     ],
+    "link": [
+      {
+       "url": "/hombre?order=OrderByReleaseDateDESC"
+     }
+   ],
     "blockClass": "bannerprinc"
   }
 },

@@ -9,7 +9,7 @@
 .productBrand.productBrand--quickview {text-transform: uppercase;letter-spacing: 1px;margin: 0 0 20px 0;;display: block;}
 /*Page product*/
 /* .skuSelectorItem.skuSelectorItem--selected.skuSelectorItemImage {height: 100%;background: none;} */
-.skuSelectorSubcontainer--color .skuSelectorInternalBox {border: 0;}
+
 .skuSelectorName {display: block;}
 .skuSelectorSubcontainer--color .skuSelectorName::before {font-weight: 700;content: "Colores Disponibles";font-size: 16px;color: #2A2A2A;text-transform: uppercase;letter-spacing: 1px;}
 .skuSelectorName {font-size: 0;}
@@ -20,9 +20,7 @@
 .skuSelectorItem.skuSelectorItem--negro.skuSelectorItem--selected.skuSelectorItemImage .skuSelectorItemImageValue {border: 2px solid #340572;width: 89%;}
 .valueWrapper {width: 100%;}
 .skuSelectorItem {margin: 0;padding: 0;border-radius: 0;}
-.skuSelectorInternalBox {border-radius: 0;}
 .skuSelectorItem {margin: 0;padding: 0;border-radius: 0;}
-.skuSelectorInternalBox {border-radius: 0;}
 .productImagesThumb {margin: 0;}
 
 /*---------------------ZOOM PAGINA DE PRODUCTO*/

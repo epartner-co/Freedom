@@ -23,9 +23,11 @@
       "product-questions-and-answers",
       "rich-text#relacionados1",
       "responsive-layout.desktop#related1",
+      "responsive-layout.tablet#related1",
       "responsive-layout.phone#related1",
       "rich-text#relacionados2",
       "responsive-layout.desktop#related2",
+      "responsive-layout.tablet#related2",
       "responsive-layout.phone#related2"
     ],
     "props":{
@@ -572,18 +574,23 @@
 
   "flex-layout.row#product-availability": {
     "props": {
-      "colGap": 7,
-      "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7
+
+      "blockClass": "no-disponible"
     },
     "children": [
-      "responsive-layout.desktop#product",
-      "responsive-layout.phone#product",
+      "flex-layout.col#no-disponible",
       "flex-layout.col#right-col-availability"
     ]
   },
-
+  "flex-layout.col#no-disponible": {
+    "props": {
+      "blockClass": "no-disponible"
+    },
+    "children": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.phone#product"
+    ]
+  },
   "flex-layout.col#right-col-availability": {
     "props": {
       "preventVerticalStretch": true,
@@ -624,6 +631,9 @@
   "responsive-layout.desktop#related1": {
     "children": ["shelf.relatedProducts#1"]
   },
+  "responsive-layout.tablet#related1": {
+    "children": ["shelf.relatedProducts#1"]
+  },
   "responsive-layout.phone#related1": {
     "children": ["shelf.relatedProducts#1M"]
   },
@@ -634,7 +644,11 @@
         "productList": {
             "minItemsPerPage":2,
             "titleText": "Nuestras Marcas",
-            "itemsPerPage": 5,
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 4,
+              "phone": 2
+            },
             "maxItems":5
         },
         "blockClass": "shelf"
@@ -645,7 +659,12 @@
     "props": {
         "recommendation": "view",
         "productList": {
-            "titleText": "Nuestras Marcas"
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 4,
+              "phone": 2
+            }
         },
         "blockClass": "shelf"
     },
@@ -661,6 +680,9 @@
   "responsive-layout.desktop#related2": {
     "children": ["shelf.relatedProducts#2"]
   },
+  "responsive-layout.tablet#related2": {
+    "children": ["shelf.relatedProducts#2"]
+  },
   "responsive-layout.phone#related2": {
     "children": ["shelf.relatedProducts#2M"]
   },
@@ -670,8 +692,13 @@
         "productList": {
             "minItemsPerPage":2,
             "titleText": "Nuestras Marcas",
-            "itemsPerPage": 2,
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 4,
+              "phone": 2
+            },
             "maxItems":5
+            
         },
         "blockClass": "shelf"
     },
@@ -681,7 +708,12 @@
     "props": {
         "recommendation": "view",
         "productList": {
-            "titleText": "Nuestras Marcas"
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 4,
+              "phone": 2
+            }
         },
         "blockClass": "shelf"
     },

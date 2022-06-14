@@ -98,6 +98,7 @@
       "blockClass": ["vertical","categoria"],
       "id": "menu-item-vtex-website",
       "type": "custom",
+      "onMountBehavior": "clicked",
       "iconId": null,
       "highlight": false,
       "itemProps": {

@@ -176,7 +176,7 @@
     margin: 0 2% 2% 0;
     position: relative;
     height: 38px;
-    padding: 0 8% 0 6%;
+    padding: 0 10% 0 4%;
     display: flex;
     width: auto;
     align-items: center;
@@ -224,7 +224,6 @@
 }
 .flexCol--newsletter-col  {
     padding-left: 20px;
-    border-left: 1px solid white;
 }
 /* .flexRowContent--menu-row {
     margin-bottom: 40px;
@@ -241,8 +240,10 @@
     margin: 0 31%;
 }
 .flexCol--newsletter-col{
-    background: rgba(0, 0, 0, 0.5);
+   background: rgba(0, 0, 0, 0.5);
     padding-right: 52px;
+    margin-top: -20px;
+    padding-top: 15px;
     padding-bottom: 30px;
 }
 .flexRow--marcas-header{
@@ -252,6 +253,9 @@
 .flexRowContent--marcas-header {
     width: 40%;
     float: right;
+}
+.flexRow.flexRow--copyRight {
+    margin-top: -30px;
 }
 @media (max-width: 1100px) {
     .flexRowContent--marcas-header {
@@ -263,6 +267,10 @@
     .flexRowContent--social-Media-menu-M {
         flex-wrap: wrap;
     }
+    .flexCol--newsletter-col::before {
+        display: none !important;
+    }
+    
 }
 .flexRowContent--marcas-header {
     border-left: 1px solid #808080;
@@ -456,9 +464,9 @@
     .flexRow--bradcrumb{
         margin: 10px 0 0 0;
     }
-    .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
+  /*  .flexCol--filtroContent :global(.vtex-search-result-3-x-filter__container--selectedFilters) :global(.vtex-search-result-3-x-filterItem){
         width: 40%;
-    }
+    }*/
     .flexCol--newsletter-col  {
         padding-left: 0;
         padding: 5px 10px;
@@ -482,6 +490,7 @@
         color: white;
         font-weight: bold;
         font-size: 20px;
+        text-transform: uppercase;
     }
     .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-menuItem--titulos-mobile--isOpen) :global(.vtex-menu-2-x-styledLinkContent--titulos-mobile){
         color: #00E8FF;
@@ -559,5 +568,11 @@
         bottom: 56px;
         padding: 0 10px;
         z-index: 99;
+    }
+    .flexRowContent.flexRowContent--no-disponible {
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        margin: 0 0 0 auto;
     }
 }

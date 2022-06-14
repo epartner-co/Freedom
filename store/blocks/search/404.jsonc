@@ -19,8 +19,8 @@
       "height": 920,
       "images": [
         {
-          "image": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png",
-          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-mobile.png",
+          "image": "https://callearturop.vteximg.com.br/arquivos/404-desk.png",
+          "mobileImage": "https://callearturop.vteximg.com.br/arquivos/404-mobile.png",
           "link":{
             "url":"/"
           }

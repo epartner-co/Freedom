@@ -35,3 +35,12 @@
 .filter__container--category-5 {
   display: none;
 }
+.filterItem--algodon-y-mezclas-algodon :global(.vtex-checkbox__inner-container) {
+  right: -30px;
+}
+
+@media (max-width: 600px) {
+.filtersWrapper--filtros2 {
+  display: none;
+}
+}

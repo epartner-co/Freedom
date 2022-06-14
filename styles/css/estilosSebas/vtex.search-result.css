@@ -236,6 +236,18 @@
     font-size: 13.5px;
 }
 
+.filterItem--pulseras-manillas-llaveros :global(.vtex-checkbox__container) {
+    LEFT: 65%;
+}
+.filterItem--gorras-gorros-y-boinas :global(.vtex-checkbox__container) {
+    LEFT: 65%;
+}
+.filterItem--productos-cuidado-zapatos :global(.vtex-checkbox__container) {
+    LEFT: 65%;
+}
+.vtex-search-result-3-x-filterItem--corbatas-y-corbatines :global(.vtex-checkbox__container) {
+    LEFT: 65%;
+}
 
 .filterItem.filterItem--filtros2 {
     margin-left: -59px;

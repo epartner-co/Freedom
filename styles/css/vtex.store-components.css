@@ -660,13 +660,29 @@
   color: white;
   border-radius: 5px;
 }
+/*
 .imageElement--preFooter {
   padding-top: 30px;
-}
+}*/
 .skuSelectorItem--blanco {
   border:1px solid #00000026
 }
-
+.input.inputName :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #c2c2c2;
+}
+.input.inputEmail :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #c2c2c2;
+}
+.submit :global(.vtex-button) {
+  background: #340572;
+  border-color: #340572;
+}
+.submit :global(.vtex-button) :global(.vtex-button__label) {
+  color: white !important;
+}
+.skuSelectorOptionsList {
+  width: 80%;
+}
 
 @media (max-width: 1000px)  {
 .imageElement--pagos-desk {
@@ -736,5 +752,55 @@
   font-weight: 700;
   margin: 20px 0 0 0;
   transform: rotate(-2deg);
+}
+.infoCardCallActionContainer--info-card-homeM :global(.vtex-button__label) {
+  text-align: left;
+  margin: 0;
+}
+.infoCardCallActionContainer--info-card-homeS :global(.vtex-button__label) {
+  text-align: left;
+  margin: 0;
+}
+.infoCardCallActionContainer--info-card-homeB :global(.vtex-button__label) {
+  text-align: left;
+  margin: 0;
+}
+.infoCardCallActionContainer--info-card-homeM :global(.vtex-button__label) {
+  text-align: left;
+  font-size: 22px;
+}
+.infoCardCallActionContainer--info-card-homeS :global(.vtex-button__label) {
+  text-align: left;
+  font-size: 25px;
+}
+.infoCardCallActionContainer--info-card-homeB :global(.vtex-button__label) {
+  text-align: left;
+  font-size: 25px;
+}
+
+.infoCardTextContainer--info-card-homeS {
+  padding: 0;
+}
+.infoCardTextContainer--info-card-homeC {
+  padding: 0;
+}
+.infoCardTextContainer--info-card-homeB {
+  padding: 0;
+}
+.infoCardTextContainer--info-card-homeM {
+  padding: 0;
+}
+
+.infoCardHeadline--info-card-homeM {
+  font-size: 30px;
+}
+.infoCardHeadline--info-card-homeS {
+  font-size: 30px;
+}
+.infoCardHeadline--info-card-homeB {
+  font-size: 30px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--InformacionDosC) .productDescriptionTitle {
+  line-height: 32px;
 }
 }
