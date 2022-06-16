@@ -16,6 +16,7 @@
 @media (max-width: 600px) {
     .content--subMenuLv1--visible{
         position: fixed;
+        width: 90%;
         height: 100%;
         top: 0;
         left: 67px;

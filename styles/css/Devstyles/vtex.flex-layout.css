@@ -39,7 +39,7 @@
 @media (max-width: 600px) {
 .flexCol--buybuttoms2 :global(.vtex-button) {margin: 0;width: 100%;}
 .flexCol--buybuttoms1 :global(.vtex-button) {width: 100%;margin: 0 0 13px 0;}
-.flexCol.flexCol--nombreC { margin: 0 4%; }
+.flexCol.flexCol--nombreC { margin: 0 4% !important; }
 .flexCol--InformacionDosC :global(.vtex-store-components-3-x-productImagesGallerySlide) { padding: 0;}
 }
 

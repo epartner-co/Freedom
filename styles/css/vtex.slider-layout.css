@@ -39,7 +39,11 @@
 .sliderLayoutContainer--shelf.sliderLayoutContainer--tabber {
   width: 100% !important;
 }
-
+.sliderLayoutContainer.sliderLayoutContainer--shelf.sliderLayoutContainer--wish {
+  width: 100% !important;
+  margin-left: 0;
+  margin-top: 0;
+}
 
 @media (max-width: 1000px) {
 .paginationDotsContainer--carousel-categorias {
@@ -69,4 +73,7 @@
   .sliderLayoutContainer.sliderLayoutContainer--shelf{
     margin-left: 0;
   }
+  .slide--shelf.slide--wish {
+    max-width: 200px !important;
+}
 }

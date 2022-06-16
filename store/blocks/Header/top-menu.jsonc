@@ -28,10 +28,12 @@
       "flex-layout.row#Carrito",
       "flex-layout.row#Favoritos",
       "flex-layout.row#Categorias",
-*/    "drawer#buscar",
+*/    
+      "drawer#buscar",
       "minicart.v2",
       "flex-layout.row#Favoritos",
-      "menu-item#vtex-website2C4"
+    //"menu-item#vtex-website2C4",
+      "drawer#MENUDESK"
 
     ]
   },
@@ -443,5 +445,45 @@
       "orientation": "vertical",
       "isFullWidth":true
     }
+  },
+
+
+//MENU DESK-TOP
+  "drawer#MENUDESK": {
+    "children":[
+     "flex-layout.row#principal"
+    ],
+    "blocks": ["drawer-trigger#MENUDESK"],
+    "props":{
+      "blockClass":"MENU-DESK-CLICK",
+      "isFullWidth":true,
+      "maxWidth":"auto"
+    }
+  },
+
+  "drawer-trigger#MENUDESK": {
+    "children": ["flex-layout.row#MENUDESK"],
+    "props": {
+      "blockClass":"MENU-DESK-CLICK",
+      "isFullWidth":true
+    }
+  },
+  "flex-layout.row#MENUDESK":{
+    "children": [
+      "image#MENUDESK"
+    ],
+    "props":{
+      "blockClass": ["icono", "MENU-DESK-CLICK"]
+    }
+  },
+  "image#MENUDESK": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/menu-freedom.png",
+      "maxHeight": "300px",
+      "maxWidth": "300px",
+      "blockClass": ["iconoM", "MENU-DESK-CLICK"]
+    }
   }
+
+
 }

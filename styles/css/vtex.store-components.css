@@ -683,6 +683,9 @@
 .skuSelectorOptionsList {
   width: 80%;
 }
+.imageElement--iconoM.imageElement--MENU-DESK-CLICK {
+  width: 70%;
+}
 
 @media (max-width: 1000px)  {
 .imageElement--pagos-desk {

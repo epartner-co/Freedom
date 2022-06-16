@@ -195,7 +195,7 @@
             "itemProps": {
             "type": "internal",
             "noFollow": false,
-            "href":"/account/wishlist",
+            "href":"/account#/wishlist",
             "tagTitle": "Lista de deseos",
             "text": "Lista de deseos"
             }

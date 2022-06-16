@@ -1,6 +1,44 @@
 .overlay.overlay--searchbarD.overlay--visible.overlay--searchbarD--visible{
     margin: 0 0 0 65px;
 }
+.drawer--MENU-DESK-CLICK.opened.opened--MENU-DESK-CLICK {
+    height: 100%;
+    min-width: 60% !important;
+    background: transparent;
+    z-index: 9999;
+    left:4.6%;
+    width: 60% !important;
+}
+.drawerContent.drawerContent--MENU-DESK-CLICK {
+    height: 100%;
+}
+.childrenContainer.childrenContainer--MENU-DESK-CLICK {
+    height: 100%;
+}
+.closeIconContainer.closeIconContainer--MENU-DESK-CLICK {
+    position: absolute;
+    z-index: 999;
+    top: 341px;
+    margin-left: -57px;
+}
+.closeIcon--MENU-DESK-CLICK {
+    color: transparent;
+    background-image: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (min-width: 1600px)  {
+    .drawer--MENU-DESK-CLICK.opened.opened--MENU-DESK-CLICK {
+      left: 67px;
+    }
+    .closeIconContainer.closeIconContainer--MENU-DESK-CLICK {
+        position: absolute;
+        z-index: 999;
+        top: 341px;
+        margin-left: -61px;
+    }
+  }
 @media (max-width: 600px) {
     .overlay.overlay--searchbarD.overlay--visible.overlay--searchbarD--visible{
         margin: 0 0 0 58px;

@@ -55,10 +55,36 @@
 }
 .skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;font-size: 12px;}
 .skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -23px; left: 112px; font-size: 12px;}
-.skuSelectorItem--blanco.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;font-size: 12px;}
+.skuSelectorItem--blanco.skuSelectorItem--selected::before {content: "Blanco";position: absolute;top: -24px;left: 160px;font-size: 12px;}
 .skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
 .skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
 .skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -23px;  right: -180%; font-size: 12px;}
+.skuSelectorItem--taupe.skuSelectorItem--selected::before {content: "Taupe";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--naranja.skuSelectorItem--selected::before {content: "Naranja";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--nzul.skuSelectorItem--selected::before {content: "Azul";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--verde.skuSelectorItem--selected::before {content: "Verde";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--morado.skuSelectorItem--selected::before {content: "Morado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--rosado.skuSelectorItem--selected::before {content: "Rosado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--cafe.skuSelectorItem--selected::before {content: "Café";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--vino.skuSelectorItem--selected::before {content: "Vino";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--gris.skuSelectorItem--selected::before {content: "Gris";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--rojo.skuSelectorItem--selected::before {content: "Rojo";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--caqui.skuSelectorItem--selected::before {content: "Caqui";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--amarillo.skuSelectorItem--selected::before {content: "Amarillo";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--beige.skuSelectorItem--selected::before {content: "Beige";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--multicolor.skuSelectorItem--selected::before {content: "Multicolor";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--ocre.skuSelectorItem--selected::before {content: "Ocre";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+.skuSelectorItem--combinado.skuSelectorItem--selected::before {content: "Combinado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+
+
+
+
+
+
+
+
+
 .gradientBaseTop::before {content: "";
   width: 30px;
   height: 30px;

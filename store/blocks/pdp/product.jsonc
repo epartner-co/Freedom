@@ -661,9 +661,9 @@
         "productList": {
             "titleText": "Nuestras Marcas",
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 4,
-              "phone": 2
+              "phone": 5
             }
         },
         "blockClass": "shelf"
@@ -693,7 +693,7 @@
             "minItemsPerPage":2,
             "titleText": "Nuestras Marcas",
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 4,
               "phone": 2
             },
@@ -710,7 +710,7 @@
         "productList": {
             "titleText": "Nuestras Marcas",
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 4,
               "phone": 2
             }

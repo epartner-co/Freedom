@@ -26,6 +26,7 @@
 :global(.vtex-toast-container) {
     top: 22%;
     left: 32px;
+    height: 57px;
 }
 :global(.vtex-toast) {
     background: white;
@@ -39,5 +40,11 @@
 @media (max-width: 600px) {
     :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) > div{
         height: 100%;
+    }
+    :global(.vtex-toast-container) {
+        top: 26%;
+        left: 67px;
+        width: 70%;
+        height: 57px;
     }
 }
