@@ -1,0 +1,1469 @@
+
+{
+   
+  "flex-layout.col#tallas": {
+    "props": {
+      "blockClass":"tallas"
+
+    },
+    "children": [
+
+
+      "condition-layout.product#tallas-calzado-hombre",
+      "condition-layout.product#tallas-calzado-mujer",
+      "condition-layout.product#tallas-ropa-hombre",
+      "condition-layout.product#tallas-ropa-mujer"
+
+    ]
+  },
+
+
+
+     "modal-trigger#tallas-calzado-hombre": {
+          "children": [
+            "rich-text#Modal-trigger-Tallas",
+            "modal-layout#Modal-Tallas-hombre"
+          ],
+          "props": {
+            "blockClass":"tallas-trigger-modal"
+          }
+        },
+        "modal-trigger#tallas-calzado-mujer": {
+            "children": [
+              "rich-text#Modal-trigger-Tallas",
+              "modal-layout#Modal-Tallas-mujer"
+            ],
+            "props": {
+              "blockClass":"tallas-trigger-modal"
+            }
+          },  
+          "modal-trigger#tallas-ropa-hombre": {
+            "children": [
+              "rich-text#Modal-trigger-Tallas",
+              "modal-layout#Modal-Tallas-tallas-ropa-hombre"
+            ],
+            "props": {
+              "blockClass":"tallas-trigger-modal"
+            }
+          },
+          "modal-trigger#tallas-ropa-mujer": {
+            "children": [
+              "rich-text#Modal-trigger-Tallas",
+              "modal-layout#Modal-Tallas-tallas-ropa-mujer"
+            ],
+            "props": {
+              "blockClass":"tallas-trigger-modal"
+            }
+          },
+        "rich-text#Modal-trigger-Tallas": {
+          "props": {
+            "text": "Ver Tallas",
+            "blockClass":"tallas-trigger-modal"
+          }
+        },
+        "rich-text#NO": {
+            "props": {
+              "text": "NO",
+              "blockClass":"NO"
+            }
+          },
+
+
+        "modal-layout#Modal-Tallas-hombre": {
+          "children": [
+            "modal-header#modal-tallas",
+            "flex-layout.col#tallas-calzado-hombre"
+
+          ],
+          "props": {
+            "blockClass":"tallas-content-modal"
+          }
+        },
+        "modal-layout#Modal-Tallas-mujer": {
+            "children": [
+               "modal-header#modal-tallas",
+              "flex-layout.col#tallas-calzado-mujer"
+
+            ],
+            "props": {
+              "blockClass":"tallas-content-modal"
+            }
+          },
+          "modal-layout#Modal-Tallas-tallas-ropa-hombre": {
+            "children": [
+              "modal-header#modal-tallas",
+              "flex-layout.col#tallas-ropa-hombre"
+
+            ],
+            "props": {
+              "blockClass":"tallas-content-modal"
+            }
+          },
+          "modal-layout#Modal-Tallas-tallas-ropa-mujer": {
+            "children": [
+              "modal-header#modal-tallas",
+              "flex-layout.col#tallas-ropa-mujer"
+
+            ],
+            "props": {
+              "blockClass":"tallas-content-modal"
+            }
+          },
+
+
+        "modal-header#modal-tallas":{
+            "props": {
+                "blockClass":"tallas-cerrado"
+              } 
+        },
+
+
+
+    //CALZADO HOMBRE
+    "condition-layout.product#tallas-calzado-hombre": {
+      "props":{
+        "conditions":[
+          {
+            "subject":"productClusters",
+            "arguments":{
+              "id": "197"
+            }
+          }
+        ],
+        "Then": "modal-trigger#tallas-calzado-hombre"
+      }
+    },
+
+    "flex-layout.col#tallas-calzado-hombre": {
+        "children": ["rich-text#tallas-calzado-hombre-titulo","rich-text#tallas-calzado-hombre-subtitulo","flex-layout.row#tallas-instrucciones-calzado-hombre","flex-layout.row#tallas-tabla-calzado-hombre"],
+        "props": {
+          "blockClass":"tallas-content"
+        }
+      },
+      "rich-text#tallas-calzado-hombre-titulo": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "ZAPATOS - HOMBRE",
+          "blockClass": "tallas-titulo"
+        }
+      },
+      "rich-text#tallas-calzado-hombre-subtitulo": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Encuentra la talla perfecta para ti",
+          "blockClass": "tallas-subtitulo"
+        }
+      },
+
+      // INSTRUCCIONES
+      "flex-layout.row#tallas-instrucciones-calzado-hombre": {
+        "children": ["image#talla-imagen-instrucciones", "flex-layout.col#tallas-instrucciones-texto-calzado-hombre"],
+        "props": {
+            "blockClass": "tallas-instrucciones"
+          }
+      },
+      "image#talla-imagen-instrucciones": {
+        "props": {
+          "width": "25%",
+          "src": "https://callearturop.vteximg.com.br/arquivos/GUIA-CALZADO.png",
+          "blockClass": "tallas-instrucciones-imagen"
+        }
+      },
+
+     // INSTRUCCIONES 2
+      "flex-layout.col#tallas-instrucciones-texto-calzado-hombre": {
+        "children": [
+            "rich-text#tallas-instrucciones-texto-titulo",
+            "rich-text#tallas-instrucciones-texto-texto",
+            "rich-text#tallas-instrucciones-texto-paso1",
+            "rich-text#tallas-instrucciones-texto-paso2",
+            "rich-text#tallas-instrucciones-texto-paso3",
+            "rich-text#tallas-instrucciones-texto-paso4"
+        ],
+        "props": {
+            "width": "75%",
+            "blockClass": "tallas-instrucciones-texto"
+          }
+      },
+
+      "rich-text#tallas-instrucciones-texto-titulo": {
+        "props": {
+          "text": "CÓMO MEDIR",
+          "blockClass": "tallas-instrucciones-texto-titulo"
+        }
+      },
+      "rich-text#tallas-instrucciones-texto-texto": {
+        "props": {
+          "text": "Siguiendo estos sencillos pasos pobras obtener el tamaño correcto y poder seleccionar tu talla",
+          "blockClass": "tallas-instrucciones-texto-texto"
+        }
+      },
+      "rich-text#tallas-instrucciones-texto-paso1": {
+        "props": {
+          "text": "1- Coloca tu pie sobre una superficie plana sobre una hoja de papel, con el talon contra la pared",
+          "blockClass": "tallas-instrucciones-texto-paso"
+        }
+      },
+      "rich-text#tallas-instrucciones-texto-paso2": {
+        "props": {
+          "text": "2- Marca hasta donde llega tu dedo más largo.",
+          "blockClass": "tallas-instrucciones-texto-paso"
+        }
+      },
+      "rich-text#tallas-instrucciones-texto-paso3": {
+        "props": {
+          "text": "3- Mide ka dustancia desde la punta hasta el talón.",
+          "blockClass": "tallas-instrucciones-texto-paso"
+        }
+      },
+      "rich-text#tallas-instrucciones-texto-paso4": {
+        "props": {
+          "text": "4- Busca la  medida en centímetros en la tabla",
+          "blockClass": "tallas-instrucciones-texto-paso"
+        }
+      },
+
+      //TABLA
+      "flex-layout.row#tallas-tabla-calzado-hombre": {
+        "children": ["flex-layout.col#tallas-tabla-col1-calzado-hombre","flex-layout.col#tallas-tabla-col2-calzado-hombre"],
+        "props": {
+            "blockClass": "tallas-tallas-tabla"
+          }
+      },
+
+
+      //COL1
+      "flex-layout.col#tallas-tabla-col1-calzado-hombre": {
+        "children": [
+            "rich-text#tallas-tabla-col1-fila1-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila2-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila3-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila4-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila5-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila6-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila7-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila8-calzado-hombre",
+            "rich-text#tallas-tabla-col1-fila9-calzado-hombre"
+        ],
+        "props": {
+            "blockClass": "tallas-tabla-col"
+          }
+      },
+
+      
+      "rich-text#tallas-tabla-col1-fila1-calzado-hombre": {
+        "props": {
+          "text": "CM",
+          "blockClass": ["tallas-tabla-col-fil","encabezado"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila2-calzado-hombre": {
+        "props": {
+          "text": "25.3",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+
+      "rich-text#tallas-tabla-col1-fila3-calzado-hombre": {
+        "props": {
+          "text": "26",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila4-calzado-hombre": {
+        "props": {
+          "text": "26.7",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila5-calzado-hombre": {
+        "props": {
+          "text": "27.3",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila6-calzado-hombre": {
+        "props": {
+          "text": "28",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila7-calzado-hombre": {
+        "props": {
+          "text": "28.7",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila8-calzado-hombre": {
+        "props": {
+          "text": "29.3",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col1-fila9-calzado-hombre": {
+        "props": {
+          "text": "30",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+
+
+      //COL2
+      "flex-layout.col#tallas-tabla-col2-calzado-hombre": {
+        "children": [
+            "rich-text#tallas-tabla-col2-fila1-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila2-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila3-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila4-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila5-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila6-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila7-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila8-calzado-hombre",
+            "rich-text#tallas-tabla-col2-fila9-calzado-hombre"
+        ],
+        "props": {
+            "blockClass": "tallas-tabla-col"
+          }
+      },
+
+      
+      "rich-text#tallas-tabla-col2-fila1-calzado-hombre": {
+        "props": {
+          "text": "Talla Colombiana",
+          "blockClass": ["tallas-tabla-col-fil","encabezado"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila2-calzado-hombre": {
+        "props": {
+          "text": "38",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+
+      "rich-text#tallas-tabla-col2-fila3-calzado-hombre": {
+        "props": {
+          "text": "39",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila4-calzado-hombre": {
+        "props": {
+          "text": "40",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila5-calzado-hombre": {
+        "props": {
+          "text": "41",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila6-calzado-hombre": {
+        "props": {
+          "text": "42",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila7-calzado-hombre": {
+        "props": {
+          "text": "43",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila8-calzado-hombre": {
+        "props": {
+          "text": "44",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+      "rich-text#tallas-tabla-col2-fila9-calzado-hombre": {
+        "props": {
+          "text": "45",
+          "blockClass": ["tallas-tabla-col-fil"]
+        }
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        //CALZADO MUJER
+
+        "condition-layout.product#tallas-calzado-mujer": {
+          "props":{
+            "conditions":[
+              {
+                "subject":"productClusters",
+                "arguments":{
+                  "id": "198"
+                }
+              }
+            ],
+            "Then": "modal-trigger#tallas-calzado-mujer"
+          }
+          },
+
+
+
+          "flex-layout.col#tallas-calzado-mujer": {
+            "children": ["rich-text#tallas-calzado-mujer-titulo","rich-text#tallas-calzado-mujer-subtitulo","flex-layout.row#tallas-instrucciones-calzado-mujer","flex-layout.row#tallas-tabla-calzado-mujer"],
+            "props": {
+              "blockClass":"tallas-content"
+            }
+          },
+          "rich-text#tallas-calzado-mujer-titulo": {
+            "props": {
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER",
+              "text": "ZAPATOS - MUJER",
+              "blockClass": "tallas-titulo"
+            }
+          },
+          "rich-text#tallas-calzado-mujer-subtitulo": {
+            "props": {
+              "textAlignment": "CENTER",
+              "textPosition": "CENTER",
+              "text": "Encuentra la talla perfecta para ti",
+              "blockClass": "tallas-subtitulo"
+            }
+          },
+    
+          // INSTRUCCIONES
+          "flex-layout.row#tallas-instrucciones-calzado-mujer": {
+            "children": ["image#talla-imagen-instrucciones", "flex-layout.col#tallas-instrucciones-texto-calzado-mujer"],
+            "props": {
+                "blockClass": "tallas-instrucciones"
+              }
+          },
+
+         // INSTRUCCIONES 2
+          "flex-layout.col#tallas-instrucciones-texto-calzado-mujer": {
+            "children": [
+                "rich-text#tallas-instrucciones-texto-titulo",
+                "rich-text#tallas-instrucciones-texto-texto",
+                "rich-text#tallas-instrucciones-texto-paso1",
+                "rich-text#tallas-instrucciones-texto-paso2",
+                "rich-text#tallas-instrucciones-texto-paso3",
+                "rich-text#tallas-instrucciones-texto-paso4"
+            ],
+            "props": {
+                "width": "75%",
+                "blockClass": "tallas-instrucciones-texto"
+              }
+          },
+    
+
+    
+          //TABLA
+          "flex-layout.row#tallas-tabla-calzado-mujer": {
+            "children": ["flex-layout.col#tallas-tabla-col1-calzado-mujer","flex-layout.col#tallas-tabla-col2-calzado-mujer"],
+            "props": {
+                "blockClass": "tallas-tallas-tabla"
+              }
+          },
+    
+    
+          //COL1
+          "flex-layout.col#tallas-tabla-col1-calzado-mujer": {
+            "children": [
+                "rich-text#tallas-tabla-col1-fila1-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila2-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila3-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila4-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila5-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila6-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila7-calzado-mujer",
+                "rich-text#tallas-tabla-col1-fila8-calzado-mujer"
+            ],
+            "props": {
+                "blockClass": "tallas-tabla-col"
+              }
+          },
+    
+          
+          "rich-text#tallas-tabla-col1-fila1-calzado-mujer": {
+            "props": {
+              "text": "CM",
+              "blockClass": ["tallas-tabla-col-fil","encabezado"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila2-calzado-mujer": {
+            "props": {
+              "text": "22.7",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+    
+          "rich-text#tallas-tabla-col1-fila3-calzado-mujer": {
+            "props": {
+              "text": "23.3",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila4-calzado-mujer": {
+            "props": {
+              "text": "24",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila5-calzado-mujer": {
+            "props": {
+              "text": "24.7",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila6-calzado-mujer": {
+            "props": {
+              "text": "25.3",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila7-calzado-mujer": {
+            "props": {
+              "text": "26",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila8-calzado-mujer": {
+            "props": {
+              "text": "26.7",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col1-fila9-calzado-mujer": {
+            "props": {
+              "text": "30",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+    
+    
+          //COL2
+          "flex-layout.col#tallas-tabla-col2-calzado-mujer": {
+            "children": [
+                "rich-text#tallas-tabla-col2-fila1-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila2-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila3-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila4-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila5-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila6-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila7-calzado-mujer",
+                "rich-text#tallas-tabla-col2-fila8-calzado-mujer"
+            ],
+            "props": {
+                "blockClass": "tallas-tabla-col"
+              }
+          },
+    
+          
+          "rich-text#tallas-tabla-col2-fila1-calzado-mujer": {
+            "props": {
+              "text": "Talla Colombiana",
+              "blockClass": ["tallas-tabla-col-fil","encabezado"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila2-calzado-mujer": {
+            "props": {
+              "text": "34",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+    
+          "rich-text#tallas-tabla-col2-fila3-calzado-mujer": {
+            "props": {
+              "text": "35",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila4-calzado-mujer": {
+            "props": {
+              "text": "36",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila5-calzado-mujer": {
+            "props": {
+              "text": "37",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila6-calzado-mujer": {
+            "props": {
+              "text": "38",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila7-calzado-mujer": {
+            "props": {
+              "text": "39",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila8-calzado-mujer": {
+            "props": {
+              "text": "40",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+          "rich-text#tallas-tabla-col2-fila9-calzado-mujer": {
+            "props": {
+              "text": "45",
+              "blockClass": ["tallas-tabla-col-fil"]
+            }
+          },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //ROPA HOMBRE
+            "condition-layout.product#tallas-ropa-hombre": {
+              "props":{
+                "conditions":[
+                  {
+                    "subject":"productClusters",
+                    "arguments":{
+                      "id": "199"
+                    }
+                  }
+                ],
+                "Then": "modal-trigger#tallas-ropa-hombre"
+              }
+            
+              },
+              "flex-layout.col#tallas-ropa-hombre": {
+                "children": ["rich-text#tallas-ropa-hombre-titulo","rich-text#tallas-ropa-hombre-subtitulo","flex-layout.row#tallas-instrucciones-tallas-ropa-hombre","flex-layout.row#tallas-tabla-tallas-ropa-hombre"],
+                "props": {
+                  "blockClass":"tallas-content"
+                }
+              },
+              "rich-text#tallas-ropa-hombre-titulo": {
+                "props": {
+                  "textAlignment": "CENTER",
+                  "textPosition": "CENTER",
+                  "text": "",
+                  "blockClass": "tallas-titulo"
+                }
+              },
+              "rich-text#tallas-ropa-hombre-subtitulo": {
+                "props": {
+                  "textAlignment": "CENTER",
+                  "textPosition": "CENTER",
+                  "text": "Encuentra la talla perfecta para ti",
+                  "blockClass": "tallas-subtitulo"
+                }
+              },
+        
+              // INSTRUCCIONES
+              "flex-layout.row#tallas-instrucciones-tallas-ropa-hombre": {
+                "children": ["image#talla-imagen-instrucciones", "flex-layout.col#tallas-instrucciones-texto-tallas-ropa-hombre"],
+                "props": {
+                    "blockClass": "tallas-instrucciones"
+                  }
+              },
+    
+             // INSTRUCCIONES 2
+              "flex-layout.col#tallas-instrucciones-texto-tallas-ropa-hombre": {
+                "children": [
+                    "rich-text#tallas-instrucciones-texto-titulo",
+                    "rich-text#tallas-instrucciones-texto-texto",
+                    "rich-text#tallas-instrucciones-texto-paso1",
+                    "rich-text#tallas-instrucciones-texto-paso2",
+                    "rich-text#tallas-instrucciones-texto-paso3",
+                    "rich-text#tallas-instrucciones-texto-paso4"
+                ],
+                "props": {
+                    "width": "75%",
+                    "blockClass": "tallas-instrucciones-texto"
+                  }
+              },
+        
+    
+        
+              //TABLA
+              "flex-layout.row#tallas-tabla-tallas-ropa-hombre": {
+                "children": ["flex-layout.col#tallas-tabla-col1-tallas-ropa-hombre","flex-layout.col#tallas-tabla-col2-tallas-ropa-hombre"],
+                "props": {
+                    "blockClass": "tallas-tallas-tabla"
+                  }
+              },
+        
+        
+              //COL1
+              "flex-layout.col#tallas-tabla-col1-tallas-ropa-hombre": {
+                "children": [
+                    "rich-text#tallas-tabla-col1-fila1-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila2-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila3-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila4-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila5-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila6-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila7-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila8-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila9-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila10-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila11-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila12-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila13-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila14-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila15-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila16-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila17-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila18-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila19-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col1-fila20-tallas-ropa-hombre"
+                ],
+                "props": {
+                    "blockClass": "tallas-tabla-col"
+                  }
+              },
+        
+              
+              "rich-text#tallas-tabla-col1-fila1-tallas-ropa-hombre": {
+                "props": {
+                  "text": "CM",
+                  "blockClass": ["tallas-tabla-col-fil","encabezado"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila2-tallas-ropa-hombre": {
+                "props": {
+                  "text": "12",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+        
+              "rich-text#tallas-tabla-col1-fila3-tallas-ropa-hombre": {
+                "props": {
+                  "text": "12.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila4-tallas-ropa-hombre": {
+                "props": {
+                  "text": "13.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila5-tallas-ropa-hombre": {
+                "props": {
+                  "text": "14",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila6-tallas-ropa-hombre": {
+                "props": {
+                  "text": "14.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila7-tallas-ropa-hombre": {
+                "props": {
+                  "text": "15.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila8-tallas-ropa-hombre": {
+                "props": {
+                  "text": "16",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila9-tallas-ropa-hombre": {
+                "props": {
+                  "text": "16.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila10-tallas-ropa-hombre": {
+                "props": {
+                  "text": "17.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila11-tallas-ropa-hombre": {
+                "props": {
+                  "text": "18",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila12-tallas-ropa-hombre": {
+                "props": {
+                  "text": "18.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila13-tallas-ropa-hombre": {
+                "props": {
+                  "text": "19.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila14-tallas-ropa-hombre": {
+                "props": {
+                  "text": "20",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila15-tallas-ropa-hombre": {
+                "props": {
+                  "text": "20.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila16-tallas-ropa-hombre": {
+                "props": {
+                  "text": "21.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila17-tallas-ropa-hombre": {
+                "props": {
+                  "text": "22",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila18-tallas-ropa-hombre": {
+                "props": {
+                  "text": "22.7",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col1-fila19-tallas-ropa-hombre": {
+                "props": {
+                  "text": "23.3",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },     
+              "rich-text#tallas-tabla-col1-fila20-tallas-ropa-hombre": {
+                "props": {
+                  "text": "24",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },     
+        
+              //COL2
+              "flex-layout.col#tallas-tabla-col2-tallas-ropa-hombre": {
+                "children": [
+                    "rich-text#tallas-tabla-col2-fila1-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila2-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila3-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila4-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila5-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila6-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila7-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila8-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila9-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila10-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila11-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila12-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila13-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila14-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila15-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila16-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila17-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila18-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila19-tallas-ropa-hombre",
+                    "rich-text#tallas-tabla-col2-fila20-tallas-ropa-hombre"
+                ],
+                "props": {
+                    "blockClass": "tallas-tabla-col"
+                  }
+              },
+        
+              
+              "rich-text#tallas-tabla-col2-fila1-tallas-ropa-hombre": {
+                "props": {
+                  "text": "Talla Colombiana",
+                  "blockClass": ["tallas-tabla-col-fil","encabezado"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila2-tallas-ropa-hombre": {
+                "props": {
+                  "text": "18",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+        
+              "rich-text#tallas-tabla-col2-fila3-tallas-ropa-hombre": {
+                "props": {
+                  "text": "19",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila4-tallas-ropa-hombre": {
+                "props": {
+                  "text": "20",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila5-tallas-ropa-hombre": {
+                "props": {
+                  "text": "21",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila6-tallas-ropa-hombre": {
+                "props": {
+                  "text": "22",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila7-tallas-ropa-hombre": {
+                "props": {
+                  "text": "23",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila8-tallas-ropa-hombre": {
+                "props": {
+                  "text": "24",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila9-tallas-ropa-hombre": {
+                "props": {
+                  "text": "25",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila10-tallas-ropa-hombre": {
+                "props": {
+                  "text": "26",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila11-tallas-ropa-hombre": {
+                "props": {
+                  "text": "27",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila12-tallas-ropa-hombre": {
+                "props": {
+                  "text": "28",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila13-tallas-ropa-hombre": {
+                "props": {
+                  "text": "29",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila14-tallas-ropa-hombre": {
+                "props": {
+                  "text": "30",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila15-tallas-ropa-hombre": {
+                "props": {
+                  "text": "31",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila16-tallas-ropa-hombre": {
+                "props": {
+                  "text": "32",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila17-tallas-ropa-hombre": {
+                "props": {
+                  "text": "33",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila18-tallas-ropa-hombre": {
+                "props": {
+                  "text": "34",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila19-tallas-ropa-hombre": {
+                "props": {
+                  "text": "35",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+              "rich-text#tallas-tabla-col2-fila20-tallas-ropa-hombre": {
+                "props": {
+                  "text": "36",
+                  "blockClass": ["tallas-tabla-col-fil"]
+                }
+              },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //ROPA MUJER
+            "condition-layout.product#tallas-ropa-mujer": {
+                "props":{
+                  "conditions":[
+                    {
+                      "subject":"productClusters",
+                      "arguments":{
+                        "id": "200"
+                      }
+                    }
+                  ],
+                  "Then": "modal-trigger#tallas-ropa-mujer"
+                }
+              
+                },
+                "flex-layout.col#tallas-ropa-mujer": {
+                  "children": ["rich-text#tallas-ropa-mujer-titulo","rich-text#tallas-ropa-mujer-subtitulo","flex-layout.row#tallas-instrucciones-tallas-ropa-hombre","flex-layout.row#tallas-tabla-tallas-ropa-hombre"],
+                  "props": {
+                    "blockClass":"tallas-content"
+                  }
+                },
+                "rich-text#tallas-ropa-mujer-titulo": {
+                  "props": {
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "text": "GUÍA DE TALLAS MUJER",
+                    "blockClass": "tallas-titulo"
+                  }
+                },
+                "rich-text#tallas-ropa-mujer-subtitulo": {
+                  "props": {
+                    "textAlignment": "CENTER",
+                    "textPosition": "CENTER",
+                    "text": "Encuentra la talla perfecta para ti",
+                    "blockClass": "tallas-subtitulo"
+                  }
+                },
+          
+                // INSTRUCCIONES
+                "flex-layout.row#tallas-instrucciones-ropa-mujer": {
+                  "children": ["image#talla-imagen-instrucciones", "flex-layout.col#tallas-instrucciones-texto-ropa-mujer"],
+                  "props": {
+                      "blockClass": "tallas-instrucciones"
+                    }
+                },
+      
+               // INSTRUCCIONES 2
+                "flex-layout.col#tallas-instrucciones-texto-ropa-mujer": {
+                  "children": [
+                      "rich-text#tallas-instrucciones-texto-titulo",
+                      "rich-text#tallas-instrucciones-texto-texto",
+                      "rich-text#tallas-instrucciones-texto-paso1",
+                      "rich-text#tallas-instrucciones-texto-paso2",
+                      "rich-text#tallas-instrucciones-texto-paso3",
+                      "rich-text#tallas-instrucciones-texto-paso4"
+                  ],
+                  "props": {
+                      "width": "75%",
+                      "blockClass": "tallas-instrucciones-texto"
+                    }
+                },
+          
+      
+          
+                //TABLA
+                "flex-layout.row#tallas-tabla-ropa-mujer": {
+                  "children": ["flex-layout.col#tallas-tabla-col1-ropa-mujer","flex-layout.col#tallas-tabla-col2-ropa-mujer"],
+                  "props": {
+                      "blockClass": "tallas-tallas-tabla"
+                    }
+                },
+          
+          
+                //COL1
+                "flex-layout.col#tallas-tabla-col1-ropa-mujer": {
+                  "children": [
+                      "rich-text#tallas-tabla-col1-fila1-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila2-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila3-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila4-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila5-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila6-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila7-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila8-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila9-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila10-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila11-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila12-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila13-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila14-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila15-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila16-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila17-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila18-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila19-ropa-mujer",
+                      "rich-text#tallas-tabla-col1-fila20-ropa-mujer"
+                  ],
+                  "props": {
+                      "blockClass": "tallas-tabla-col"
+                    }
+                },
+          
+                
+                "rich-text#tallas-tabla-col1-fila1-ropa-mujer": {
+                  "props": {
+                    "text": "CM",
+                    "blockClass": ["tallas-tabla-col-fil","encabezado"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila2-ropa-mujer": {
+                  "props": {
+                    "text": "12",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+          
+                "rich-text#tallas-tabla-col1-fila3-ropa-mujer": {
+                  "props": {
+                    "text": "12.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila4-ropa-mujer": {
+                  "props": {
+                    "text": "13.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila5-ropa-mujer": {
+                  "props": {
+                    "text": "14",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila6-ropa-mujer": {
+                  "props": {
+                    "text": "14.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila7-ropa-mujer": {
+                  "props": {
+                    "text": "15.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila8-ropa-mujer": {
+                  "props": {
+                    "text": "16",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila9-ropa-mujer": {
+                  "props": {
+                    "text": "16.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila10-ropa-mujer": {
+                  "props": {
+                    "text": "17.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila11-ropa-mujer": {
+                  "props": {
+                    "text": "18",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila12-ropa-mujer": {
+                  "props": {
+                    "text": "18.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila13-ropa-mujer": {
+                  "props": {
+                    "text": "19.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila14-ropa-mujer": {
+                  "props": {
+                    "text": "20",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila15-ropa-mujer": {
+                  "props": {
+                    "text": "20.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila16-ropa-mujer": {
+                  "props": {
+                    "text": "21.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila17-ropa-mujer": {
+                  "props": {
+                    "text": "22",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila18-ropa-mujer": {
+                  "props": {
+                    "text": "22.7",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col1-fila19-ropa-mujer": {
+                  "props": {
+                    "text": "23.3",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },     
+                "rich-text#tallas-tabla-col1-fila20-ropa-mujer": {
+                  "props": {
+                    "text": "24",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },     
+          
+                //COL2
+                "flex-layout.col#tallas-tabla-col2-ropa-mujer": {
+                  "children": [
+                      "rich-text#tallas-tabla-col2-fila1-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila2-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila3-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila4-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila5-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila6-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila7-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila8-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila9-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila10-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila11-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila12-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila13-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila14-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila15-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila16-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila17-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila18-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila19-ropa-mujer",
+                      "rich-text#tallas-tabla-col2-fila20-ropa-mujer"
+                  ],
+                  "props": {
+                      "blockClass": "tallas-tabla-col"
+                    }
+                },
+          
+                
+                "rich-text#tallas-tabla-col2-fila1-ropa-mujer": {
+                  "props": {
+                    "text": "Talla Colombiana",
+                    "blockClass": ["tallas-tabla-col-fil","encabezado"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila2-ropa-mujer": {
+                  "props": {
+                    "text": "18",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+          
+                "rich-text#tallas-tabla-col2-fila3-ropa-mujer": {
+                  "props": {
+                    "text": "19",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila4-ropa-mujer": {
+                  "props": {
+                    "text": "20",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila5-ropa-mujer": {
+                  "props": {
+                    "text": "21",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila6-ropa-mujer": {
+                  "props": {
+                    "text": "22",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila7-ropa-mujer": {
+                  "props": {
+                    "text": "23",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila8-ropa-mujer": {
+                  "props": {
+                    "text": "24",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila9-ropa-mujer": {
+                  "props": {
+                    "text": "25",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila10-ropa-mujer": {
+                  "props": {
+                    "text": "26",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila11-ropa-mujer": {
+                  "props": {
+                    "text": "27",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila12-ropa-mujer": {
+                  "props": {
+                    "text": "28",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila13-ropa-mujer": {
+                  "props": {
+                    "text": "29",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila14-ropa-mujer": {
+                  "props": {
+                    "text": "30",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila15-ropa-mujer": {
+                  "props": {
+                    "text": "31",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila16-ropa-mujer": {
+                  "props": {
+                    "text": "32",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila17-ropa-mujer": {
+                  "props": {
+                    "text": "33",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila18-ropa-mujer": {
+                  "props": {
+                    "text": "34",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila19-ropa-mujer": {
+                  "props": {
+                    "text": "35",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                },
+                "rich-text#tallas-tabla-col2-fila20-ropa-mujer": {
+                  "props": {
+                    "text": "36",
+                    "blockClass": ["tallas-tabla-col-fil"]
+                  }
+                }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -395,6 +395,7 @@
       "product-assembly-options",
       "product-gifts",
       "product-availability",
+      "flex-layout.col#tallas",
       "flex-layout.row#buy-button",
       "add-to-list-btn#product",
       "flex-layout.row#imgp",
