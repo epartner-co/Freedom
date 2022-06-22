@@ -64,6 +64,9 @@
 .sliderLayoutContainer.sliderLayoutContainer--shelf2 {
   padding: 0 0 0 0 !important;
 }
+.sliderLayoutContainer.sliderLayoutContainer--carousel.sliderLayoutContainer--banner-principal {
+  padding-left: 65px;
+}
 }
 
 

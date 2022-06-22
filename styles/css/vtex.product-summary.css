@@ -69,4 +69,9 @@
   opacity: 1 !important;
   visibility: visible !important;
 }
+.productNameContainer--nombre.nameWrapper--nombre {
+  height: 33px;
+  margin: 13px 0;
+}
+
 }

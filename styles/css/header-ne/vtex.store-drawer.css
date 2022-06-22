@@ -3,7 +3,7 @@
   margin-top: -360px;
 }
 
-.closeIconContainer.closeIconContainer--searchbarD {position: relative;right: 0;justify-content: end;margin: 0 0 -25px 0;}
+.closeIconContainer.closeIconContainer--searchbarD {position: relative;right: 0;justify-content: end;margin: 0 0 0px 0;}
 
 .closeIconButton--searchbarD::before {
     content: "";
@@ -16,7 +16,7 @@
   }
   .drawer.drawer--searchbarD.opened.opened--searchbarD {
     background: #00000075;
-    margin: 0 0 0 64px;
+    margin: 0 0 0 60px;
     justify-content: center;
     align-items: center;
   }

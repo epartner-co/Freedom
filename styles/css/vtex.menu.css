@@ -249,4 +249,7 @@
     bottom: 0;
     top: 0;
   }
+  .menuItem--categoria {
+    margin-top: 15px;
+}
 }

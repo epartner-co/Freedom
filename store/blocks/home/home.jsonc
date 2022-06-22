@@ -41,7 +41,7 @@
 
 
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": ["slider-layout#demo-images-BnnerP"],
     "props": {
       "height": 720,
       "images": [
@@ -59,7 +59,7 @@
     }
   },
   "list-context.image-list#demotablet": {
-    "children": ["slider-layout#demo-images"],
+    "children": ["slider-layout#demo-images-BnnerP"],
     "props": {
       "height": 720,
       "images": [
@@ -78,7 +78,7 @@
     }
   },
   "list-context.image-list#demomobile": {
-    "children": ["slider-layout#demo-images"],
+    "children": ["slider-layout#demo-images-BnnerP"],
     "props": {
       "height": 720,
       "images": [
@@ -107,6 +107,19 @@
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots":"desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+  "slider-layout#demo-images-BnnerP": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots":"desktopOnly",
+      "blockClass": ["carousel", "banner-principal"]
     }
   },
   //Vitrina con banner

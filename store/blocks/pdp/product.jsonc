@@ -689,7 +689,7 @@
   },
   "shelf.relatedProducts#2M": {
     "props": {
-        "recommendation": "view",
+        "recommendation": "buy",
         "productList": {
             "minItemsPerPage":2,
             "titleText": "Nuestras Marcas",
@@ -707,7 +707,7 @@
   },
   "shelf.relatedProducts#2": {
     "props": {
-        "recommendation": "view",
+        "recommendation": "buy",
         "productList": {
             "titleText": "Nuestras Marcas",
             "itemsPerPage": {

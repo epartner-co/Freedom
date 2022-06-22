@@ -806,4 +806,11 @@
 :global(.vtex-flex-layout-0-x-flexCol--InformacionDosC) .productDescriptionTitle {
   line-height: 32px;
 }
+.imageElement--iconoM.imageElement--favoritos {
+  margin-top: 10px !important;
+}
+.skuSelectorSubcontainer--colores :global(.vtex-product-summary-2-x-skuSelectorItem--vitrina) {
+  width: 35px !important;
+  height: 25px !important;
+}
 }

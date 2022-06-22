@@ -38,6 +38,9 @@
 .filterItem--algodon-y-mezclas-algodon :global(.vtex-checkbox__inner-container) {
   right: -30px;
 }
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
+  height: 45px;
+}
 
 @media (max-width: 600px) {
 .filtersWrapper--filtros2 {

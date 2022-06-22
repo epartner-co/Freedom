@@ -83,6 +83,11 @@ color: #340572;
 .minicartCheckoutButton.minicartCheckoutButton--finalizarPedido {transform: matrix(1, -0.02, -0.01, 1, 0, 0);}
 .minicartCheckoutButton.minicartCheckoutButton--verCarrit {transform: matrix(1, -0.02, -0.01, 1, 0, 0);}
 
+@media (max-width: 1000px) {
+.minicartWrapperContainer {
+  margin-top: 7px;
+}
+}
 
 @media (max-width: 600px) {
   .minicartQuantityBadgeDefault {
@@ -96,6 +101,9 @@ color: #340572;
   .minicartIconContainer::before {width: 23px;height: 23px;}
   .openIconContainer {
     padding: 0 10px;
+  }
+  .minicartWrapperContainer {
+    margin-top: 0px;
   }
 }
 .minicartTitle {margin-bottom: 27px;border-bottom: 1px solid #cac9c9;padding-bottom: 27px;box-shadow: 0 2px 7px 0px #eae9e9;}
