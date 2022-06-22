@@ -272,6 +272,12 @@
     }
     
 }
+@media(max-height: 800px){
+    .flexRowContent--social-Media-menu-M .stretchChildrenWidth {
+        display: none;
+    }
+}
+
 .flexRowContent--marcas-header {
     border-left: 1px solid #808080;
 }

@@ -117,8 +117,11 @@
     text-transform: uppercase;
     font-size: 15px;
 }
+.container--title-sobreNosotros{
+  margin-top: 15px;
+}
 .paragraph--title-sobreNosotros {
-  margin: 15px 0 0 0;
+  margin: 15px 0 0 0 !important;
   color: black;
   font-size: 24px;
   font-weight: bold;

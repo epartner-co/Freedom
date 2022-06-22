@@ -54,3 +54,18 @@
         margin: 0 0 0 57px !important;
     }
 }
+
+@media(min-width: 1024px){
+    .openIconContainer::after{
+        content: "Carrito";
+        font-size: 13px;
+        text-align: center;
+        margin-top: -3px;
+        color: #491e81;
+        display: block;
+    }
+    
+}
+:global(.vtex-minicart-2-x-childrenContainer){
+    overflow: hidden;
+}

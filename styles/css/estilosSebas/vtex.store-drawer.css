@@ -27,6 +27,9 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
+    top: 90%;
+    left: 40%;
 }
 @media (min-width: 1600px)  {
     .drawer--MENU-DESK-CLICK.opened.opened--MENU-DESK-CLICK {
@@ -55,5 +58,28 @@
     .openIconContainer--searchbarD{
         padding-top:0.4rem;
         padding-bottom: 0.4rem;
+    }
+}
+
+@media(min-width: 1024px){
+.drawerTriggerContainer--propiedades :global(.vtex-flex-layout-0-x-stretchChildrenWidth)::after{
+    content: "Buscar";
+    font-size: 13px;
+    color: #340572;
+    position: absolute;
+    top: 80%;
+}
+}
+@media(min-width: 1024px){
+    .openIconContainer--MENU-DESK-CLICK::after{
+        content: "Menu";
+        font-size: 13px;
+        color: #340572;
+        display: block;
+        position: absolute;
+        left: 30%;
+    }
+    .drawerTriggerContainer--MENU-DESK-CLICK{
+        height: 35px;
     }
 }

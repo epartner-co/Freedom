@@ -305,3 +305,16 @@
         font-size: 22px;
     }
 }
+@media(min-width: 1024px){
+    .imageElementLink--favoritos::after{
+        content: "Favoritos";
+        font-size: 13px;
+        color: #340572;
+        text-decoration: none !important;
+        top: 80%;
+        position: absolute;
+        left: 20%;
+        pointer-events: none;
+    }
+}
+    

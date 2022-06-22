@@ -380,7 +380,7 @@
   background: url(https://callearturop.vteximg.com.br/arquivos/flechaCerradoFooterfreedom.png) no-repeat;
   background-size: 100%;
   display: block;
-  width: 23px;
+  width: 12px !important;
   height: 20px;
 }
 .flexRowContent--newsletter .stretchChildrenWidth {
@@ -407,7 +407,7 @@
   background: url(https://callearturop.vteximg.com.br/arquivos/flechaAbiertoFooterfredoom.png) no-repeat;
   background-size: 100%;
   display: block;
-  width: 23px;
+  width: 12px !important;
   height: 20px;
 }
 .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContent) {
@@ -463,7 +463,7 @@
   .flexRow--social-Media-menu-M{
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0 !important;
   }
   .flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
     width: 60% !important;

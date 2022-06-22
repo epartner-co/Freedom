@@ -46,6 +46,7 @@
 }
 .confirmationCheckboxContainer :global(.vtex-checkbox__label){
     color: white;
+    margin-bottom: 15px;
 }
 .defaultSuccessMessage--NewsletterPopUp {
     color: white;
