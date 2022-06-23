@@ -454,7 +454,7 @@
         width: 100% !important;
     }
     .flexCol.flexCol--filtroContent {
-        width: 80%;
+        width: 80% !important;
     }
     .flexRow--rowTittle{
         border-top: 0;
@@ -495,7 +495,7 @@
     .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-styledLinkContent--titulos-mobile){
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 15px;
         text-transform: uppercase;
     }
     .flexRowContent--menu-footer-m :global(.vtex-menu-2-x-menuItem--titulos-mobile--isOpen) :global(.vtex-menu-2-x-styledLinkContent--titulos-mobile){

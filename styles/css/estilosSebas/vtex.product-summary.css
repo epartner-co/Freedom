@@ -97,7 +97,7 @@
 }
 .containerNormal :global(.vtex-product-price-1-x-listPrice) :global(.vtex-product-price-1-x-currencyContainer){
     color: red;
-    font-size: 13px;
+    font-size: 15px;
     font-weight:100;
 }
 .containerNormal :global(.vtex-product-price-1-x-listPrice){
@@ -376,4 +376,12 @@
         margin-top: 3px;
     }
 
+}
+
+@media (max-width: 1000px) {
+.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) {
+    position: absolute;
+    right: 10px;
+    top: -450%;
+}
 }

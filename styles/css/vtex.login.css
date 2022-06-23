@@ -47,4 +47,10 @@
         width: 70%;
         height: 57px;
     }
+    .content--emailAndPassword {
+        margin-top: 10px !important;
+    }
+    :global(.vtex-my-account-1-x-userName) {
+        font-size: 22px;
+    }
 }

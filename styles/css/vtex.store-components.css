@@ -814,3 +814,9 @@
   height: 25px !important;
 }
 }
+
+@media (max-width: 600px)  {
+:global(.vtex-product-summary-2-x-SKUSelectorContainer--vitrina) .skuSelectorSubcontainer--color :global(.vtex-product-summary-2-x-skuSelectorItem--vitrina) {
+  height: 27px!important;
+}
+}

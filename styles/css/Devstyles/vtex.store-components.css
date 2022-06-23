@@ -4,7 +4,7 @@
 .productImagesThumb.productImagesThumbActive {
   margin: 0;
 }
-.carouselGaleryCursor {margin: 0 !important;padding: 0;}
+.carouselGaleryCursor {margin: 0 !important;padding: 0;background: rgb(244 243 244) !important;}
 
 .productBrand.productBrand--quickview {text-transform: uppercase;letter-spacing: 1px;margin: 0 0 20px 0;;display: block;}
 /*Page product*/

@@ -333,6 +333,7 @@
           "blockClass":"list",
           "itemsPerRow": {
             "desktop": 5,
+            "tablet": 4,
             "phone": 1
           }
         }
