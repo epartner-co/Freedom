@@ -811,3 +811,10 @@
         border-radius: 5px;
     }
 }
+.orderByOptionItem {
+    min-width: 180px;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0 5%;
+    width: 90%;
+    color: #F44753;
+}

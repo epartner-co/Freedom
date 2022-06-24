@@ -34,12 +34,18 @@
 .flexRow--duppla :global(.vtex-rich-text-0-x-wrapper--content){padding: 0px 0 0 3%;}
 
 .flexRowContent.flexRowContent--faq {background: #F6F6F6;}
-.flexCol.flexCol--centralprinc {width: 75%;text-align: center;margin: -153px 0 0 0;padding: 3% 5%;position: relative;background: url(https://callearturop.vteximg.com.br/arquivos/Rectangle%20522.png);background-size: cover;height: auto;}
+.flexCol.flexCol--centralprinc {width: 75%;text-align: center;margin: -153px 0 0 0;padding: 8% 5%;position: relative;background: url(https://callearturop.vteximg.com.br/arquivos/Rectangle%20522.png);background-size: cover;height: auto;}
+
+@media(max-width: 800px){
+  .flexCol.flexCol--centralprinc {
+  padding: 18% 5% 3%;
+  }
+}
 
 .flexColChild.flexColChild--duppla2:first-child {transform: matrix(1, 0.01, 0, 1, 0, 0);}
 .flexColChild.flexColChild--duppla2:last-child {transform: matrix(1, 0.01, 0, 1, 0, 0);}
 .flexCol.flexCol--duppla2 {padding: 45px 10%;margin: 50px 0 0 0;border-top: 1px solid #D3D3D3;border-bottom: 1px solid #D3D3D3;}
-.flexRow.flexRow--duppla2.flexRow--ultimadup {padding: 0 10%;}
+.flexRow.flexRow--duppla2.flexRow--ultimadup {padding: 0 10%; margin-top: 45px;}
 
 .flexCol--cajacentrada :global(.vtex-store-components-3-x-imageElement--imagecen) {    position: relative;text-align: center;justify-content: center;display: flex;width: 14%;margin: 66px auto -45px auto;}
 .flexColChild.flexColChild--cajacentrada {background: #F7F7F7;}
@@ -49,4 +55,95 @@
 @media screen and (max-width: 700px) {
   .flexCol.flexCol--centralprinc{width: 100%;  }
   .flexCol--cajacentrada :global(.vtex-store-components-3-x-imageElement--imagecen) {width: 37% !important;}
+}
+
+/* flex-layout****** GUIA DE TALLAS**** Santy*/
+.flexColChild--tallas-tabla-col:first-child {
+  margin-top: -32px;
+}
+.flexColChild--tallas-tabla-col {
+  border: 0.1px solid #eeeeee;
+  justify-content: center;
+  height: 33px!important;
+  align-items: center;
+}
+.flexCol.flexCol--tallas-tabla-col {
+  position: relative;
+  margin-top: 32px;
+}
+.flexRowContent--tallas-tallas-tabla .stretchChildrenWidth {
+  padding: 0;
+  max-width: 370px;
+  width: 370px!important;
+}
+.flexRowContent--tallas-tallas-tabla {
+  max-width: 650px;
+  margin: 0 auto;
+  border: 0.5px solid #dadada;
+  justify-content: center;
+}
+.flexRow--tallas-tallas-tabla {
+  margin: 23px 10px 13px;
+}
+.flexCol.flexCol--tallas-tabla-col {
+  position: relative;
+  margin-top: 32px;
+}
+.flexColChild--tallas-instrucciones-texto {
+  height: auto!important;
+}
+.flexCol.flexCol--tallas-instrucciones-texto {
+  display: flex;
+  justify-content: center;
+}
+.flexRowContent.flexRowContent--tallas-instrucciones {
+  max-width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .flexRowContent--tallas-tallas-tabla {
+      width: 95%;
+      display: flex;
+  }
+  .flexRow--tallas-tallas-tabla {
+      margin: 20px 5px;
+  }
+  .flexRowContent--tallas-instrucciones {
+      margin: 0 auto 19px;
+  }
+  .flexRowContent--tallas-instrucciones {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .flexRowContent--tallas-instrucciones .stretchChildrenWidth:first-child {
+      order: 2;
+  }
+  .flexRowContent--tallas-instrucciones .stretchChildrenWidth {
+      margin: 0;
+      align-items: flex-start;
+  }
+  :global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child {
+    overflow: auto;
+  }
+  }
+  :global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child {
+    overflow: auto;
+  }
+  :global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child {
+    overflow: auto;
+  }
+  :global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child::-webkit-scrollbar-thumb {
+  background-color: #9e9e9e;
+  border-radius: 20px;
+  width: 5px;
+}
+:global(.vtex-modal-layout-0-x-paper--tallas-content-modal) .flexCol.flexCol--tallas-content:last-child::-webkit-scrollbar-track {
+  border-radius: 10px;  
 }

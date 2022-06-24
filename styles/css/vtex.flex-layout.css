@@ -486,4 +486,12 @@
   }
   
 }
-
+@media (min-width: 700px) and (max-width: 1000px){
+.flexRowContent--buybuttoms .stretchChildrenWidth {
+  margin: 15px auto;
+}
+}
+.flexCol--Submenu  {
+  position: relative;
+  z-index: 99;
+}

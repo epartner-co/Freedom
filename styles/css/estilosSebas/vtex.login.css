@@ -165,3 +165,10 @@
         text-align:right;
     }
 }
+@media(max-width:800px){
+    .contentAlwaysWithOptions{
+        background: url("https://callearturop.vteximg.com.br/arquivos/fondo-letras-repe.png") no-repeat;
+        background-size: 130%;
+        background-position-y: center;
+    }
+}

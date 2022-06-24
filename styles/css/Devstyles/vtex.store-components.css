@@ -106,3 +106,13 @@
   .swiperCaret.swiperCaretNext::before {margin-right: 5px;}
   .swiperCaret.swiperCaretPrev::before {margin-left: 5px; }
 }
+@media(max-width:1000px){
+  .skuSelectorName{
+    width: 50%;
+  }
+}
+@media(max-width:700px){
+  .skuSelectorName{
+    width: 100%;
+  }
+}

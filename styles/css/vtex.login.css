@@ -54,3 +54,6 @@
         font-size: 22px;
     }
 }
+:global(.vtex-flex-layout-0-x-flexColChild--tallas):nth-child(3){
+    display: none;
+  }

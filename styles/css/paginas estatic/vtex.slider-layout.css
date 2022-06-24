@@ -1,5 +1,5 @@
-.sliderLayoutContainer.sliderLayoutContainer--carouselCQ {padding: 0 10%;transform: matrix(1, -0.01, 0, 1, 0, 0);margin-bottom: -50px;}
-.slide.slide--carouselCQ {margin: 100px 10px;}
+.sliderLayoutContainer.sliderLayoutContainer--carouselCQ {padding: 0 10%;transform: matrix(1, -0.01, 0, 1, 0, 0);/* margin-bottom: -50px; */}
+.slide.slide--carouselCQ {margin: 100px 3px;}
 
 
 .sliderLayoutContainer.sliderLayoutContainer--carousel.sliderLayoutContainer--carousel-duales {

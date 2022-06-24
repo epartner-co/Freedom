@@ -1,0 +1,83 @@
+.container--quickAdd {
+    background: white;
+    padding: 10px;
+    padding-left: 18%;
+    margin-bottom: 35px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
+}
+.container--quickAdd :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color ){
+    display: none;
+}
+.container--quickAdd :global(.vtex-store-components-3-x-productBrand--quickview ){
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms){
+    display: flex;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms){
+    display: flex;
+}
+.container.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 50% !important;
+    margin: 0;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms) :global(.vtex-add-to-cart-button-0-x-buttonText ){
+    font-size: 0 !important;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms) :global(.vtex-add-to-cart-button-0-x-buttonText--buytAdd)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/bolsa-quickadd-freedom.png) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexRowContent--buybuttoms) :global(.vtex-add-to-cart-button-0-x-buttonText--buytex)::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/pagar-ahora.freedom.png) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexCol--buybuttoms2) :global(.vtex-button){
+    min-height: 85%;
+    margin: 0 8px;
+    padding: 5px 0;
+    width: 76%;
+    border-color: #340572;
+}
+.container--quickAdd :global(.vtex-flex-layout-0-x-flexCol--buybuttoms1) :global(.vtex-button){
+    min-height: 85%;
+    margin: 0 8px;
+    padding: 5px 0;
+    width: 76%;
+    border-color: #340572;
+}
+.container--quickAdd :global(.vtex-product-price-1-x-sellingPriceValue){
+    font-size: 22px;
+}
+.container--quickAdd :global(.vtex-styleguide-9-x-container ){
+    border-color: #340572;
+    border-width: 1.94494px;
+}
+.container--quickAdd :global(.vtex-dropdown__button){
+    padding: 0 0px 0 10px;
+    font-weight: bold;
+}
+.container--quickAdd :global(.vtex-dropdown__arrow){
+    color: #340572;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.container--quickAdd :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla)::before{
+    content: "Talla:";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+}

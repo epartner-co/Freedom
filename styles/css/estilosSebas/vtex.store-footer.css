@@ -45,7 +45,48 @@
 
 @media (max-width: 600px) {
     .footerLayout {
-        margin: 0 0 0px 58px;
+        margin: 30px 0 0px 58px;
         padding: 0 1%;
     }
+}
+
+.socialNetworkLink--iconos-redes-quienes--youtube::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/youtube-morado.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+
+}
+.socialNetworkLink--iconos-redes-quienes--twitter::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/tiktok-morado.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+}
+.socialNetworkLink--iconos-redes-quienes--instagram::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/ig-morado.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+}
+.socialNetworkLink--iconos-redes-quienes--facebook::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/face-morado.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+}
+.socialNetworkLink--iconos-redes-quienes--facebook:hover{
+    background-size: 100%;
+    background: url(https://callearturop.vteximg.com.br/arquivos/face-rojo.png) no-repeat;
+}
+.socialNetworksContainer--iconos-redes-quienes{
+    justify-content: center;
 }

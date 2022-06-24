@@ -28,8 +28,8 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 90%;
-    left: 40%;
+    top: 83%;
+    left: 55%;
 }
 @media (min-width: 1600px)  {
     .drawer--MENU-DESK-CLICK.opened.opened--MENU-DESK-CLICK {
@@ -61,7 +61,7 @@
     }
 }
 
-@media(min-width: 1024px){
+@media(min-width: 700px){
 .drawerTriggerContainer--propiedades :global(.vtex-flex-layout-0-x-stretchChildrenWidth)::after{
     content: "Buscar";
     font-size: 13px;
@@ -70,7 +70,7 @@
     top: 80%;
 }
 }
-@media(min-width: 1024px){
+@media(min-width: 700px){
     .openIconContainer--MENU-DESK-CLICK::after{
         content: "Menu";
         font-size: 13px;

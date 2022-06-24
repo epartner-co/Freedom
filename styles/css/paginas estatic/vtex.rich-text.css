@@ -1,4 +1,4 @@
-.container.container--generalT {cursor:pointer;border: 1px solid #340572;margin: 3% 4%;transform: rotate(-1deg);}
+.container.container--generalT {cursor:pointer;border: 1px solid #340572;margin: 3% 4%;transform: rotate(-1deg); width: 100%;display: block;}
 .link.link--generalT {font-weight: 700;text-decoration: none;font-size: 17px;color: #340572;}
 .container.container--generalT:hover .link--generalT {color: white;}
 .container.container--generalT:hover {background: #340572;}
@@ -16,11 +16,11 @@
 .strong.strong--conten-princ.strong--titleQ {font-size: 50px;letter-spacing: 2px;color: #340572;transform: rotate(-2deg);display: block;}
 .paragraph.paragraph--conten-princcor {font-size: 15px;width: 70%;color: #808080;margin: 0 auto;}
 .strong.strong--conten-princcor {color: #00E8FF;}
-.link.link--conten-princcor {color: white;background: #340572;padding: 1% 2%;display: block;width: 175px;margin: 17px auto 0 auto;transform: matrix(1, -0.02, -0.01, 1, 0, 0);font-size: 17px;text-decoration: none;}
+.link.link--conten-princcor {color: white;background: #340572;padding: 3% 2%;display: block;width: 200px;margin: 17px auto 0 auto;transform: matrix(1, -0.02, -0.01, 1, 0, 0);font-size: 17px;text-decoration: none;}
 .strong.strong--contentC1 {color: #F44753;font-size: 23px;}
 .paragraph.paragraph--contentC1 {font-size: 15px;color: #808080;}
 
-.link.link--conten-princ.link--rotado {color: #F44753;text-decoration: none;border: 1px solid;transform: matrix(1, -0.03, -0.01, 1, 0, 0);padding: 4% 9px;display: block;}
+.link.link--conten-princ.link--rotado {color: #F44753;text-decoration: none;border: 1px solid;transform: matrix(1, -0.03, -0.01, 1, 0, 0);padding: 4% 2%;display: block;width: 200px;}
 .wrapper.wrapper--contentC2 {margin: 0 10%;}
 .container.container--contentC2 {align-items: center;}
 .strong.strong--contentC2 {color: #00E8FF;font-size: 20px;}
@@ -28,3 +28,106 @@
 .link.link--contentC2 {color: #340572;font-size: 20px;font-weight: 700;margin: 13px 0 0 0;display: block;}
 .strong.strong--contentC2.strong--izquierdC {color: #F44753;}
 .wrapper.wrapper--contentC2.wrapper--izquierdC {text-align: end;}
+
+/*rich-text****** GUIA DE TALLAS*Santy*/
+
+.paragraph--tallas-tabla-col-fil {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .wrapper--tallas-tabla-col-fil.wrapper--encabezado {
+    color: #340572;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  .paragraph--tallas-tabla-col-fil {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .container--tallas-tabla-col-fil.container--encabezado {
+    background: #f9f9f9;
+  }
+  .container--tallas-tabla-col-fil {
+    font-size: 15px;
+  }
+  .container--tallas-tabla-col-fil {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .paragraph--tallas-trigger-modal {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color:#F44753;
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  .paragraph.paragraph--tallas-subtitulo {
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 8px 8px 15px;
+  }
+  .paragraph.paragraph--tallas-titulo {
+    color: #808080;
+    font-size: 17px;
+    margin: 13px 0 8px;
+    font-weight: 600;
+  }
+  .paragraph.paragraph--tallas-trigger-modal {
+    cursor: pointer;
+  }
+  .paragraph.paragraph--tallas-instrucciones-texto-paso {
+    line-height: 1;
+    margin: 7px 0;
+    font-size: 19px;
+    color: #808080;
+  }
+  .paragraph.paragraph--tallas-instrucciones-texto-texto {
+    line-height: 1;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #808080;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .paragraph--tallas-tabla-col-fil {
+        text-align: center;
+        font-size: 12px;
+    }
+    .paragraph--tallas-instrucciones-texto-titulo {
+        font-size: 14px;
+    }
+    .paragraph.paragraph--tallas-instrucciones-texto-texto {
+      font-size: 13px;
+  }
+   .paragraph.paragraph--tallas-instrucciones-texto-paso {
+      font-size: 12px;
+  }
+  
+    }
+    .link--generalT{
+        display: block;
+        width: 100%;
+    }
+
+    @media(min-width:1350px){
+      .paragraph--tallas-trigger-modal {
+        left: 40%;
+      }
+    }
+    @media(max-width:700px){
+    .paragraph--tallas-trigger-modal{
+      top: 45%;
+      left: 0;
+    }
+    }
+    .wrapper--text_estaticas{
+      width: 90%;
+      margin: auto;
+    }

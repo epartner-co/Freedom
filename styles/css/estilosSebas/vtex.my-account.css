@@ -74,3 +74,6 @@
         left: 0;
     }
 }
+:global(.vtex-account__page){
+    width: 100%;
+}

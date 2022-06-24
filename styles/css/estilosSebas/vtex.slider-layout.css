@@ -52,6 +52,8 @@
     width: 39px;
     height: 39px;
     transition: all 40ms;
+    position: absolute;
+    left: 305%;
 }
 .sliderLeftArrow--carousel  {
     left: 67px;
@@ -64,6 +66,8 @@
     transform: rotate(180deg);
     width: 39px;
     height: 39px;
+    position: absolute;
+    right: 350%;
 }
 .sliderLeftArrow--shelf:hover::before {
     content: "";

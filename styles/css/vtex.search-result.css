@@ -24,6 +24,9 @@
 .orderByOptionsContainer {
   top: -670%;
   left: 0;
+  box-shadow: none;
+  border: 1px solid #F44753;
+  transform: matrix(1, -0.02, 0, 1, 0, 0);
 }
 .filterItem--algodon-y-mezclas-algodon :global(.vtex-checkbox__label)::after {
   top: 15%;
@@ -47,3 +50,8 @@
   display: none;
 }
 }
+@media (min-width: 1024px) {
+  .filtersWrapper--filtros2 {
+    width: 600px;
+  }
+  }

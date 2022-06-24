@@ -175,10 +175,10 @@
   padding: 20px;
 }
 .submenuContainer.submenuContainer--Submenu-lvl2 {
-  position: absolute;
+  position: fixed;
   height: 100%;
   top: 0;
-  right: 0%;
+  left: 45%;
 }
 .submenuWrapper--Submenu-lvl2 {
   height: 100%;

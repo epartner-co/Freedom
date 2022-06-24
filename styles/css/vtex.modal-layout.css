@@ -138,3 +138,42 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+/*modal-layout******* GUIA DE TALLAS*** santy */
+.headerContainer--tallas-cerrado {
+  border: none;
+}
+.closeIcon.closeIcon--tallas-cerrado {
+  color: transparent;
+  background-image: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.closeButton--tallas-cerrado {
+  padding: 0;
+  top: -2%;
+  position: absolute;
+  right: -1%;
+}
+.paper--tallas-content-modal {
+  width: 68%;
+  padding: 15px;
+  position: relative;
+  overflow: unset;
+  background: white;
+}
+@media (max-width: 800px) {
+  .paper--tallas-content-modal {
+      width: 79%;
+      margin: 0 2% 0 auto;
+      padding: 13px 5px;
+  }
+  .closeButton--tallas-cerrado {
+      padding: 0;
+      top: -2%;
+      position: absolute;
+      right: -2%;
+  }
+
+
+  }

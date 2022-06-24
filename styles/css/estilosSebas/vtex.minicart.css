@@ -55,7 +55,7 @@
     }
 }
 
-@media(min-width: 1024px){
+@media(min-width: 700px){
     .openIconContainer::after{
         content: "Carrito";
         font-size: 13px;

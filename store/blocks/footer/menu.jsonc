@@ -94,20 +94,20 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/SomosFRDM"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/_somos_freedom/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
+          "url": "https://www.tiktok.com/@somos.freedom"
+        }/* ,
         {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
-        }
+        } */
       ]
     }
   },

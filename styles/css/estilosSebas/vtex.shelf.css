@@ -21,6 +21,8 @@
     width: 39px;
     height: 39px;
     transition: all 40ms;
+    position: absolute;
+    left: 305%;
 }
 .arrowRight--shelf::before {
     content: "";

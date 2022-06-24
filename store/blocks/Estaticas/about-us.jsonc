@@ -23,7 +23,8 @@
       "rich-text#conoceFree",
       "flex-layout.row#contenidoprinci3",
       "flex-layout.row#contenidoprinciD4",
-      "image#redescs",
+      /* "image#redescs", */
+      "flex-layout.row#container-redes",
       "list-context.image-list#demoq2"
     ],
     "props": {
@@ -57,6 +58,21 @@
       "blockClass": "duppla2"
     }
   },
+  //container redes
+  "flex-layout.row#container-redes":{
+    "children":["flex-layout.col#container-redes"],
+    "props":{
+      "blockClass": "container_redes_row"
+
+    }
+  },
+  "flex-layout.col#container-redes":{
+    "children":[ "rich-text#siguenos","social-networks#quienes-somos"],
+    "props":{
+      "blockClass": "container_redes_quienes"
+
+    }
+  },
   //inicio conte
   "rich-text#princo": {
     "props": {
@@ -85,7 +101,7 @@
   //duplas
   "flex-layout.row#contenidoprinciD1":{
     "children":[
-      "flex-layout.col#ImgA1",
+      /* "flex-layout.col#ImgA1", */
       "rich-text#contenidoprinciD1"
     ],
     "props":{
@@ -94,8 +110,8 @@
   },
   "flex-layout.row#contenidoprinciD":{
     "children":[
-      "rich-text#contenidoprinciD",
-      "flex-layout.col#ImgA2"
+      "rich-text#contenidoprinciD"/* ,
+      "flex-layout.col#ImgA2" */
     ],
     "props":{
       "blockClass": "duppla1"
@@ -103,13 +119,13 @@
   },
   "rich-text#contenidoprinciD1": {
     "props": {
-      "text": "**SOMOS TODO MENOS UNA TÍPICA MARCA, POR ESO NO HABLAMOS COMO HABLAN TODOS**\n\n SOMOS INCLUSIVOS, POR ESO LE HABLAMOS A TODOS, NO NOS CENTRAMOS EN EL GÉNERO AL MOMENTO DE HABLAR DE NUESTRA MARCA. DEJEMOS A LA GENTE SER, NO CRITICAMOS NI RESPONDEMOS CON ODIO CUANDO ALGUIEN HACE ESO CON LA MARCA. TUTEAMOS PORQUE SOMOS CERCANOS, MÁS NO SOMOS EMPALOGOS (NO TE PASES) NOS GUSTA CUIDAR EL PLANETA, CUIDAR A LA GENTE, PERO NO NOS METEMOS CON POLÍTICA, NO PORQUE SEAMOS TIBIOS O ALGO POR EL ESTILO, SINO PORQUE SOMOS UNA MARCA CREE EN LAS DIFERENCIAS",
+      "text": " ![Imagen](/arquivos/bannerduppla1.png) **SOMOS TODO MENOS UNA TÍPICA MARCA, POR ESO NO HABLAMOS COMO HABLAN TODOS**\n\n SOMOS INCLUSIVOS, POR ESO LE HABLAMOS A TODOS, NO NOS CENTRAMOS EN EL GÉNERO AL MOMENTO DE HABLAR DE NUESTRA MARCA. DEJEMOS A LA GENTE SER, NO CRITICAMOS NI RESPONDEMOS CON ODIO CUANDO ALGUIEN HACE ESO CON LA MARCA. TUTEAMOS PORQUE SOMOS CERCANOS, MÁS NO SOMOS EMPALOGOS (NO TE PASES) NOS GUSTA CUIDAR EL PLANETA, CUIDAR A LA GENTE, PERO NO NOS METEMOS CON POLÍTICA, NO PORQUE SEAMOS TIBIOS O ALGO POR EL ESTILO, SINO PORQUE SOMOS UNA MARCA CREE EN LAS DIFERENCIAS",
       "blockClass": "contentC1"
     }
   },
   "rich-text#contenidoprinciD": {
     "props": {
-      "text": "**NUNCA, PERO NUNCA...**\n\n TE REFIERAS DE “USTED” EN NUESTROS CONTENIDOS. JAMÁS USEMOS LA EXPRESIÓN “GAY” PARA REFERIRTE COMO ALGO MALO. NUNCA, PERO NUNCA NUNCA NUNCA... USES LA PALABRA “NORMAL” NO NOS GUSTA Y MENOS SI ES PARA REFERIRTE ACERCA DE PERSONAS HETEROSEXUALES. EN FREEDOM DE VERDAD QYE BIS GYSTAB KAS DIFERENCIAS Y SABEMOS QUE TODOS SOMOS IGUALES. SOMOS RETADORES, SI, PERO NO GROSEROS.",
+      "text": " ![Imagen](/arquivos/bannerduppla2.png) **NUNCA, PERO NUNCA...**\n\n 1. TE REFIERAS DE “USTED” EN NUESTROS CONTENIDOS. \n\n 2. JAMÁS USEMOS LA EXPRESIÓN “GAY” PARA REFERIRTE COMO ALGO MALO. \n\n 3. NUNCA, PERO NUNCA NUNCA NUNCA... USES LA PALABRA “NORMAL” NO NOS GUSTA Y MENOS SI ES PARA REFERIRTE ACERCA DE PERSONAS HETEROSEXUALES. EN FREEDOM DE VERDAD QYE BIS GYSTAB KAS DIFERENCIAS Y SABEMOS QUE TODOS SOMOS IGUALES.\n 4. SOMOS RETADORES, SI, PERO NO GROSEROS.",
       "blockClass": ["contentC1", "izquierdC"]
     }
   },
@@ -301,6 +317,35 @@
       "maxHeight": 500,
       "blockClass":"imagecen"
     }
+  },
+  "rich-text#siguenos": {
+    "props": {
+      "text": "Siguenos en",
+      "blockClass": ["siguenos_quienes_somos"]
+    }
+  },
+  
+  "social-networks#quienes-somos": {
+    "props": {
+      "blockClass":"iconos-redes-quienes",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/SomosFRDM"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/_somos_freedom/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.tiktok.com/@somos.freedom"
+        }/* ,
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        } */
+      ]
+    }
   }
-
 }

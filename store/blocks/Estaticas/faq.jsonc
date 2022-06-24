@@ -112,7 +112,9 @@
       "disclosure-layout#first",
       "disclosure-layout#second",
       "disclosure-layout#third",
-      "disclosure-layout#fourth"
+      "disclosure-layout#fourth",
+      "disclosure-layout#five",
+      "disclosure-layout#six"
     ],
     "props":{
       "blockClass":"disclousureF"
@@ -140,12 +142,13 @@
   },
   "rich-text#question1": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "¿Cómo comprar?"
     }
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "**Comprar en Freedom es muy sencillo, solo sigue los siguientes pasos:** \n ¿Ya sabes qué es lo que quieres comprar? Si ya lo sabes, ubica la categoría en el menú que se encuentra en la parte izquierda. En cada categoría puedes utilizar los filtros para encontrar lo que deseas. Si prefieres buscarlo, escribe la palabra o nombre del producto en la barra de búsqueda que aparece al hacer click en el icono que todo lo ve que está en la parte superior izquierda \n Una vez hayas elegido el producto que te gusta y te identifica, selecciona el color, talla, y listo esta agregado al carrito de compras.\n Una vez hayas agregado el producto puedes seguir navegando en las diferentes categorías y agregando al carrito los demás productos que te gusten. Si quieres ver los productos que has agregado al carrito de compras, puedes hacer click en el icono de la bolsa de compras que está en la parte izquierda Para ver el resumen de tu compra ingresa al icono de la bolsa de compras. Verifica que los productos, tallas, colores y cantidades correspondan a los que deseas comprar, desde allí puedes finalizar la compra o ver el carrito. Si desea utilizar un cupón de descuento, debes ingresar el código en el espacio CUPÓN DE DESCUENTO y dar click en AÑADIR. Continua con el proceso dando click en el botón FINALIZAR COMPRA o COMPRAR AHORA. \n\n  **FINALIZAR LA COMPRA** \n\nIngresa tu correo para continuar con la compra, diligencia tus datos personales o de empresa. Marca la opción  \"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la política que se encuentra aquí y el envío de información promocional”, luego diligencia los datos para el envío y  da click en IR AL PAGO. Elige el método de pago que deseas. Puedes elegir entre tarjetas de crédito, Visa, MasterCard, American, Diners, Codensa, tarjetas débito y pagos a través de PSE (cuenta de ahorros o corriente), diligencia todos los datos y finaliza tu compra dando click en COMPRAR AHORA Te enviaremos un email de confirmación al correo que registraste para informarte sobre los detalles de tu pedido. No olvides revisar tu bandeja de spam."
+      ,"blockClass":["text_estaticas","como_comprar"]
     }
   },
 
@@ -170,12 +173,13 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "¿Debo crear una cuenta para comprar en Freedom.com?"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Nuestro Smart Checkout facilita las compras en línea de una forma ágil, rápida y sencilla. Sólo debes registrar la información solicitada la primera vez que compras en la tienda y en futuras visitas utilizando el mismo correo electrónico, nuestra plataforma te reconocerá como nuestro cliente. De este modo no necesitas iniciar sesión para cada ingreso a la plataforma, pues con la información ingresada se creará una cuenta automáticamente."
+      ,"blockClass":["text_estaticas","debo_crear_cuenta"]
     }
   },
 
@@ -201,12 +205,13 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "¿Cómo iniciar sesión en Freedom?"
     }
   },
   "rich-text#answer3": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña, aquí podrás conocer el estado de tus pedidos y actualizar tus datos. Si vas a realizar una compra, nuestro checkout te identificará y se cargarán todos tus datos automáticamente."
+      ,"blockClass":["text_estaticas","answer--3"]
     }
   },
 
@@ -228,18 +233,225 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer2"]
+    "children": ["rich-text#answer4"]
   },
   "rich-text#question4": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "¿Cómo puedo editar mi información?"
     }
   },
   "rich-text#answer4": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
     }
   },
+
+  "disclosure-layout#five": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#five", "disclosure-content#five"]
+  },
+  "disclosure-trigger#five": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question5"]
+  },
+  "disclosure-content#five": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "¿Es seguro comprar en Freedom?"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "Comprar en Freedom.com es 100% seguro. Por seguridad, no tratamos ni almacenamos la información sobre tus medios de pagos, para mantener la privacidad de la misma, la información es tratada únicamente por nuestro procesador de pagos electrónicos PayU, quien cuenta con la certificación PCI DSS. Te recomendamos consultar las políticas y condiciones de PayU en la web www.payulatam.com/co y utilizar los modos seguros de tus navegadores y programas de seguridad de internet."
+      ,"blockClass":["text_estaticas","answer--5"]
+    }
+  },
+  "disclosure-layout#six": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#six", "disclosure-content#six"]
+  },
+  "disclosure-trigger#six": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question6"]
+  },
+  "disclosure-content#six": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer6"]
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "¿Puedo usar diferentes correos para comprar?"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "Sí, puedes usar diferentes cuentas de correo pero cada uno se considera como una cuenta y cliente individual. Si decides utilizar otro correo electrónico en el momento de realizar el pedido, deberás volver a registrar toda tu información personal y dirección de entrega. Los correos electrónicos no se pueden combinar así que es importante que verifiques el correo electrónico que estás utilizando."
+      ,"blockClass":["text_estaticas","answer--6"]
+    }
+  }/*, "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
+    }
+  }, "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
+    }
+  }, "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
+    }
+  }, "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
+    }
+  }, "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question4"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Ingresa a la opción Mi Cuenta en la opción del Menú con tu usuario y contraseña podrás actualizar tus datos personales, direcciones y preferencias."
+      ,"blockClass":["text_estaticas","answer--4"]
+    }
+  }*/, 
 
 
   "disclosure-state-indicator": {
