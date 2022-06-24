@@ -36,7 +36,6 @@
 @media screen and (max-width: 700px) {
 .productImageTag.productImageTag--main {
   max-height: none !important;
-  margin: 10px 0;
 }
 }
 

@@ -11,3 +11,16 @@
 }
 }
 .headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;right: 0;border: none;}
+
+
+
+.closeButton--cerradoPopProducto {
+  background: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png) no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 35px;
+  margin: 0 8px;
+}
+.closeIcon--cerradoPopProducto{
+  display: none;
+}

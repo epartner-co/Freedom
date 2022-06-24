@@ -1,4 +1,4 @@
-.wishlistIconContainer--buttomWish {margin: 39px auto 0 auto;}
+/* .wishlistIconContainer--buttomWish {margin: 39px auto 0 auto;} */
 
 .wishlistIconContainer--buttomWish :global(.vtex-button)::before {content: "";width: 20px;height: 20px;background: url(https://callearturop.vteximg.com.br/arquivos/freedomfavorito.png);background-size: 100%;display: flex;margin-right: 10px;}
 

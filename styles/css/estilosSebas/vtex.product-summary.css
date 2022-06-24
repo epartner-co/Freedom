@@ -89,6 +89,9 @@
     color: #340572;
     font-size: 22px;
 }
+
+
+
 .containerNormal :global(.vtex-product-price-1-x-sellingPriceValue){
     font-size: 0;
 }
@@ -138,8 +141,8 @@
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
     background-size: 100%;
-    width: 100%;
-    height: 49px;
+    width: 140%;
+    height: 55px;
     display: block;
 }
 /* .containerNormal :global(.vtex-store-components-3-x-discountInsideContainer)::before{
@@ -156,10 +159,10 @@
 /* :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
     position: absolute;
 } */
-.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
+/* .containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
     position: absolute;
     right: 10px;
-}
+} */
 .containerNormal:hover :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas){
     position: absolute;
     right: 10px;
@@ -173,8 +176,9 @@
     display: block;
     background: url(https://callearturop.vteximg.com.br/arquivos/listaDeseosVitrina.png) no-repeat;
     background-size: 100%;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    
 }
 .containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-fill){
     display: block;
@@ -332,9 +336,10 @@
         height: 28px;
     }
     :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) {
-        right: 2px !important;
-        bottom: 562%;
+        /* right: 2px !important;
+        bottom: 562%; */
         z-index: 99;
+        top: -720% !important;
     }
     .SKUSelectorContainer--vitrina {
         padding: 0 5px;
@@ -384,4 +389,30 @@
     right: 10px;
     top: -450%;
 }
+}
+
+/* estilos tablet */
+
+@media (min-width: 800px) and (max-width: 1024px){
+
+    /* vitrina categoria */
+
+    .containerNormal :global(.vtex-product-price-1-x-currencyContainer){
+        font-size: 17px;
+    }
+    .brandName{
+        font-size: 10px;
+        align-items: start;
+    }
+    .containerNormal :global(.vtex-product-price-1-x-listPrice) :global(.vtex-product-price-1-x-currencyContainer){
+        color: #F44753;
+        font-size: 9px;
+        font-weight:100;
+    }
+    .valueWrapper.valueWrapper--vitrina {
+       
+        padding: 11px !important;
+        padding-left: 0 !important;
+        
+    }
 }

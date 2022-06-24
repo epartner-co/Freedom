@@ -3,3 +3,14 @@
 .buttonText--buytex {font-size: 23px;}
 .vtex-add-to-cart-button-0-x-buttonText--buytAdd{font-size: 23px;}
 .vtex-add-to-cart-button-0-x-buttonText--buytex{font-size: 23px;}
+
+.buytAdd{    
+        content: "";
+        background: url("https://callearturop.vteximg.com.br/arquivos/shopcart.png");
+        background-size: 100%;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-left: 10px;
+        top: 6px;     
+}

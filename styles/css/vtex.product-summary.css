@@ -75,3 +75,12 @@
 }
 
 }
+
+/* estilos Tablet */
+
+@media (min-width: 800px) and (max-width: 1024px){
+.productNameContainer--nombre.nameWrapper--nombre {
+  height: 23px !important;
+  margin: 13px 0 0 !important;
+}
+}

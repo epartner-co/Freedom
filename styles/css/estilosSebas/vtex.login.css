@@ -106,7 +106,8 @@
     padding-left: 0;
 }
 .optionsSticky{
-    margin-right: 90px;
+    margin-right: 40px;
+    margin-left: 50px;
 }
 .dontHaveAccount {
     color: #808080;

@@ -6,7 +6,10 @@
 }
 .flexColChild--productCosInt .stretchChildrenWidth {padding: 0;}
 .flexCol.flexCol--nombreC {margin: 0 10% 0 0 !important;}
-.flexCol.flexCol--contenedorSkuSelec {position: relative;}
+.flexCol.flexCol--contenedorSkuSelec {
+  position: relative;
+  flex-direction: row;
+}
 /*Buy Butoms*/
 .flexCol--buybuttoms1 :global(.vtex-button__label) {padding: 0 !important;margin: 0;}
 .flexCol--buybuttoms2 :global(.vtex-button__label) {padding: 0 !important;margin: 0;}
@@ -75,3 +78,4 @@
   .flexCol--buybuttoms1 :global(.vtex-button) { padding: 10px; }
   .flexCol--buybuttoms2 :global(.vtex-button) {   padding: 10px;}
 }
+

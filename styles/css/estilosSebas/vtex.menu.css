@@ -32,17 +32,16 @@
         align-items: center;
         justify-content: center;
         font-size: 24px;
-        color:#fff !important;
     }
-    .styledLink--menu-lv1-cierre {
+    /* .styledLink--menu-lv1-cierre {
         background: url(https://callearturop.vteximg.com.br/arquivos/hoverMoradoMenulvl1.png) no-repeat;
         background-size: 100%;
         width: 100px;
         height: 65px;
         display: block;
         padding: 10px;
-    }
-    .styledLink--menu-lv1{
+    } */
+    .styledLinkContainer--menu-item-levl2{
         border-bottom: 1px solid #d3d3d3;
         transform: matrix(1,-0.03,-0.01,1,0,0);
     }
@@ -55,8 +54,8 @@
         height: 16px;
         display: block;
         position: absolute;
-        left: 10%;
-        top: 13%;
+        left: 5%;
+        top: 100px;
     }
     .accordionIcon--menu-item-levl2--isClosed {
         font-size: 0;

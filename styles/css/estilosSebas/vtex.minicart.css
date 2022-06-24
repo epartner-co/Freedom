@@ -68,4 +68,5 @@
 }
 :global(.vtex-minicart-2-x-childrenContainer){
     overflow: hidden;
+    height: 100%;
 }

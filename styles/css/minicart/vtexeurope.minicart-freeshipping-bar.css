@@ -17,8 +17,18 @@
   border: 1px solid #D3D3D3;
   margin: 10px auto 0 auto;
   box-shadow: none;
+  height: 80px;
+  
+}
+.text1{
+  text-align: center;
 }
 .text2 {margin: 0 0 0 4px;color: #340572;}
 
 .currencyContainer {color: #340572;}
 
+@media(max-width:600px){
+  .freigthScaleContainer{
+    height: 80px !important;
+  }
+}

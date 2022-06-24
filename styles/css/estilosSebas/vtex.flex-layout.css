@@ -139,7 +139,7 @@
 .flexCol--productCountCol  {
     display: flex;
     justify-content: flex-end;
-    width: auto !important;
+    padding-left: 15px;
 }
 .flexRow--rowTittle{
     margin-bottom: 30px;
@@ -272,11 +272,12 @@
     }
     
 }
-@media(max-height: 800px){
+
+ @media(max-height: 500px) and (max-width: 600px){
     .flexRowContent--social-Media-menu-M .stretchChildrenWidth {
         display: none;
     }
-}
+} 
 
 .flexRowContent--marcas-header {
     border-left: 1px solid #808080;
@@ -582,3 +583,18 @@
         margin: 0 0 0 auto;
     }
 }
+
+/* estilos John */
+
+@media (min-width: 800px) and (max-width: 1024px){
+    .flexRow--bradcrumb{
+        padding: 0 15px;
+    }
+    
+}
+
+    .flexRowContent--Submenu {
+        background: url(https://callearturop.vteximg.com.br/arquivos/menu--freedom.png) no-repeat;
+        background-size: 300%;
+        background-position: bottom;
+    }

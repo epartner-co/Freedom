@@ -455,14 +455,14 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#sap",
-      "menu-item#wia",
-      "menu-item#wpb",
-      "menu-item#Isolucion",
-      "menu-item#Isolucion-tiendas",
-      "menu-item#proovedores",
-      "menu-item#campus",
-      "menu-item#acércate"
+      "menu-item#comocomprar",
+      "menu-item#envios",
+      "menu-item#cambios",
+      "menu-item#devoluciones",
+      "menu-item#garantia",
+      "menu-item#pago",
+      "menu-item#informacions"
+      
     ]
   },
 
@@ -485,13 +485,14 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#comocomprar",
-      "menu-item#envios",
-      "menu-item#cambios",
-      "menu-item#devoluciones",
-      "menu-item#garantia",
-      "menu-item#pago",
-      "menu-item#informacions"
+      "menu-item#sap",
+      "menu-item#wia",
+      "menu-item#wpb",
+      "menu-item#Isolucion",
+      "menu-item#Isolucion-tiendas",
+      "menu-item#proovedores",
+      "menu-item#campus",
+      "menu-item#acércate"
     ]
   },
   "menu-item#tiendas-mobile": {
