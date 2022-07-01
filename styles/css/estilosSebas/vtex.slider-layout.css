@@ -309,3 +309,8 @@
         width: 100%;
     }
 }
+@media(min-width:1000px){
+:global(.vtex-slider-0-x-sliderFrame){
+    width: 240% !important;
+}
+}

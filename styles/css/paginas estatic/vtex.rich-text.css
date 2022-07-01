@@ -123,10 +123,17 @@
     }
     @media(max-width:700px){
     .paragraph--tallas-trigger-modal{
-      top: 45%;
+      top: 57%;
       left: 0;
     }
     }
+    @media(min-width:700px) and (max-width:900px){
+      .paragraph--tallas-trigger-modal{
+        top: 65%;
+        left: 0;
+        font-size: 11px;
+      }
+      }
     .wrapper--text_estaticas{
       width: 90%;
       margin: auto;
