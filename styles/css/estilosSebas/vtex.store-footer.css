@@ -83,8 +83,7 @@
     width: 43px;
     height: 43px;
 }
-.socialNetworkLink--iconos-redes-quienes--facebook:hover{
-    background-size: 100%;
+.socialNetworkLink--iconos-redes-quienes--facebook:hover::before{
     background: url(https://callearturop.vteximg.com.br/arquivos/face-rojo.png) no-repeat;
 }
 .socialNetworksContainer--iconos-redes-quienes{
