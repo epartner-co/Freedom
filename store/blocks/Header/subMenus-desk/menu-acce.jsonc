@@ -41,7 +41,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/billeteras",
+            "href": "/freedom/accesorios-freedom/billeteras-freedom",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -57,7 +57,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/cinturones",
+            "href": "/freedom/accesorios-freedom/cinturones-freedom",
             "noFollow": false,
             "tagTitle": "Cinturones",
             "text": "Cinturones"
@@ -73,7 +73,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/cordones",
+            "href": "/freedom/accesorios-freedom/cordones-freedom",
             "noFollow": false,
             "tagTitle": "Cordones",
             "text": "Cordones"
@@ -89,7 +89,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/fragancias",
+            "href": "/freedom/accesorios-freedom/fragancias-freedom",
             "noFollow": false,
             "tagTitle": "Fragancias",
             "text": "Fragancias"
@@ -105,7 +105,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/gafas",
+            "href": "/freedom/accesorios-freedom/gafas-freedom",
             "noFollow": false,
             "tagTitle": "Gafas",
             "text": "Gafas"
@@ -121,7 +121,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/llaveros",
+            "href": "/freedom/accesorios-freedom/llaveros-freedom",
             "noFollow": false,
             "tagTitle": "Llaveros",
             "text": "Llaveros"
@@ -137,7 +137,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/tapabocas",
+            "href": "/freedom/accesorios-freedom/tapabocas-freedom",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"

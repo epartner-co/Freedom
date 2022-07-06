@@ -81,3 +81,5 @@
 .currencyDecimal--summary {display: none;}
 
 .currencyFraction--summary:last-child {display: none;}
+
+:global(.vtex-product-price-1-x-currencyFraction):last-child {display: none;}

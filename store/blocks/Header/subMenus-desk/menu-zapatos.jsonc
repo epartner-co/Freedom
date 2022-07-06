@@ -37,7 +37,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/botas-y-botines",
+            "href": "/freedom/zapatos-freedom/botas-y-botines-freedom",
             "noFollow": false,
             "tagTitle": "Botas y botines",
             "text": "Botas y botinees"
@@ -53,7 +53,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/sandalias",
+            "href": "/freedom/zapatos-freedom/sandalias-freedom",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -69,7 +69,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/tenis",
+            "href": "/freedom/zapatos-freedom/tenis-freedom",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"

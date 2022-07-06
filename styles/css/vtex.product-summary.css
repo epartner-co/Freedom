@@ -23,14 +23,15 @@
 }
 
 .brandName {
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #2E2E2E;
-  padding: 0 2%;
-  min-height: 49px;
-  display: flex;
-  align-items: end;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    padding: 0 2%;
+    min-height: 49px;
+    display: flex;
+    align-items: initial;
+    max-height: 30px;
 }
 
 

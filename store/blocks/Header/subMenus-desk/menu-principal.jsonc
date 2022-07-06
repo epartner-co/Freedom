@@ -62,7 +62,7 @@
             "blockClass":["menu-lv1"],
             "itemProps": {
             "type": "internal",
-            "href":"/hombre/ropa",
+            "href":"/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -130,7 +130,7 @@
           "blockClass":["menu-lv1","custom"],
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/custom-studio",
             "noFollow": true,
             "tagTitle": "Custom studio",
             "text": "Custom studio"

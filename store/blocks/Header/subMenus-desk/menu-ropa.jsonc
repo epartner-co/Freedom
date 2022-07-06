@@ -44,7 +44,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/buzos",
+            "href": "/freedom/Ropa-Freedom/Buzos-Freedom",
             "noFollow": false,
             "tagTitle": "Buzos y hoodies",
             "text": "Buzos y hoodies"
@@ -60,7 +60,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/camisetas",
+            "href": "/freedom/Ropa-Freedom/Camisetas-Freedom",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -76,7 +76,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/blusas",
+            "href": "/freedom/Ropa-Freedom/Camisas-Freedom",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -92,7 +92,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/chaquetas",
+            "href": "/freedom/Ropa-Freedom/Chaquetas-Freedom",
             "noFollow": false,
             "tagTitle": "Chaquetas, blazers y chalecos",
             "text": "Chaquetas, blazers y chalecos"
@@ -108,7 +108,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/jeans",
+            "href": "/freedom/Ropa-Freedom/Jeans-Freedom",
             "noFollow": false,
             "tagTitle": "jeans",
             "text": "Jeans"
@@ -124,7 +124,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/pantalones",
+            "href": "/freedom/Ropa-Freedom/Pantalones-Freedom",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -140,7 +140,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/tejidos",
+            "href": "/freedom/Ropa-Freedom/Sweaters-Freedom",
             "noFollow": false,
             "tagTitle": "Tejidos",
             "text": "Tejidos"
@@ -156,7 +156,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/pantalonetas",
+            "href": "/freedom/Ropa-Freedom/Pantalonetas-Freedom",
             "noFollow": false,
             "tagTitle": "Pantalonetas",
             "text": "Pantalonetas"
@@ -172,7 +172,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/ropa-interior",
+            "href": "/freedom/Ropa-Freedom/Ropa-Interior-Freedom",
             "noFollow": false,
             "tagTitle": "Ropa interior y medias",
             "text": "Ropa interior y medias"
@@ -188,7 +188,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/shorts",
+            "href": "/freedom/Ropa-Freedom/Shorts-y-Bermudas-Freedom",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"

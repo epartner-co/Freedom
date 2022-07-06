@@ -109,7 +109,7 @@
 :global(.vtex-product-price-1-x-currencyDecimal){
     display: none;
 }
-:global(.vtex-product-price-1-x-currencyFraction){
+:global(.vtex-product-price-1-x-currencyFraction):last-child{
     display: none;
 }
 .containerNormal :global(.vtex-product-price-1-x-sellingPriceValue){
