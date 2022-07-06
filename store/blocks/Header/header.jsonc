@@ -18,9 +18,9 @@
   "flex-layout.row#marcas-freedom": {
     "children": [
       "flex-layout.col#marca-1",
-      "flex-layout.col#marca-2",
+      "flex-layout.col#marca-2"/* ,
       "flex-layout.col#marca-3",
-      "flex-layout.col#marca-4"
+      "flex-layout.col#marca-4" */
     ],
     "props": {
       "blockClass":"marcas-header",
@@ -37,7 +37,7 @@
   // marcas 1
   "rich-text#shelf-title-#marca-1": {
     "props": {
-      "text": "[Arturo calle](/arturocalle.com)",
+      "text": "[Arturo calle](https://www.arturocalle.com/)",
       "blockClass": ["marcas-Item","arturo-calle"]
     }
   },

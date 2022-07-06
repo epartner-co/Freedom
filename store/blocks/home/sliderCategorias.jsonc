@@ -103,7 +103,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria3.png",
       "headline": "Jeans",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/jean?map=ft",
+      "callToActionUrl": "/freedom/Ropa-Freedom/Jeans-Freedom",
       "blockClass": "info-card-homeS",
       "textAlignment": "left"
     }
@@ -116,7 +116,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria2.png",
       "headline": "Camisetas",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/camiseta?map=ft",
+      "callToActionUrl": "/freedom/Ropa-Freedom/camisetas-Freedom",
       "blockClass": "info-card-homeM",
       "textAlignment": "left"
     }
@@ -129,7 +129,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria1.png",
       "headline": "Buzos",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/buzo?map=ft",
+      "callToActionUrl": "/freedom/Ropa-Freedom/buzos-Freedom",
       "blockClass": "info-card-homeB",
       "textAlignment": "left"
     }
@@ -142,7 +142,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/blusas-desk.png",
       "headline": "Blusas",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/blusa?map=ft",
+      "callToActionUrl": "/freedom/Ropa-Freedom/blusas-Freedom",
       "blockClass": "info-card-homeS",
       "textAlignment": "left"
     }
@@ -155,7 +155,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/pantalones-desk-leggins.png",
       "headline": "Pantalones y leggins",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/pantalon?map=ft",
+      "callToActionUrl": "/freedom/Ropa-Freedom/leggins-Freedom",
       "blockClass": "info-card-homeM",
       "textAlignment": "left"
     }

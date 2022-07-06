@@ -62,7 +62,7 @@
             "blockClass":["menu-lv1"],
             "itemProps": {
             "type": "internal",
-            "href":"/ropa",
+            "href":"/freedom/ropa-freedom",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -90,7 +90,7 @@
           "blockClass":["menu-lv1","zapatos"],
           "itemProps": {
             "type": "internal",
-            "href": "/zapatos",
+            "href": "/freedom/zapatos-freedom",
             "noFollow": true,
             "tagTitle": "Zapatos",
             "text": "Zapatos"
@@ -110,7 +110,7 @@
           "blockClass":["menu-lv1","aace"],
           "itemProps": {
             "type": "internal",
-            "href": "/accesorios",
+            "href": "/freedom/accesorios-freedom",
             "noFollow": true,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -130,7 +130,7 @@
           "blockClass":["menu-lv1","custom"],
           "itemProps": {
             "type": "internal",
-            "href": "/custom-studio",
+            "href": "/",
             "noFollow": true,
             "tagTitle": "Custom studio",
             "text": "Custom studio"
@@ -222,19 +222,19 @@
     },
     "rich-text#facebook": {
         "props": {
-          "text":"[facebook](/)",
+          "text":"[facebook](https://www.facebook.com/SomosFRDM)",
           "blockClass": ["socialMedias","facebook"]
         }
     },
     "rich-text#instagrams": {
         "props": {
-            "text":"[instagram](/)",
+            "text":"[instagram](https://www.instagram.com/_somos_freedom/)",
             "blockClass": ["socialMedias","instagram"]
         }
     },
     "rich-text#tik-tok": {
         "props": {
-            "text":"[tij tok](/)",
+            "text":"[tij tok](https://www.tiktok.com/@somos.freedom)",
           "blockClass": ["socialMedias","tiktok"]
         }
     },

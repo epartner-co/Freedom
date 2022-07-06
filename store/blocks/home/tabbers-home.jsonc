@@ -120,7 +120,7 @@
   },
   "rich-text#shelf-title-#CamisetasdCateg": {
       "props": {
-        "text": "[VER CAMISETAS](/camisetas)",
+        "text": "[VER CAMISETAS](/freedom/ropa-freedom/camisetas-freedom)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -136,7 +136,7 @@
   },
   "rich-text#shelf-title-#BuzosCateg": {
       "props": {
-        "text": "[VER BUZOS](/buzos)",
+        "text": "[VER BUZOS](/freedom/Ropa-Freedom/Buzos-Freedom)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -152,7 +152,7 @@
   },
   "rich-text#shelf-title-#CamisasCateg": {
       "props": {
-        "text": "[VER CAMISAS](/camisas)",
+        "text": "[VER CAMISAS](/freedom/Ropa-Freedom/Camisas-Freedom)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -168,7 +168,7 @@
   },
   "rich-text#shelf-title-#JoggerCateg": {
       "props": {
-        "text": "[VER JOGGERS](/joggers)",
+        "text": "[VER JOGGERS](/freedom/Ropa-Freedom/joggers-Freedom)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -184,13 +184,16 @@
   },
   "rich-text#shelf-title-#POLOSCateg": {
       "props": {
-        "text": "[VER POLOS](/polo)",
+        "text": "[VER POLOS](/freedom/Ropa-Freedom/polos-Freedom)",
         "blockClass": "TABBERS-HOME"
       }
   },
   "list-context.product-list#demo1-tabber": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#demo-products-1-tabber"]
+      "children": ["slider-layout#demo-products-1-tabber"],
+      "props": {
+        "category":"542/605/612"
+      }
     },
     "slider-layout#demo-products-1-tabber": {
       "props": {
@@ -209,7 +212,10 @@
 
   "list-context.product-list#demo2": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#demo-products-2"]
+      "children": ["slider-layout#demo-products-2"],
+      "props": {
+        "category":"542/605/610"
+      }
     },
     "slider-layout#demo-products-2": {
       "props": {
@@ -227,7 +233,10 @@
   },
   "list-context.product-list#demo3": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#demo-products-3"]
+      "children": ["slider-layout#demo-products-3"],
+      "props": {
+        "category":"542/605/611"
+      }
     },
     "slider-layout#demo-products-3": {
       "props": {
@@ -245,7 +254,10 @@
   },
   "list-context.product-list#demo4": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#demo-products-4"]
+      "children": ["slider-layout#demo-products-4"],
+      "props": {
+        "category":"542/605/617"
+      }
   },
   "slider-layout#demo-products-4": {
       "props": {
@@ -263,7 +275,10 @@
   },
   "list-context.product-list#demo5": {
       "blocks": ["product-summary.shelf"],
-      "children": ["slider-layout#demo-products-5"]
+      "children": ["slider-layout#demo-products-5"],
+      "props": {
+        "category":"542/605/622"
+      }
   },
   "slider-layout#demo-products-5": {
       "props": {

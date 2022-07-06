@@ -37,7 +37,17 @@
 .flexRowContent--buybuttoms :global(.vtex-add-to-cart-button-0-x-buttonText--buytex){font-size: 23px;}
 .flexCol--contenedorSkuSelec :global(.vtex-store-components-3-x-skuSelectorTextContainer) {display: block;}
 .flexCol--contenedorSkuSelec :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {position: relative;opacity: 1;visibility: visible;top: 0;}
-.flexColChild--imagen :global(.vtex-store-components-3-x-productImage)::before {content: "";background: url(https://callearturop.vteximg.com.br/arquivos/bordesuperior.png);width: 100%;display: block;height: 25px;background-size: contain; background-repeat: repeat;position: absolute;z-index: 9;}
+
+/* .flexColChild--imagen :global(.vtex-store-components-3-x-productImage)::before {
+  content: "";background: url(https://callearturop.vteximg.com.br/arquivos/bordesuperior.png);
+  width: 100%;
+  display: block;
+  height: 25px;
+  background-size: contain; 
+  background-repeat: repeat;
+  position: absolute;
+  z-index: 9;
+} */
 
 @media (max-width: 600px) {
 .flexCol--buybuttoms2 :global(.vtex-button) {margin: 0;width: 100%;}

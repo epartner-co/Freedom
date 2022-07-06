@@ -27,31 +27,31 @@
     },
     "rich-text#shelf-title-#pantalonetas": {
         "props": {
-          "text": "[Pantalonetas](/pantalonetas)",
+          "text": "[Pantalonetas](/freedom/Ropa-Freedom/Pantalonetas-Freedom)",
           "blockClass": "tabbersUltimos"
         }
     },
     "rich-text#shelf-title-#pantalones": {
         "props": {
-          "text": "[Pantalones](/pantalones)",
+          "text": "[Pantalones](/freedom/Ropa-Freedom/Pantalones-Freedom)",
           "blockClass": "tabbersUltimos"
         }
     },
     "rich-text#shelf-title-#camisas": {
         "props": {
-          "text": "[Camisas](/camisas)",
+          "text": "[Camisas](/freedom/Ropa-Freedom/Camisas-Freedom)",
           "blockClass": "tabbersUltimos"
         }
     },
     "rich-text#shelf-title-#joggers": {
         "props": {
-          "text": "[Joggers](/joggers)",
+          "text": "[Joggers](/freedom/Ropa-Freedom/joggers-Freedom)",
           "blockClass": "tabbersUltimos"
         }
     },
     "rich-text#shelf-title-#polos": {
         "props": {
-          "text": "[Polo](/polo)",
+          "text": "[Polo](/freedom/Ropa-Freedom/polos-Freedom)",
           "blockClass": "tabbersUltimos"
         }
     }

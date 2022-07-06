@@ -44,7 +44,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/botas",
+            "href": "/freedom/zapatos-freedom/botas-y-botines-freedom",
             "noFollow": false,
             "tagTitle": "Botas botines",
             "text": "Botas botines"
@@ -60,7 +60,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/tenis",
+            "href": "/freedom/zapatos-freedom/tenis-freedom",
             "noFollow": false,
             "tagTitle": "tenis",
             "text": "Tenis"
@@ -76,7 +76,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/sandalias",
+            "href":"/freedom/zapatos-freedom/sandalias-freedom",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -92,7 +92,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/ropa",
+            "href": "/freedom/Ropa-Freedom",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -108,7 +108,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/camisetas",
+            "href": "/freedom/Ropa-Freedom/Camisetas-Freedom",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -124,7 +124,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/camisas",
+            "href": "/freedom/Ropa-Freedom/Camisas-Freedom",
             "noFollow": false,
             "tagTitle": "camisas",
             "text": "Camisas"
@@ -140,7 +140,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/polos",
+            "href": "/freedom/Ropa-Freedom/polos-Freedom",
             "noFollow": false,
             "tagTitle": "polos",
             "text": "Polos"
@@ -156,7 +156,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/jeans",
+            "href": "/freedom/Ropa-Freedom/Jeans-Freedom",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -172,7 +172,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/Accesorios",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Para hombre",
             "text": "Para hombre"
@@ -188,7 +188,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/arturo-calle/mujer/accesorios",
+            "href": "/mujer",
             "noFollow": false,
             "tagTitle": "Para mujer",
             "text": "Para mujer"
