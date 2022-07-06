@@ -633,7 +633,7 @@
 .imageElement--footerMenu{
   padding: 3px 22px;
   width: 87%;
-} 
+}
 
 .imageElementLink--FAAA  {
   position: relative;
@@ -677,14 +677,15 @@
 .submit :global(.vtex-button) :global(.vtex-button__label) {
   color: white !important;
 }
-.skuSelectorOptionsList {
-  width: 150%;
-}
+
 .imageElement--iconoM.imageElement--MENU-DESK-CLICK {
   width: 60%;
 }
 
 @media (max-width: 1000px)  {
+  .imageElement.imageElement--imgcuadra {
+    width: 100%;
+}
 .imageElement--pagos-desk {
   display: none;
 }
@@ -792,13 +793,13 @@
 }
 
 .infoCardHeadline--info-card-homeM {
-  font-size: 30px;
+  font-size: 23px;
 }
 .infoCardHeadline--info-card-homeS {
-  font-size: 30px;
+  font-size: 23px;
 }
 .infoCardHeadline--info-card-homeB {
-  font-size: 30px;
+  font-size: 23px;
 }
 :global(.vtex-flex-layout-0-x-flexCol--InformacionDosC) .productDescriptionTitle {
   line-height: 32px;
@@ -844,3 +845,30 @@
       width: 250%;
     }
   }
+  .imageElement.imageElement--preFooter {
+    margin: 20px 0 0 0;
+  }
+  .backToTopButtonContainer :global(.vtex-button__label)::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
+    background-size: 100%!important;
+    display: block;
+    width: 39px;
+    height: 39px;
+    transition: all 40ms;
+    position: absolute;
+    transform: rotate(90deg);
+}
+.backToTopButtonContainer :global(.vtex-button) {
+    background: transparent;
+    border: none;
+    font-size: 0;
+    bottom: 35px;
+}
+.infoCardContainer.infoCardContainer--info-card-home3 {position: relative;z-index: 1;}
+
+.infoCardCallActionContainer.infoCardCallActionContainer--info-card-home3 {
+    position: relative;
+    z-index: 1;
+}
+

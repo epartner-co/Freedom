@@ -249,7 +249,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[CONOCE MÁS DE FREEDOM](#)",
+      "text": "[CONOCE MÁS DE FREEDOM](/)",
       "blockClass": ["conten-princ", "rotado"]
     }
   },
@@ -273,13 +273,13 @@
   },
   "rich-text#contenidoprinciD3": {
     "props": {
-      "text": "**MAS SOBRE #FREDOM**\n\n POR ESO, NUESTRA CAUSA ES CELEBRAR LA INCLUSIÓN A TRAVÉS DE MANIFESTACIONES ARTÍSTICAS COMO LA MÚSICA, EL ARTE, VIDEO Y POR SUPUESTO LA MODA.\n[EXPLORAR MÁS](#)",
+      "text": "**MAS SOBRE #FREDOM**\n\n POR ESO, NUESTRA CAUSA ES CELEBRAR LA INCLUSIÓN A TRAVÉS DE MANIFESTACIONES ARTÍSTICAS COMO LA MÚSICA, EL ARTE, VIDEO Y POR SUPUESTO LA MODA.\n[EXPLORAR MÁS](/)",
       "blockClass": "contentC2"
     }
   },
   "rich-text#contenidoprinciD4": {
     "props": {
-      "text": "**FASHION TEASERS**\n\n CREAREMOS CONTENIDO AL REDEDOR DE TODA LA PREPARACIÓN PARA LA APERTURA: - CAPACITACIONES - INSTALACIÓN DE MÁQUINAS - PRUEBAS DE PERSONALIZACIÓN - MONTAJES - INTERVENCIÓN TIENDAS - ETC\n [EXPLORAR MÁS](#)",
+      "text": "**FASHION TEASERS**\n\n CREAREMOS CONTENIDO AL REDEDOR DE TODA LA PREPARACIÓN PARA LA APERTURA: - CAPACITACIONES - INSTALACIÓN DE MÁQUINAS - PRUEBAS DE PERSONALIZACIÓN - MONTAJES - INTERVENCIÓN TIENDAS - ETC\n [EXPLORAR MÁS](/)",
       "blockClass": ["contentC2", "izquierdC"]
     }
   },
@@ -324,7 +324,7 @@
       "blockClass": ["siguenos_quienes_somos"]
     }
   },
-  
+
   "social-networks#quienes-somos": {
     "props": {
       "blockClass":"iconos-redes-quienes",

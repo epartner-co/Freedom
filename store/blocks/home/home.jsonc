@@ -94,7 +94,7 @@
       ],
       "blockClass": "bannerprinc"
     }
-    
+
   },
   "slider-layout#demo-images": {
     "props": {
@@ -204,11 +204,11 @@
     "images": [
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
-        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/mobile-vitrina.png"
+        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
       },
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
-        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/mobile-vitrina.png"
+        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
       }
     ],
     "link": [
@@ -250,7 +250,7 @@
 
   "rich-text#shelf-title-#freedom": {
     "props": {
-      "text": "## SE PARTE DEL TEAM #FREEDOM",
+      "text": "## MÁS BUSCADOS",
       "blockClass": "shelfTitle"
     }
   },

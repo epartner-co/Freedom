@@ -1,55 +1,58 @@
 .newsletterForm--NewsletterPopUp :global(.vtex-styleguide-9-x-input){
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid white;
-    border-radius: 0;
-    color: white;
-    transform: matrix(1,-0.03,-0.01,1,0,0);
-    height: 34px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  color: white;
+  transform: matrix(1,-0.03,-0.01,1,0,0);
+  height: 34px;
 }
 .newsletterForm.newsletterForm--NewsletterPopUp {
-    position: relative;
-    z-index: 999;
+  position: relative;
+  z-index: 999;
 }
 .newsletterForm--NewsletterPopUp :global(.vtex-input-prefix__group){
-    border: 0;
+  border: 0;
 }
 .newsletterForm--NewsletterPopUp :global(.vtex-input){
-    margin-bottom: 15px;
-    display: block;
+  margin-bottom: 15px;
+  display: block;
 }
 ::placeholder {
-    color: white;
+  color: white;
 }
 .formSubmitContainer :global(.vtex-button){
-    border: 1px solid #F44753;
-    transform: matrix(1, -0.03, -0.01, 1, 0, 0);
-    border-radius: 0;
-    background: transparent;
-    margin: 15px 0;
-    display: block;
+  border: 1px solid #F44753;
+  transform: matrix(1, -0.03, -0.01, 1, 0, 0);
+  border-radius: 0;
+  background: transparent;
+  margin: 15px 0;
+  display: block;
 }
 .formSubmitContainer :global(.vtex-button__label){
-    color: #F44753;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+  color: #F44753;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 .formSubmitContainer :global(.vtex-button__label)::after{
-    content: "";
-    background: url(https://callearturop.vteximg.com.br/arquivos/avion.png);
-    background-size: 100%;
-    width: 18px;
-    height: 18px;
-    display: block;
-    margin-left: 5px;
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/avion.png);
+  background-size: 100%;
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-left: 5px;
 }
 .confirmationCheckboxContainer :global(.vtex-checkbox__label){
-    color: white;
-    margin-bottom: 15px;
+  color: white;
+  margin-bottom: 15px;
 }
 .defaultSuccessMessage--NewsletterPopUp {
-    color: white;
-    text-align: center;
-    height: 300px;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+.labelLink.labelLink--first {
+color: #00ecff;
 }

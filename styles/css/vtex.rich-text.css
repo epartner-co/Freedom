@@ -112,6 +112,9 @@
 
 
 @media (max-width: 1000px) {
+  .container.container--titulos-footer {
+    display: none;
+}
 .paragraph--contenido-sobreNosotros {
     color: white;
     text-transform: uppercase;
@@ -179,4 +182,8 @@
     margin: 10px 0 0 0;
     height: 26px;
   }
+}
+.container.container--shelfTitle {
+  position: relative;
+  z-index: 9;
 }

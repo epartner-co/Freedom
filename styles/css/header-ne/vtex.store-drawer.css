@@ -4,7 +4,15 @@
   /* margin-top: -360px; */
 }
 
-.closeIconContainer.closeIconContainer--searchbarD {position: relative;right: 0;justify-content: end;margin: 0 0 0px 0;}
+.closeIconContainer.closeIconContainer--searchbarD {
+  position: absolute;
+  right: 0;
+  justify-content: end;
+  margin: 0 0 0px 0;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+}
 
 .closeIconButton--searchbarD::before {
     content: "";
@@ -14,8 +22,8 @@
     height: 33px;
     background-size: 100%;
     position: absolute;
-    top: 90%;
-    right: -2%;
+    top: 42%;
+    right: 19%;
     z-index: 1;
   }
   .drawer.drawer--searchbarD.opened.opened--searchbarD {
@@ -26,4 +34,13 @@
   }
   :global(.vtex-store-drawer-0-x-closeIcon--searchbarD){
     display: none;
+  }
+  .closeIconButton.closeIconButton--searchbarD {
+    width: 100%;
+    height: 100vh;
+  }
+  .childrenContainer.childrenContainer--searchbarD {
+    position: absolute;
+    width: 60%;
+    top: 43%;
   }

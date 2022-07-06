@@ -22,7 +22,7 @@
 }
 .infoCardContainer--info-card-homeM {
     width: 100%;
-    height: 100%;   
+    height: 100%;
     background: transparent;
 }
 .infoCardContainer--info-card-homeB {
@@ -78,15 +78,15 @@
     opacity: 0.5;
 }
 .infoCardTextContainer--info-card-home3::after{
-    content: "";
-    background: url(https://callearturop.vteximg.com.br/arquivos/frame-circulito.png) no-repeat;
-    background-size: 100%;
-    width: 193px;
-    height: 193px;
-    display: block;
-    position: absolute;
-    left: -53px;
-    bottom: -115px;
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/frame-circulito.png) no-repeat;
+  background-size: 100%;
+  width: 133px;
+  height: 133px;
+  display: block;
+  position: absolute;
+  left: -53px;
+  bottom: -36px;
 }
 .resultsList--clear-button {
     position: absolute;
@@ -242,7 +242,7 @@
         width: 100%;
         padding-left: 114px;
         justify-content: flex-end;
-    }    
+    }
     .infoCardContainer--info-card-homeS3 {
         width: 100%;
         justify-content: flex-end;
@@ -306,7 +306,7 @@
     }
 }
 @media(min-width: 700px){
-    .imageElementLink--favoritos::after{
+    .imageElementLink--favoritos::before{
         content: "Favoritos";
         font-size: 13px;
         color: #340572;
@@ -316,4 +316,4 @@
         left: 20%;
     }
 }
-    
+

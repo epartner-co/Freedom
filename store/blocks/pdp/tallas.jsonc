@@ -1,6 +1,6 @@
 
 {
-   
+
   "flex-layout.col#tallas": {
     "props": {
       "blockClass":"tallas"
@@ -39,7 +39,7 @@
             "props": {
               "blockClass":"tallas-trigger-modal"
             }
-          },  
+          },
 
           "modal-trigger#tallas-ropa-inferior-hombre": {
             "children": [
@@ -83,7 +83,7 @@
 
         "rich-text#Modal-trigger-Tallas": {
           "props": {
-            "text": "Ver Tallas",
+            "text": "Guía de tallas",
             "blockClass":"tallas-trigger-modal"
           }
         },
@@ -162,7 +162,7 @@
         "modal-header#modal-tallas":{
             "props": {
                 "blockClass":"tallas-cerrado"
-              } 
+              }
         },
 
 
@@ -318,7 +318,7 @@
           }
       },
 
-      
+
       "rich-text#tallas-tabla-col1-fila1-calzado-hombre": {
         "props": {
           "text": "CO",
@@ -388,7 +388,7 @@
           }
       },
 
-      
+
       "rich-text#tallas-tabla-col2-fila1-calzado-hombre": {
         "props": {
           "text": "US",
@@ -439,8 +439,8 @@
         }
       },
 
-  
-      
+
+
       //COL3
       "flex-layout.col#tallas-tabla-col3-calzado-hombre": {
         "children": [
@@ -458,7 +458,7 @@
           }
       },
 
-      
+
       "rich-text#tallas-tabla-col3-fila1-calzado-hombre": {
         "props": {
           "text": "EU",
@@ -530,7 +530,7 @@
           }
       },
 
-      
+
       "rich-text#tallas-tabla-col4-fila1-calzado-hombre": {
         "props": {
           "text": "UK",
@@ -598,7 +598,7 @@
           }
       },
 
-      
+
       "rich-text#tallas-tabla-col5-fila1-calzado-hombre": {
         "props": {
           "text": "CM",
@@ -682,7 +682,7 @@
 
 
 
-      
+
         //CALZADO MUJER  col-198
 
       "condition-layout.product#tallas-calzado-mujer": {
@@ -698,7 +698,7 @@
           "Then": "modal-trigger#tallas-calzado-mujer"
         }
       },
-  
+
       "flex-layout.col#tallas-calzado-mujer": {
           "children": [
             "rich-text#tallas-calzado-mujer-titulo",
@@ -733,11 +733,11 @@
             "blockClass": "tallas-subtitulo"
           }
         },
-  
+
         // INSTRUCCIONES
         "flex-layout.row#tallas-instrucciones-calzado-mujer": {
           "children": [
-            "image#talla-imagen-instrucciones", 
+            "image#talla-imagen-instrucciones",
             "flex-layout.col#tallas-instrucciones-texto-calzado-mujer"
           ],
           "props": {
@@ -751,7 +751,7 @@
             "blockClass": "tallas-instrucciones-imagen"
           }
         },
-  
+
        // INSTRUCCIONES 2
         "flex-layout.col#tallas-instrucciones-texto-calzado-mujer": {
           "children": [
@@ -767,7 +767,7 @@
               "blockClass": "tallas-instrucciones-texto"
             }
         },
-  
+
         //TABLA
         "flex-layout.row#tallas-tabla-calzado-mujer": {
           "children": [
@@ -781,8 +781,8 @@
               "blockClass": "tallas-tallas-tabla"
             }
         },
-  
-  
+
+
         //COL1
         "flex-layout.col#tallas-tabla-col1-calzado-mujer": {
           "children": [
@@ -799,8 +799,8 @@
               "blockClass": "tallas-tabla-col"
             }
         },
-  
-        
+
+
         "rich-text#tallas-tabla-col1-fila1-calzado-mujer": {
           "props": {
             "text": "CO",
@@ -813,7 +813,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         "rich-text#tallas-tabla-col1-fila3-calzado-mujer": {
           "props": {
             "text": "38",
@@ -850,9 +850,9 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
-  
-  
+
+
+
         //COL2
         "flex-layout.col#tallas-tabla-col2-calzado-mujer": {
           "children": [
@@ -869,8 +869,8 @@
               "blockClass": "tallas-tabla-col"
             }
         },
-  
-        
+
+
         "rich-text#tallas-tabla-col2-fila1-calzado-mujer": {
           "props": {
             "text": "US",
@@ -883,7 +883,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         "rich-text#tallas-tabla-col2-fila3-calzado-mujer": {
           "props": {
             "text": "8",
@@ -920,9 +920,9 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
-    
-        
+
+
+
         //COL3
         "flex-layout.col#tallas-tabla-col3-calzado-mujer": {
           "children": [
@@ -939,8 +939,8 @@
               "blockClass": "tallas-tabla-col"
             }
         },
-  
-        
+
+
         "rich-text#tallas-tabla-col3-fila1-calzado-mujer": {
           "props": {
             "text": "EU",
@@ -953,7 +953,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         "rich-text#tallas-tabla-col3-fila3-calzado-mujer": {
           "props": {
             "text": "39",
@@ -990,11 +990,11 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
-  
-  
-  
-  
+
+
+
+
+
         //COL4
         "flex-layout.col#tallas-tabla-col4-calzado-mujer": {
           "children": [
@@ -1011,8 +1011,8 @@
               "blockClass": "tallas-tabla-col"
             }
         },
-  
-        
+
+
         "rich-text#tallas-tabla-col4-fila1-calzado-mujer": {
           "props": {
             "text": "UK",
@@ -1025,7 +1025,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         "rich-text#tallas-tabla-col4-fila3-calzado-mujer": {
           "props": {
             "text": "7",
@@ -1062,7 +1062,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         //COL5
         "flex-layout.col#tallas-tabla-col5-calzado-mujer": {
           "children": [
@@ -1079,8 +1079,8 @@
               "blockClass": "tallas-tabla-col"
             }
         },
-  
-        
+
+
         "rich-text#tallas-tabla-col5-fila1-calzado-mujer": {
           "props": {
             "text": "CM",
@@ -1093,7 +1093,7 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
+
         "rich-text#tallas-tabla-col5-fila3-calzado-mujer": {
           "props": {
             "text": "25.3",
@@ -1130,10 +1130,10 @@
             "blockClass": ["tallas-tabla-col-fil"]
           }
         },
-  
-  
-  
-  
+
+
+
+
 
 
 
@@ -1173,7 +1173,7 @@
                 ],
                 "Then": "modal-trigger#tallas-ropa-inferior-hombre"
               }
-            
+
               },
               "flex-layout.col#tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1189,13 +1189,13 @@
 
               "image#talla-imagen-ropa-inferior-hombre": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/GUIA-INFERIOR-HOMBRE.png",
                   "blockClass": "tallas-ropa-instrucciones-imagen"
                 }
               },
 
-        
+
               "rich-text#tallas-ropa-inferior-hombre-mujer-titulo": {
                 "props": {
                   "textAlignment": "CENTER",
@@ -1206,7 +1206,7 @@
               },
               "image#talla-imagen-logo-ropa-inferior-hombre": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/LOGO-TALLAS.png",
                   "blockClass": "tallas-logo-imagen"
                 }
@@ -1219,8 +1219,8 @@
                   "blockClass": "tallas-subtitulo"
                 }
               },
-    
-        
+
+
               //TABLA
               "flex-layout.row#tallas-tabla-tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1235,8 +1235,8 @@
                     "blockClass": "tallas-tallas-tabla"
                   }
               },
-        
-        
+
+
               //COL1
               "flex-layout.col#tallas-tabla-col1-tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1248,8 +1248,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col1-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "TALLA",
@@ -1262,7 +1262,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col1-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "Cadera",
@@ -1270,7 +1270,7 @@
                 }
               },
 
-        
+
               //COL2
               "flex-layout.col#tallas-tabla-col2-tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1283,8 +1283,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col2-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "26/XXS",
@@ -1297,7 +1297,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col2-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "81",
@@ -1307,7 +1307,7 @@
 
 
 
-        
+
               //COL3
               "flex-layout.col#tallas-tabla-col3-tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1320,8 +1320,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col3-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "28/XS",
@@ -1334,7 +1334,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col3-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "86",
@@ -1344,7 +1344,7 @@
 
 
 
-        
+
               //COL4
               "flex-layout.col#tallas-tabla-col4-tallas-ropa-inferior-hombre": {
                 "children": [
@@ -1357,8 +1357,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col4-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "30/S",
@@ -1371,7 +1371,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col4-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "81",
@@ -1394,8 +1394,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col5-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "32/M",
@@ -1408,7 +1408,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col5-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "96",
@@ -1430,8 +1430,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col6-fila1-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "34/L",
@@ -1444,7 +1444,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col6-fila3-tallas-ropa-inferior-hombre": {
                 "props": {
                   "text": "101",
@@ -1489,7 +1489,7 @@
                 ],
                 "Then": "modal-trigger#tallas-ropa-inferior-mujer"
               }
-            
+
               },
               "flex-layout.col#tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1505,13 +1505,13 @@
 
               "image#talla-imagen-ropa-inferior-mujer": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/GUIA-INFERIOR-MUJER.png",
                   "blockClass": "tallas-ropa-instrucciones-imagen"
                 }
               },
 
-        
+
               "rich-text#tallas-ropa-inferior-mujer-titulo": {
                 "props": {
                   "textAlignment": "CENTER",
@@ -1522,7 +1522,7 @@
               },
               "image#talla-imagen-logo-ropa-inferior-mujer": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/LOGO-TALLAS.png",
                   "blockClass": "tallas-logo-imagen"
                 }
@@ -1535,8 +1535,8 @@
                   "blockClass": "tallas-subtitulo"
                 }
               },
-    
-        
+
+
               //TABLA
               "flex-layout.row#tallas-tabla-tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1551,8 +1551,8 @@
                     "blockClass": "tallas-tallas-tabla"
                   }
               },
-        
-        
+
+
               //COL1
               "flex-layout.col#tallas-tabla-col1-tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1564,8 +1564,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col1-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "TALLA",
@@ -1578,7 +1578,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col1-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "Cadera",
@@ -1586,7 +1586,7 @@
                 }
               },
 
-        
+
               //COL2
               "flex-layout.col#tallas-tabla-col2-tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1599,8 +1599,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col2-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "26/XXS",
@@ -1613,7 +1613,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col2-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "88",
@@ -1623,7 +1623,7 @@
 
 
 
-        
+
               //COL3
               "flex-layout.col#tallas-tabla-col3-tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1636,8 +1636,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col3-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "28/XS",
@@ -1650,7 +1650,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col3-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "92",
@@ -1660,7 +1660,7 @@
 
 
 
-        
+
               //COL4
               "flex-layout.col#tallas-tabla-col4-tallas-ropa-inferior-mujer": {
                 "children": [
@@ -1673,8 +1673,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col4-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "30/S",
@@ -1687,7 +1687,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col4-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "96",
@@ -1710,8 +1710,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col5-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "32/M",
@@ -1724,7 +1724,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col5-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "100",
@@ -1746,8 +1746,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col6-fila1-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "34/L",
@@ -1760,7 +1760,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col6-fila3-tallas-ropa-inferior-mujer": {
                 "props": {
                   "text": "104",
@@ -1791,7 +1791,7 @@
                 ],
                 "Then": "modal-trigger#tallas-ropa-superior-hombre"
               }
-            
+
               },
               "flex-layout.col#tallas-ropa-superior-hombre": {
                 "children": [
@@ -1807,13 +1807,13 @@
 
               "image#talla-imagen-ropa-superior-hombre": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/GUIA-SUPERIOR-HOMBRE.png",
                   "blockClass": "tallas-ropa-instrucciones-imagen"
                 }
               },
 
-        
+
               "rich-text#tallas-ropa-superior-hombre-mujer-titulo": {
                 "props": {
                   "textAlignment": "CENTER",
@@ -1824,7 +1824,7 @@
               },
               "image#talla-imagen-logo-ropa-superior-hombre": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/LOGO-TALLAS.png",
                   "blockClass": "tallas-logo-imagen"
                 }
@@ -1837,8 +1837,8 @@
                   "blockClass": "tallas-subtitulo"
                 }
               },
-    
-        
+
+
               //TABLA
               "flex-layout.row#tallas-tabla-tallas-ropa-superior-hombre": {
                 "children": [
@@ -1853,8 +1853,8 @@
                     "blockClass": "tallas-tallas-tabla"
                   }
               },
-        
-        
+
+
               //COL1
               "flex-layout.col#tallas-tabla-col1-tallas-ropa-superior-hombre": {
                 "children": [
@@ -1867,8 +1867,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col1-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "TALLA",
@@ -1881,7 +1881,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col1-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "Cintura",
@@ -1897,7 +1897,7 @@
               },
 
 
-        
+
               //COL2
               "flex-layout.col#tallas-tabla-col2-tallas-ropa-superior-hombre": {
                 "children": [
@@ -1911,8 +1911,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col2-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "XXS",
@@ -1925,7 +1925,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col2-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "72",
@@ -1940,7 +1940,7 @@
                 }
               },
 
-        
+
               //COL3
               "flex-layout.col#tallas-tabla-col3-tallas-ropa-superior-hombre": {
                 "children": [
@@ -1953,8 +1953,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col3-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "XS",
@@ -1967,7 +1967,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col3-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "75",
@@ -1983,7 +1983,7 @@
               },
 
 
-        
+
               //COL4
               "flex-layout.col#tallas-tabla-col4-tallas-ropa-superior-hombre": {
                 "children": [
@@ -1996,8 +1996,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col4-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "S",
@@ -2010,7 +2010,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col4-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "81",
@@ -2039,8 +2039,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col5-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "M",
@@ -2053,7 +2053,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col5-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "87",
@@ -2081,8 +2081,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col6-fila1-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "L",
@@ -2095,7 +2095,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col6-fila3-tallas-ropa-superior-hombre": {
                 "props": {
                   "text": "93",
@@ -2148,7 +2148,7 @@
                 ],
                 "Then": "modal-trigger#tallas-ropa-superior-mujer"
               }
-            
+
               },
               "flex-layout.col#tallas-ropa-superior-mujer": {
                 "children": [
@@ -2164,13 +2164,13 @@
 
               "image#talla-imagen-ropa-superior-mujer": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/GUIA-SUPERIOR-MUJER.png",
                   "blockClass": "tallas-ropa-instrucciones-imagen"
                 }
               },
 
-        
+
               "rich-text#tallas-ropa-superior-mujer-titulo": {
                 "props": {
                   "textAlignment": "CENTER",
@@ -2181,7 +2181,7 @@
               },
               "image#talla-imagen-logo-ropa-superior-mujer": {
                 "props": {
-                  
+
                   "src": "https://callearturop.vteximg.com.br/arquivos/LOGO-TALLAS.png",
                   "blockClass": "tallas-logo-imagen"
                 }
@@ -2194,8 +2194,8 @@
                   "blockClass": "tallas-subtitulo"
                 }
               },
-    
-        
+
+
               //TABLA
               "flex-layout.row#tallas-tabla-tallas-ropa-superior-mujer": {
                 "children": [
@@ -2210,8 +2210,8 @@
                     "blockClass": "tallas-tallas-tabla"
                   }
               },
-        
-        
+
+
               //COL1
               "flex-layout.col#tallas-tabla-col1-tallas-ropa-superior-mujer": {
                 "children": [
@@ -2224,8 +2224,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col1-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "TALLA",
@@ -2238,7 +2238,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col1-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "Cintura",
@@ -2251,7 +2251,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               //COL2
               "flex-layout.col#tallas-tabla-col2-tallas-ropa-superior-mujer": {
                 "children": [
@@ -2265,8 +2265,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col2-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "XXS",
@@ -2279,7 +2279,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col2-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "60",
@@ -2295,7 +2295,7 @@
 
 
 
-        
+
               //COL3
               "flex-layout.col#tallas-tabla-col3-tallas-ropa-superior-mujer": {
                 "children": [
@@ -2308,8 +2308,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col3-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "XS",
@@ -2322,7 +2322,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col3-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "64",
@@ -2339,7 +2339,7 @@
 
 
 
-        
+
               //COL4
               "flex-layout.col#tallas-tabla-col4-tallas-ropa-superior-mujer": {
                 "children": [
@@ -2353,8 +2353,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col4-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "S",
@@ -2367,7 +2367,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col4-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "68",
@@ -2397,8 +2397,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col5-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "M",
@@ -2411,7 +2411,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col5-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "72",
@@ -2440,8 +2440,8 @@
                     "blockClass": "tallas-tabla-col"
                   }
               },
-        
-              
+
+
               "rich-text#tallas-tabla-col6-fila1-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "L",
@@ -2454,7 +2454,7 @@
                   "blockClass": ["tallas-tabla-col-fil"]
                 }
               },
-        
+
               "rich-text#tallas-tabla-col6-fila3-tallas-ropa-superior-mujer": {
                 "props": {
                   "text": "76",

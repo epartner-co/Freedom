@@ -117,12 +117,16 @@
   },
   "newsletter-checkbox-confirmation":{
     "props":{
-      "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aqui Terminos y Condiciones"
+      "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aqui Terminos y Condiciones {firstLink}",
+      "firstLabelLink":{
+        "text":"Ingresa aquí",
+        "url": "/tyc"
+      }
     }
   },
   "image#gif-newsletter":{
     "props": {
-      "src": "https://callearturop.vteximg.com.br/arquivos/gif-newsletter-FREEDOM.gif",
+      "src": "https://callearturop.vteximg.com.br/arquivos/gif-newsletter-FREEDOM2.gif",
       "blockClass": "medios-pago"
     }
   },

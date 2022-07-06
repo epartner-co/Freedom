@@ -93,8 +93,8 @@
     font-size: 19px;
     color: #808080;
   }
-  
-  
+
+
   @media (max-width: 800px) {
     .paragraph--tallas-tabla-col-fil {
         text-align: center;
@@ -109,7 +109,7 @@
    .paragraph.paragraph--tallas-instrucciones-texto-paso {
       font-size: 12px;
   }
-  
+
     }
     .link--generalT{
         display: block;
@@ -129,7 +129,7 @@
     }
     @media(min-width:700px) and (max-width:900px){
       .paragraph--tallas-trigger-modal{
-        top: 65%;
+        top: 95%;
         left: 0;
         font-size: 11px;
       }

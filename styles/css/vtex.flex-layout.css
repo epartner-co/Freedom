@@ -269,6 +269,26 @@
   color: white;
   border-radius: 5px;
 }
+.flexRowContent--MENU-DESK-CLICK:hover::after {
+  content: "Menu";
+  display: block;
+  position: absolute;
+  width: 85px;
+  height: 22px;
+  font-size: 14px;
+  background: #000000a3;
+  z-index: 99999;
+  top: 25%;
+  left: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 5px 0 0;
+  color: white;
+  border-radius: 5px;
+}
+.flexRowContent--MENU-DESK-CLICK {
+  position: relative;
+}
 .flexCol.flexCol--newsletter-col::before {
   content: "";
   display: block;
@@ -313,19 +333,19 @@
   background-image: url(https://callearturop.vtexassets.com/arquivos/banner-slider-home-tablet.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 .flexColChild--imagenColumnCategory:last-child {
-  display: block;
+  display: none;
 }
 .flexColChild--imagenColumnCategory:first-child {
   background-image: url(https://callearturop.vtexassets.com/arquivos/banner-slider-home-tablet.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 .flexColChild--imagenColumnCategory:last-child {
-  display: block;
+  display: none;
 }
 .flexRowContent--row-vitrine-category .stretchChildrenWidth:first-child {
   width: 50% !important;
@@ -459,6 +479,9 @@
 
 
 @media (max-width: 700px) {
+  .flexColChild--imagenColumnCategory:last-child {
+    display: block;
+  }
   .flexRowContent--menu-link{
     width: 15.6%;
     padding: 0;
@@ -484,7 +507,7 @@
   .flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) {
     width: 60% !important;
   }
-  
+
 }
 @media (min-width: 700px) and (max-width: 1000px){
 .flexRowContent--buybuttoms .stretchChildrenWidth {
@@ -494,4 +517,15 @@
 .flexCol--Submenu  {
   position: relative;
   z-index: 99;
+}
+.flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color) :global(.vtex-store-components-3-x-skuSelectorItem--selected) {
+  background: transparent;
+  border-bottom: 3px solid #340572;
+}
+.flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorItem) {
+  background: transparent;
+}
+
+.flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+  width: 150%;
 }
