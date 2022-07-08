@@ -12,6 +12,8 @@
     width: 39px;
     height: 39px;
     transform: rotate(180deg);
+    margin-top: -12px;
+    margin-left: -10px;
 }
 .sliderLeftArrow--carousel  {
     left: 67px;
@@ -23,6 +25,7 @@
     display: block;
     width: 39px;
     height: 39px;
+    margin-top: -12px;
 }
 .sliderLeftArrow.sliderLeftArrow--carousel.sliderLeftArrow--carousel-categorias.sliderArrows.sliderArrows--carousel.sliderArrows--carousel-categorias::before {
   content: "";
@@ -41,6 +44,8 @@
     width: 39px;
     transform: rotate(180deg);
     height: 39px;
+    margin-top: -12px;
+    margin-left: -10px;
 }
 .sliderRightArrow--carousel:hover::before {
     content: "";
@@ -50,7 +55,9 @@
     display: block;
     width: 39px;
     height: 39px;
+    margin-top: -12px;
 }
+
 /* vitrinas */
 .sliderLeftArrow--shelf::before {
     content: "";
@@ -295,6 +302,7 @@
         width: 25px;
         height: 25px;
         transition: all 40ms;
+        margin-top: -7px;
     }
     .sliderRightArrow--tabbers-slider::before {
         content: "";
@@ -304,6 +312,8 @@
         transform: rotate(0deg);
         width: 25px;
         height: 25px;
+        margin-top: -7px;
+        margin-right: -7px;
     }
     .sliderTrackContainer--carousel-tabbersFreeedom {
         margin: 20px 0 50px 58px;

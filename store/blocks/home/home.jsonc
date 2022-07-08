@@ -145,7 +145,8 @@
   //BAnners duales
   "responsive-layout.desktop#bannerVitrinna": {
       "children": [
-        "image#imagenCategory"
+        "image#imagenCategory",
+        "rich-text#shelf-title-#pintalas-como-quieras"      
       ]
   },
   "responsive-layout.phone#bannerVitrinna": {
@@ -166,6 +167,12 @@
       "src": "https://callearturop.vteximg.com.br/arquivos/banner-vitrina.png",
       "blockClass": "imgvitrina"
     }
+},
+"rich-text#shelf-title-#pintalas-como-quieras": {
+  "props": {
+    "text": "## PÍNTALAS COMO QUIERAS,\n ## #FREEDOM ES LO QUE ERES",
+    "blockClass": "pintalas-text"
+  }
 },
 "flex-layout.col#col-vitrine-category-1":{
     "children": [
@@ -204,15 +211,16 @@
     "images": [
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
-        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
+        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png",
+        "link":{
+          "url": "/freedom/ropa-freedom"
+        }
       }/* ,
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
       } */
-    ],
-    "link":{"url": "https://freedom1--freedom1.myvtex.com/freedom/ropa-freedom"}
-     
+    ]    
     ,
     "blockClass": "bannerprinc"
   }

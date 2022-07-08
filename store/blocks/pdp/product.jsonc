@@ -514,17 +514,25 @@
   //Contenedor cantidad
   "flex-layout.col#contenedorselector":{
     "children": [
-      "sku-selector#prueba",
       "flex-layout.col#tallas",
-      "product-quantity#product"
+      "flex-layout.row#contenedorselector"
     ],
     "props":{
       "blockClass":"contenedorSkuSelec"
     }
   },
+  "flex-layout.row#contenedorselector":{
+    "children": [
+      "sku-selector#prueba",      
+      "product-quantity#product"
+    ],
+    "props":{
+      "blockClass":""
+    }
+  },
   "product-quantity#product":{
     "props":{
-      "blockClass":"flotanteB"
+      "blockClass":"flotanteb-v2"
     }
   },
 

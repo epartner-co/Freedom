@@ -309,11 +309,23 @@
     font-size: 0;
     transform: matrix(1,0.02,-0.01,1,0,0)
 }
+
 .buttonShowMore :global(.vtex-button__label)::before{
     content: "Cargar más productos";
     font-weight: bold;
     font-size: 18px;
 }
+.buttonShowMore :global(.vtex-button__label):hover{
+    color: #fff!important;
+}
+.buttonShowMore :global(.vtex-button):hover{
+    background-color: #F44753!important;
+    color: #fff;
+    
+}
+
+
+
 .galleryTitle--layout::before{
     content: "SOY LA CATEGORÍA QUE ESTAS BUSCANDO ";
     font-size: 3rem;
@@ -817,4 +829,16 @@
     margin: 0 5%;
     width: 90%;
     color: #F44753;
+}
+@media(max-width:1000px){
+    .orderByOptionItem {
+        min-width: 150px;
+        border-bottom: 1px solid #d3d3d3;
+        margin: 0 5%;
+        width: 90%;
+        color: #F44753;
+    }
+    .orderByOptionsContainer {
+        top: -720%;
+      }
 }

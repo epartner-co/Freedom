@@ -260,6 +260,7 @@
   font-size: 30px;
   padding: 0;
   font-weight: 700;
+  text-align: left;
   margin: 20px 0 0 0;
   transform: rotate(-2deg);
 }
@@ -267,6 +268,7 @@
   font-size: 30px;
   padding: 0;
   font-weight: 700;
+  text-align: left;
   margin: 20px 0 0 0;
   transform: rotate(-2deg);
 }
@@ -274,6 +276,7 @@
   font-size: 30px;
   padding: 0;
   font-weight: 700;
+  text-align: left;
   margin: 20px 0 0 0;
   transform: rotate(-2deg);
 }

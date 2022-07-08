@@ -13,7 +13,22 @@
 .skuSelectorName {display: block;}
 .skuSelectorSubcontainer--color .skuSelectorName::before {font-weight: 700;content: "Colores Disponibles";font-size: 16px;color: #2A2A2A;text-transform: uppercase;letter-spacing: 1px;}
 .skuSelectorName {font-size: 0;}
-.skuSelectorName::before {font-weight: 700;content: "ELIGE TU TALLA:";font-size: 16px;color: #2A2A2A;letter-spacing: 1px;}
+
+.skuSelectorName::before {
+    font-weight: 700;
+    content: "ELIGE TU TALLA:";
+    font-size: 16px;
+    color: #2A2A2A;
+    letter-spacing: 1px;
+}
+.skuSelectorSubcontainer--colores .skuSelectorName::before {
+    font-weight: 700;
+    content: "ELIGE TU COLOR:";
+    font-size: 16px;
+    color: #2A2A2A;
+    letter-spacing: 1px;
+}
+
 .skuSelectorInternalBox {width: 100%;}
 .valueWrapper.skuSelectorItemTextValue {font-weight: 700;padding: 5px 12px;color: #808080;font-size: 21px;}
 .skuSelectorItem.skuSelectorItem--selected .valueWrapper.skuSelectorItemTextValue {font-weight: 700;color: white;}
@@ -52,36 +67,87 @@
 :global(.vtex-flex-layout-0-x-flexCol--nombreC) .skuSelectorSubcontainer--talla.skuSelectorSubcontainer {
   width: 60%;
 }
-.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;font-size: 12px;}
-.skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -23px; left: 112px; font-size: 12px;}
-.skuSelectorItem--blanco.skuSelectorItem--selected::before {content: "Blanco";position: absolute;top: -24px;left: 160px;font-size: 12px;}
-.skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
-.skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -23px; right: -180%; font-size: 12px;}
-.skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -23px;  right: -180%; font-size: 12px;}
-.skuSelectorItem--taupe.skuSelectorItem--selected::before {content: "Taupe";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--naranja.skuSelectorItem--selected::before {content: "Naranja";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--nzul.skuSelectorItem--selected::before {content: "Azul";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--verde.skuSelectorItem--selected::before {content: "Verde";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--morado.skuSelectorItem--selected::before {content: "Morado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--rosado.skuSelectorItem--selected::before {content: "Rosado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--cafe.skuSelectorItem--selected::before {content: "Café";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--vino.skuSelectorItem--selected::before {content: "Vino";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--gris.skuSelectorItem--selected::before {content: "Gris";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--rojo.skuSelectorItem--selected::before {content: "Rojo";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--caqui.skuSelectorItem--selected::before {content: "Caqui";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--amarillo.skuSelectorItem--selected::before {content: "Amarillo";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--beige.skuSelectorItem--selected::before {content: "Beige";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--multicolor.skuSelectorItem--selected::before {content: "Multicolor";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--ocre.skuSelectorItem--selected::before {content: "Ocre";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
-.skuSelectorItem--combinado.skuSelectorItem--selected::before {content: "Combinado";position: absolute;top: -24px;left: 160px;    font-size: 12px;}
+
+/* colores */
+.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -33px;left: 110px;font-size: 12px;}
+.skuSelectorItem--blanco.skuSelectorItem--selected::before {content: "Blanco";position: absolute;top: -33px;left: 110px;font-size: 12px;}
+.skuSelectorItem--taupe.skuSelectorItem--selected::before {content: "Taupe";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--naranja.skuSelectorItem--selected::before {content: "Naranja";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--nzul.skuSelectorItem--selected::before {content: "Azul";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--verde.skuSelectorItem--selected::before {content: "Verde";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--morado.skuSelectorItem--selected::before {content: "Morado";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--negro.skuSelectorItem--selected::before {content: "Negro";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--rosado.skuSelectorItem--selected::before {content: "Rosado";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--cafe.skuSelectorItem--selected::before {content: "Café";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--vino.skuSelectorItem--selected::before {content: "Vino";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--gris.skuSelectorItem--selected::before {content: "Gris";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--rojo.skuSelectorItem--selected::before {content: "Rojo";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--caqui.skuSelectorItem--selected::before {content: "Caqui";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--amarillo.skuSelectorItem--selected::before {content: "Amarillo";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--beige.skuSelectorItem--selected::before {content: "Beige";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--multicolor.skuSelectorItem--selected::before {content: "Multicolor";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--ocre.skuSelectorItem--selected::before {content: "Ocre";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
+.skuSelectorItem--combinado.skuSelectorItem--selected::before {content: "Combinado";position: absolute;top: -33px;left: 110px;    font-size: 12px;}
 
 
+/* tallas */
+.skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -22px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -22px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -22px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--37.skuSelectorItem--selected::before {content: "37"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--31.skuSelectorItem--selected::before {content: "31"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--32.skuSelectorItem--selected::before {content: "32"; position: absolute; top: -22px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--33.skuSelectorItem--selected::before {content: "33"; position: absolute; top: -22px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--34.skuSelectorItem--selected::before {content: "34"; position: absolute; top: -22px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--35.skuSelectorItem--selected::before {content: "35"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--36.skuSelectorItem--selected::before {content: "36"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--37.skuSelectorItem--selected::before {content: "37"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--38.skuSelectorItem--selected::before {content: "38"; position: absolute; top: -22px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--39.skuSelectorItem--selected::before {content: "39"; position: absolute; top: -22px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--40.skuSelectorItem--selected::before {content: "40"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--41.skuSelectorItem--selected::before {content: "41"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--42.skuSelectorItem--selected::before {content: "42"; position: absolute; top: -22px; left: 20px; font-size: 12px;}
 
-
-
-
-
+@media(max-width: 700px){
+  /* tallas */
+.skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -37px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -37px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -37px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--37.skuSelectorItem--selected::before {content: "37"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--31.skuSelectorItem--selected::before {content: "31"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--32.skuSelectorItem--selected::before {content: "32"; position: absolute; top: -37px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--33.skuSelectorItem--selected::before {content: "33"; position: absolute; top: -37px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--34.skuSelectorItem--selected::before {content: "34"; position: absolute; top: -37px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--35.skuSelectorItem--selected::before {content: "35"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--36.skuSelectorItem--selected::before {content: "36"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--37.skuSelectorItem--selected::before {content: "37"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--38.skuSelectorItem--selected::before {content: "38"; position: absolute; top: -37px; right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--39.skuSelectorItem--selected::before {content: "39"; position: absolute; top: -37px;  right: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--40.skuSelectorItem--selected::before {content: "40"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--41.skuSelectorItem--selected::before {content: "41"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--42.skuSelectorItem--selected::before {content: "42"; position: absolute; top: -37px; left: 20px; font-size: 12px;}
+}
+@media(min-width: 600px) and (max-width: 800px){
+  /* tallas */
+.skuSelectorItem.skuSelectorItem--26.skuSelectorItem--selected::before {content: "26"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--27.skuSelectorItem--selected::before {content: "27"; position: absolute; top: -60px; right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--28.skuSelectorItem--selected::before {content: "28"; position: absolute; top: -60px; right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--30.skuSelectorItem--selected::before {content: "30"; position: absolute; top: -60px;  right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--31.skuSelectorItem--selected::before {content: "31"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--32.skuSelectorItem--selected::before {content: "32"; position: absolute; top: -60px; right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--33.skuSelectorItem--selected::before {content: "33"; position: absolute; top: -60px; right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--34.skuSelectorItem--selected::before {content: "34"; position: absolute; top: -60px;  right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--35.skuSelectorItem--selected::before {content: "35"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--36.skuSelectorItem--selected::before {content: "36"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--37.skuSelectorItem--selected::before {content: "37"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--38.skuSelectorItem--selected::before {content: "38"; position: absolute; top: -60px; right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--39.skuSelectorItem--selected::before {content: "39"; position: absolute; top: -60px;  right: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--40.skuSelectorItem--selected::before {content: "40"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--41.skuSelectorItem--selected::before {content: "41"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+.skuSelectorItem.skuSelectorItem--42.skuSelectorItem--selected::before {content: "42"; position: absolute; top: -60px; left: 110px; font-size: 12px;}
+}
 
 
 .gradientBaseTop::before {content: "";
@@ -110,9 +176,13 @@
   .skuSelectorName{
     width: 110px;
   }
+  .imageElement--carouselA {
+    object-fit: cover;
+  }
 }
 @media(max-width:700px){
   .skuSelectorName{
     width: 100%;
   }
 }
+

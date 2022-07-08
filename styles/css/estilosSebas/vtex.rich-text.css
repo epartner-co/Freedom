@@ -368,3 +368,12 @@
     margin-top: 35px;
     /* margin-bottom: 35px; */
 }
+
+/* texto pintalas como quieras */
+.container--pintalas-text {
+    position: absolute;
+    color: #fff;
+    line-height: .3;
+    bottom: 40px;
+    left: 10%;
+}
