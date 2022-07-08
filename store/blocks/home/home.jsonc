@@ -205,17 +205,15 @@
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
-      },
+      }/* ,
       {
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png"
-      }
+      } */
     ],
-    "link": [
-      {
-       "url": "/hombre?order=OrderByReleaseDateDESC"
-     }
-   ],
+    "link":{"url": "https://freedom1--freedom1.myvtex.com/freedom/ropa-freedom"}
+     
+    ,
     "blockClass": "bannerprinc"
   }
 },

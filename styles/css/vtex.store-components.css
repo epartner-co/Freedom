@@ -233,6 +233,9 @@
   transform: rotate(-2deg);
   font-size: 20px;
 }
+.infoCardCallActionContainer--info-card-homeS3 :global(.vtex-button__label):hover{
+  color: #F44753;
+}
 .infoCardCallActionContainer--info-card-homeS2 :global(.vtex-button__label){
   padding: 0px;
   color: #00E8FF;
@@ -649,7 +652,7 @@
   font-size: 14px;
   background: #000000a3;
   z-index: 99999;
-  top: 25%;
+  top: 32%;
   left: 90%;
   text-align: center;
   margin: auto;
@@ -845,9 +848,9 @@
       width: 250%;
     }
   }
-  .imageElement.imageElement--preFooter {
+  /* .imageElement.imageElement--preFooter {
     margin: 20px 0 0 0;
-  }
+  } */
   .backToTopButtonContainer :global(.vtex-button__label)::before {
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
@@ -872,3 +875,7 @@
     z-index: 1;
 }
 
+.searchBarInnerContainer--opened{
+  overflow: hidden;
+  display:block;
+}

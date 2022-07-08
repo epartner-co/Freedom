@@ -16,33 +16,38 @@
 
 :global(.vtex-toast)::before {
     content: "";
-    display: block;background-image: url(https://racketball.vteximg.com.br/arquivos/carrita-add.png);
+    display: block;
+    background: url(https://racketball.vteximg.com.br/arquivos/carrita-add.png) no-repeat;
     width: 18px;
     height: 20px;
     background-position: center;
     background-size: 100%;
     margin: 0px 10px 0 0;
+    
 }
 :global(.vtex-toast-container) {
-    top: 22%;
+    top: 34%;
     left: 32px;
     height: 57px;
 }
 :global(.vtex-toast) {
     background: white;
-    color: #24034f;
+    color: #73CB5D;
     text-align: center;
+    width: 220px;
 }
 :global(.vtex-alert__close-icon) {
-    color: #24034f;
+    display:none;
 }
-
+:global(.vtex-toast) :global(.vtex-button){
+    display: none;
+}
 @media (max-width: 600px) {
     :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) > div{
         height: 100%;
     }
     :global(.vtex-toast-container) {
-        top: 26%;
+        top: 23%;
         left: 67px;
         width: 70%;
         height: 57px;

@@ -31,10 +31,13 @@
     top: 83%;
     left: 55%;
 }
-@media (min-width: 1350px)  {
+@media(min-width:1500px){
     .drawer--MENU-DESK-CLICK.opened.opened--MENU-DESK-CLICK {
-      left: 67px;
-    }
+        left: 67px;
+      }
+}
+@media (min-width: 1350px)  {
+    
     .closeIconContainer.closeIconContainer--MENU-DESK-CLICK {
         position: absolute;
         z-index: 999;

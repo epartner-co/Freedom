@@ -364,3 +364,7 @@
 .strong{
     color:#F44753;
 }
+.container--titulos-footer {
+    margin-top: 35px;
+    /* margin-bottom: 35px; */
+}

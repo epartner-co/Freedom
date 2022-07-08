@@ -10,6 +10,7 @@
 .newsletterForm.newsletterForm--NewsletterPopUp {
   position: relative;
   z-index: 999;
+  margin-bottom: 10px;
 }
 .newsletterForm--NewsletterPopUp :global(.vtex-input-prefix__group){
   border: 0;
@@ -48,6 +49,7 @@
   color: white;
   margin-bottom: 15px;
 }
+
 .defaultSuccessMessage--NewsletterPopUp {
   color: white;
   text-align: center;

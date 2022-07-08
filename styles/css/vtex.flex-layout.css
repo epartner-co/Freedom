@@ -125,7 +125,7 @@
 }
 .flexCol--buycolection {display: none;}
 
-.flexColChild--preciosc {height: 100% !important;align-items: end;display: flex;}
+.flexColChild--preciosc {/* height: 100% !important; */align-items: end;display: flex;}
 
 .flexCol--preciosc {height: 100%;}
 .flexRow--Bannersec {margin-left: 67px;}
@@ -261,8 +261,8 @@
   font-size: 14px;
   background: #000000a3;
   z-index: 99999;
-  top: 25%;
-  left: 100%;
+  top: 30%;
+  left: 110%;
   text-align: center;
   margin: auto;
   padding: 5px 0 0;
@@ -278,8 +278,8 @@
   font-size: 14px;
   background: #000000a3;
   z-index: 99999;
-  top: 25%;
-  left: 100%;
+  top: 5%;
+  left: 110%;
   text-align: center;
   margin: auto;
   padding: 5px 0 0;

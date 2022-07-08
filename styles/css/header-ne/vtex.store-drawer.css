@@ -23,7 +23,7 @@
     background-size: 100%;
     position: absolute;
     top: 42%;
-    right: 19%;
+    right: 23%;
     z-index: 1;
   }
   .drawer.drawer--searchbarD.opened.opened--searchbarD {
@@ -43,4 +43,8 @@
     position: absolute;
     width: 60%;
     top: 43%;
+    left: 13%;
   }
+:global(.vtex-input__suffix){
+  display: none;
+}
