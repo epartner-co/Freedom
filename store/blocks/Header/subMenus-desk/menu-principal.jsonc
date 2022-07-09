@@ -216,8 +216,8 @@
         "children":[
             "rich-text#facebook",
             "rich-text#instagrams",
-            "rich-text#tik-tok",
-            "rich-text#youtube"
+            "rich-text#tik-tok"/* ,
+            "rich-text#youtube" */
         ]
     },
     "rich-text#facebook": {

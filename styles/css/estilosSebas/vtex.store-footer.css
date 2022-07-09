@@ -6,7 +6,8 @@
 .socialNetworkImage {
     display: none;
 }
-.socialNetworkLink--facebook::before {
+
+:global(.vtex-store-footer-2-x-socialNetworkLink--iconos-redes-desk).socialNetworkLink--facebook::before {
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/fb-freedom.png) no-repeat;
     background-size: 100%;
@@ -67,9 +68,25 @@
     width: 43px;
     height: 43px;
 }
+.socialNetworkLink--iconos-redes-quienes--twitter:hover::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/tiktok-hover-NEW.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+}
 .socialNetworkLink--iconos-redes-quienes--instagram::before{
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/ig-morado.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
+}
+.socialNetworkLink--iconos-redes-quienes--instagram:hover::before{
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/ig-hover-NEW.png) no-repeat;
     background-size: 100%;
     display: block;
     width: 43px;
@@ -84,8 +101,14 @@
     height: 43px;
 }
 .socialNetworkLink--iconos-redes-quienes--facebook:hover::before{
-    background: url(https://callearturop.vteximg.com.br/arquivos/face-rojo.png) no-repeat;
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/fb-hover-NEW.png) no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 43px;
+    height: 43px;
 }
+
 .socialNetworksContainer--iconos-redes-quienes{
     justify-content: center;
 }

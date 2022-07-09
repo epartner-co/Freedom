@@ -1,7 +1,7 @@
 .minicartIconContainer::before {content: "";background: url(https://callearturop.vteximg.com.br/arquivos/shopcart.png);width: 20px;height: 20px;background-size: 100%;display: block;margin-right: 1px;}
 .cartIcon {display: none;}
-.drawer.opened { margin: 0 0 0 66px;}
-.drawer.opened {margin: 0 0 0 66px;}
+.drawer.opened { margin: 0 0 0 65px;}
+.drawer.opened {margin: 0 0 0 65px;}
 .minicartTitle {color: #340572;text-transform: uppercase;margin: 3% 0 0 0;}
 .closeIconContainer {position: absolute;right: 1%;top: 0;}
 

@@ -21,6 +21,7 @@
       "flex-layout.col#cajaSec",
       "list-context.image-list#demoq1",
       "rich-text#conoceFree",
+      "image#banner-medio-freedom",
       "flex-layout.row#contenidoprinci3",
       "flex-layout.row#contenidoprinciD4",
       /* "image#redescs", */
@@ -235,7 +236,7 @@
   "slider-layout#demo-imagesQ1": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 2,
         "phone": 2
       },
@@ -253,6 +254,14 @@
       "blockClass": ["conten-princ", "rotado"]
     }
   },
+  "image#banner-medio-freedom": {
+    "props": {
+      "src": "https://freedom1.vteximg.com.br/arquivos/banner-medio-freedom.png",
+      "maxHeight": 240,
+      "blockClass": "banner-medio-freedom"
+    }
+  },
+  
   "flex-layout.row#contenidoprinci3":{
     "children":[
       "flex-layout.col#ImgA3",

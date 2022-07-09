@@ -23,6 +23,8 @@
     transition: all 40ms;
     position: absolute;
     left: 305%;
+    margin-top: -18px;
+        margin-left: -10px;
 }
 .arrowRight--shelf::before {
     content: "";
@@ -32,6 +34,7 @@
     transform: rotate(180deg);
     width: 39px;
     height: 39px;
+    margin-right: -10px;
 }
 .arrowLeft--shelf:hover::before {
     content: "";
@@ -41,6 +44,8 @@
     width: 39px;
     transform: rotate(180deg);
     height: 39px;
+    margin-top: -18px;
+    margin-left: -10px;
 }
 .arrowRight--shelf:hover::before {
     content: "";
@@ -50,6 +55,7 @@
     display: block;
     width: 39px;
     height: 39px;
+    margin-right: -10px;
 }
 .caretIcon--shelf{
     display: none;

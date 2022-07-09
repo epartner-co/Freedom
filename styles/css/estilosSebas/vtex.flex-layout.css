@@ -213,6 +213,9 @@
 .flexRow--menu-row :global(.vtex-menu-2-x-styledLinkContent){
     color: white;
 }
+.flexRowContent--menu-row{
+    padding-top: 20px;
+}
 @media(min-width:1199px) and (max-width:1300px){
     .flexRow--menu-row :global(.vtex-menu-2-x-styledLinkContent) {
         font-size: 14px !important;

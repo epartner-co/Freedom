@@ -4,7 +4,7 @@
 
 .trigger :global(.vtex-store-icons-0-x-caretIcon) {display: none;}
 
-.trigger--question :global(.vtex-rich-text-0-x-paragraph) {text-transform: uppercase;padding: 0 4% 0 2%;width: 100%;color: #2a2a2a !important;}
+.trigger--question :global(.vtex-rich-text-0-x-paragraph) {text-transform: uppercase;padding: 0 10% 0 2%;width: 100%;color: #2a2a2a !important;}
 
 .trigger--question :global(.vtex-rich-text-0-x-container) {width: 100%;}
 

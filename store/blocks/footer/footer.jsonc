@@ -4,7 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-0-desktop",
+      "flex-layout.row#bannerPreFooter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#desarrollado-por",
       "image#freedomImageLetter",
@@ -47,20 +47,104 @@
       "blockClass": "desarrollado-por"
     }
   },
-  "flex-layout.row#footer-0-desktop": {
+  "flex-layout.row#bannerPreFooter": {
     "children": [
-      "image#bannerpreFooter"
+      "flex-layout.col#garantia-footer",
+      "flex-layout.col#envio-footer",
+      "flex-layout.col#pago-footer",
+      "flex-layout.col#cambios-footer"
     ],
     "props": {
-      "blockClass": "pre-footer",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": "bannerPreFooter",
+      "height": "150px"
+    }
+  },
+  "flex-layout.col#garantia-footer": {
+    "children": [
+      "image#bannerpreFooter",
+      "rich-text##garantia-footer"
+    ],
+    "props": {
+      "blockClass": ["icon-value","garantia-footer"],
+      "height": 150
     }
   },
   "image#bannerpreFooter":{
     "props": {
-      "src": "https://callearturop.vteximg.com.br/arquivos/imagenPreHeader.png",
-      "blockClass": "preFooter"
+      "src": "https://freedom1.vteximg.com.br/arquivos/gif-garantia.gif",
+      "blockClass": ["preFooter","img-garantia-footer"]
+    }
+  },
+  "rich-text##garantia-footer": {
+    "props": {
+      "text": "GARANTIA \n CERTIFICADA",
+      "blockClass": ["text-icon-value","text-garantia-footer"]
+    }
+  },
+  "flex-layout.col#envio-footer": {
+    "children": [
+      "image#envio-footer",
+      "rich-text#envio-footer"
+    ],
+    "props": {
+      "blockClass": ["icon-value","envio-footer"],
+      "height": 150
+    }
+  },
+  "image#envio-footer":{
+    "props": {
+      "src": "https://freedom1.vteximg.com.br/arquivos/envios.gif",
+      "blockClass": ["preFooter","img-envio-footer"]
+    }
+  },
+  "rich-text#envio-footer": {
+    "props": {
+      "text": "ENVIO \n GRATIS",
+      "blockClass": ["text-icon-value","text-envio-footer"]
+    }
+  },
+  "flex-layout.col#pago-footer": {
+    "children": [
+      "image#pago-footer",
+      "rich-text#pago-footer"
+    ],
+    "props": {
+      "blockClass": ["icon-value","pago-footer"],
+      "height": 150
+    }
+  },
+  "image#pago-footer":{
+    "props": {
+      "src": "https://freedom1.vteximg.com.br/arquivos/compra-segura.gif",
+      "blockClass": ["preFooter","img-pago-footer"]
+    }
+  },
+  "rich-text#pago-footer": {
+    "props": {
+      "text": "PAGO \n SEGURO",
+      "blockClass": ["text-icon-value","text-pago-footer"]
+    }
+  },
+  "flex-layout.col#cambios-footer": {
+    "children": [
+      "image#cambios-footer",
+      "rich-text#cambios-footer"
+    ],
+    "props": {
+      "blockClass": ["icon-value","cambios-footer"],
+      "height": 150
+    }
+  },
+  "image#cambios-footer":{
+    "props": {
+      "src": "https://freedom1.vteximg.com.br/arquivos/devoluciones.gif",
+      "blockClass": ["preFooter","img-cambios-footer"]
+    }
+  },
+  "rich-text#cambios-footer": {
+    "props": {
+      "text": "CAMBIOS Y \n DEVOLUCIONES",
+      "blockClass": ["text-icon-value","text-cambios-footer"]
     }
   },
   "flex-layout.row#footer-1-desktop": {
@@ -159,7 +243,7 @@
 
   "footer-layout.mobile": {
     "children": [
-      "image#bannerpreFooterM",
+      "flex-layout.row#bannerPreFooter",
       "flex-layout.row#sobre-nosotros-footer-mobile",
       "flex-layout.row#0-footer-mobile",
       "flex-layout.row#1-footer-mobile",

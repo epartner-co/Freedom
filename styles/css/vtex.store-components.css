@@ -584,7 +584,7 @@
   visibility: hidden;
   transition: 1s;
   position: absolute;
-  top: -20px;
+  top: 50px;
 }
 .skuSelectorContainer{
   transition: 1s;

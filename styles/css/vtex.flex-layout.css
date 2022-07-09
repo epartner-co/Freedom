@@ -529,3 +529,36 @@
 .flexCol--nombreC :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
   width: 150%;
 }
+
+/* iconos valor footer */
+.flexRow--bannerPreFooter{
+  background-color: rgba(0,0,0,0.4);
+  padding: 15px 0;
+  height: 125px;
+}
+.flexRow--bannerPreFooter :global(.vtex-store-components-3-x-container){
+  width: 50%;
+}
+.flexCol--icon-value{
+  width: 100% !important;
+  
+}
+.flexColChild--icon-value{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width:700px){
+  .flexRowContent--bannerPreFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  .flexRow--bannerPreFooter :global(.vtex-store-components-3-x-container){
+    width: 100%;
+  }
+  .flexRow--bannerPreFooter{
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px 0;
+    height: 100px;
+  }
+}
