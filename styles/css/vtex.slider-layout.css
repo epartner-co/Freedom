@@ -87,7 +87,7 @@
     margin-top: 0;
   }
   .sliderLayoutContainer.sliderLayoutContainer--shelf{
-    margin-left: 0;
+    margin-left: 0 !important ;
   }
   .slide--shelf.slide--wish {
     max-width: 200px !important;
