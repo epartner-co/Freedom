@@ -46,7 +46,7 @@
             "menu-item#category-pricipal-ropa",
             "menu-item#marcas-zapatos",
             "menu-item#marcas-acce",
-            "menu-item#marcas-customStudio",
+            /* "menu-item#marcas-customStudio", */
             "menu-item#marcas-sale",
             "flex-layout.col#hombre-container-footer"
         ]

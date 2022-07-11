@@ -327,7 +327,7 @@
 
 
 .galleryTitle--layout::before{
-    content: "SOY LA CATEGORÍA QUE ESTAS BUSCANDO ";
+    content: "SOY LA CATEGORÍA QUE ESTÁS BUSCANDO ";
     font-size: 3rem;
 }
 .filter__container--color :global(.vtex-checkbox__container){

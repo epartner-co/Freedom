@@ -72,7 +72,7 @@
             "disclosure-layout#ropa-menu-submenu-m-lvl1",
             "disclosure-layout#zapatos-menu-submenu-m-lvl1",
             "disclosure-layout#accesorios-menu-submenu-m-lvl1",
-            "menu-item#marcas-customStudio",
+            /* "menu-item#marcas-customStudio", */
             "disclosure-layout#sale-menu-submenu-m-lvl1",
             "flex-layout.col#hombre-container-footer"
         ]

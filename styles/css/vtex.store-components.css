@@ -793,6 +793,7 @@
 }
 .infoCardTextContainer--info-card-homeB {
   padding: 0;
+  -webkit-box-align: end;
 }
 .infoCardTextContainer--info-card-homeM {
   padding: 0;

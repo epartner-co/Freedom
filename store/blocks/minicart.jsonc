@@ -45,7 +45,7 @@
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
-    "children": ["minicart-bar", "minicart-summary", "flex-layout.row#bottonsCheckout","image#imagenfooterCarrito"]
+    "children": ["minicart-bar", "minicart-summary", "flex-layout.row#bottonsCheckout"/* ,"image#imagenfooterCarrito" */]
   },
   // imagen descuento
   "image#imagenfooterCarrito": {
