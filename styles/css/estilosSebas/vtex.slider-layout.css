@@ -4,9 +4,13 @@
 .slide--shelf.slide--wish {
     max-width: 35%;
 }
-:global(.vtex-slider-layout-0-x-sliderLayoutContainer):global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
-    display: flex !important;
+@media(min-width:1000px){
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer):global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
+        display: flex !important;
+        width: 95%;
+    }
 }
+
 .sliderLeftArrow--carousel::before {
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/flechita-azulCategorias.png) no-repeat;
@@ -149,6 +153,7 @@
 }
 .sliderLayoutContainer.sliderLayoutContainer--shelf{
     margin-top: 20px;
+    margin-left: 65px;
     padding: 0 35px !important;
 }
 .sliderTrackContainer.sliderTrackContainer--carousel-categorias {
@@ -195,6 +200,10 @@
     max-width: 100%;
 }
 @media (max-width: 600px) {
+    .sliderLayoutContainer.sliderLayoutContainer--shelf{
+        margin-top: 20px;
+        padding: 0 5px !important;
+    }
   .sliderRightArrow--shelf::before {
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/nohoverVitrinas.png) no-repeat;
@@ -366,4 +375,10 @@
   .paginationDotsContainer.paginationDotsContainer--carousel.paginationDotsContainer--carousel-tabbersFreeedom {
     bottom: -31px;
 }
+}
+
+@media(min-width:1360px){
+    :global(.vtex-shelf-1-x-sliderContainer--shelf) {
+        max-width: none;
+    }
 }

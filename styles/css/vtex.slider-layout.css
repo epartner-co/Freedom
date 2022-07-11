@@ -27,7 +27,7 @@
 /*Laterales contenedores*/
 .sliderTrackContainer--carousel {margin: 0 0 0 67px;}
 
-.sliderLayoutContainer.sliderLayoutContainer--shelf {margin-left: 67px;margin-top: 70px;width: 94%;}
+.sliderLayoutContainer.sliderLayoutContainer--shelf {margin-top: 70px;width: 94%;}
 
 .slide--shelf2--visible {padding: 0 10px;}
 
@@ -37,13 +37,18 @@
 .sliderLayoutContainer--shelf.sliderLayoutContainer--tabber {
   width: 100% !important;
 }
-.sliderLayoutContainer.sliderLayoutContainer--shelf.sliderLayoutContainer--wish {
+.sliderLayoutContainer--wish {
   width: 100% !important;
   margin-left: 0;
   margin-top: 0;
 }
 
 @media (max-width: 1000px) {
+  .sliderLayoutContainer.sliderLayoutContainer--shelf.sliderLayoutContainer--wish {
+    width: 85% !important;
+    margin-left: 0;
+    margin-top: 0;
+  }
 .paginationDotsContainer--carousel-categorias {
   top: 110%;
 }
@@ -76,6 +81,11 @@
 
 
 @media (max-width: 600px) {
+  .sliderLayoutContainer.sliderLayoutContainer--shelf.sliderLayoutContainer--wish {
+    width: 100% !important;
+    margin-left: 0;
+    margin-top: 0;
+  }
   .sliderLayoutContainer.sliderLayoutContainer--shelf{
     margin-left: 0;
   }

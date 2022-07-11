@@ -20,7 +20,7 @@
   width: 7px;
 }
 .minicartProductListContainer--rowProduct {
-  min-height: 300px !important;
+  min-height: 200px !important;
 }
 .minicartCheckoutButton--verCarrito :global(.vtex-button__label)::before{
 content: "Ver Carrito";text-transform: uppercase;font-size: 13px;font-weight: 700;

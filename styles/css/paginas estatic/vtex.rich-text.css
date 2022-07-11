@@ -20,6 +20,15 @@
 .strong.strong--contentC1 {color: #F44753;font-size: 23px;}
 .paragraph.paragraph--contentC1 {font-size: 15px;color: #808080;}
 
+@media(max-width:700px){
+  .paragraph.paragraph--contentC1 {
+    font-size: 15px;
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .link.link--conten-princ.link--rotado {color: #F44753;text-decoration: none;border: 1px solid;transform: matrix(1, -0.03, -0.01, 1, 0, 0);padding: 4% 2%;display: block;width: 200px;}
 .wrapper.wrapper--contentC2 {margin: 0 10%;}
 .container.container--contentC2 {align-items: center;}

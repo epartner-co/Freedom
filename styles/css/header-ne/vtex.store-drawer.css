@@ -48,3 +48,12 @@
 :global(.vtex-input__suffix){
   display: none;
 }
+
+@media(min-width:700px) and (max-width:900px){
+  .childrenContainer.childrenContainer--searchbarD {
+    position: absolute;
+    width: 60%;
+    top: 43%;
+    left: 15%;
+  }
+}

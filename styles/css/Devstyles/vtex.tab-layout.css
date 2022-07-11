@@ -42,3 +42,6 @@
 .listItem:first-child {width: 24%;}
 .listItem:last-child {width: 19%;}
 }
+@media (max-width: 390px) {
+    .listItem :global(.vtex-button__label) {font-size: 9px !important;}
+}

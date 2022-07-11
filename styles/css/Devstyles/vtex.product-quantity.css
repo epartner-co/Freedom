@@ -47,6 +47,11 @@
         height: 35px;
     }
 }
+@media (min-width: 700px) and (max-width: 900px) {
+    .quantitySelectorContainer--flotanteb-v2{
+        margin-top: 82px;
+    }
+}
 @media(min-width:1350px){
     .quantitySelectorContainer.quantitySelectorContainer--flotanteB{
         width: 40%;

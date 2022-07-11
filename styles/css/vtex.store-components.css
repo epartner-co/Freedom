@@ -881,4 +881,17 @@
 .searchBarInnerContainer--opened{
   overflow: hidden;
   display:block;
+  
+}
+
+
+@media(max-width:1000px){
+  :global(.vtex-account__page-body) .wish-list {
+    width: 81%;
+    padding: 0;
+    margin: 0;
+}
+:global(.vtex-account){
+  margin: 0 0 0 40px;
+}
 }

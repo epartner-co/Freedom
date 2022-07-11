@@ -62,13 +62,13 @@
   height: 25px;
   background-size: 100%;
 }
-.menuItem--categoria--isOpen:hover .styledLinkContent.styledLinkContent--vertical.styledLinkContent--categoria::before{
+/* .menuItem--categoria--isOpen:hover .styledLinkContent.styledLinkContent--vertical.styledLinkContent--categoria::before{
   content: "";
   background: url(https://callearturop.vteximg.com.br/arquivos/cierreDelMenu.png) no-repeat;
   width: 25px;
   height: 25px;
   background-size: 100%;
-}
+} */
 
 
 .styledLinkContent.styledLinkContent--vertical.styledLinkContent--categoria {font-size: 0;}
