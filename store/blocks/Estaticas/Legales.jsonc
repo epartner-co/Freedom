@@ -38,10 +38,9 @@
   "flex-layout.col#ContenidoL":{
     "children":[
       "rich-text#tituloEstaLeg",
-      "rich-text#contenidoEstaLeg",
-      "image#middle",
-      "rich-text#contenidoEsta2Leg",
-      "list-context.image-list#demoC"
+      "rich-text#subtituloEstaLeg",
+      "rich-text#subtitulo-2-itau"
+      
     ],
     "props":{
       "blockClass":"contenidoC"
@@ -53,17 +52,19 @@
       "blockClass": ["generalTitul"]
     }
   },
-  "rich-text#contenidoEstaLeg": {
+  "rich-text#subtituloEstaLeg": {
     "props": {
-      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum. \n\n Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
-      "blockClass": "content"
+      "text": "**30% DE DESCUENTO CON TARJETAS DE CRÉDITO DEL BANCO ITAÚ EN LAS TIENDAS FREEDOM**",
+      "blockClass": ["content"]
     }
   },
-  "rich-text#contenidoEsta2Leg": {
+  "rich-text#subtitulo-2-itau": {
     "props": {
-      "text": "**EFECTOS DEL REEMBOLSO DE DINERO** \n\n Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, si no que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
-      "blockClass": "content"
+      "text": " Válido para las compras realizadas los días MARTES de julio (5,12,19,26) de 2022 [Aquí](/itau-desc)",
+      "blockClass": ["content"]
     }
   }
+
+
 
 }

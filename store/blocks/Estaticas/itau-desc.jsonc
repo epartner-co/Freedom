@@ -1,0 +1,73 @@
+{
+    "store.custom#itau-desc": {
+      "children": [
+        "flex-layout.row#itau-desc"
+      ]
+    },
+    "flex-layout.row#itau-desc":{
+      "children":[
+        "flex-layout.col#itau-desc"
+      ],
+      "props":{
+        "blockClass":"cajacentrada"
+      }
+    },
+    "flex-layout.col#itau-desc":{
+      "children":[
+        "flex-layout.col#EstaticastitulosL",
+        "flex-layout.col#ContenidoItau"
+      ],
+      "props":{
+        "blockClass":"cajacentrada"
+      }
+    },
+    //Inicio de titulos
+    "flex-layout.col#EstaticastitulosL":{
+      "children":[
+        "flex-layout.row#Titulos1",
+        "flex-layout.row#Titulos2"
+      ],
+      "props":{
+        "blockClass":["titulosGen", "legales"]
+      }
+    },
+    //Inicio contenido
+    "flex-layout.col#ContenidoItau":{
+      "children":[
+        "rich-text#tituloitau",
+        "rich-text#subtituloitauLeg",
+        "rich-text#subtitulo-2-condiiones-itau",
+        "rich-text#subtitulo-2-condiiones-itau-items"       
+      ],
+      "props":{
+        "blockClass":"contenidoC"
+      }
+    },
+    "rich-text#tituloitau": {
+      "props": {
+        "text": "30% DE DESCUENTO CON TARJETAS DE CRÉDITO DEL BANCO ITAÚ EN LAS TIENDAS FREEDOM",
+        "blockClass": ["generalTitul"]
+      }
+    },
+    "rich-text#subtituloitauLeg": {
+      "props": {
+        "text": " Descuento del 30% en los puntos de venta FREEDOM. Válido para las compras realizadas los días MARTES de julio (5,12,19,26) de 2022. El descuento aplica para compras cuyo precio deventa antes de descuentos no supere la suma de $500.000. Aplicable usando como medio depago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ. El descuento se calcula sobreel valor total de la compra antes de IVA. El descuento otorgado hace parte del ConvenioMarco de Alianza Comercial suscrito con ITAÚ CORPBANCA COLOMBIA S.A.",
+        "blockClass": ["content"]
+      }
+    },
+    "rich-text#subtitulo-2-condiiones-itau": {
+      "props": {
+        "text": "**CONDICIONES GENERALES**",
+        "blockClass": ["content"]
+      }
+    },
+    "rich-text#subtitulo-2-condiiones-itau-items": {
+      "props": {
+        "text": "● Aplica exclusivamente para las compras cuyo valor total del producto antes de descuensea menor o igual a $500.000. El valor total de la factura debe ser menor o igual a $500.000. \n● La atención en las Tiendas Físicas y el canal de ventas de WhatsApp, estará sujeta a las disposiciones adoptadas por el Gobierno nacional y local, con ocasión de la emergencia sanitaria. \n● No aplica para la Tarjetas débito con funcionalidad de Tarjeta de crédito. \n● No aplica para tarjetas de crédito empresariales o de soluciones comerciales, ni marca propia. \n● No aplica para la compra de certificados de regalo, ni productos de ventas y negocios corporativos, ni para tiendas Outlet. \n● Válido solo para compras no para cambios. \n● Los productos y servicios financieros son ofrecidos por ITAÚ CORPBANCA COLOMBIA S.A. \n● No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. \n",
+        "blockClass": ["content"]
+      }
+    }
+  
+  
+  
+  }

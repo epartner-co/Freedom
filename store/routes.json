@@ -1,4 +1,7 @@
 {
+  "store.custom#itau-desc":{
+    "path": "/itau-desc"
+  },
   "store.custom#about-us": {
     "path": "/about-us"
   },
