@@ -23,19 +23,19 @@
             "blockClass":["submenu-lvl2"]
         },
         "children":[
-            "menu-item#category-pricipal-sale-buzos",
+            "menu-item#category-pricipal-sale-accesorios",
             "menu-item#category-pricipal-sale-camisetas",
             "menu-item#category-pricipal-sale-blusascamisas",
             "menu-item#category-pricipal-sale-chaquetas",
             "menu-item#category-pricipal-sale-jeans",
             "menu-item#category-pricipal-sale-pantalones",
-            "menu-item#category-pricipal-sale-tejidos",
-            "menu-item#category-pricipal-sale-jeans-",
-            "menu-item#category-pricipal-sale-hombre",
-            "menu-item#category-pricipal-sale-mujer"
+            "menu-item#category-pricipal-sale-polos",
+            "menu-item#category-pricipal-sale-shorts",
+            "menu-item#category-pricipal-sale-buzos",
+            "menu-item#category-pricipal-sale-tenis"
         ]
     },
-    "menu-item#category-pricipal-sale-buzos": {
+    "menu-item#category-pricipal-sale-accesorios": {
         "props": {
             "id": "menu-item-category--cgampion",
             "type": "custom",
@@ -44,10 +44,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom/botas-y-botines-freedom",
+            "href": "/878?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Botas botines",
-            "text": "Botas botines"
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
             }
         }
     },
@@ -60,10 +60,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom/tenis-freedom",
+            "href": "/879?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "tenis",
-            "text": "Tenis"
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
             }
         }
     },
@@ -76,10 +76,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href":"/freedom/zapatos-freedom/sandalias-freedom",
+            "href":"/880?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Sandalias",
-            "text": "Sandalias"
+            "tagTitle": "Blusas y Camisas",
+            "text": "Blusas y Camisas"
             }
         }
     },
@@ -92,10 +92,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom",
+            "href": "/881?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Ropa",
-            "text": "Ropa"
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
             }
         }
     },
@@ -108,10 +108,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Camisetas-Freedom",
+            "href": "/883?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Camisetas",
-            "text": "Camisetas"
+            "tagTitle": "Jeans",
+            "text": "Jeans"
             }
         }
     },
@@ -124,14 +124,14 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Camisas-Freedom",
+            "href": "/884?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "camisas",
-            "text": "Camisas"
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
             }
         }
     },
-    "menu-item#category-pricipal-sale-tejidos": {
+    "menu-item#category-pricipal-sale-polos": {
         "props": {
             "id": "menu-item-category--power-taxi",
             "type": "custom",
@@ -140,14 +140,14 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/polos-Freedom",
+            "href": "/886?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "polos",
             "text": "Polos"
             }
         }
     },
-    "menu-item#category-pricipal-sale-jeans-": {
+    "menu-item#category-pricipal-sale-shorts": {
         "props": {
             "id": "menu-item-category--power-taxi",
             "type": "custom",
@@ -156,14 +156,14 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Jeans-Freedom",
+            "href": "/885?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Jeans",
-            "text": "Jeans"
+            "tagTitle": "Shorts y Bermudas",
+            "text": "Shorts y Bermudas"
             }
         }
     },
-    "menu-item#category-pricipal-sale-hombre": {
+    "menu-item#category-pricipal-sale-tenis": {
         "props": {
             "id": "menu-item-category--power-taxi",
             "type": "custom",
@@ -172,14 +172,14 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/hombre",
+            "href": "/887?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Para hombre",
-            "text": "Para hombre"
+            "tagTitle": "Tenis",
+            "text": "Tenis"
             }
         }
     },
-    "menu-item#category-pricipal-sale-mujer": {
+    "menu-item#category-pricipal-sale-buzos": {
         "props": {
             "id": "menu-item-category--power-taxi",
             "type": "custom",
@@ -188,10 +188,10 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/mujer",
+            "href": "/882?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Para mujer",
-            "text": "Para mujer"
+            "tagTitle": "Buzos",
+            "text": "Buzos"
             }
         }
     },

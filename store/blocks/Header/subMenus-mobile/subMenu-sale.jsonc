@@ -94,9 +94,9 @@
           "orientation": "vertical"
         },
         "children": [
-            "menu-item#category-sale-botines",
-            "menu-item#category-sale-tenis",
-            "menu-item#category-sale-sandalias"
+            /* "menu-item#category-sale-botines", */
+            "menu-item#category-sale-tenis"/* ,
+            "menu-item#category-sale-sandalias" */
         ]
     },
     // items
@@ -125,7 +125,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/887?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -191,7 +191,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/882?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -207,7 +207,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/879?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -223,7 +223,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/880?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -239,7 +239,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/886?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -255,7 +255,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/883?map=productClusterIds&order=",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -288,8 +288,8 @@
           "orientation": "vertical"
         },
         "children": [
-            "menu-item#category-sale-hombre",
-            "menu-item#category-sale-mujer"
+            "menu-item#category-sale-hombre"/* ,
+            "menu-item#category-sale-mujer" */
         ]
     },
     "menu-item#category-sale-hombre": {
@@ -301,10 +301,10 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/apparel---accessories/eyeglasses/",
+            "href": "/878?map=productClusterIds&order=",
             "noFollow": false,
-            "tagTitle": "Para hombre",
-            "text": "Para hombre"
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
             }
         }
     },
