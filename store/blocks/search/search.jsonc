@@ -83,8 +83,8 @@
   "image#banner-category": {
     "props": {
         "blockClass":["banner-item-category"],
-        "src": "https://callearturop.vteximg.com.br/arquivos/imagenDeskCategory.png",
-        "mobileImage": "https://callearturop.vteximg.com.br/arquivos/imagenMobilecategoy.png",
+        "src": "https://freedom1.vteximg.com.br/arquivos/banner-desk.png",
+        "mobileImage": "https://freedom1.vteximg.com.br/arquivos/banner-mobile.png",
         "link":{
             "url":"/"
         }
@@ -242,7 +242,7 @@
   "image#banner-categoryM": {
     "props": {
         "blockClass":["banner-item-category"],
-        "src": "https://callearturop.vteximg.com.br/arquivos/imagenMobilecategoy.png",
+        "src": "https://freedom1.vteximg.com.br/arquivos/banner-mobile.png",
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/imagenMobilecategoy.png",
         "link":{
             "url":"/"
