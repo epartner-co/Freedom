@@ -386,7 +386,8 @@
       "menu-item#devoluciones",
       "menu-item#garantia",
       "menu-item#pago",
-      "menu-item#informacions"
+      "menu-item#informacions",
+      "menu-item#legales"
     ],
     "props":{
       "width":"95%",
@@ -461,7 +462,8 @@
       "menu-item#devoluciones",
       "menu-item#garantia",
       "menu-item#pago",
-      "menu-item#informacions"
+      "menu-item#informacions",
+      "menu-item#legales"
       
     ]
   },
@@ -641,6 +643,21 @@
         "noFollow": false,
         "tagTitle": "Seguridad de tu información",
         "text": "Seguridad de tu información"
+      }
+    }
+  },
+  "menu-item#legales": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/legales",
+        "noFollow": false,
+        "tagTitle": "legales",
+        "text": "legales"
       }
     }
   }
