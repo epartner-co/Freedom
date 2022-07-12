@@ -387,7 +387,8 @@
       "menu-item#garantia",
       "menu-item#pago",
       "menu-item#informacions",
-      "menu-item#legales"
+      "menu-item#legales",
+      "menu-item#tyc"
     ],
     "props":{
       "width":"95%",
@@ -463,7 +464,8 @@
       "menu-item#garantia",
       "menu-item#pago",
       "menu-item#informacions",
-      "menu-item#legales"
+      "menu-item#legales",
+      "menu-item#tyc"
       
     ]
   },
@@ -658,6 +660,21 @@
         "noFollow": false,
         "tagTitle": "legales",
         "text": "Legales"
+      }
+    }
+  },
+  "menu-item#tyc": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tyc",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
       }
     }
   }
