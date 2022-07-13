@@ -9,8 +9,15 @@
         display: flex !important;
         width: 95%;
     }
+    .sliderLeftArrow--carousel::before {
+        margin-left: -200px !important;
+    }
 }
-
+@media(min-width:700px) and (max-width:999px){
+    .sliderLeftArrow--carousel::before {
+        margin-left: -50px !important;
+    }
+}
 .sliderLeftArrow--carousel::before {
     content: "";
     background: url(https://callearturop.vteximg.com.br/arquivos/flechita-azulCategorias.png) no-repeat;
@@ -20,7 +27,7 @@
     height: 39px;
     transform: rotate(180deg);
     margin-top: -12px;
-    margin-left: -10px;
+    margin-left: -8px;
 }
 .sliderLeftArrow--carousel  {
     left: 67px;

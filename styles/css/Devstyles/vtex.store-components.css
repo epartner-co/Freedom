@@ -213,17 +213,4 @@
 .imageElement--banner-medio-freedom {
   margin: 64px 0;
 }
-.resultsList{
-  left: -14px;
-}
-@media(min-width:700px) and (max-width:1000px){
-  .resultsList{
-    left: -7;
-  }
-}
-@media(max-width:700px){
-  .resultsList{
-    left: 42.6%;
-    width: 50%;
-  }
-}
+
