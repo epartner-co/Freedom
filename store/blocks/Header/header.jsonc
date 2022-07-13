@@ -65,7 +65,7 @@
   // marcas 3
   "rich-text#shelf-title-#marca-3": {
     "props": {
-      "text": "[Colore](/)",
+      "text": "[Colore](https://www.colore.com.co/)",
       "blockClass": ["marcas-Item","colore"]
     }
   },
