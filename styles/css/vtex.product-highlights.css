@@ -10,3 +10,62 @@
   border-radius: 20px;
   padding: 5px 10px;
 }
+
+/* FLAGS DE DESCUENTO JOHN S */
+
+.productHighlightText[data-highlight-id="890"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-15off.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
+
+.productHighlightText[data-highlight-id="891"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-20off.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
+.productHighlightText[data-highlight-id="892"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-25off.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
+.productHighlightText[data-highlight-id="893"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-30off.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
+.productHighlightText[data-highlight-id="888"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
+
+.productHighlightText[data-highlight-id="889"]::before{
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
+  background-size: 100%;
+  width: 140%;
+  height: 55px;
+  display: block;
+  visibility: visible;
+}
