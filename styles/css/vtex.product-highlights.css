@@ -58,6 +58,9 @@
   height: 55px;
   display: block;
   visibility: visible;
+  top: -16%;
+  left: -23px;
+  position: absolute;
 }
 
 .productHighlightText[data-highlight-id="873"]::before{
@@ -68,4 +71,7 @@
   height: 55px;
   display: block;
   visibility: visible;
+  top: -16%;
+  left: -23px;
+  position: absolute;
 }

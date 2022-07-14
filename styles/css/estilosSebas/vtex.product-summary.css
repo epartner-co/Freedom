@@ -171,7 +171,7 @@
 .containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label){
     padding: 0;
 }
-.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-outline){
+:global(.vtex-product-highlights-2-x-productHighlightWrapper):last-child :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-outline){
     content: "";
     display: block;
     background: url(https://callearturop.vteximg.com.br/arquivos/listaDeseosVitrina.png) no-repeat;
@@ -180,14 +180,14 @@
     height: 25px;
 
 }
-.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-fill){
+:global(.vtex-product-highlights-2-x-productHighlightWrapper):last-child :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-wish-list-1-x-fill){
     display: block;
     background: url(https://callearturop.vteximg.com.br/arquivos/activeWishlist.png) no-repeat;
     background-size: 100%;
     width: 20px;
     height: 20px;
 }
-.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label)::after{
+:global(.vtex-product-highlights-2-x-productHighlightWrapper):last-child :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label)::after{
     opacity: 0;
     visibility: hidden;
     transition: 400ms all;
@@ -203,7 +203,7 @@
     color: white;
     border-radius: 5px;
 }
-.containerNormal :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label):hover::after{
+:global(.vtex-product-highlights-2-x-productHighlightWrapper):last-child :global(.vtex-wish-list-1-x-wishlistIconContainer--vitrinas) :global(.vtex-button__label):hover::after{
     opacity: 1;
     visibility: visible;
 }
