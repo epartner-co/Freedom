@@ -8,7 +8,7 @@
   left: auto;
 }
 
-.stackItem--product :global(.vtex-product-highlights-2-x-productHighlightWrapper)[data-highlight-id="228"]::before{
+/* .stackItem--product :global(.vtex-product-highlights-2-x-productHighlightWrapper)[data-highlight-id="228"]::before{
   content: "";
   background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
   background-size: 100%;
@@ -17,4 +17,4 @@
   display: block;
   visibility: visible;
 }
-
+ */

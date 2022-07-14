@@ -75,3 +75,47 @@
   left: -23px;
   position: absolute;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+  background-size: 60%;
+  background-repeat-y: no-repeat;
+  width: 72%;
+  height: 55px;
+  visibility: visible;
+  top: -16%;
+  left: 21%;
+  z-index: 2;
+  position: absolute;
+}
+@media(max-width:1000px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+    background-size: 100%;
+    width: 90%;
+    background-repeat-y: no-repeat;
+    height: 55px;
+    visibility: visible;
+    top: -16%;
+    z-index: 2;
+    position: absolute;
+    left:0;
+  }
+}
+@media(max-width:620px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+    background-size: 100%;
+    width: 100%;
+    background-repeat-y: no-repeat;
+    height: 55px;
+    visibility: visible;
+    top: -16%;
+    z-index: 2;
+    position: absolute;
+    left:0;
+  }
+}

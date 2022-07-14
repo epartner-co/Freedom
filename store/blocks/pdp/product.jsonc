@@ -340,15 +340,27 @@
 
 
   "flex-layout.row#product-image": {
-    "children": ["product-images", "modal-trigger#zoom-bottom"],
+    "children": [ "flex-layout.col#product-image" , "modal-trigger#zoom-bottom"],
     "props":{
       "blockClass":"producto-image-and-zoom"
     }
   },
   "flex-layout.row#product-imageM": {
-    "children": ["product-images#M", "modal-trigger#zoom-bottom"],
+    "children": ["flex-layout.col#product-imageM", "modal-trigger#zoom-bottom"],
     "props":{
       "blockClass":"producto-image-and-zoom"
+    }
+  },
+  "flex-layout.col#product-image": {
+    "children": ["vtex.product-highlights@2.x:product-highlights#collection","product-images"],
+    "props":{
+      "blockClass":"producto-image-and-zoom-col"
+    }
+  },
+  "flex-layout.col#product-imageM": {
+    "children": ["vtex.product-highlights@2.x:product-highlights#collection","product-images#M"],
+    "props":{
+      "blockClass":"producto-image-and-zoom-col"
     }
   },
   "product-images": {
