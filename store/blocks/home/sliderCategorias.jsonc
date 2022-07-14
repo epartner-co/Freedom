@@ -25,10 +25,7 @@
       "info-card#tercer",
       "info-card#cuarto",
       "info-card#quinta",
-      "info-card#tercer",
-      "info-card#primer",
-      "info-card#quinta",
-      "info-card#tercer"
+      "info-card#sexta"
     ]
   },
   //Inicio banners secundarios 
@@ -153,10 +150,24 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/pantalones-desk-leggins.png",
-      "headline": "Pantalones y leggins",
+      "headline": "Pantalonetas",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/freedom/Ropa-Freedom/leggins-Freedom",
+      "callToActionUrl": "/freedom/Ropa-Freedom/Pantalonetas-Freedom",
       "blockClass": "info-card-homeM",
+      "textAlignment": "left"
+    }
+  }
+  ,  
+  "info-card#sexta": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria1.png",
+      "headline": "Chaquetas",
+      "callToActionText": "Explora más",
+      "callToActionUrl": "/freedom/Ropa-Freedom/Chaquetas-Freedom",
+      "blockClass": "info-card-homeB",
       "textAlignment": "left"
     }
   }
