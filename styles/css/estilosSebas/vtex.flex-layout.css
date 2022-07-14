@@ -223,12 +223,13 @@
 }
 .flexRow--menu-row :global(.vtex-menu-2-x-styledLinkContainer){
     margin: 0;
+    width: 95%;
 }
 .flexRow--menu-row :global(.vtex-menu-2-x-menuContainer){
     position: relative;
 }
 .flexRow--menu-row{
-    padding: 0 0px 0 40px;
+    padding: 0 0px 0 25px;
 }
 .flexCol--newsletter-col  {
     padding-left: 20px;

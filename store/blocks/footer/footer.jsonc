@@ -150,9 +150,9 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",      
       "flex-layout.col#footer-newsletter"
     ],
     "props": {
@@ -167,7 +167,7 @@
       "newsletter-form#popUP"
     ],
     "props": {
-      "width":"28%",
+      "width":"24%",
       "blockClass": "newsletter-col"
     }
   },

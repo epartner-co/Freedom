@@ -19,7 +19,13 @@
   //primer
   "flex-layout.col#footerCol2":{
     "children": [
+      "menu-item#tiendas-fisicas",
+      "menu-item#historia",
       "menu-item#quienesSomos",
+      "menu-item#trabaja-con-nosotros",
+      "menu-item#fundacion",
+      "menu-item#linea-etica",
+      "menu-item#politica-etica",
       "social-networks"
     ],
     "props":{
@@ -38,8 +44,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "NOSOTROS",
-        "text": "NOSOTROS"
+        "tagTitle": "ACERCA DE NOSOTROS",
+        "text": "ACERCA DE NOSOTROS"
       }
     }
   },
@@ -58,6 +64,21 @@
       }
     }
   },
+  "menu-item#trabaja-con-nosotros": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://talento.arturocalle.com/talento/",
+        "noFollow": false,
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabaja con nosotros"
+      }
+    }
+  },
   "menu-item#historia": {
     "props": {
       "id": "menu-item-sale",
@@ -66,10 +87,55 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "https://www.arturocalle.com/historia",
         "noFollow": false,
         "tagTitle": "Nuestra historia",
         "text": "Nuestra historia"
+      }
+    }
+  },
+  "menu-item#fundacion": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://fundacionarturocalle.com/",
+        "noFollow": false,
+        "tagTitle": "Fundación ARTURO CALLE",
+        "text": "Fundación ARTURO CALLE"
+      }
+    }
+  },
+  "menu-item#linea-etica": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.arturocalle.com/linea-etica",
+        "noFollow": false,
+        "tagTitle": "Línea Ética",
+        "text": "Línea Ética"
+      }
+    }
+  },
+  "menu-item#politica-etica": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.arturocalle.com/politica-etica-empresarial",
+        "noFollow": false,
+        "tagTitle": "Política Ética Empresarial",
+        "text": "Política Ética Empresarial"
       }
     }
   },
@@ -81,10 +147,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "https://www.arturocalle.com/franquicias",
         "noFollow": false,
-        "tagTitle": "Nuestras tiendas fisicas",
-        "text": "Nuestras tiendas fisicas"
+        "tagTitle": "Franquicias",
+        "text": "Franquicias"
       }
     }
   },
@@ -338,8 +404,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Ver tiendas",
-        "text": "Ver tiendas"
+        "tagTitle": "Ver todas nuestras tiendas",
+        "text": "Ver todas nuestras tiendas"
       }
     }
   },
@@ -380,15 +446,17 @@
   //primer
   "flex-layout.col#footerCol4":{
     "children": [
-      "menu-item#comocomprar",
-      "menu-item#envios",
-      "menu-item#cambios",
-      "menu-item#devoluciones",
-      "menu-item#garantia",
-      "menu-item#pago",
+      "menu-item#contactanos",
+      "menu-item#tyc",
+      "menu-item#faq",
       "menu-item#informacions",
       "menu-item#legales",
-      "menu-item#tyc"
+      "menu-item#envios" ,
+      "menu-item#cambios",
+      "menu-item#devoluciones"/*,
+      "menu-item#garantia",
+      "menu-item#pago",      
+      "menu-item#legales"  */     
     ],
     "props":{
       "width":"95%",
@@ -402,9 +470,10 @@
     },
     "children": [
       "menu-item#clothing-mobile",
+      "menu-item#tiendas-mobile",
       "menu-item#decoration-mobile",
-      "menu-item#sale-mobile",
-      "menu-item#tiendas-mobile"
+      "menu-item#sale-mobile"
+      
     ]
   },
 
@@ -417,10 +486,10 @@
       "blockClass":"titulos-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "SOBRE NOSOTROS",
-        "text": "SOBRE NOSOTROS"
+        "tagTitle": "ACERCA DE NOSOTROS",
+        "text": "ACERCA DE NOSOTROS"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -434,7 +503,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#quienesSomos"
+      "menu-item#tiendas-fisicas",
+      "menu-item#historia",
+      "menu-item#quienesSomos",
+      "menu-item#trabaja-con-nosotros",
+      "menu-item#fundacion",
+      "menu-item#linea-etica",
+      "menu-item#politica-etica"
     ]
   },
 
@@ -442,8 +517,8 @@
     "props": {
       "blockClass":"titulos-mobile",
       "itemProps": {
-        "tagTitle": "PREGUNTAS FRECUENTES",
-        "text": "PREGUNTAS FRECUENTES"
+        "tagTitle": "INFORMACIÓN",
+        "text": "INFORMACIÓN"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
@@ -457,15 +532,19 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#comocomprar",
-      "menu-item#envios",
-      "menu-item#cambios",
-      "menu-item#devoluciones",
-      "menu-item#garantia",
-      "menu-item#pago",
+      "menu-item#contactanos",
+      "menu-item#tyc",
+      "menu-item#faq",
       "menu-item#informacions",
       "menu-item#legales",
-      "menu-item#tyc"
+      "menu-item#envios",
+      "menu-item#cambios",
+      "menu-item#devoluciones"/*,
+      "menu-item#garantia",
+      "menu-item#pago" */
+      
+      
+      
       
     ]
   },
@@ -531,15 +610,30 @@
       "blockClass":"Menu-title",
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "PREGUNTAS FRECUENTES",
-        "text": "PREGUNTAS FRECUENTES"
+        "tagTitle": "INFORMACIÓN",
+        "text": "INFORMACIÓN"
       }
     }
   },
 
-  "menu-item#comocomprar": {
+  "menu-item#contactanos": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": false,
+        "tagTitle": "Contáctenos - PQRs",
+        "text": "Contáctenos - PQRs"
+      }
+    }
+  },
+  "menu-item#faq": {
     "props": {
       "id": "menu-item-shorts",
       "type": "custom",
@@ -549,12 +643,11 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": false,
-        "tagTitle": "¿Como comprar?",
-        "text": "¿Como comprar?"
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
       }
     }
   },
-
   "menu-item#envios": {
     "props": {
       "id": "menu-item-tank-tops",
@@ -565,8 +658,8 @@
         "type": "internal",
         "href": "/pde",
         "noFollow": false,
-        "tagTitle": "Nuestra politica de envios",
-        "text": "Nuestra politica de envios"
+        "tagTitle": "Política de envío, cambios y garantías",
+        "text": "Política de envío, cambios y garantías"
       }
     }
   },
@@ -579,10 +672,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pde",
+        "href": "/aptd",
         "noFollow": false,
-        "tagTitle": "Nuestra politica de cambios",
-        "text": "Nuestra politica de cambios"
+        "tagTitle": "Autorización tratamiento de datos personales",
+        "text": "Autorización tratamiento de datos personaless"
       }
     }
   },
@@ -595,10 +688,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pde",
+        "href": "https://www.sic.gov.co/",
         "noFollow": false,
-        "tagTitle": "Nuestra politica de devoluciones",
-        "text": "Nuestra politica de devoluciones"
+        "tagTitle": "SIC",
+        "text": "SIC"
       }
     }
   },
@@ -643,8 +736,8 @@
         "type": "internal",
         "href": "/ptd",
         "noFollow": false,
-        "tagTitle": "Seguridad de tu información",
-        "text": "Seguridad de tu información"
+        "tagTitle": "Política de uso de datos personales",
+        "text": "Política de uso de datos personales"
       }
     }
   },
@@ -658,8 +751,8 @@
         "type": "internal",
         "href": "/legales",
         "noFollow": false,
-        "tagTitle": "legales",
-        "text": "Legales"
+        "tagTitle": "Condiciones actividades comerciales",
+        "text": "Condiciones actividades comerciales"
       }
     }
   },

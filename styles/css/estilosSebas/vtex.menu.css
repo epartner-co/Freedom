@@ -19,6 +19,7 @@
     color: black;
     background-repeat: repeat-x;
     background-size: contain;
+    transform: scaleY(1.15);
 }
 @media (max-width: 1100px) {
     .styledLinkContent--menu-lv1-cierre {
@@ -133,6 +134,10 @@
         display: block;
     }
 }
-
-
+:global(.vtex-menu-2-x-styledLink) :global(.vtex-menu-2-x-styledLinkContent){
+    white-space: initial;
+}
+:global(.vtex-menu-2-x-styledLink--Menu-title) :global(.vtex-menu-2-x-styledLinkContent){
+    white-space: nowrap;
+}
 
