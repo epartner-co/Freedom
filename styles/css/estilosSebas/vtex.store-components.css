@@ -129,8 +129,8 @@
 }
 @media(min-width:400px) and (max-width:500px){
     .resultsList--clear-button {        
-        margin-left: 171px;   
-        width: 50%; 
+        margin-left: 152px;   
+        width: 54.5%;
     }
 }
 @media(max-width:400px){

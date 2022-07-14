@@ -50,7 +50,7 @@
   display: block;
   visibility: visible;
 }
-.productHighlightText[data-highlight-id="888"]::before{
+.productHighlightText[data-highlight-id="872"]::before{
   content: "";
   background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png) no-repeat;
   background-size: 100%;
@@ -60,7 +60,7 @@
   visibility: visible;
 }
 
-.productHighlightText[data-highlight-id="889"]::before{
+.productHighlightText[data-highlight-id="873"]::before{
   content: "";
   background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
   background-size: 100%;
