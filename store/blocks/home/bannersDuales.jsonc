@@ -83,7 +83,7 @@
             "imageUrl": "https://callearturop.vteximg.com.br/arquivos/banner2-2.png",
             "headline": "Explora todos nuestros productos",
             "callToActionText": "Explora más",
-            "callToActionUrl": "/196?map=productClusterIds&order=",
+            "callToActionUrl": "/196?map=productClusterIds&order=OrderByReleaseDateDESC",
             "blockClass": "info-card-homeS1",
             "textAlignment": "right"
         }

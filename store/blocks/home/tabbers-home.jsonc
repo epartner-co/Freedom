@@ -136,7 +136,7 @@
   },
   "rich-text#shelf-title-#BuzosCateg": {
       "props": {
-        "text": "[VER BUZOS](/freedom/Ropa-Freedom/Buzos-Freedom)",
+        "text": "[VER BUZOS](/freedom/Ropa-Freedom/Buzos-Freedom?order=OrderByReleaseDateDESC)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -152,7 +152,7 @@
   },
   "rich-text#shelf-title-#CamisasCateg": {
       "props": {
-        "text": "[VER CAMISAS](/freedom/Ropa-Freedom/Camisas-Freedom)",
+        "text": "[VER CAMISAS](/freedom/Ropa-Freedom/Camisas-Freedom?order=OrderByReleaseDateDESC)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -168,7 +168,7 @@
   },
   "rich-text#shelf-title-#JoggerCateg": {
       "props": {
-        "text": "[VER JOGGERS](/freedom/Ropa-Freedom/joggers-Freedom)",
+        "text": "[VER JOGGERS](/freedom/Ropa-Freedom/joggers-Freedom?order=OrderByReleaseDateDESC)",
         "blockClass": "TABBERS-HOME"
       }
   },
@@ -184,7 +184,7 @@
   },
   "rich-text#shelf-title-#POLOSCateg": {
       "props": {
-        "text": "[VER POLOS](/freedom/Ropa-Freedom/polos-Freedom)",
+        "text": "[VER POLOS](/freedom/Ropa-Freedom/polos-Freedom?order=OrderByReleaseDateDESC)",
         "blockClass": "TABBERS-HOME"
       }
   },

@@ -213,7 +213,7 @@
         "image": "https://callearturop.vteximg.com.br/arquivos/banner3.png",
         "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-tablet%20contenido.png",
         "link":{
-          "url": "/freedom/ropa-freedom"
+          "url": "/freedom/ropa-freedom?order=OrderByReleaseDateDESC"
         }
       }/* ,
       {

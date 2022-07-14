@@ -44,7 +44,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/878?map=productClusterIds&order=",
+            "href": "/878?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"
@@ -60,7 +60,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/879?map=productClusterIds&order=",
+            "href": "/879?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -76,7 +76,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href":"/880?map=productClusterIds&order=",
+            "href":"/880?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Blusas y Camisas",
             "text": "Blusas y Camisas"
@@ -92,7 +92,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/881?map=productClusterIds&order=",
+            "href": "/881?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -108,7 +108,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/883?map=productClusterIds&order=",
+            "href": "/883?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -124,7 +124,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/884?map=productClusterIds&order=",
+            "href": "/884?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -140,7 +140,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/886?map=productClusterIds&order=",
+            "href": "/886?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "polos",
             "text": "Polos"
@@ -156,7 +156,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/885?map=productClusterIds&order=",
+            "href": "/885?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Shorts y Bermudas",
             "text": "Shorts y Bermudas"
@@ -172,7 +172,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/887?map=productClusterIds&order=",
+            "href": "/887?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -188,7 +188,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/882?map=productClusterIds&order=",
+            "href": "/882?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"

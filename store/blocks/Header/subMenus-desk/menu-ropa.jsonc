@@ -44,7 +44,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Buzos-Freedom",
+            "href": "/freedom/Ropa-Freedom/Buzos-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Buzos y hoodies",
             "text": "Buzos y hoodies"
@@ -60,7 +60,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Camisetas-Freedom",
+            "href": "/freedom/Ropa-Freedom/Camisetas-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -76,7 +76,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Camisas-Freedom",
+            "href": "/freedom/Ropa-Freedom/Camisas-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -92,7 +92,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Chaquetas-Freedom",
+            "href": "/freedom/Ropa-Freedom/Chaquetas-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Chaquetas, blazers y chalecos",
             "text": "Chaquetas, blazers y chalecos"
@@ -108,7 +108,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Jeans-Freedom",
+            "href": "/freedom/Ropa-Freedom/Jeans-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "jeans",
             "text": "Jeans"
@@ -124,7 +124,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Pantalones-Freedom",
+            "href": "/freedom/Ropa-Freedom/Pantalones-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -140,7 +140,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Sweaters-Freedom",
+            "href": "/freedom/Ropa-Freedom/Sweaters-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tejidos",
             "text": "Tejidos"
@@ -156,7 +156,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Pantalonetas-Freedom",
+            "href": "/freedom/Ropa-Freedom/Pantalonetas-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Pantalonetas",
             "text": "Pantalonetas"
@@ -172,7 +172,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Ropa-Interior-Freedom",
+            "href": "/freedom/Ropa-Freedom/Ropa-Interior-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Ropa interior y medias",
             "text": "Ropa interior y medias"
@@ -188,7 +188,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/Ropa-Freedom/Shorts-y-Bermudas-Freedom",
+            "href": "/freedom/Ropa-Freedom/Shorts-y-Bermudas-Freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"

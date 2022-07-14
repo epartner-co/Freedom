@@ -100,7 +100,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria3.png",
       "headline": "Jeans",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/freedom/Ropa-Freedom/Jeans-Freedom",
+      "callToActionUrl": "/freedom/Ropa-Freedom/Jeans-Freedom?order=OrderByReleaseDateDESC",
       "blockClass": "info-card-homeS",
       "textAlignment": "left"
     }
@@ -113,7 +113,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria2.png",
       "headline": "Camisetas",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/freedom/Ropa-Freedom/camisetas-Freedom",
+      "callToActionUrl": "/freedom/Ropa-Freedom/camisetas-Freedom?order=OrderByReleaseDateDESC",
       "blockClass": "info-card-homeM",
       "textAlignment": "left"
     }
@@ -126,7 +126,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/categoria1.png",
       "headline": "Buzos",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/freedom/Ropa-Freedom/buzos-Freedom",
+      "callToActionUrl": "/freedom/Ropa-Freedom/buzos-Freedom?order=OrderByReleaseDateDESC",
       "blockClass": "info-card-homeB",
       "textAlignment": "left"
     }
@@ -139,7 +139,7 @@
       "imageUrl": "https://callearturop.vteximg.com.br/arquivos/blusas-desk.png",
       "headline": "Blusas",
       "callToActionText": "Explora más",
-      "callToActionUrl": "/freedom/Ropa-Freedom/blusas-Freedom",
+      "callToActionUrl": "/freedom/Ropa-Freedom/blusas-Freedom?order=OrderByReleaseDateDESC",
       "blockClass": "info-card-homeS",
       "textAlignment": "left"
     }

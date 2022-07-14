@@ -62,7 +62,7 @@
             "blockClass":["menu-lv1"],
             "itemProps": {
             "type": "internal",
-            "href":"/freedom/ropa-freedom",
+            "href":"/freedom/ropa-freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
@@ -90,7 +90,7 @@
           "blockClass":["menu-lv1","zapatos"],
           "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom",
+            "href": "/freedom/zapatos-freedom?order=OrderByReleaseDateDESC",
             "noFollow": true,
             "tagTitle": "Zapatos",
             "text": "Zapatos"
@@ -110,7 +110,7 @@
           "blockClass":["menu-lv1","aace"],
           "itemProps": {
             "type": "internal",
-            "href": "/freedom/accesorios-freedom",
+            "href": "/freedom/accesorios-freedom?order=OrderByReleaseDateDESC",
             "noFollow": true,
             "tagTitle": "Accesorios",
             "text": "Accesorios"

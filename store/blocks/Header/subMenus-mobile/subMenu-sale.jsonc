@@ -125,7 +125,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/887?map=productClusterIds&order=",
+            "href": "/887?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -207,7 +207,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/879?map=productClusterIds&order=",
+            "href": "/879?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -223,7 +223,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/880?map=productClusterIds&order=",
+            "href": "/880?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -239,7 +239,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/886?map=productClusterIds&order=",
+            "href": "/886?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -255,7 +255,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/883?map=productClusterIds&order=",
+            "href": "/883?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -301,7 +301,7 @@
             "blockClass":["menu-item-levl2","lvl3"],
             "itemProps": {
             "type": "internal",
-            "href": "/878?map=productClusterIds&order=",
+            "href": "/878?map=productClusterIds&order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Accesorios",
             "text": "Accesorios"

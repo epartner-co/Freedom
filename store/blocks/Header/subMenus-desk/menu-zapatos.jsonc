@@ -37,7 +37,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom/botas-y-botines-freedom",
+            "href": "/freedom/zapatos-freedom/botas-y-botines-freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Botas y botines",
             "text": "Botas y botinees"
@@ -53,7 +53,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom/sandalias-freedom",
+            "href": "/freedom/zapatos-freedom/sandalias-freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -69,7 +69,7 @@
             "blockClass":["menu-item-levl2"],
             "itemProps": {
             "type": "internal",
-            "href": "/freedom/zapatos-freedom/tenis-freedom",
+            "href": "/freedom/zapatos-freedom/tenis-freedom?order=OrderByReleaseDateDESC",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
