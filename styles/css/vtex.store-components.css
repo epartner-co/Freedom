@@ -474,7 +474,13 @@
 }
 .productImagesContainer--carousel {
   margin: 0 4% 0 0;
-  padding: 0 0 0 2% !important;
+  padding: 0 4% 0 2%;
+}
+@media(min-width:1380px){
+  .productImagesContainer--carousel {
+    margin: 0;
+    padding: 0 2% 0 2%;
+  }
 }
 .imageElement--imgCategoriaSlider {
   width: 85%;

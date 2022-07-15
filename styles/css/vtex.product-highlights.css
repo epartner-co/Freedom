@@ -75,33 +75,60 @@
   left: -23px;
   position: absolute;
 }
-
+@media(min-width:1600px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+    background-size: 60%;
+    width: calc(76% + 6px);
+    height: 35px;
+    visibility: visible;
+    top: -16%;
+    left: calc(20% + 10px);
+    z-index: 2;
+    position: absolute;
+  }
+  }
+@media(max-width:1600px){
 :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
   content: "";
   background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
   background-size: 60%;
-  background-repeat-y: no-repeat;
-  width: 72%;
-  height: 55px;
+  width: calc(76% + 6px);
+  height: 35px;
   visibility: visible;
   top: -16%;
-  left: 21%;
+  left: calc(20% + 6px);
   z-index: 2;
   position: absolute;
+}
+}
+@media(max-width:1380px){
+:global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+    background-size: 60%;
+    width: calc(75% + 2px);
+    height: 35px;
+    visibility: visible;
+    top: -16%;
+    left: calc(20% + 2px);
+    z-index: 2;
+    position: absolute;
+}
 }
 @media(max-width:1000px){
   :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
     content: "";
     background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
     background-size: 100%;
-    width: 90%;
-    background-repeat-y: no-repeat;
-    height: 55px;
+    width: calc(95% - 4px);
+    height: 40px;
     visibility: visible;
     top: -16%;
     z-index: 2;
     position: absolute;
-    left:0;
+    left: 4px;
   }
 }
 @media(max-width:620px){
@@ -110,8 +137,7 @@
     background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
     background-size: 100%;
     width: 100%;
-    background-repeat-y: no-repeat;
-    height: 55px;
+    height: 30px;
     visibility: visible;
     top: -16%;
     z-index: 2;

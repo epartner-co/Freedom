@@ -191,7 +191,7 @@
   .productDescriptionTitle {line-height: 35px;margin-top: 25px;}
   .specificationsTableContainer.specificationsTableContainer--especificacionesdeta {margin: 16px 5px;}
   .specificationsTableContainer.specificationsTableContainer--especificacionesapli {margin: 10px 5px;}
-  .productImagesContainer--carousel {margin: 0;}
+  .productImagesContainer--carousel {margin: 0; padding: 0;}
   .carouselGaleryThumbs {display: block;margin: -10px 0 0 0;}
 
   .swiperCaret.swiperCaretNext::before {margin-right: 5px;}
