@@ -15,13 +15,13 @@
     "path": "/estaticas"
   },
   "store.custom#tyc":{
-    "path": "/tyc"
+    "path": "/terminos-y-condiciones"
   },
   "store.custom#legales":{
     "path": "/legales"
   },
   "store.custom#ptd":{
-    "path": "/ptd"
+    "path": "/politica-de-datos"
   },
   "store.custom#aptd":{
     "path": "/aptd"

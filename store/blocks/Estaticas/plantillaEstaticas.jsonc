@@ -107,7 +107,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[TYC](/tyc)",
+      "text": "[TYC](/terminos-y-condiciones)",
       "blockClass": ["generalT", "tyc"]
     }
   },

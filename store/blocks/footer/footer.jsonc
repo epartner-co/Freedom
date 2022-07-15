@@ -204,7 +204,7 @@
       "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aqui Terminos y Condiciones {firstLink}",
       "firstLabelLink":{
         "text":"Ingresa aquí",
-        "url": "/tyc"
+        "url": "/terminos-y-condiciones"
       }
     }
   },
