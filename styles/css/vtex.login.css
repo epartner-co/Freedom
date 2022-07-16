@@ -42,17 +42,12 @@
 
 }
 
-@media(max-width:1400px){
+@media(min-width:1201px) and (max-width:1400px){
 :global(.vtex-toast-container) {
     top: 34%;
     left: 32px;
     height: 57px;
 }
-}
-:global(.vtex-toast-container) {
-    top: 20%;
-    left: 32px;
-    height: 57px;
 }
 :global(.vtex-toast) {
     background: white;
