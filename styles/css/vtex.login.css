@@ -49,6 +49,11 @@
     height: 57px;
 }
 }
+:global(.vtex-toast-container) {
+    top: 20%;
+    left: 32px;
+    height: 57px;
+}
 :global(.vtex-toast) {
     background: white;
     color: #73CB5D;
