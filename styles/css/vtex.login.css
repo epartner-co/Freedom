@@ -44,7 +44,7 @@
 
 @media(min-width:1201px) and (max-width:1400px){
 :global(.vtex-toast-container) {
-    top: 34%;
+    top: 34% !important;
     left: 32px;
     height: 57px;
 }

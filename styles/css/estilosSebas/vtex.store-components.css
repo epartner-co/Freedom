@@ -362,3 +362,9 @@
 .imageElement--preFooter{
     width:30%;
 }
+
+@media(max-width:1000px){
+:global(.vtex-my-account-1-x-nameContainer){
+    flex-direction: column;
+}
+}
