@@ -168,6 +168,13 @@
 .link--maravela{
     font-size: 0;
 }
+@media screen and (max-width: 600px){
+    .link--marcas-Item::before{
+        width: 27vw !important;
+        height: 30px !important;
+    }
+}
+
 .link--colore::before{
     content: "";
     background: url(https://cdn.discordapp.com/attachments/430453905902796804/996549672741109812/unknown.png) no-repeat;
