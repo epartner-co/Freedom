@@ -142,7 +142,8 @@
 }
 
 .infoCardContainer--info-card-homeB {
-    align-items: end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .infoCardHeadline--info-card-homeS {

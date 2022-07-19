@@ -115,6 +115,7 @@
     left: calc(20% + 2px);
     z-index: 2;
     position: absolute;
+    background-repeat: repeat-x;
 }
 }
 @media(max-width:1000px){
