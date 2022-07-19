@@ -47,7 +47,7 @@
       "images": [
         {
           "image": "https://callearturop.vteximg.com.br/arquivos/banner-desk.png",
-          "mobileImage": "https://callearturop.vtximg.com.br/arquivos/banner-desk.png"
+          "mobileImage": "https://freedom1.vtximg.com.br/arquivos/itaubannersmob.jpg"
         }
       ],
       "link": [
@@ -83,13 +83,17 @@
       "height": 720,
       "images": [
         {
+          "image": "https://freedom1.vteximg.com.br/arquivos/itaubannersmob.jpg",
+          "mobileImage": "https://freedom1.vteximg.com.br/arquivos/itaubannersmob.jpg"
+        },
+        {
           "image": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png",
           "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannermobile-2.png"
         }
       ],
       "link": [
          {
-          "url": "/hombre?order=OrderByReleaseDateDESC"
+          "url": "/freedom/ropa-freedom?order=OrderByReleaseDateDESC"
         }
       ],
       "blockClass": "bannerprinc"
