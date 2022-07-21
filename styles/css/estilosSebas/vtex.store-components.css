@@ -4,6 +4,7 @@
     background-image: url(https://callearturop.vteximg.com.br/arquivos/freedom-back.png);
     background-size: 100%;
     background-repeat: repeat-y;
+    overflow-x: hidden;
 }
 .infoCardContainer {
     background: #f6f6f6;
