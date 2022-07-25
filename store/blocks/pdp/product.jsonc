@@ -404,6 +404,7 @@
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "product-specifications#mililitros",
       "product-installments",
       "product-separator",      
       "flex-layout.col#contenedorselector",
@@ -416,7 +417,15 @@
       "responsive-layout.phone#Taps"
     ]
   },
-
+  "product-specifications#mililitros":{
+    "props":{
+      "blockClass": "especificacionesmili",
+      "visibleSpecifications": [
+        "mL a",
+        "PUM"
+      ]
+    }
+  },
   //Taps mobil
   "responsive-layout.phone#Taps": {
     "children": ["tab-layout#product"]

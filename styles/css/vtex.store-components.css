@@ -903,3 +903,40 @@
   margin: 0 0 0 40px;
 }
 }
+
+
+
+
+/*---------------------------------------*/
+/*  Estilos de Mililitros en Producto   */
+
+/*-------------------------------------*/
+
+
+.specificationItemProperty--especificacionesmili {
+  padding: 0px 0px 0px 0;
+  color: #807e7b;
+  font-weight: 700;
+}
+
+.specificationItemSpecifications--especificacionesmili {
+  font-weight: 700;
+  color: #807e7b;
+}
+
+.container--especificacionesmili {
+  margin-right: 62%;
+  padding: 0px 20px 0px 0px;
+}
+
+.specificationsTableContainer--especificacionesmili {
+  padding: 0;
+}
+
+.specificationsTableHead{
+  display: none ;
+}
+
+.specificationsTitle--especificacionesmili{
+  display: none;
+}
