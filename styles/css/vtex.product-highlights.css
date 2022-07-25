@@ -65,7 +65,7 @@
 
 .productHighlightText[data-highlight-id="873"]::before{
   content: "";
-  background: url(https://callearturop.vteximg.com.br/arquivos/flag-producto-new.png) no-repeat;
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png) no-repeat;
   background-size: 100%;
   width: 140%;
   height: 55px;
@@ -88,11 +88,35 @@
     z-index: 2;
     position: absolute;
   }
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="873"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png);
+    background-size: 60%;
+    width: calc(76% + 6px);
+    height: 35px;
+    visibility: visible;
+    top: -16%;
+    left: calc(20% + 10px);
+    z-index: 2;
+    position: absolute;
+  }
   }
 @media(max-width:1600px){
 :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
   content: "";
   background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-35off.png);
+  background-size: 60%;
+  width: calc(76% + 6px);
+  height: 35px;
+  visibility: visible;
+  top: -16%;
+  left: calc(20% + 6px);
+  z-index: 2;
+  position: absolute;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="873"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png);
   background-size: 60%;
   width: calc(76% + 6px);
   height: 35px;
@@ -117,6 +141,19 @@
     position: absolute;
     background-repeat: repeat-x;
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="873"]::before{
+  content: "";
+  background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png);
+  background-size: 60%;
+    width: calc(75% + 2px);
+    height: 35px;
+    visibility: visible;
+    top: -16%;
+    left: calc(20% + 2px);
+    z-index: 2;
+    position: absolute;
+    background-repeat: repeat-x;
+}
 }
 @media(max-width:1000px){
   :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
@@ -131,6 +168,20 @@
     position: absolute;
     left: 4px;
   }
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="873"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png);
+    background-size: 60%;
+    background-size: 100%;
+    width: calc(95% - 4px);
+    height: 40px;
+    visibility: visible;
+    top: -16%;
+    z-index: 2;
+    position: absolute;
+    left: 4px;
+    background-repeat: repeat-x;
+  }
 }
 @media(max-width:620px){
   :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="872"]::before{
@@ -144,5 +195,18 @@
     z-index: 2;
     position: absolute;
     left:0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--producto-image-and-zoom) .productHighlightText[data-highlight-id="873"]::before{
+    content: "";
+    background: url(https://freedom1.vteximg.com.br/arquivos/freedom-flag-50off.png);
+    background-size: 100%;
+    width: 100%;
+    height: 30px;
+    visibility: visible;
+    top: -16%;
+    z-index: 2;
+    position: absolute;
+    left:0;
+    background-repeat: repeat-x;
   }
 }
