@@ -33,6 +33,14 @@
     }
 
 }
+@media(min-height:1600px){
+    :global(.vtex-toast-container) {
+        top: 10% !important;
+        left: 32px;
+        height: 57px;
+    }
+
+}
 @media(min-width:1400px) and (max-width:1600px){
     :global(.vtex-toast-container) {
         top: 20%;
